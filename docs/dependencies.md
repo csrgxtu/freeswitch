@@ -4,7 +4,7 @@ install dependencies for Debian based or RedHat based systems.
 
 Debian based system
 ```bash
-sudo apt-get install -y build-essential automake autoconf libtool libncurses5-dev libtiff-dev libjpeg-dev zlib1g-dev libssl-dev libsqlite3-dev libpcre3-dev libspeexdsp-dev libspeex-dev libcurl4-openssl-dev libopus-dev libldns-dev libedit-dev
+sudo apt-get install -y build-essential automake autoconf libtool libncurses5-dev libtiff-dev libjpeg-dev zlib1g-dev libssl-dev libsqlite3-dev libpcre3-dev libspeexdsp-dev libspeex-dev libcurl4-openssl-dev libopus-dev libldns-dev libedit-dev portaudio19-dev
 ```
 
 Redhat based system
