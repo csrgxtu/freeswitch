@@ -270,7 +270,8 @@
 	<action application="bind_meta_app" data="2 b s record_session::$${recordings_dir}/${caller_id_number}.${strftime(%Y-%m-%d-%H-%M-%S)}.wav"/>
 	<action application="bind_meta_app" data="3 b s execute_extension::cf XML features"/>
 	<action application="bind_meta_app" data="4 b s execute_extension::att_xfer XML features"/>
-	<action application="set" data="ringback=${us-ring}"/>
+	<!--<action application="set" data="ringback=${us-ring}"/>-->
+	<action application="set" data="ringback=/home/archer/Documents/freeswitch/sounds/Ordinary-Love-U2.wav"/>-->
 	<action application="set" data="transfer_ringback=$${hold_music}"/>
 	<action application="set" data="call_timeout=30"/>
 	<!-- <action application="set" data="sip_exclude_contact=${network_addr}"/> -->
