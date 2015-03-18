@@ -7425,8 +7425,8 @@ the sip-server-addr and sip-server-port to the oreka server
       <variable name="toll_allow" value="domestic,international,local"/>
       <variable name="accountcode" value="1001"/>
       <variable name="user_context" value="default"/>
-      <variable name="effective_caller_id_name" value="Extension 1001"/>
-      <variable name="effective_caller_id_number" value="1001"/>
+      <variable name="effective_caller_id_name" value="Glaxy S4"/>
+      <variable name="effective_caller_id_number" value="Glaxy S4"/>
       <variable name="outbound_caller_id_name" value="FreeSWITCH"/>
       <variable name="outbound_caller_id_number" value="0000000000"/>
       <variable name="callgroup" value="techsupport"/>
@@ -7441,8 +7441,8 @@ the sip-server-addr and sip-server-port to the oreka server
       <variable name="toll_allow" value="domestic,international,local"/>
       <variable name="accountcode" value="1002"/>
       <variable name="user_context" value="default"/>
-      <variable name="effective_caller_id_name" value="Extension 1002"/>
-      <variable name="effective_caller_id_number" value="1002"/>
+      <variable name="effective_caller_id_name" value="MI 2S"/>
+      <variable name="effective_caller_id_number" value="MI 2S"/>
       <variable name="outbound_caller_id_name" value="FreeSWITCH"/>
       <variable name="outbound_caller_id_number" value="0000000000"/>
       <variable name="callgroup" value="techsupport"/>
