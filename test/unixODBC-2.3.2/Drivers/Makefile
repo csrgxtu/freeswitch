@@ -248,11 +248,11 @@ target_alias =
 top_build_prefix = ../
 top_builddir = ..
 top_srcdir = ..
-#SUBDIRS = \
-#    Postgre7.1 \
-#    template \
-#    MiniSQL \
-#    nn 
+SUBDIRS = \
+    Postgre7.1 \
+    template \
+    MiniSQL \
+    nn 
 
 all: all-recursive
 
