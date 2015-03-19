@@ -58,7 +58,7 @@ if req_domain ~= nil and req_key~=nil and req_user~=nil then
                     <variable name="directory-visible" value="true"/>
                     <variable name="directory-exten-visible" value="true"/>
                     <variable name="limit_max" value="15"/>
-                    <variable name="effective_caller_id_name" value="Extension ]] ..req_user..[["/>
+                    <variable name="effective_caller_id_name" value="]] ..req_user..[["/>
                     <variable name="effective_caller_id_number" value="]] ..req_user..[["/>
                     <variable name="outbound_caller_id_name" value="${outbound_caller_name}"/>
                     <variable name="outbound_caller_id_number" value="${outbound_caller_id}"/>
