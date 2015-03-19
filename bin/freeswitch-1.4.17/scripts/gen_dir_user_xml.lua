@@ -8,17 +8,20 @@ freeswitch.consoleLog("NOTICE","lua take the users...\n");
 local req_domain   = params:getHeader("domain")
 local req_key      = params:getHeader("key")
 local req_user     = params:getHeader("user")
-local req_password = params:getHeader("pass")
+local req_password --= params:getHeader("pass")
 
-local dbh = freeswitch.Dbh("freeswitch","freeswitch","fsadmin2009a")
+freeswitch.consoleLog("NOTICE", "UserName: " .. req_user);
+
+local dbh = freeswitch.Dbh("freeswitch","ebuserxft","ebtx@df74d78&")
 assert(dbh:connected())
 
+freeswitch.consoleLog("NOTICE", "Entering Query Block");
 dbh:query("select sip_password from User where sip_number="..req_user .. " limit 1",function(row)
         if(row == nil or row.sip_password == nil) then
           freeswitch.consoleLog("NOTICE",string.format("user %s was not found in database!",req_user))
           return
         end
-        freeswitch.consoleLog("NOTICE",string.format("%s\n",row.sip_password))
+        freeswitch.consoleLog("NOTICE", "Password: " .. string.format("%s\n",row.sip_password))
         req_password=row.sip_password
 end);
 dbh:release();
