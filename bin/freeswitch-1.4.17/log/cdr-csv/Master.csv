@@ -35,3 +35,5 @@
 "Outbound Call","1002","1002","default","2015-03-18 16:17:01","2015-03-18 16:17:04","2015-03-18 16:17:13","12","9","NORMAL_CLEARING","27594544-cd47-11e4-b8bb-71d9050d1049","","1002","PCMU","PCMU"
 "1002","1002","1001","default","2015-03-18 16:21:23","","2015-03-18 16:21:46","23","0","ORIGINATOR_CANCEL","c39fa754-cd47-11e4-b8ca-71d9050d1049","","1002","PCMU","PCMU"
 "","0000000000","1001","default","2015-03-18 16:22:19","","2015-03-18 16:22:50","31","0","CALL_REJECTED","e502b260-cd47-11e4-b8f5-71d9050d1049","","","",""
+"Extension 1001","1001","voicemail","default","2015-03-19 16:09:37","","2015-03-19 16:09:37","0","0","NORMAL_CLEARING","48e44312-ce0f-11e4-b07e-93df68acca51","","","PCMU","PCMU"
+"Outbound Call","1001","playback(/home/archer/Documents/freeswitch/sounds/Try-Pink.wav)","default","2015-03-19 16:09:20","2015-03-19 16:09:25","2015-03-19 16:09:37","17","12","NORMAL_CLEARING","3ed5d14c-ce0f-11e4-b057-93df68acca51","48e429a4-ce0f-11e4-b07a-93df68acca51","1001","PCMU","PCMU"
