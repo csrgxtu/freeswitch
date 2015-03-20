@@ -10,20 +10,20 @@ local req_key      = params:getHeader("key")
 local req_user     = params:getHeader("user")
 local req_password --= params:getHeader("pass")
 
-freeswitch.consoleLog("NOTICE", "UserName: " .. req_user);
+-- freeswitch.consoleLog("NOTICE", "UserName: " .. req_user);
 
 --local dbh = freeswitch.Dbh("xfjwt3","ebuserxft","ebtx@df74d78&")
 local dbh = freeswitch.Dbh("odbc://freeswitch:ebuserxft:ebtx@df74d78&")
 assert(dbh:connected())
 
-freeswitch.consoleLog("NOTICE", "Entering Query Block");
+-- freeswitch.consoleLog("NOTICE", "Entering Query Block");
 dbh:query("select Password from xfjwt_User where UserName='" .. req_user .. "' limit 1", function(row)
 --dbh:query("select sip_password from User where sip_number="..req_user .. " limit 1",function(row)
         if(row == nil or row.Password == nil) then
           freeswitch.consoleLog("NOTICE",string.format("user %s was not found in database!",req_user))
           return
         end
-        freeswitch.consoleLog("NOTICE", "Password: " .. string.format("%s\n",row.Password))
+        -- freeswitch.consoleLog("NOTICE", "Password: " .. string.format("%s\n",row.Password))
         req_password=row.Password
 end);
 dbh:release();
