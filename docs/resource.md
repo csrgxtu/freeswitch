@@ -7,3 +7,4 @@ Freeswitch wiki: using odbc in the core: https://freeswitch.org/confluence/displ
 unixODBC Ubuntu 14.04: http://www.kaffeetalk.de/how-to-setup-and-configure-mysql-with-unixodbc-under-ubuntu-14-04/
 An Introduction To SIP: http://arstechnica.com/business/2010/01/voip-in-depth-an-introduction-to-the-sip-protocol-part-1/
 An Introduction To SIP: http://arstechnica.com/tech-policy/2010/03/voip-in-depth-an-introduction-to-the-sip-protocol-part-2/
+How SIP won VOIP protocol wars: http://arstechnica.com/business/2009/12/wired-for-sound-how-sip-won-the-voip-protocol-wars/2/
