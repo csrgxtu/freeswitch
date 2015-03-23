@@ -1,0 +1,23 @@
+prefix=/home/archer/Documents/freeswitch/bin/freeswitch-conf
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+libexecdir=${exec_prefix}/libexec
+includedir=${prefix}/include
+modulesdir=/home/archer/Documents/freeswitch/bin/freeswitch-conf/mod
+runtimedir=/home/archer/Documents/freeswitch/bin/freeswitch-conf/run
+logfiledir=/home/archer/Documents/freeswitch/bin/freeswitch-conf/log
+sysconfdir=/home/archer/Documents/freeswitch/bin/freeswitch-conf/conf
+dbdir=/home/archer/Documents/freeswitch/bin/freeswitch-conf/db
+htdocsdir=/home/archer/Documents/freeswitch/bin/freeswitch-conf/htdocs
+localstatedir=${prefix}/var
+grammardir=/home/archer/Documents/freeswitch/bin/freeswitch-conf/grammar
+soundsdir=/home/archer/Documents/freeswitch/bin/freeswitch-conf/sounds
+scriptdir=/home/archer/Documents/freeswitch/bin/freeswitch-conf/scripts
+recordingsdir=/home/archer/Documents/freeswitch/bin/freeswitch-conf/recordings
+bindir=${exec_prefix}/bin
+
+Name: freeswitch
+Version: 1.4.17
+Description: FreeSWITCH open source telephony platform
+Libs: -L${libdir} -lfreeswitch
+Cflags: -I${includedir}

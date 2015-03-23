@@ -1,0 +1,1738 @@
+2015-03-23 16:10:34.004914 [NOTICE] switch_loadable_module.c:227 Adding Dialplan 'enum'
+2015-03-23 16:10:34.004934 [NOTICE] switch_loadable_module.c:269 Adding Application 'enum'
+2015-03-23 16:10:34.004953 [NOTICE] switch_loadable_module.c:315 Adding API Function 'enum'
+2015-03-23 16:10:34.004970 [NOTICE] switch_loadable_module.c:315 Adding API Function 'enum_auto'
+2015-03-23 16:10:34.005211 [DEBUG] mod_cdr_csv.c:364 Adding default template.
+2015-03-23 16:10:34.005225 [DEBUG] mod_cdr_csv.c:411 Adding template sql.
+2015-03-23 16:10:34.005233 [DEBUG] mod_cdr_csv.c:411 Adding template example.
+2015-03-23 16:10:34.005240 [DEBUG] mod_cdr_csv.c:411 Adding template snom.
+2015-03-23 16:10:34.005245 [DEBUG] mod_cdr_csv.c:411 Adding template linksys.
+2015-03-23 16:10:34.005251 [DEBUG] mod_cdr_csv.c:411 Adding template asterisk.
+2015-03-23 16:10:34.005255 [DEBUG] mod_cdr_csv.c:411 Adding template opencdrrate.
+2015-03-23 16:10:34.005316 [NOTICE] switch_loadable_module.c:315 Adding API Function 'cdr_csv'
+2015-03-23 16:10:34.005584 [NOTICE] switch_loadable_module.c:269 Adding Application 'socket'
+2015-03-23 16:10:34.005607 [NOTICE] switch_loadable_module.c:315 Adding API Function 'event_sink'
+2015-03-23 16:10:34.006340 [INFO] mod_sofia.c:5728 Starting initial message thread.
+2015-03-23 16:10:34.006393 [WARNING] sofia.c:1937 MSG Thread 0 Started
+2015-03-23 16:10:34.006482 [DEBUG] sofia.c:4150 debug [0]
+2015-03-23 16:10:34.006489 [DEBUG] sofia.c:4150 sip-trace [no]
+2015-03-23 16:10:34.006493 [DEBUG] sofia.c:4150 sip-capture [no]
+2015-03-23 16:10:34.006498 [DEBUG] sofia.c:4150 rfc2833-pt [101]
+2015-03-23 16:10:34.006507 [DEBUG] sofia.c:4150 sip-port [5080]
+2015-03-23 16:10:34.006515 [DEBUG] sofia.c:4150 dialplan [XML]
+2015-03-23 16:10:34.006530 [DEBUG] sofia.c:4150 context [public]
+2015-03-23 16:10:34.006539 [DEBUG] sofia.c:4150 dtmf-duration [2000]
+2015-03-23 16:10:34.006548 [DEBUG] sofia.c:4150 inbound-codec-prefs [OPUS,G722,PCMU,PCMA,GSM]
+2015-03-23 16:10:34.006558 [DEBUG] sofia.c:4150 outbound-codec-prefs [PCMU,PCMA,GSM]
+2015-03-23 16:10:34.006568 [DEBUG] sofia.c:4150 hold-music [local_stream://moh]
+2015-03-23 16:10:34.006580 [DEBUG] sofia.c:4150 rtp-timer-name [soft]
+2015-03-23 16:10:34.006587 [DEBUG] sofia.c:4150 local-network-acl [localnet.auto]
+2015-03-23 16:10:34.006594 [DEBUG] sofia.c:4150 manage-presence [false]
+2015-03-23 16:10:34.006608 [DEBUG] sofia.c:4150 inbound-codec-negotiation [generous]
+2015-03-23 16:10:34.006615 [DEBUG] sofia.c:4150 nonce-ttl [60]
+2015-03-23 16:10:34.006623 [DEBUG] sofia.c:4150 auth-calls [false]
+2015-03-23 16:10:34.006632 [DEBUG] sofia.c:4150 inbound-late-negotiation [true]
+2015-03-23 16:10:34.006641 [DEBUG] sofia.c:4150 inbound-zrtp-passthru [true]
+2015-03-23 16:10:34.006650 [DEBUG] sofia.c:4150 rtp-ip [::1]
+2015-03-23 16:10:34.006658 [DEBUG] sofia.c:4150 sip-ip [::1]
+2015-03-23 16:10:34.006665 [DEBUG] sofia.c:4150 ext-rtp-ip [auto-nat]
+2015-03-23 16:10:34.006675 [DEBUG] sofia.c:4150 ext-sip-ip [auto-nat]
+2015-03-23 16:10:34.006683 [DEBUG] sofia.c:4150 rtp-timeout-sec [300]
+2015-03-23 16:10:34.006690 [DEBUG] sofia.c:4150 rtp-hold-timeout-sec [1800]
+2015-03-23 16:10:34.006697 [DEBUG] sofia.c:4150 tls [false]
+2015-03-23 16:10:34.006707 [DEBUG] sofia.c:4150 tls-only [false]
+2015-03-23 16:10:34.006716 [DEBUG] sofia.c:4150 tls-bind-params [transport=tls]
+2015-03-23 16:10:34.006726 [DEBUG] sofia.c:4150 tls-sip-port [5081]
+2015-03-23 16:10:34.006735 [DEBUG] sofia.c:4150 tls-passphrase []
+2015-03-23 16:10:34.006746 [DEBUG] sofia.c:4150 tls-verify-date [true]
+2015-03-23 16:10:34.006754 [DEBUG] sofia.c:4150 tls-verify-policy [none]
+2015-03-23 16:10:34.006762 [DEBUG] sofia.c:4150 tls-verify-depth [2]
+2015-03-23 16:10:34.006774 [DEBUG] sofia.c:4150 tls-verify-in-subjects []
+2015-03-23 16:10:34.006784 [DEBUG] sofia.c:4150 tls-version [tlsv1,tlsv1.1,tlsv1.2]
+2015-03-23 16:10:34.006798 [INFO] sofia.c:5401 Setting MAX Auth Validity to 0 Attempts
+2015-03-23 16:10:34.006831 [NOTICE] sofia.c:5568 Started Profile external-ipv6 [sofia_reg_external-ipv6]
+2015-03-23 16:10:34.006896 [DEBUG] sofia.c:4150 debug [0]
+2015-03-23 16:10:34.006904 [DEBUG] sofia.c:4150 sip-trace [no]
+2015-03-23 16:10:34.006909 [DEBUG] sofia.c:4150 sip-capture [no]
+2015-03-23 16:10:34.006913 [DEBUG] sofia.c:4150 rfc2833-pt [101]
+2015-03-23 16:10:34.006919 [DEBUG] sofia.c:4150 sip-port [5080]
+2015-03-23 16:10:34.006925 [DEBUG] sofia.c:4150 dialplan [XML]
+2015-03-23 16:10:34.006933 [DEBUG] sofia.c:4150 context [public]
+2015-03-23 16:10:34.006947 [DEBUG] sofia.c:4150 dtmf-duration [2000]
+2015-03-23 16:10:34.006952 [DEBUG] sofia.c:2753 Creating agent for external-ipv6
+2015-03-23 16:10:34.006957 [DEBUG] sofia.c:4150 inbound-codec-prefs [OPUS,G722,PCMU,PCMA,GSM]
+2015-03-23 16:10:34.006984 [DEBUG] sofia.c:4150 outbound-codec-prefs [PCMU,PCMA,GSM]
+2015-03-23 16:10:34.006995 [DEBUG] sofia.c:4150 hold-music [local_stream://moh]
+2015-03-23 16:10:34.007003 [DEBUG] sofia.c:4150 rtp-timer-name [soft]
+2015-03-23 16:10:34.007011 [DEBUG] sofia.c:4150 local-network-acl [localnet.auto]
+2015-03-23 16:10:34.007019 [DEBUG] sofia.c:4150 manage-presence [false]
+2015-03-23 16:10:34.007027 [DEBUG] sofia.c:4150 inbound-codec-negotiation [generous]
+2015-03-23 16:10:34.007039 [DEBUG] sofia.c:4150 nonce-ttl [60]
+2015-03-23 16:10:34.007050 [DEBUG] sofia.c:4150 auth-calls [false]
+2015-03-23 16:10:34.007059 [DEBUG] sofia.c:4150 inbound-late-negotiation [true]
+2015-03-23 16:10:34.007066 [DEBUG] sofia.c:4150 inbound-zrtp-passthru [true]
+2015-03-23 16:10:34.007072 [DEBUG] sofia.c:4150 rtp-ip [192.168.10.107]
+2015-03-23 16:10:34.007080 [DEBUG] sofia.c:4150 sip-ip [192.168.10.107]
+2015-03-23 16:10:34.007087 [DEBUG] sofia.c:4150 ext-rtp-ip [auto-nat]
+2015-03-23 16:10:34.007093 [DEBUG] sofia.c:4150 ext-sip-ip [auto-nat]
+2015-03-23 16:10:34.007100 [DEBUG] sofia.c:4150 rtp-timeout-sec [300]
+2015-03-23 16:10:34.007108 [DEBUG] sofia.c:4150 rtp-hold-timeout-sec [1800]
+2015-03-23 16:10:34.007128 [DEBUG] sofia.c:4150 tls [false]
+2015-03-23 16:10:34.007136 [DEBUG] sofia.c:4150 tls-only [false]
+2015-03-23 16:10:34.007143 [DEBUG] sofia.c:4150 tls-bind-params [transport=tls]
+2015-03-23 16:10:34.007151 [DEBUG] sofia.c:4150 tls-sip-port [5081]
+2015-03-23 16:10:34.007162 [DEBUG] sofia.c:4150 tls-passphrase []
+2015-03-23 16:10:34.007170 [DEBUG] sofia.c:4150 tls-verify-date [true]
+2015-03-23 16:10:34.007178 [DEBUG] sofia.c:4150 tls-verify-policy [none]
+2015-03-23 16:10:34.007191 [DEBUG] sofia.c:4150 tls-verify-depth [2]
+2015-03-23 16:10:34.007201 [DEBUG] sofia.c:4150 tls-verify-in-subjects []
+2015-03-23 16:10:34.007215 [DEBUG] sofia.c:4150 tls-version [tlsv1,tlsv1.1,tlsv1.2]
+2015-03-23 16:10:34.007230 [INFO] sofia.c:5401 Setting MAX Auth Validity to 0 Attempts
+2015-03-23 16:10:34.007296 [NOTICE] sofia.c:5568 Started Profile external [sofia_reg_external]
+2015-03-23 16:10:34.007337 [DEBUG] sofia.c:4150 debug [0]
+2015-03-23 16:10:34.007344 [DEBUG] sofia.c:4150 sip-trace [no]
+2015-03-23 16:10:34.007349 [DEBUG] sofia.c:4150 context [public]
+2015-03-23 16:10:34.007357 [DEBUG] sofia.c:4150 rfc2833-pt [101]
+2015-03-23 16:10:34.007367 [DEBUG] sofia.c:4150 sip-port [5060]
+2015-03-23 16:10:34.007374 [DEBUG] sofia.c:4150 dialplan [XML]
+2015-03-23 16:10:34.007383 [DEBUG] sofia.c:4150 dtmf-duration [2000]
+2015-03-23 16:10:34.007392 [DEBUG] sofia.c:4150 inbound-codec-prefs [OPUS,G722,PCMU,PCMA,GSM]
+2015-03-23 16:10:34.007402 [DEBUG] sofia.c:4150 outbound-codec-prefs [OPUS,G722,PCMU,PCMA,GSM]
+2015-03-23 16:10:34.007410 [DEBUG] sofia.c:4150 use-rtp-timer [true]
+2015-03-23 16:10:34.007420 [DEBUG] sofia.c:4150 rtp-timer-name [soft]
+2015-03-23 16:10:34.007427 [DEBUG] sofia.c:4150 rtp-ip [::1]
+2015-03-23 16:10:34.007435 [DEBUG] sofia.c:4150 sip-ip [::1]
+2015-03-23 16:10:34.007444 [DEBUG] sofia.c:4150 hold-music [local_stream://moh]
+2015-03-23 16:10:34.007451 [DEBUG] sofia.c:4150 apply-inbound-acl [domains]
+2015-03-23 16:10:34.007460 [DEBUG] sofia.c:4150 record-template [/home/archer/Documents/freeswitch/bin/freeswitch-conf/recordings/${caller_id_number}.${strftime(%Y-%m-%d-%H-%M-%S)}.wav]
+2015-03-23 16:10:34.007467 [DEBUG] sofia.c:4150 manage-presence [true]
+2015-03-23 16:10:34.007479 [DEBUG] sofia.c:4150 inbound-codec-negotiation [generous]
+2015-03-23 16:10:34.007486 [DEBUG] sofia.c:4150 tls [false]
+2015-03-23 16:10:34.007494 [DEBUG] sofia.c:4150 tls-bind-params [transport=tls]
+2015-03-23 16:10:34.007507 [DEBUG] sofia.c:4150 tls-sip-port [5061]
+2015-03-23 16:10:34.007516 [DEBUG] sofia.c:4150 tls-cert-dir []
+2015-03-23 16:10:34.007526 [DEBUG] sofia.c:4150 tls-version [tlsv1,tlsv1.1,tlsv1.2]
+2015-03-23 16:10:34.007536 [DEBUG] sofia.c:4150 inbound-late-negotiation [true]
+2015-03-23 16:10:34.007543 [DEBUG] sofia.c:4150 inbound-zrtp-passthru [true]
+2015-03-23 16:10:34.007549 [DEBUG] sofia.c:4150 nonce-ttl [60]
+2015-03-23 16:10:34.007561 [DEBUG] sofia.c:4150 auth-calls [true]
+2015-03-23 16:10:34.007569 [DEBUG] sofia.c:4150 auth-all-packets [false]
+2015-03-23 16:10:34.007577 [DEBUG] sofia.c:4150 rtp-timeout-sec [300]
+2015-03-23 16:10:34.007585 [DEBUG] sofia.c:4150 rtp-hold-timeout-sec [1800]
+2015-03-23 16:10:34.007595 [DEBUG] sofia.c:4150 force-register-domain [192.168.10.107]
+2015-03-23 16:10:34.007603 [DEBUG] sofia.c:4150 force-register-db-domain [192.168.10.107]
+2015-03-23 16:10:34.007614 [INFO] sofia.c:5401 Setting MAX Auth Validity to 0 Attempts
+2015-03-23 16:10:34.007649 [NOTICE] sofia.c:5568 Started Profile internal-ipv6 [sofia_reg_internal-ipv6]
+2015-03-23 16:10:34.007689 [DEBUG] sofia.c:4150 debug [0]
+2015-03-23 16:10:34.007696 [DEBUG] sofia.c:4150 sip-trace [no]
+2015-03-23 16:10:34.007700 [DEBUG] sofia.c:4150 sip-capture [no]
+2015-03-23 16:10:34.007704 [DEBUG] sofia.c:4150 watchdog-enabled [no]
+2015-03-23 16:10:34.007709 [DEBUG] sofia.c:4150 watchdog-step-timeout [30000]
+2015-03-23 16:10:34.007716 [DEBUG] sofia.c:4150 watchdog-event-timeout [30000]
+2015-03-23 16:10:34.007723 [DEBUG] sofia.c:4150 log-auth-failures [false]
+2015-03-23 16:10:34.007729 [DEBUG] sofia.c:4150 forward-unsolicited-mwi-notify [false]
+2015-03-23 16:10:34.007736 [DEBUG] sofia.c:4150 context [public]
+2015-03-23 16:10:34.007746 [DEBUG] sofia.c:4150 rfc2833-pt [101]
+2015-03-23 16:10:34.007753 [DEBUG] sofia.c:4150 sip-port [5060]
+2015-03-23 16:10:34.007760 [DEBUG] sofia.c:4150 dialplan [XML]
+2015-03-23 16:10:34.007769 [DEBUG] sofia.c:4150 dtmf-duration [2000]
+2015-03-23 16:10:34.007782 [DEBUG] sofia.c:4150 inbound-codec-prefs [OPUS,G722,PCMU,PCMA,GSM]
+2015-03-23 16:10:34.007791 [DEBUG] sofia.c:4150 outbound-codec-prefs [OPUS,G722,PCMU,PCMA,GSM]
+2015-03-23 16:10:34.007800 [DEBUG] sofia.c:4150 rtp-timer-name [soft]
+2015-03-23 16:10:34.007809 [DEBUG] sofia.c:4150 rtp-ip [192.168.10.107]
+2015-03-23 16:10:34.007819 [DEBUG] sofia.c:4150 sip-ip [192.168.10.107]
+2015-03-23 16:10:34.007828 [DEBUG] sofia.c:4150 hold-music [local_stream://moh]
+2015-03-23 16:10:34.007835 [DEBUG] sofia.c:4150 apply-nat-acl [nat.auto]
+2015-03-23 16:10:34.007849 [DEBUG] sofia.c:4150 apply-inbound-acl [domains]
+2015-03-23 16:10:34.007858 [DEBUG] sofia.c:4150 local-network-acl [localnet.auto]
+2015-03-23 16:10:34.007867 [DEBUG] sofia.c:4150 record-path [/home/archer/Documents/freeswitch/bin/freeswitch-conf/recordings]
+2015-03-23 16:10:34.007875 [DEBUG] sofia.c:4150 record-template [${caller_id_number}.${target_domain}.${strftime(%Y-%m-%d-%H-%M-%S)}.wav]
+2015-03-23 16:10:34.007882 [DEBUG] sofia.c:4150 manage-presence [true]
+2015-03-23 16:10:34.007890 [DEBUG] sofia.c:4150 presence-hosts [192.168.10.107,192.168.10.107]
+2015-03-23 16:10:34.007897 [DEBUG] sofia.c:4150 presence-privacy [false]
+2015-03-23 16:10:34.007906 [DEBUG] sofia.c:4150 inbound-codec-negotiation [generous]
+2015-03-23 16:10:34.007915 [DEBUG] sofia.c:4150 tls [false]
+2015-03-23 16:10:34.007928 [DEBUG] sofia.c:4150 tls-only [false]
+2015-03-23 16:10:34.007941 [DEBUG] sofia.c:4150 tls-bind-params [transport=tls]
+2015-03-23 16:10:34.007952 [DEBUG] sofia.c:4150 tls-sip-port [5061]
+2015-03-23 16:10:34.007961 [DEBUG] sofia.c:4150 tls-passphrase []
+2015-03-23 16:10:34.007971 [DEBUG] sofia.c:4150 tls-verify-date [true]
+2015-03-23 16:10:34.007982 [DEBUG] sofia.c:4150 tls-verify-policy [none]
+2015-03-23 16:10:34.007993 [DEBUG] sofia.c:4150 tls-verify-depth [2]
+2015-03-23 16:10:34.008002 [DEBUG] sofia.c:4150 tls-verify-in-subjects []
+2015-03-23 16:10:34.008012 [DEBUG] sofia.c:4150 tls-version [tlsv1,tlsv1.1,tlsv1.2]
+2015-03-23 16:10:34.008022 [DEBUG] sofia.c:4150 tls-ciphers [ALL:!ADH:!LOW:!EXP:!MD5:@STRENGTH]
+2015-03-23 16:10:34.008031 [DEBUG] sofia.c:4150 inbound-late-negotiation [true]
+2015-03-23 16:10:34.008038 [DEBUG] sofia.c:4150 inbound-zrtp-passthru [true]
+2015-03-23 16:10:34.008045 [DEBUG] sofia.c:4150 nonce-ttl [60]
+2015-03-23 16:10:34.008054 [DEBUG] sofia.c:4150 auth-calls [true]
+2015-03-23 16:10:34.008065 [DEBUG] sofia.c:4150 inbound-reg-force-matching-username [true]
+2015-03-23 16:10:34.008074 [DEBUG] sofia.c:4150 auth-all-packets [false]
+2015-03-23 16:10:34.008083 [DEBUG] sofia.c:4150 ext-rtp-ip [auto-nat]
+2015-03-23 16:10:34.008091 [DEBUG] sofia.c:4150 ext-sip-ip [auto-nat]
+2015-03-23 16:10:34.008098 [DEBUG] sofia.c:4150 rtp-timeout-sec [300]
+2015-03-23 16:10:34.008105 [DEBUG] sofia.c:4150 rtp-hold-timeout-sec [1800]
+2015-03-23 16:10:34.008113 [DEBUG] sofia.c:4150 force-register-domain [192.168.10.107]
+2015-03-23 16:10:34.008123 [DEBUG] sofia.c:4150 force-subscription-domain [192.168.10.107]
+2015-03-23 16:10:34.008132 [DEBUG] sofia.c:4150 force-register-db-domain [192.168.10.107]
+2015-03-23 16:10:34.008140 [DEBUG] sofia.c:4150 challenge-realm [auto_from]
+2015-03-23 16:10:34.008152 [INFO] sofia.c:5401 Setting MAX Auth Validity to 0 Attempts
+2015-03-23 16:10:34.008188 [NOTICE] sofia.c:5568 Started Profile internal [sofia_reg_internal]
+2015-03-23 16:10:34.008216 [DEBUG] mod_sofia.c:5741 Waiting for profiles to start
+2015-03-23 16:10:34.008242 [DEBUG] switch_core_sqldb.c:1347 SQL ERR [no such table: sip_registrations]
+[delete from sip_registrations where sub_host is null and hostname='csrgxtu' and network_ip like '%' and network_port like '%' and sip_username like '%' and mwi_user  like '%' and mwi_host like '%' and orig_server_host like '%' and orig_hostname like '%']
+Auto Generating Table!
+2015-03-23 16:10:34.008275 [DEBUG] sofia.c:2753 Creating agent for internal
+2015-03-23 16:10:34.008299 [DEBUG] switch_core_sqldb.c:1354 Ignoring SQL ERR [no such table: sip_registrations]
+[drop table sip_registrations]
+2015-03-23 16:10:34.008421 [DEBUG] sofia.c:2753 Creating agent for internal-ipv6
+2015-03-23 16:10:34.008865 [DEBUG] switch_core_sqldb.c:1347 SQL ERR [no such table: sip_registrations]
+[delete from sip_registrations where sub_host is null and hostname='csrgxtu' and network_ip like '%' and network_port like '%' and sip_username like '%' and mwi_user  like '%' and mwi_host like '%' and orig_server_host like '%' and orig_hostname like '%']
+Auto Generating Table!
+2015-03-23 16:10:34.008901 [DEBUG] switch_core_sqldb.c:1354 Ignoring SQL ERR [no such table: sip_registrations]
+[drop table sip_registrations]
+2015-03-23 16:10:34.009116 [DEBUG] sofia.c:2753 Creating agent for external
+2015-03-23 16:10:34.009302 [DEBUG] switch_core_sqldb.c:1347 SQL ERR [no such table: sip_subscriptions]
+[delete from sip_subscriptions where hostname='csrgxtu' and full_to='XXX']
+Auto Generating Table!
+2015-03-23 16:10:34.009357 [DEBUG] switch_core_sqldb.c:1347 SQL ERR [no such table: sip_registrations]
+[delete from sip_registrations where sub_host is null and hostname='csrgxtu' and network_ip like '%' and network_port like '%' and sip_username like '%' and mwi_user  like '%' and mwi_host like '%' and orig_server_host like '%' and orig_hostname like '%']
+Auto Generating Table!
+2015-03-23 16:10:34.009360 [DEBUG] switch_core_sqldb.c:1354 Ignoring SQL ERR [no such table: sip_subscriptions]
+[DROP TABLE sip_subscriptions]
+2015-03-23 16:10:34.009392 [DEBUG] switch_core_sqldb.c:1354 Ignoring SQL ERR [no such table: sip_registrations]
+[drop table sip_registrations]
+2015-03-23 16:10:34.009891 [DEBUG] switch_core_sqldb.c:1347 SQL ERR [no such table: sip_dialogs]
+[delete from sip_dialogs where hostname='csrgxtu' and (expires <> -9999 or rpid='' or sip_from_tag='' or rcd > 0)]
+Auto Generating Table!
+2015-03-23 16:10:34.009940 [DEBUG] switch_core_sqldb.c:1354 Ignoring SQL ERR [no such table: sip_dialogs]
+[DROP TABLE sip_dialogs]
+2015-03-23 16:10:34.010460 [DEBUG] switch_core_sqldb.c:1347 SQL ERR [no such table: sip_presence]
+[delete from sip_presence where hostname='csrgxtu' or open_closed='']
+Auto Generating Table!
+2015-03-23 16:10:34.010532 [DEBUG] switch_core_sqldb.c:1354 Ignoring SQL ERR [no such table: sip_presence]
+[DROP TABLE sip_presence]
+2015-03-23 16:10:34.010657 [DEBUG] switch_core_sqldb.c:1347 SQL ERR [no such table: sip_subscriptions]
+[delete from sip_subscriptions where hostname='csrgxtu' and full_to='XXX']
+Auto Generating Table!
+2015-03-23 16:10:34.010689 [DEBUG] switch_core_sqldb.c:1354 Ignoring SQL ERR [no such table: sip_subscriptions]
+[DROP TABLE sip_subscriptions]
+2015-03-23 16:10:34.010734 [DEBUG] switch_core_sqldb.c:1347 SQL ERR [no such table: sip_subscriptions]
+[delete from sip_subscriptions where hostname='csrgxtu' and full_to='XXX']
+Auto Generating Table!
+2015-03-23 16:10:34.010762 [DEBUG] switch_core_sqldb.c:1354 Ignoring SQL ERR [no such table: sip_subscriptions]
+[DROP TABLE sip_subscriptions]
+2015-03-23 16:10:34.011040 [DEBUG] switch_core_sqldb.c:1347 SQL ERR [no such table: sip_authentication]
+[delete from sip_authentication where hostname='csrgxtu' or last_nc >= 0]
+Auto Generating Table!
+2015-03-23 16:10:34.011093 [DEBUG] switch_core_sqldb.c:1354 Ignoring SQL ERR [no such table: sip_authentication]
+[DROP TABLE sip_authentication]
+2015-03-23 16:10:34.011303 [DEBUG] switch_core_sqldb.c:1347 SQL ERR [no such table: sip_dialogs]
+[delete from sip_dialogs where hostname='csrgxtu' and (expires <> -9999 or rpid='' or sip_from_tag='' or rcd > 0)]
+Auto Generating Table!
+2015-03-23 16:10:34.011331 [DEBUG] switch_core_sqldb.c:1354 Ignoring SQL ERR [no such table: sip_dialogs]
+[DROP TABLE sip_dialogs]
+2015-03-23 16:10:34.011584 [DEBUG] switch_core_sqldb.c:1347 SQL ERR [no such table: sip_presence]
+[delete from sip_presence where hostname='csrgxtu' or open_closed='']
+Auto Generating Table!
+2015-03-23 16:10:34.011610 [DEBUG] switch_core_sqldb.c:1354 Ignoring SQL ERR [no such table: sip_presence]
+[DROP TABLE sip_presence]
+2015-03-23 16:10:34.011844 [DEBUG] switch_core_sqldb.c:1347 SQL ERR [no such table: sip_authentication]
+[delete from sip_authentication where hostname='csrgxtu' or last_nc >= 0]
+Auto Generating Table!
+2015-03-23 16:10:34.011870 [DEBUG] switch_core_sqldb.c:1354 Ignoring SQL ERR [no such table: sip_authentication]
+[DROP TABLE sip_authentication]
+2015-03-23 16:10:34.012064 [DEBUG] switch_core_sqldb.c:1347 SQL ERR [no such table: sip_shared_appearance_subscriptions]
+[delete from sip_shared_appearance_subscriptions where contact_str='' or hostname='csrgxtu' and network_ip like '%']
+Auto Generating Table!
+2015-03-23 16:10:34.012090 [DEBUG] switch_core_sqldb.c:1354 Ignoring SQL ERR [no such table: sip_shared_appearance_subscriptions]
+[DROP TABLE sip_shared_appearance_subscriptions]
+2015-03-23 16:10:34.012318 [DEBUG] switch_core_sqldb.c:1347 SQL ERR [no such table: sip_shared_appearance_dialogs]
+[delete from sip_shared_appearance_dialogs where contact_str='' or hostname='csrgxtu' and network_ip like '%']
+Auto Generating Table!
+2015-03-23 16:10:34.012345 [DEBUG] switch_core_sqldb.c:1354 Ignoring SQL ERR [no such table: sip_shared_appearance_dialogs]
+[DROP TABLE sip_shared_appearance_dialogs]
+2015-03-23 16:10:34.015545 [DEBUG] switch_core_sqldb.c:1347 SQL ERR [no such table: sip_dialogs]
+[delete from sip_dialogs where hostname='csrgxtu' and (expires <> -9999 or rpid='' or sip_from_tag='' or rcd > 0)]
+Auto Generating Table!
+2015-03-23 16:10:34.015615 [DEBUG] switch_core_sqldb.c:1354 Ignoring SQL ERR [no such table: sip_dialogs]
+[DROP TABLE sip_dialogs]
+2015-03-23 16:10:34.015836 [DEBUG] switch_core_sqldb.c:1347 SQL ERR [no such table: sip_registrations]
+[delete from sip_registrations where sub_host is null and hostname='csrgxtu' and network_ip like '%' and network_port like '%' and sip_username like '%' and mwi_user  like '%' and mwi_host like '%' and orig_server_host like '%' and orig_hostname like '%']
+Auto Generating Table!
+2015-03-23 16:10:34.015872 [DEBUG] switch_core_sqldb.c:1354 Ignoring SQL ERR [no such table: sip_registrations]
+[drop table sip_registrations]
+2015-03-23 16:10:34.016037 [DEBUG] switch_core_sqldb.c:1347 SQL ERR [no such table: sip_shared_appearance_subscriptions]
+[delete from sip_shared_appearance_subscriptions where contact_str='' or hostname='csrgxtu' and network_ip like '%']
+Auto Generating Table!
+2015-03-23 16:10:34.016219 [DEBUG] switch_core_sqldb.c:1354 Ignoring SQL ERR [no such table: sip_shared_appearance_subscriptions]
+[DROP TABLE sip_shared_appearance_subscriptions]
+2015-03-23 16:10:34.016359 [DEBUG] switch_core_sqldb.c:1347 SQL ERR [no such table: sip_presence]
+[delete from sip_presence where hostname='csrgxtu' or open_closed='']
+Auto Generating Table!
+2015-03-23 16:10:34.016411 [DEBUG] switch_core_sqldb.c:1354 Ignoring SQL ERR [no such table: sip_presence]
+[DROP TABLE sip_presence]
+2015-03-23 16:10:34.016998 [DEBUG] switch_core_sqldb.c:1347 SQL ERR [no such table: sip_shared_appearance_dialogs]
+[delete from sip_shared_appearance_dialogs where contact_str='' or hostname='csrgxtu' and network_ip like '%']
+Auto Generating Table!
+2015-03-23 16:10:34.017066 [DEBUG] switch_core_sqldb.c:1354 Ignoring SQL ERR [no such table: sip_shared_appearance_dialogs]
+[DROP TABLE sip_shared_appearance_dialogs]
+2015-03-23 16:10:34.017627 [DEBUG] switch_core_sqldb.c:1347 SQL ERR [no such table: sip_authentication]
+[delete from sip_authentication where hostname='csrgxtu' or last_nc >= 0]
+Auto Generating Table!
+2015-03-23 16:10:34.017791 [DEBUG] switch_core_sqldb.c:1354 Ignoring SQL ERR [no such table: sip_authentication]
+[DROP TABLE sip_authentication]
+2015-03-23 16:10:34.018570 [DEBUG] switch_core_sqldb.c:1347 SQL ERR [no such table: sip_subscriptions]
+[delete from sip_subscriptions where hostname='csrgxtu' and full_to='XXX']
+Auto Generating Table!
+2015-03-23 16:10:34.018686 [DEBUG] switch_core_sqldb.c:1354 Ignoring SQL ERR [no such table: sip_subscriptions]
+[DROP TABLE sip_subscriptions]
+2015-03-23 16:10:34.019857 [DEBUG] switch_core_sqldb.c:1347 SQL ERR [no such table: sip_dialogs]
+[delete from sip_dialogs where hostname='csrgxtu' and (expires <> -9999 or rpid='' or sip_from_tag='' or rcd > 0)]
+Auto Generating Table!
+2015-03-23 16:10:34.019921 [DEBUG] switch_core_sqldb.c:1354 Ignoring SQL ERR [no such table: sip_dialogs]
+[DROP TABLE sip_dialogs]
+2015-03-23 16:10:34.020035 [DEBUG] switch_core_sqldb.c:1347 SQL ERR [no such table: sip_shared_appearance_subscriptions]
+[delete from sip_shared_appearance_subscriptions where contact_str='' or hostname='csrgxtu' and network_ip like '%']
+Auto Generating Table!
+2015-03-23 16:10:34.020234 [DEBUG] switch_core_sqldb.c:1354 Ignoring SQL ERR [no such table: sip_shared_appearance_subscriptions]
+[DROP TABLE sip_shared_appearance_subscriptions]
+2015-03-23 16:10:34.020472 [DEBUG] switch_core_sqldb.c:1347 SQL ERR [no such table: sip_shared_appearance_dialogs]
+[delete from sip_shared_appearance_dialogs where contact_str='' or hostname='csrgxtu' and network_ip like '%']
+Auto Generating Table!
+2015-03-23 16:10:34.020498 [DEBUG] switch_core_sqldb.c:1354 Ignoring SQL ERR [no such table: sip_shared_appearance_dialogs]
+[DROP TABLE sip_shared_appearance_dialogs]
+2015-03-23 16:10:34.026162 [DEBUG] switch_core_sqldb.c:1347 SQL ERR [no such table: sip_presence]
+[delete from sip_presence where hostname='csrgxtu' or open_closed='']
+Auto Generating Table!
+2015-03-23 16:10:34.026229 [DEBUG] switch_core_sqldb.c:1354 Ignoring SQL ERR [no such table: sip_presence]
+[DROP TABLE sip_presence]
+2015-03-23 16:10:34.026940 [DEBUG] switch_core_sqldb.c:1347 SQL ERR [no such table: sip_authentication]
+[delete from sip_authentication where hostname='csrgxtu' or last_nc >= 0]
+Auto Generating Table!
+2015-03-23 16:10:34.026990 [DEBUG] switch_core_sqldb.c:1354 Ignoring SQL ERR [no such table: sip_authentication]
+[DROP TABLE sip_authentication]
+2015-03-23 16:10:34.029189 [DEBUG] switch_core_sqldb.c:1347 SQL ERR [no such table: sip_shared_appearance_subscriptions]
+[delete from sip_shared_appearance_subscriptions where contact_str='' or hostname='csrgxtu' and network_ip like '%']
+Auto Generating Table!
+2015-03-23 16:10:34.029226 [DEBUG] switch_core_sqldb.c:1354 Ignoring SQL ERR [no such table: sip_shared_appearance_subscriptions]
+[DROP TABLE sip_shared_appearance_subscriptions]
+2015-03-23 16:10:34.030678 [DEBUG] switch_core_sqldb.c:1347 SQL ERR [no such table: sip_shared_appearance_dialogs]
+[delete from sip_shared_appearance_dialogs where contact_str='' or hostname='csrgxtu' and network_ip like '%']
+Auto Generating Table!
+2015-03-23 16:10:34.030729 [DEBUG] switch_core_sqldb.c:1354 Ignoring SQL ERR [no such table: sip_shared_appearance_dialogs]
+[DROP TABLE sip_shared_appearance_dialogs]
+2015-03-23 16:10:34.061978 [DEBUG] sofia.c:2871 Created agent for internal-ipv6
+2015-03-23 16:10:34.062037 [DEBUG] sofia.c:2919 Set params for internal-ipv6
+2015-03-23 16:10:34.062058 [DEBUG] sofia.c:2966 Activated db for internal-ipv6
+2015-03-23 16:10:34.064255 [DEBUG] sofia.c:2871 Created agent for internal
+2015-03-23 16:10:34.064292 [DEBUG] sofia.c:2919 Set params for internal
+2015-03-23 16:10:34.064297 [DEBUG] sofia.c:2966 Activated db for internal
+2015-03-23 16:10:34.064445 [DEBUG] sofia.c:2871 Created agent for external-ipv6
+2015-03-23 16:10:34.064464 [DEBUG] sofia.c:2919 Set params for external-ipv6
+2015-03-23 16:10:34.064470 [DEBUG] sofia.c:2966 Activated db for external-ipv6
+2015-03-23 16:10:34.064699 [DEBUG] sofia.c:2871 Created agent for external
+2015-03-23 16:10:34.064724 [DEBUG] sofia.c:2919 Set params for external
+2015-03-23 16:10:34.064730 [DEBUG] sofia.c:2966 Activated db for external
+2015-03-23 16:10:34.065378 [INFO] switch_core_sqldb.c:1693 sofia:internal Starting SQL thread.
+2015-03-23 16:10:34.065527 [DEBUG] sofia.c:3004 Starting thread for internal
+2015-03-23 16:10:34.065531 [INFO] switch_core_sqldb.c:1693 sofia:internal-ipv6 Starting SQL thread.
+2015-03-23 16:10:34.065563 [DEBUG] sofia.c:2653 Launching worker thread for internal
+2015-03-23 16:10:34.065619 [DEBUG] sofia.c:3004 Starting thread for internal-ipv6
+2015-03-23 16:10:34.065625 [DEBUG] sofia.c:2653 Launching worker thread for internal-ipv6
+2015-03-23 16:10:34.065664 [NOTICE] sofia.c:3738 Adding Alias [192.168.10.107] for profile [internal]
+2015-03-23 16:10:34.067074 [INFO] switch_core_sqldb.c:1693 sofia:external-ipv6 Starting SQL thread.
+2015-03-23 16:10:34.067181 [DEBUG] sofia.c:3004 Starting thread for external-ipv6
+2015-03-23 16:10:34.067189 [DEBUG] sofia.c:2653 Launching worker thread for external-ipv6
+2015-03-23 16:10:34.067332 [NOTICE] sofia_reg.c:3329 Added gateway 'example.com' to profile 'external-ipv6'
+2015-03-23 16:10:34.067552 [INFO] switch_core_sqldb.c:1693 sofia:external Starting SQL thread.
+2015-03-23 16:10:34.067660 [DEBUG] sofia.c:3004 Starting thread for external
+2015-03-23 16:10:34.067668 [DEBUG] sofia.c:2653 Launching worker thread for external
+2015-03-23 16:10:35.509980 [NOTICE] switch_loadable_module.c:149 Adding Endpoint 'sofia'
+2015-03-23 16:10:35.510011 [NOTICE] switch_loadable_module.c:149 Adding Endpoint 'rtp'
+2015-03-23 16:10:35.510033 [NOTICE] switch_loadable_module.c:269 Adding Application 'sofia_sla'
+2015-03-23 16:10:35.510051 [NOTICE] switch_loadable_module.c:315 Adding API Function 'sofia'
+2015-03-23 16:10:35.510067 [NOTICE] switch_loadable_module.c:315 Adding API Function 'sofia_gateway_data'
+2015-03-23 16:10:35.510081 [NOTICE] switch_loadable_module.c:315 Adding API Function 'sofia_username_of'
+2015-03-23 16:10:35.510097 [NOTICE] switch_loadable_module.c:315 Adding API Function 'sofia_contact'
+2015-03-23 16:10:35.510113 [NOTICE] switch_loadable_module.c:315 Adding API Function 'sofia_count_reg'
+2015-03-23 16:10:35.510129 [NOTICE] switch_loadable_module.c:315 Adding API Function 'sofia_dig'
+2015-03-23 16:10:35.510147 [NOTICE] switch_loadable_module.c:315 Adding API Function 'sofia_presence_data'
+2015-03-23 16:10:35.510165 [NOTICE] switch_loadable_module.c:450 Adding Chat interface 'sip'
+2015-03-23 16:10:35.510183 [NOTICE] switch_loadable_module.c:496 Adding Management interface 'mod_sofia' OID[.1.3.6.1.4.1.27880.1001]
+2015-03-23 16:10:35.510528 [NOTICE] switch_loadable_module.c:149 Adding Endpoint 'loopback'
+2015-03-23 16:10:35.510549 [NOTICE] switch_loadable_module.c:269 Adding Application 'unloop'
+2015-03-23 16:10:35.511565 [NOTICE] switch_loadable_module.c:315 Adding API Function 'bg_system'
+2015-03-23 16:10:35.511589 [NOTICE] switch_loadable_module.c:315 Adding API Function 'system'
+2015-03-23 16:10:35.511609 [NOTICE] switch_loadable_module.c:315 Adding API Function 'acl'
+2015-03-23 16:10:35.511628 [NOTICE] switch_loadable_module.c:315 Adding API Function 'alias'
+2015-03-23 16:10:35.511643 [NOTICE] switch_loadable_module.c:315 Adding API Function 'coalesce'
+2015-03-23 16:10:35.511659 [NOTICE] switch_loadable_module.c:315 Adding API Function 'banner'
+2015-03-23 16:10:35.511683 [NOTICE] switch_loadable_module.c:315 Adding API Function 'bgapi'
+2015-03-23 16:10:35.511700 [NOTICE] switch_loadable_module.c:315 Adding API Function 'break'
+2015-03-23 16:10:35.511719 [NOTICE] switch_loadable_module.c:315 Adding API Function 'complete'
+2015-03-23 16:10:35.511732 [NOTICE] switch_loadable_module.c:315 Adding API Function 'cond'
+2015-03-23 16:10:35.511751 [NOTICE] switch_loadable_module.c:315 Adding API Function 'console_complete'
+2015-03-23 16:10:35.511771 [NOTICE] switch_loadable_module.c:315 Adding API Function 'console_complete_xml'
+2015-03-23 16:10:35.511786 [NOTICE] switch_loadable_module.c:315 Adding API Function 'create_uuid'
+2015-03-23 16:10:35.511807 [NOTICE] switch_loadable_module.c:315 Adding API Function 'db_cache'
+2015-03-23 16:10:35.511824 [NOTICE] switch_loadable_module.c:315 Adding API Function 'domain_exists'
+2015-03-23 16:10:35.511843 [NOTICE] switch_loadable_module.c:315 Adding API Function 'echo'
+2015-03-23 16:10:35.511859 [NOTICE] switch_loadable_module.c:315 Adding API Function 'escape'
+2015-03-23 16:10:35.511876 [NOTICE] switch_loadable_module.c:315 Adding API Function 'eval'
+2015-03-23 16:10:35.511891 [NOTICE] switch_loadable_module.c:315 Adding API Function 'expand'
+2015-03-23 16:10:35.511909 [NOTICE] switch_loadable_module.c:315 Adding API Function 'find_user_xml'
+2015-03-23 16:10:35.511932 [NOTICE] switch_loadable_module.c:315 Adding API Function 'fsctl'
+2015-03-23 16:10:35.511949 [NOTICE] switch_loadable_module.c:315 Adding API Function '...'
+2015-03-23 16:10:35.511965 [NOTICE] switch_loadable_module.c:315 Adding API Function 'shutdown'
+2015-03-23 16:10:35.511982 [NOTICE] switch_loadable_module.c:315 Adding API Function 'version'
+2015-03-23 16:10:35.512000 [NOTICE] switch_loadable_module.c:315 Adding API Function 'global_getvar'
+2015-03-23 16:10:35.512017 [NOTICE] switch_loadable_module.c:315 Adding API Function 'global_setvar'
+2015-03-23 16:10:35.512033 [NOTICE] switch_loadable_module.c:315 Adding API Function 'group_call'
+2015-03-23 16:10:35.512048 [NOTICE] switch_loadable_module.c:315 Adding API Function 'help'
+2015-03-23 16:10:35.512075 [NOTICE] switch_loadable_module.c:315 Adding API Function 'host_lookup'
+2015-03-23 16:10:35.512089 [NOTICE] switch_loadable_module.c:315 Adding API Function 'hostname'
+2015-03-23 16:10:35.512104 [NOTICE] switch_loadable_module.c:315 Adding API Function 'interface_ip'
+2015-03-23 16:10:35.512123 [NOTICE] switch_loadable_module.c:315 Adding API Function 'switchname'
+2015-03-23 16:10:35.512139 [NOTICE] switch_loadable_module.c:315 Adding API Function 'gethost'
+2015-03-23 16:10:35.512154 [NOTICE] switch_loadable_module.c:315 Adding API Function 'hupall'
+2015-03-23 16:10:35.512170 [NOTICE] switch_loadable_module.c:315 Adding API Function 'in_group'
+2015-03-23 16:10:35.512196 [NOTICE] switch_loadable_module.c:315 Adding API Function 'is_lan_addr'
+2015-03-23 16:10:35.512210 [NOTICE] switch_loadable_module.c:315 Adding API Function 'limit_usage'
+2015-03-23 16:10:35.512230 [NOTICE] switch_loadable_module.c:315 Adding API Function 'limit_hash_usage'
+2015-03-23 16:10:35.512245 [NOTICE] switch_loadable_module.c:315 Adding API Function 'limit_status'
+2015-03-23 16:10:35.512262 [NOTICE] switch_loadable_module.c:315 Adding API Function 'limit_reset'
+2015-03-23 16:10:35.512276 [NOTICE] switch_loadable_module.c:315 Adding API Function 'limit_interval_reset'
+2015-03-23 16:10:35.512296 [NOTICE] switch_loadable_module.c:315 Adding API Function 'list_users'
+2015-03-23 16:10:35.512318 [NOTICE] switch_loadable_module.c:315 Adding API Function 'load'
+2015-03-23 16:10:35.512331 [NOTICE] switch_loadable_module.c:315 Adding API Function 'log'
+2015-03-23 16:10:35.512345 [NOTICE] switch_loadable_module.c:315 Adding API Function 'md5'
+2015-03-23 16:10:35.512359 [NOTICE] switch_loadable_module.c:315 Adding API Function 'module_exists'
+2015-03-23 16:10:35.512373 [NOTICE] switch_loadable_module.c:315 Adding API Function 'msleep'
+2015-03-23 16:10:35.512389 [NOTICE] switch_loadable_module.c:315 Adding API Function 'nat_map'
+2015-03-23 16:10:35.512407 [NOTICE] switch_loadable_module.c:315 Adding API Function 'originate'
+2015-03-23 16:10:35.512422 [NOTICE] switch_loadable_module.c:315 Adding API Function 'pause'
+2015-03-23 16:10:35.512439 [NOTICE] switch_loadable_module.c:315 Adding API Function 'quote_shell_arg'
+2015-03-23 16:10:35.512460 [NOTICE] switch_loadable_module.c:315 Adding API Function 'regex'
+2015-03-23 16:10:35.512474 [NOTICE] switch_loadable_module.c:315 Adding API Function 'reloadacl'
+2015-03-23 16:10:35.512494 [NOTICE] switch_loadable_module.c:315 Adding API Function 'reload'
+2015-03-23 16:10:35.512511 [NOTICE] switch_loadable_module.c:315 Adding API Function 'reloadxml'
+2015-03-23 16:10:35.512524 [NOTICE] switch_loadable_module.c:315 Adding API Function 'replace'
+2015-03-23 16:10:35.512541 [NOTICE] switch_loadable_module.c:315 Adding API Function 'say_string'
+2015-03-23 16:10:35.512557 [NOTICE] switch_loadable_module.c:315 Adding API Function 'sched_api'
+2015-03-23 16:10:35.512573 [NOTICE] switch_loadable_module.c:315 Adding API Function 'sched_broadcast'
+2015-03-23 16:10:35.512590 [NOTICE] switch_loadable_module.c:315 Adding API Function 'sched_del'
+2015-03-23 16:10:35.512607 [NOTICE] switch_loadable_module.c:315 Adding API Function 'sched_hangup'
+2015-03-23 16:10:35.512623 [NOTICE] switch_loadable_module.c:315 Adding API Function 'sched_transfer'
+2015-03-23 16:10:35.512638 [NOTICE] switch_loadable_module.c:315 Adding API Function 'show'
+2015-03-23 16:10:35.512656 [NOTICE] switch_loadable_module.c:315 Adding API Function 'sql_escape'
+2015-03-23 16:10:35.512672 [NOTICE] switch_loadable_module.c:315 Adding API Function 'status'
+2015-03-23 16:10:35.512687 [NOTICE] switch_loadable_module.c:315 Adding API Function 'strftime_tz'
+2015-03-23 16:10:35.512704 [NOTICE] switch_loadable_module.c:315 Adding API Function 'stun'
+2015-03-23 16:10:35.512727 [NOTICE] switch_loadable_module.c:315 Adding API Function 'time_test'
+2015-03-23 16:10:35.512743 [NOTICE] switch_loadable_module.c:315 Adding API Function 'timer_test'
+2015-03-23 16:10:35.512758 [NOTICE] switch_loadable_module.c:315 Adding API Function 'tone_detect'
+2015-03-23 16:10:35.512778 [NOTICE] switch_loadable_module.c:315 Adding API Function 'unload'
+2015-03-23 16:10:35.512792 [NOTICE] switch_loadable_module.c:315 Adding API Function 'unsched_api'
+2015-03-23 16:10:35.512809 [NOTICE] switch_loadable_module.c:315 Adding API Function 'uptime'
+2015-03-23 16:10:35.512824 [NOTICE] switch_loadable_module.c:315 Adding API Function 'reg_url'
+2015-03-23 16:10:35.512840 [NOTICE] switch_loadable_module.c:315 Adding API Function 'url_decode'
+2015-03-23 16:10:35.512859 [NOTICE] switch_loadable_module.c:315 Adding API Function 'url_encode'
+2015-03-23 16:10:35.512873 [NOTICE] switch_loadable_module.c:315 Adding API Function 'user_data'
+2015-03-23 16:10:35.512888 [NOTICE] switch_loadable_module.c:315 Adding API Function 'uuid_early_ok'
+2015-03-23 16:10:35.512909 [NOTICE] switch_loadable_module.c:315 Adding API Function 'user_exists'
+2015-03-23 16:10:35.512941 [NOTICE] switch_loadable_module.c:315 Adding API Function 'uuid_answer'
+2015-03-23 16:10:35.512958 [NOTICE] switch_loadable_module.c:315 Adding API Function 'uuid_audio'
+2015-03-23 16:10:35.512985 [NOTICE] switch_loadable_module.c:315 Adding API Function 'uuid_break'
+2015-03-23 16:10:35.513002 [NOTICE] switch_loadable_module.c:315 Adding API Function 'uuid_bridge'
+2015-03-23 16:10:35.513016 [NOTICE] switch_loadable_module.c:315 Adding API Function 'uuid_broadcast'
+2015-03-23 16:10:35.513035 [NOTICE] switch_loadable_module.c:315 Adding API Function 'uuid_buglist'
+2015-03-23 16:10:35.513053 [NOTICE] switch_loadable_module.c:315 Adding API Function 'uuid_chat'
+2015-03-23 16:10:35.513070 [NOTICE] switch_loadable_module.c:315 Adding API Function 'uuid_debug_media'
+2015-03-23 16:10:35.513086 [NOTICE] switch_loadable_module.c:315 Adding API Function 'uuid_deflect'
+2015-03-23 16:10:35.513104 [NOTICE] switch_loadable_module.c:315 Adding API Function 'uuid_displace'
+2015-03-23 16:10:35.513122 [NOTICE] switch_loadable_module.c:315 Adding API Function 'uuid_display'
+2015-03-23 16:10:35.513138 [NOTICE] switch_loadable_module.c:315 Adding API Function 'uuid_drop_dtmf'
+2015-03-23 16:10:35.513158 [NOTICE] switch_loadable_module.c:315 Adding API Function 'uuid_dump'
+2015-03-23 16:10:35.513177 [NOTICE] switch_loadable_module.c:315 Adding API Function 'uuid_exists'
+2015-03-23 16:10:35.513190 [NOTICE] switch_loadable_module.c:315 Adding API Function 'uuid_fileman'
+2015-03-23 16:10:35.513206 [NOTICE] switch_loadable_module.c:315 Adding API Function 'uuid_flush_dtmf'
+2015-03-23 16:10:35.513228 [NOTICE] switch_loadable_module.c:315 Adding API Function 'uuid_getvar'
+2015-03-23 16:10:35.513246 [NOTICE] switch_loadable_module.c:315 Adding API Function 'uuid_hold'
+2015-03-23 16:10:35.513261 [NOTICE] switch_loadable_module.c:315 Adding API Function 'uuid_kill'
+2015-03-23 16:10:35.513277 [NOTICE] switch_loadable_module.c:315 Adding API Function 'uuid_send_message'
+2015-03-23 16:10:35.513293 [NOTICE] switch_loadable_module.c:315 Adding API Function 'uuid_send_info'
+2015-03-23 16:10:35.513308 [NOTICE] switch_loadable_module.c:315 Adding API Function 'uuid_set_media_stats'
+2015-03-23 16:10:35.513325 [NOTICE] switch_loadable_module.c:315 Adding API Function 'uuid_video_refresh'
+2015-03-23 16:10:35.513344 [NOTICE] switch_loadable_module.c:315 Adding API Function 'uuid_outgoing_answer'
+2015-03-23 16:10:35.513359 [NOTICE] switch_loadable_module.c:315 Adding API Function 'uuid_limit'
+2015-03-23 16:10:35.513377 [NOTICE] switch_loadable_module.c:315 Adding API Function 'uuid_limit_release'
+2015-03-23 16:10:35.513396 [NOTICE] switch_loadable_module.c:315 Adding API Function 'uuid_limit_release'
+2015-03-23 16:10:35.513413 [NOTICE] switch_loadable_module.c:315 Adding API Function 'uuid_loglevel'
+2015-03-23 16:10:35.513434 [NOTICE] switch_loadable_module.c:315 Adding API Function 'uuid_media'
+2015-03-23 16:10:35.513450 [NOTICE] switch_loadable_module.c:315 Adding API Function 'uuid_media_reneg'
+2015-03-23 16:10:35.513466 [NOTICE] switch_loadable_module.c:315 Adding API Function 'uuid_park'
+2015-03-23 16:10:35.513482 [NOTICE] switch_loadable_module.c:315 Adding API Function 'uuid_pause'
+2015-03-23 16:10:35.513499 [NOTICE] switch_loadable_module.c:315 Adding API Function 'uuid_phone_event'
+2015-03-23 16:10:35.513516 [NOTICE] switch_loadable_module.c:315 Adding API Function 'uuid_ring_ready'
+2015-03-23 16:10:35.513534 [NOTICE] switch_loadable_module.c:315 Adding API Function 'uuid_pre_answer'
+2015-03-23 16:10:35.513550 [NOTICE] switch_loadable_module.c:315 Adding API Function 'uuid_preprocess'
+2015-03-23 16:10:35.513568 [NOTICE] switch_loadable_module.c:315 Adding API Function 'uuid_record'
+2015-03-23 16:10:35.513591 [NOTICE] switch_loadable_module.c:315 Adding API Function 'uuid_recovery_refresh'
+2015-03-23 16:10:35.513608 [NOTICE] switch_loadable_module.c:315 Adding API Function 'uuid_recv_dtmf'
+2015-03-23 16:10:35.513622 [NOTICE] switch_loadable_module.c:315 Adding API Function 'uuid_send_dtmf'
+2015-03-23 16:10:35.513638 [NOTICE] switch_loadable_module.c:315 Adding API Function 'uuid_session_heartbeat'
+2015-03-23 16:10:35.513656 [NOTICE] switch_loadable_module.c:315 Adding API Function 'uuid_setvar_multi'
+2015-03-23 16:10:35.513672 [NOTICE] switch_loadable_module.c:315 Adding API Function 'uuid_setvar'
+2015-03-23 16:10:35.513689 [NOTICE] switch_loadable_module.c:315 Adding API Function 'uuid_transfer'
+2015-03-23 16:10:35.513709 [NOTICE] switch_loadable_module.c:315 Adding API Function 'uuid_dual_transfer'
+2015-03-23 16:10:35.513725 [NOTICE] switch_loadable_module.c:315 Adding API Function 'uuid_simplify'
+2015-03-23 16:10:35.513741 [NOTICE] switch_loadable_module.c:315 Adding API Function 'uuid_jitterbuffer'
+2015-03-23 16:10:35.513757 [NOTICE] switch_loadable_module.c:315 Adding API Function 'uuid_zombie_exec'
+2015-03-23 16:10:35.513776 [NOTICE] switch_loadable_module.c:315 Adding API Function 'xml_flush_cache'
+2015-03-23 16:10:35.513794 [NOTICE] switch_loadable_module.c:315 Adding API Function 'xml_locate'
+2015-03-23 16:10:35.513809 [NOTICE] switch_loadable_module.c:315 Adding API Function 'xml_wrap'
+2015-03-23 16:10:35.513826 [NOTICE] switch_loadable_module.c:315 Adding API Function 'file_exists'
+2015-03-23 16:10:35.513844 [NOTICE] switch_loadable_module.c:315 Adding API Function 'json'
+2015-03-23 16:10:35.513859 [NOTICE] switch_loadable_module.c:338 Adding JSON API Function 'mediaStats'
+2015-03-23 16:10:35.513877 [NOTICE] switch_loadable_module.c:338 Adding JSON API Function 'status'
+2015-03-23 16:10:35.513894 [NOTICE] switch_loadable_module.c:338 Adding JSON API Function 'fsapi'
+2015-03-23 16:10:35.513910 [NOTICE] switch_loadable_module.c:338 Adding JSON API Function 'execute'
+2015-03-23 16:10:35.513925 [NOTICE] switch_loadable_module.c:338 Adding JSON API Function 'channelData'
+2015-03-23 16:10:35.514682 [NOTICE] switch_loadable_module.c:269 Adding Application 'conference'
+2015-03-23 16:10:35.514698 [NOTICE] switch_loadable_module.c:269 Adding Application 'conference_set_auto_outcall'
+2015-03-23 16:10:35.514715 [NOTICE] switch_loadable_module.c:315 Adding API Function 'conference'
+2015-03-23 16:10:35.514734 [NOTICE] switch_loadable_module.c:450 Adding Chat interface 'conf'
+2015-03-23 16:10:35.515246 [DEBUG] switch_core_sqldb.c:1347 SQL ERR [no such table: limit_data]
+[select * from limit_data]
+Auto Generating Table!
+2015-03-23 16:10:35.515461 [DEBUG] switch_core_sqldb.c:1347 SQL ERR [no such table: db_data]
+[select * from db_data]
+Auto Generating Table!
+2015-03-23 16:10:35.515648 [DEBUG] switch_core_sqldb.c:1347 SQL ERR [no such table: group_data]
+[select * from group_data]
+Auto Generating Table!
+2015-03-23 16:10:35.516990 [NOTICE] switch_loadable_module.c:269 Adding Application 'db'
+2015-03-23 16:10:35.517012 [NOTICE] switch_loadable_module.c:269 Adding Application 'group'
+2015-03-23 16:10:35.517030 [NOTICE] switch_loadable_module.c:315 Adding API Function 'db'
+2015-03-23 16:10:35.517047 [NOTICE] switch_loadable_module.c:315 Adding API Function 'group'
+2015-03-23 16:10:35.517066 [NOTICE] switch_loadable_module.c:523 Adding Limit interface 'db'
+2015-03-23 16:10:36.015560 [NOTICE] switch_loadable_module.c:149 Adding Endpoint 'error'
+2015-03-23 16:10:36.015719 [NOTICE] switch_loadable_module.c:149 Adding Endpoint 'group'
+2015-03-23 16:10:36.015821 [NOTICE] switch_loadable_module.c:149 Adding Endpoint 'user'
+2015-03-23 16:10:36.015917 [NOTICE] switch_loadable_module.c:149 Adding Endpoint 'pickup'
+2015-03-23 16:10:36.016014 [NOTICE] switch_loadable_module.c:227 Adding Dialplan 'inline'
+2015-03-23 16:10:36.016112 [NOTICE] switch_loadable_module.c:269 Adding Application 'blind_transfer_ack'
+2015-03-23 16:10:36.016212 [NOTICE] switch_loadable_module.c:269 Adding Application 'bind_digit_action'
+2015-03-23 16:10:36.016313 [NOTICE] switch_loadable_module.c:269 Adding Application 'capture'
+2015-03-23 16:10:36.016407 [NOTICE] switch_loadable_module.c:269 Adding Application 'clear_digit_action'
+2015-03-23 16:10:36.016501 [NOTICE] switch_loadable_module.c:269 Adding Application 'digit_action_set_realm'
+2015-03-23 16:10:36.016597 [NOTICE] switch_loadable_module.c:269 Adding Application 'privacy'
+2015-03-23 16:10:36.016664 [NOTICE] switch_loadable_module.c:269 Adding Application 'set_audio_level'
+2015-03-23 16:10:36.016704 [NOTICE] switch_loadable_module.c:269 Adding Application 'set_mute'
+2015-03-23 16:10:36.016737 [NOTICE] switch_loadable_module.c:269 Adding Application 'flush_dtmf'
+2015-03-23 16:10:36.016766 [NOTICE] switch_loadable_module.c:269 Adding Application 'hold'
+2015-03-23 16:10:36.016795 [NOTICE] switch_loadable_module.c:269 Adding Application 'unhold'
+2015-03-23 16:10:36.016823 [NOTICE] switch_loadable_module.c:269 Adding Application 'mutex'
+2015-03-23 16:10:36.016859 [NOTICE] switch_loadable_module.c:269 Adding Application 'page'
+2015-03-23 16:10:36.016887 [NOTICE] switch_loadable_module.c:269 Adding Application 'transfer'
+2015-03-23 16:10:36.016914 [NOTICE] switch_loadable_module.c:269 Adding Application 'check_acl'
+2015-03-23 16:10:36.016940 [NOTICE] switch_loadable_module.c:269 Adding Application 'verbose_events'
+2015-03-23 16:10:36.016967 [NOTICE] switch_loadable_module.c:269 Adding Application 'novideo'
+2015-03-23 16:10:36.016993 [NOTICE] switch_loadable_module.c:269 Adding Application 'cng_plc'
+2015-03-23 16:10:36.017019 [NOTICE] switch_loadable_module.c:269 Adding Application 'early_hangup'
+2015-03-23 16:10:36.017045 [NOTICE] switch_loadable_module.c:269 Adding Application 'sleep'
+2015-03-23 16:10:36.017071 [NOTICE] switch_loadable_module.c:269 Adding Application 'delay_echo'
+2015-03-23 16:10:36.017097 [NOTICE] switch_loadable_module.c:269 Adding Application 'strftime'
+2015-03-23 16:10:36.017123 [NOTICE] switch_loadable_module.c:269 Adding Application 'phrase'
+2015-03-23 16:10:36.017149 [NOTICE] switch_loadable_module.c:269 Adding Application 'eval'
+2015-03-23 16:10:36.017175 [NOTICE] switch_loadable_module.c:269 Adding Application 'set_media_stats'
+2015-03-23 16:10:36.017201 [NOTICE] switch_loadable_module.c:269 Adding Application 'stop'
+2015-03-23 16:10:36.017227 [NOTICE] switch_loadable_module.c:269 Adding Application 'set_zombie_exec'
+2015-03-23 16:10:36.017253 [NOTICE] switch_loadable_module.c:269 Adding Application 'pre_answer'
+2015-03-23 16:10:36.017281 [NOTICE] switch_loadable_module.c:269 Adding Application 'answer'
+2015-03-23 16:10:36.017307 [NOTICE] switch_loadable_module.c:269 Adding Application 'wait_for_answer'
+2015-03-23 16:10:36.017333 [NOTICE] switch_loadable_module.c:269 Adding Application 'hangup'
+2015-03-23 16:10:36.017359 [NOTICE] switch_loadable_module.c:269 Adding Application 'set_name'
+2015-03-23 16:10:36.017385 [NOTICE] switch_loadable_module.c:269 Adding Application 'presence'
+2015-03-23 16:10:36.017410 [NOTICE] switch_loadable_module.c:269 Adding Application 'log'
+2015-03-23 16:10:36.017436 [NOTICE] switch_loadable_module.c:269 Adding Application 'info'
+2015-03-23 16:10:36.017462 [NOTICE] switch_loadable_module.c:269 Adding Application 'event'
+2015-03-23 16:10:36.017487 [NOTICE] switch_loadable_module.c:269 Adding Application 'sound_test'
+2015-03-23 16:10:36.017513 [NOTICE] switch_loadable_module.c:269 Adding Application 'export'
+2015-03-23 16:10:36.017539 [NOTICE] switch_loadable_module.c:269 Adding Application 'bridge_export'
+2015-03-23 16:10:36.017565 [NOTICE] switch_loadable_module.c:269 Adding Application 'set'
+2015-03-23 16:10:36.017590 [NOTICE] switch_loadable_module.c:269 Adding Application 'multiset'
+2015-03-23 16:10:36.017616 [NOTICE] switch_loadable_module.c:269 Adding Application 'push'
+2015-03-23 16:10:36.017642 [NOTICE] switch_loadable_module.c:269 Adding Application 'unshift'
+2015-03-23 16:10:36.017668 [NOTICE] switch_loadable_module.c:269 Adding Application 'set_global'
+2015-03-23 16:10:36.017694 [NOTICE] switch_loadable_module.c:269 Adding Application 'set_profile_var'
+2015-03-23 16:10:36.017719 [NOTICE] switch_loadable_module.c:269 Adding Application 'unset'
+2015-03-23 16:10:36.017745 [NOTICE] switch_loadable_module.c:269 Adding Application 'multiunset'
+2015-03-23 16:10:36.017771 [NOTICE] switch_loadable_module.c:269 Adding Application 'ring_ready'
+2015-03-23 16:10:36.017797 [NOTICE] switch_loadable_module.c:269 Adding Application 'remove_bugs'
+2015-03-23 16:10:36.017823 [NOTICE] switch_loadable_module.c:269 Adding Application 'break'
+2015-03-23 16:10:36.017848 [NOTICE] switch_loadable_module.c:269 Adding Application 'detect_speech'
+2015-03-23 16:10:36.017874 [NOTICE] switch_loadable_module.c:269 Adding Application 'play_and_detect_speech'
+2015-03-23 16:10:36.017901 [NOTICE] switch_loadable_module.c:269 Adding Application 'ivr'
+2015-03-23 16:10:36.017927 [NOTICE] switch_loadable_module.c:269 Adding Application 'redirect'
+2015-03-23 16:10:36.017953 [NOTICE] switch_loadable_module.c:269 Adding Application 'video_refresh'
+2015-03-23 16:10:36.017984 [NOTICE] switch_loadable_module.c:269 Adding Application 'send_info'
+2015-03-23 16:10:36.018011 [NOTICE] switch_loadable_module.c:269 Adding Application 'jitterbuffer'
+2015-03-23 16:10:36.018040 [NOTICE] switch_loadable_module.c:269 Adding Application 'send_display'
+2015-03-23 16:10:36.018066 [NOTICE] switch_loadable_module.c:269 Adding Application 'respond'
+2015-03-23 16:10:36.018092 [NOTICE] switch_loadable_module.c:269 Adding Application 'deflect'
+2015-03-23 16:10:36.018118 [NOTICE] switch_loadable_module.c:269 Adding Application 'recovery_refresh'
+2015-03-23 16:10:36.018144 [NOTICE] switch_loadable_module.c:269 Adding Application 'queue_dtmf'
+2015-03-23 16:10:36.018170 [NOTICE] switch_loadable_module.c:269 Adding Application 'send_dtmf'
+2015-03-23 16:10:36.018196 [NOTICE] switch_loadable_module.c:269 Adding Application 'sched_cancel'
+2015-03-23 16:10:36.018221 [NOTICE] switch_loadable_module.c:269 Adding Application 'sched_hangup'
+2015-03-23 16:10:36.018247 [NOTICE] switch_loadable_module.c:269 Adding Application 'sched_broadcast'
+2015-03-23 16:10:36.018273 [NOTICE] switch_loadable_module.c:269 Adding Application 'sched_transfer'
+2015-03-23 16:10:36.018300 [NOTICE] switch_loadable_module.c:269 Adding Application 'execute_extension'
+2015-03-23 16:10:36.018327 [NOTICE] switch_loadable_module.c:269 Adding Application 'sched_heartbeat'
+2015-03-23 16:10:36.018353 [NOTICE] switch_loadable_module.c:269 Adding Application 'enable_heartbeat'
+2015-03-23 16:10:36.018379 [NOTICE] switch_loadable_module.c:269 Adding Application 'enable_keepalive'
+2015-03-23 16:10:36.018405 [NOTICE] switch_loadable_module.c:269 Adding Application 'media_reset'
+2015-03-23 16:10:36.018431 [NOTICE] switch_loadable_module.c:269 Adding Application 'mkdir'
+2015-03-23 16:10:36.018457 [NOTICE] switch_loadable_module.c:269 Adding Application 'rename'
+2015-03-23 16:10:36.018500 [NOTICE] switch_loadable_module.c:269 Adding Application 'soft_hold'
+2015-03-23 16:10:36.018536 [NOTICE] switch_loadable_module.c:269 Adding Application 'bind_meta_app'
+2015-03-23 16:10:36.018567 [NOTICE] switch_loadable_module.c:269 Adding Application 'unbind_meta_app'
+2015-03-23 16:10:36.018597 [NOTICE] switch_loadable_module.c:269 Adding Application 'block_dtmf'
+2015-03-23 16:10:36.018627 [NOTICE] switch_loadable_module.c:269 Adding Application 'unblock_dtmf'
+2015-03-23 16:10:36.018656 [NOTICE] switch_loadable_module.c:269 Adding Application 'intercept'
+2015-03-23 16:10:36.018686 [NOTICE] switch_loadable_module.c:269 Adding Application 'eavesdrop'
+2015-03-23 16:10:36.018715 [NOTICE] switch_loadable_module.c:269 Adding Application 'three_way'
+2015-03-23 16:10:36.018745 [NOTICE] switch_loadable_module.c:269 Adding Application 'set_user'
+2015-03-23 16:10:36.018775 [NOTICE] switch_loadable_module.c:269 Adding Application 'stop_dtmf'
+2015-03-23 16:10:36.018804 [NOTICE] switch_loadable_module.c:269 Adding Application 'start_dtmf'
+2015-03-23 16:10:36.018834 [NOTICE] switch_loadable_module.c:269 Adding Application 'stop_dtmf_generate'
+2015-03-23 16:10:36.018864 [NOTICE] switch_loadable_module.c:269 Adding Application 'start_dtmf_generate'
+2015-03-23 16:10:36.018893 [NOTICE] switch_loadable_module.c:269 Adding Application 'stop_tone_detect'
+2015-03-23 16:10:36.018923 [NOTICE] switch_loadable_module.c:269 Adding Application 'fax_detect'
+2015-03-23 16:10:36.018952 [NOTICE] switch_loadable_module.c:269 Adding Application 'tone_detect'
+2015-03-23 16:10:36.018981 [NOTICE] switch_loadable_module.c:269 Adding Application 'echo'
+2015-03-23 16:10:36.019010 [NOTICE] switch_loadable_module.c:269 Adding Application 'park'
+2015-03-23 16:10:36.019039 [NOTICE] switch_loadable_module.c:269 Adding Application 'park_state'
+2015-03-23 16:10:36.019068 [NOTICE] switch_loadable_module.c:269 Adding Application 'gentones'
+2015-03-23 16:10:36.019097 [NOTICE] switch_loadable_module.c:269 Adding Application 'playback'
+2015-03-23 16:10:36.019148 [NOTICE] switch_loadable_module.c:269 Adding Application 'endless_playback'
+2015-03-23 16:10:36.019180 [NOTICE] switch_loadable_module.c:269 Adding Application 'loop_playback'
+2015-03-23 16:10:36.019216 [NOTICE] switch_loadable_module.c:269 Adding Application 'att_xfer'
+2015-03-23 16:10:36.019246 [NOTICE] switch_loadable_module.c:269 Adding Application 'read'
+2015-03-23 16:10:36.019276 [NOTICE] switch_loadable_module.c:269 Adding Application 'play_and_get_digits'
+2015-03-23 16:10:36.019307 [NOTICE] switch_loadable_module.c:269 Adding Application 'stop_record_session'
+2015-03-23 16:10:36.019337 [NOTICE] switch_loadable_module.c:269 Adding Application 'record_session'
+2015-03-23 16:10:36.019367 [NOTICE] switch_loadable_module.c:269 Adding Application 'record_session_mask'
+2015-03-23 16:10:36.019396 [NOTICE] switch_loadable_module.c:269 Adding Application 'record_session_unmask'
+2015-03-23 16:10:36.019426 [NOTICE] switch_loadable_module.c:269 Adding Application 'record'
+2015-03-23 16:10:36.019455 [NOTICE] switch_loadable_module.c:269 Adding Application 'preprocess'
+2015-03-23 16:10:36.019484 [NOTICE] switch_loadable_module.c:269 Adding Application 'stop_displace_session'
+2015-03-23 16:10:36.019514 [NOTICE] switch_loadable_module.c:269 Adding Application 'displace_session'
+2015-03-23 16:10:36.019543 [NOTICE] switch_loadable_module.c:269 Adding Application 'speak'
+2015-03-23 16:10:36.019573 [NOTICE] switch_loadable_module.c:269 Adding Application 'clear_speech_cache'
+2015-03-23 16:10:36.019602 [NOTICE] switch_loadable_module.c:269 Adding Application 'bridge'
+2015-03-23 16:10:36.019631 [NOTICE] switch_loadable_module.c:269 Adding Application 'system'
+2015-03-23 16:10:36.019660 [NOTICE] switch_loadable_module.c:269 Adding Application 'bgsystem'
+2015-03-23 16:10:36.019689 [NOTICE] switch_loadable_module.c:269 Adding Application 'say'
+2015-03-23 16:10:36.019719 [NOTICE] switch_loadable_module.c:269 Adding Application 'wait_for_silence'
+2015-03-23 16:10:36.019748 [NOTICE] switch_loadable_module.c:269 Adding Application 'session_loglevel'
+2015-03-23 16:10:36.019777 [NOTICE] switch_loadable_module.c:269 Adding Application 'limit'
+2015-03-23 16:10:36.019806 [NOTICE] switch_loadable_module.c:269 Adding Application 'limit_hash'
+2015-03-23 16:10:36.019836 [NOTICE] switch_loadable_module.c:269 Adding Application 'limit_execute'
+2015-03-23 16:10:36.019871 [NOTICE] switch_loadable_module.c:269 Adding Application 'limit_hash_execute'
+2015-03-23 16:10:36.019893 [NOTICE] switch_loadable_module.c:269 Adding Application 'pickup'
+2015-03-23 16:10:36.019912 [NOTICE] switch_loadable_module.c:315 Adding API Function 'strepoch'
+2015-03-23 16:10:36.019930 [NOTICE] switch_loadable_module.c:315 Adding API Function 'page'
+2015-03-23 16:10:36.019949 [NOTICE] switch_loadable_module.c:315 Adding API Function 'strmicroepoch'
+2015-03-23 16:10:36.019966 [NOTICE] switch_loadable_module.c:315 Adding API Function 'chat'
+2015-03-23 16:10:36.019983 [NOTICE] switch_loadable_module.c:315 Adding API Function 'strftime'
+2015-03-23 16:10:36.020000 [NOTICE] switch_loadable_module.c:315 Adding API Function 'presence'
+2015-03-23 16:10:36.020018 [NOTICE] switch_loadable_module.c:365 Adding File Format 'file_string'
+2015-03-23 16:10:36.020034 [NOTICE] switch_loadable_module.c:365 Adding File Format 'file'
+2015-03-23 16:10:36.020051 [NOTICE] switch_loadable_module.c:450 Adding Chat interface 'event'
+2015-03-23 16:10:36.020068 [NOTICE] switch_loadable_module.c:450 Adding Chat interface 'api'
+2015-03-23 16:10:36.020382 [NOTICE] switch_loadable_module.c:315 Adding API Function 'expr'
+2015-03-23 16:10:36.021343 [INFO] switch_core_sqldb.c:1693 fifo Starting SQL thread.
+2015-03-23 16:10:36.021424 [DEBUG] switch_core_sqldb.c:1347 SQL ERR [no such table: fifo_outbound]
+[delete from fifo_outbound where static = 1 or taking_calls < 0 or stop_time < 0]
+Auto Generating Table!
+2015-03-23 16:10:36.021449 [DEBUG] switch_core_sqldb.c:1354 Ignoring SQL ERR [no such table: fifo_outbound]
+[drop table fifo_outbound]
+2015-03-23 16:10:36.021737 [DEBUG] switch_core_sqldb.c:1347 SQL ERR [no such table: fifo_bridge]
+[delete from fifo_bridge]
+Auto Generating Table!
+2015-03-23 16:10:36.021762 [DEBUG] switch_core_sqldb.c:1354 Ignoring SQL ERR [no such table: fifo_bridge]
+[drop table fifo_bridge]
+2015-03-23 16:10:36.021954 [DEBUG] switch_core_sqldb.c:1347 SQL ERR [no such table: fifo_callers]
+[delete from fifo_callers]
+Auto Generating Table!
+2015-03-23 16:10:36.021980 [DEBUG] switch_core_sqldb.c:1354 Ignoring SQL ERR [no such table: fifo_callers]
+[drop table fifo_callers]
+2015-03-23 16:10:36.022309 [INFO] mod_fifo.c:4626 cool_fifo@192.168.10.107 configured
+2015-03-23 16:10:36.022414 [NOTICE] switch_loadable_module.c:269 Adding Application 'fifo'
+2015-03-23 16:10:36.022443 [NOTICE] switch_loadable_module.c:269 Adding Application 'fifo_track_call'
+2015-03-23 16:10:36.022464 [NOTICE] switch_loadable_module.c:315 Adding API Function 'fifo'
+2015-03-23 16:10:36.022480 [NOTICE] switch_loadable_module.c:315 Adding API Function 'fifo_member'
+2015-03-23 16:10:36.022498 [NOTICE] switch_loadable_module.c:315 Adding API Function 'fifo_add_outbound'
+2015-03-23 16:10:36.022517 [NOTICE] switch_loadable_module.c:315 Adding API Function 'fifo_check_bridge'
+2015-03-23 16:10:36.022840 [DEBUG] switch_scheduler.c:249 Added task 3 limit_hash_cleanup (mod_hash) to run at 1427099136
+2015-03-23 16:10:36.022925 [NOTICE] switch_loadable_module.c:269 Adding Application 'hash'
+2015-03-23 16:10:36.022947 [NOTICE] switch_loadable_module.c:315 Adding API Function 'hash'
+2015-03-23 16:10:36.022964 [NOTICE] switch_loadable_module.c:315 Adding API Function 'hash_dump'
+2015-03-23 16:10:36.022980 [NOTICE] switch_loadable_module.c:315 Adding API Function 'hash_remote'
+2015-03-23 16:10:36.022997 [NOTICE] switch_loadable_module.c:523 Adding Limit interface 'hash'
+2015-03-23 16:10:36.023872 [DEBUG] switch_core_sqldb.c:1347 SQL ERR [no such table: voicemail_msgs]
+[select count(forwarded_by) from voicemail_msgs]
+Auto Generating Table!
+2015-03-23 16:10:36.023899 [DEBUG] switch_core_sqldb.c:1361 SQL ERR [no such table: voicemail_msgs]
+[alter table voicemail_msgs add forwarded_by varchar(255)]
+2015-03-23 16:10:36.023925 [DEBUG] switch_core_sqldb.c:1347 SQL ERR [no such table: voicemail_msgs]
+[select count(forwarded_by) from voicemail_msgs]
+Auto Generating Table!
+2015-03-23 16:10:36.023945 [DEBUG] switch_core_sqldb.c:1354 Ignoring SQL ERR [no such table: voicemail_msgs]
+[drop table voicemail_msgs]
+2015-03-23 16:10:36.024157 [DEBUG] switch_core_sqldb.c:1347 SQL ERR [no such table: voicemail_prefs]
+[select count(username) from voicemail_prefs]
+Auto Generating Table!
+2015-03-23 16:10:36.024182 [DEBUG] switch_core_sqldb.c:1354 Ignoring SQL ERR [no such table: voicemail_prefs]
+[drop table voicemail_prefs]
+2015-03-23 16:10:36.025910 [INFO] mod_voicemail.c:792 Added Profile default
+2015-03-23 16:10:36.025975 [NOTICE] switch_loadable_module.c:269 Adding Application 'voicemail'
+2015-03-23 16:10:36.026007 [NOTICE] switch_loadable_module.c:315 Adding API Function 'voicemail'
+2015-03-23 16:10:36.026026 [NOTICE] switch_loadable_module.c:315 Adding API Function 'voicemail_inject'
+2015-03-23 16:10:36.026041 [NOTICE] switch_loadable_module.c:315 Adding API Function 'vm_inject'
+2015-03-23 16:10:36.026058 [NOTICE] switch_loadable_module.c:315 Adding API Function 'vm_boxcount'
+2015-03-23 16:10:36.026075 [NOTICE] switch_loadable_module.c:315 Adding API Function 'vm_prefs'
+2015-03-23 16:10:36.026091 [NOTICE] switch_loadable_module.c:315 Adding API Function 'vm_delete'
+2015-03-23 16:10:36.026108 [NOTICE] switch_loadable_module.c:315 Adding API Function 'vm_read'
+2015-03-23 16:10:36.026124 [NOTICE] switch_loadable_module.c:315 Adding API Function 'vm_list'
+2015-03-23 16:10:36.026142 [NOTICE] switch_loadable_module.c:315 Adding API Function 'vm_fsdb_auth_login'
+2015-03-23 16:10:36.026159 [NOTICE] switch_loadable_module.c:315 Adding API Function 'vm_fsdb_msg_count'
+2015-03-23 16:10:36.026176 [NOTICE] switch_loadable_module.c:315 Adding API Function 'vm_fsdb_msg_list'
+2015-03-23 16:10:36.026194 [NOTICE] switch_loadable_module.c:315 Adding API Function 'vm_fsdb_msg_get'
+2015-03-23 16:10:36.026210 [NOTICE] switch_loadable_module.c:315 Adding API Function 'vm_fsdb_msg_delete'
+2015-03-23 16:10:36.026227 [NOTICE] switch_loadable_module.c:315 Adding API Function 'vm_fsdb_msg_undelete'
+2015-03-23 16:10:36.026244 [NOTICE] switch_loadable_module.c:315 Adding API Function 'vm_fsdb_msg_email'
+2015-03-23 16:10:36.026260 [NOTICE] switch_loadable_module.c:315 Adding API Function 'vm_fsdb_msg_purge'
+2015-03-23 16:10:36.026276 [NOTICE] switch_loadable_module.c:315 Adding API Function 'vm_fsdb_msg_save'
+2015-03-23 16:10:36.026293 [NOTICE] switch_loadable_module.c:315 Adding API Function 'vm_fsdb_msg_forward'
+2015-03-23 16:10:36.026309 [NOTICE] switch_loadable_module.c:315 Adding API Function 'vm_fsdb_pref_greeting_set'
+2015-03-23 16:10:36.026325 [NOTICE] switch_loadable_module.c:315 Adding API Function 'vm_fsdb_pref_greeting_get'
+2015-03-23 16:10:36.026341 [NOTICE] switch_loadable_module.c:315 Adding API Function 'vm_fsdb_pref_recname_set'
+2015-03-23 16:10:36.026358 [NOTICE] switch_loadable_module.c:315 Adding API Function 'vm_fsdb_pref_password_set'
+2015-03-23 16:10:36.026722 [NOTICE] switch_loadable_module.c:269 Adding Application 'esf_page_group'
+2015-03-23 16:10:36.027013 [NOTICE] switch_loadable_module.c:269 Adding Application 'play_fsv'
+2015-03-23 16:10:36.027033 [NOTICE] switch_loadable_module.c:269 Adding Application 'record_fsv'
+2015-03-23 16:10:36.027050 [NOTICE] switch_loadable_module.c:365 Adding File Format 'fsv'
+2015-03-23 16:10:36.027341 [NOTICE] switch_loadable_module.c:269 Adding Application 'valet_park'
+2015-03-23 16:10:36.027362 [NOTICE] switch_loadable_module.c:315 Adding API Function 'valet_info'
+2015-03-23 16:10:36.027782 [NOTICE] mod_httapi.c:2162 Profile [default] JSON Function [http://www.freeswitch.org/api/index.cgi]
+2015-03-23 16:10:36.027823 [NOTICE] switch_loadable_module.c:269 Adding Application 'httapi'
+2015-03-23 16:10:36.027843 [NOTICE] switch_loadable_module.c:315 Adding API Function 'httapi'
+2015-03-23 16:10:36.027858 [NOTICE] switch_loadable_module.c:365 Adding File Format 'http'
+2015-03-23 16:10:36.027873 [NOTICE] switch_loadable_module.c:365 Adding File Format 'https'
+2015-03-23 16:10:36.028157 [NOTICE] switch_loadable_module.c:227 Adding Dialplan 'XML'
+2015-03-23 16:10:36.028450 [NOTICE] switch_loadable_module.c:149 Adding Endpoint 'SIP'
+2015-03-23 16:10:36.028468 [NOTICE] switch_loadable_module.c:149 Adding Endpoint 'IAX2'
+2015-03-23 16:10:36.028482 [NOTICE] switch_loadable_module.c:227 Adding Dialplan 'asterisk'
+2015-03-23 16:10:36.028499 [NOTICE] switch_loadable_module.c:269 Adding Application 'Dial'
+2015-03-23 16:10:36.028514 [NOTICE] switch_loadable_module.c:269 Adding Application 'Goto'
+2015-03-23 16:10:36.028529 [NOTICE] switch_loadable_module.c:269 Adding Application 'AvoidingDeadlock'
+2015-03-23 16:10:36.030753 [DEBUG] mod_spandsp_fax.c:205 FAX timer thread started.
+2015-03-23 16:10:36.051199 [DEBUG] mod_spandsp.c:848 mod_spandsp loaded, using spandsp library version [20120902 163333]
+2015-03-23 16:10:36.051237 [NOTICE] switch_loadable_module.c:149 Adding Endpoint 'modem'
+2015-03-23 16:10:36.051317 [NOTICE] switch_loadable_module.c:192 Adding Codec DVI4 6 ADPCM (IMA) 16000hz 10ms 64000bps
+2015-03-23 16:10:36.051327 [NOTICE] switch_loadable_module.c:192 Adding Codec DVI4 6 ADPCM (IMA) 16000hz 20ms 64000bps
+2015-03-23 16:10:36.051332 [NOTICE] switch_loadable_module.c:192 Adding Codec DVI4 6 ADPCM (IMA) 16000hz 30ms 64000bps
+2015-03-23 16:10:36.051336 [NOTICE] switch_loadable_module.c:192 Adding Codec DVI4 6 ADPCM (IMA) 16000hz 40ms 64000bps
+2015-03-23 16:10:36.051341 [NOTICE] switch_loadable_module.c:192 Adding Codec DVI4 6 ADPCM (IMA) 16000hz 50ms 64000bps
+2015-03-23 16:10:36.051345 [NOTICE] switch_loadable_module.c:192 Adding Codec DVI4 6 ADPCM (IMA) 16000hz 60ms 64000bps
+2015-03-23 16:10:36.051349 [NOTICE] switch_loadable_module.c:192 Adding Codec DVI4 5 ADPCM (IMA) 8000hz 10ms 32000bps
+2015-03-23 16:10:36.051353 [NOTICE] switch_loadable_module.c:192 Adding Codec DVI4 5 ADPCM (IMA) 8000hz 20ms 32000bps
+2015-03-23 16:10:36.051358 [NOTICE] switch_loadable_module.c:192 Adding Codec DVI4 5 ADPCM (IMA) 8000hz 30ms 32000bps
+2015-03-23 16:10:36.051362 [NOTICE] switch_loadable_module.c:192 Adding Codec DVI4 5 ADPCM (IMA) 8000hz 40ms 32000bps
+2015-03-23 16:10:36.051366 [NOTICE] switch_loadable_module.c:192 Adding Codec DVI4 5 ADPCM (IMA) 8000hz 50ms 32000bps
+2015-03-23 16:10:36.051371 [NOTICE] switch_loadable_module.c:192 Adding Codec DVI4 5 ADPCM (IMA) 8000hz 60ms 32000bps
+2015-03-23 16:10:36.051375 [NOTICE] switch_loadable_module.c:192 Adding Codec DVI4 5 ADPCM (IMA) 8000hz 70ms 32000bps
+2015-03-23 16:10:36.051379 [NOTICE] switch_loadable_module.c:192 Adding Codec DVI4 5 ADPCM (IMA) 8000hz 80ms 32000bps
+2015-03-23 16:10:36.051384 [NOTICE] switch_loadable_module.c:192 Adding Codec DVI4 5 ADPCM (IMA) 8000hz 90ms 32000bps
+2015-03-23 16:10:36.051388 [NOTICE] switch_loadable_module.c:192 Adding Codec DVI4 5 ADPCM (IMA) 8000hz 100ms 32000bps
+2015-03-23 16:10:36.051393 [NOTICE] switch_loadable_module.c:192 Adding Codec DVI4 5 ADPCM (IMA) 8000hz 110ms 32000bps
+2015-03-23 16:10:36.051397 [NOTICE] switch_loadable_module.c:192 Adding Codec DVI4 5 ADPCM (IMA) 8000hz 120ms 32000bps
+2015-03-23 16:10:36.051415 [NOTICE] switch_loadable_module.c:192 Adding Codec AAL2-G726-16 124 G.726 16k (AAL2) 8000hz 10ms 16000bps
+2015-03-23 16:10:36.051421 [NOTICE] switch_loadable_module.c:192 Adding Codec AAL2-G726-16 124 G.726 16k (AAL2) 8000hz 20ms 16000bps
+2015-03-23 16:10:36.051426 [NOTICE] switch_loadable_module.c:192 Adding Codec AAL2-G726-16 124 G.726 16k (AAL2) 8000hz 30ms 16000bps
+2015-03-23 16:10:36.051431 [NOTICE] switch_loadable_module.c:192 Adding Codec AAL2-G726-16 124 G.726 16k (AAL2) 8000hz 40ms 16000bps
+2015-03-23 16:10:36.051436 [NOTICE] switch_loadable_module.c:192 Adding Codec AAL2-G726-16 124 G.726 16k (AAL2) 8000hz 50ms 16000bps
+2015-03-23 16:10:36.051441 [NOTICE] switch_loadable_module.c:192 Adding Codec AAL2-G726-16 124 G.726 16k (AAL2) 8000hz 60ms 16000bps
+2015-03-23 16:10:36.051445 [NOTICE] switch_loadable_module.c:192 Adding Codec AAL2-G726-16 124 G.726 16k (AAL2) 8000hz 70ms 16000bps
+2015-03-23 16:10:36.051450 [NOTICE] switch_loadable_module.c:192 Adding Codec AAL2-G726-16 124 G.726 16k (AAL2) 8000hz 80ms 16000bps
+2015-03-23 16:10:36.051454 [NOTICE] switch_loadable_module.c:192 Adding Codec AAL2-G726-16 124 G.726 16k (AAL2) 8000hz 90ms 16000bps
+2015-03-23 16:10:36.051459 [NOTICE] switch_loadable_module.c:192 Adding Codec AAL2-G726-16 124 G.726 16k (AAL2) 8000hz 100ms 16000bps
+2015-03-23 16:10:36.051464 [NOTICE] switch_loadable_module.c:192 Adding Codec AAL2-G726-16 124 G.726 16k (AAL2) 8000hz 110ms 16000bps
+2015-03-23 16:10:36.051468 [NOTICE] switch_loadable_module.c:192 Adding Codec AAL2-G726-16 124 G.726 16k (AAL2) 8000hz 120ms 16000bps
+2015-03-23 16:10:36.051486 [NOTICE] switch_loadable_module.c:192 Adding Codec G726-16 124 G.726 16k 8000hz 10ms 16000bps
+2015-03-23 16:10:36.051492 [NOTICE] switch_loadable_module.c:192 Adding Codec G726-16 124 G.726 16k 8000hz 20ms 16000bps
+2015-03-23 16:10:36.051497 [NOTICE] switch_loadable_module.c:192 Adding Codec G726-16 124 G.726 16k 8000hz 30ms 16000bps
+2015-03-23 16:10:36.051501 [NOTICE] switch_loadable_module.c:192 Adding Codec G726-16 124 G.726 16k 8000hz 40ms 16000bps
+2015-03-23 16:10:36.051506 [NOTICE] switch_loadable_module.c:192 Adding Codec G726-16 124 G.726 16k 8000hz 50ms 16000bps
+2015-03-23 16:10:36.051510 [NOTICE] switch_loadable_module.c:192 Adding Codec G726-16 124 G.726 16k 8000hz 60ms 16000bps
+2015-03-23 16:10:36.051515 [NOTICE] switch_loadable_module.c:192 Adding Codec G726-16 124 G.726 16k 8000hz 70ms 16000bps
+2015-03-23 16:10:36.051519 [NOTICE] switch_loadable_module.c:192 Adding Codec G726-16 124 G.726 16k 8000hz 80ms 16000bps
+2015-03-23 16:10:36.051524 [NOTICE] switch_loadable_module.c:192 Adding Codec G726-16 124 G.726 16k 8000hz 90ms 16000bps
+2015-03-23 16:10:36.051528 [NOTICE] switch_loadable_module.c:192 Adding Codec G726-16 124 G.726 16k 8000hz 100ms 16000bps
+2015-03-23 16:10:36.051533 [NOTICE] switch_loadable_module.c:192 Adding Codec G726-16 124 G.726 16k 8000hz 110ms 16000bps
+2015-03-23 16:10:36.051537 [NOTICE] switch_loadable_module.c:192 Adding Codec G726-16 124 G.726 16k 8000hz 120ms 16000bps
+2015-03-23 16:10:36.051556 [NOTICE] switch_loadable_module.c:192 Adding Codec AAL2-G726-24 123 G.726 24k (AAL2) 8000hz 10ms 24000bps
+2015-03-23 16:10:36.051561 [NOTICE] switch_loadable_module.c:192 Adding Codec AAL2-G726-24 123 G.726 24k (AAL2) 8000hz 20ms 24000bps
+2015-03-23 16:10:36.051566 [NOTICE] switch_loadable_module.c:192 Adding Codec AAL2-G726-24 123 G.726 24k (AAL2) 8000hz 30ms 24000bps
+2015-03-23 16:10:36.051572 [NOTICE] switch_loadable_module.c:192 Adding Codec AAL2-G726-24 123 G.726 24k (AAL2) 8000hz 40ms 24000bps
+2015-03-23 16:10:36.051577 [NOTICE] switch_loadable_module.c:192 Adding Codec AAL2-G726-24 123 G.726 24k (AAL2) 8000hz 50ms 24000bps
+2015-03-23 16:10:36.051581 [NOTICE] switch_loadable_module.c:192 Adding Codec AAL2-G726-24 123 G.726 24k (AAL2) 8000hz 60ms 24000bps
+2015-03-23 16:10:36.051586 [NOTICE] switch_loadable_module.c:192 Adding Codec AAL2-G726-24 123 G.726 24k (AAL2) 8000hz 70ms 24000bps
+2015-03-23 16:10:36.051590 [NOTICE] switch_loadable_module.c:192 Adding Codec AAL2-G726-24 123 G.726 24k (AAL2) 8000hz 80ms 24000bps
+2015-03-23 16:10:36.051595 [NOTICE] switch_loadable_module.c:192 Adding Codec AAL2-G726-24 123 G.726 24k (AAL2) 8000hz 90ms 24000bps
+2015-03-23 16:10:36.051600 [NOTICE] switch_loadable_module.c:192 Adding Codec AAL2-G726-24 123 G.726 24k (AAL2) 8000hz 100ms 24000bps
+2015-03-23 16:10:36.051604 [NOTICE] switch_loadable_module.c:192 Adding Codec AAL2-G726-24 123 G.726 24k (AAL2) 8000hz 110ms 24000bps
+2015-03-23 16:10:36.051608 [NOTICE] switch_loadable_module.c:192 Adding Codec AAL2-G726-24 123 G.726 24k (AAL2) 8000hz 120ms 24000bps
+2015-03-23 16:10:36.051626 [NOTICE] switch_loadable_module.c:192 Adding Codec G726-24 123 G.726 24k 8000hz 10ms 24000bps
+2015-03-23 16:10:36.051632 [NOTICE] switch_loadable_module.c:192 Adding Codec G726-24 123 G.726 24k 8000hz 20ms 24000bps
+2015-03-23 16:10:36.051636 [NOTICE] switch_loadable_module.c:192 Adding Codec G726-24 123 G.726 24k 8000hz 30ms 24000bps
+2015-03-23 16:10:36.051641 [NOTICE] switch_loadable_module.c:192 Adding Codec G726-24 123 G.726 24k 8000hz 40ms 24000bps
+2015-03-23 16:10:36.051646 [NOTICE] switch_loadable_module.c:192 Adding Codec G726-24 123 G.726 24k 8000hz 50ms 24000bps
+2015-03-23 16:10:36.051650 [NOTICE] switch_loadable_module.c:192 Adding Codec G726-24 123 G.726 24k 8000hz 60ms 24000bps
+2015-03-23 16:10:36.051655 [NOTICE] switch_loadable_module.c:192 Adding Codec G726-24 123 G.726 24k 8000hz 70ms 24000bps
+2015-03-23 16:10:36.051659 [NOTICE] switch_loadable_module.c:192 Adding Codec G726-24 123 G.726 24k 8000hz 80ms 24000bps
+2015-03-23 16:10:36.051664 [NOTICE] switch_loadable_module.c:192 Adding Codec G726-24 123 G.726 24k 8000hz 90ms 24000bps
+2015-03-23 16:10:36.051668 [NOTICE] switch_loadable_module.c:192 Adding Codec G726-24 123 G.726 24k 8000hz 100ms 24000bps
+2015-03-23 16:10:36.051672 [NOTICE] switch_loadable_module.c:192 Adding Codec G726-24 123 G.726 24k 8000hz 110ms 24000bps
+2015-03-23 16:10:36.051677 [NOTICE] switch_loadable_module.c:192 Adding Codec G726-24 123 G.726 24k 8000hz 120ms 24000bps
+2015-03-23 16:10:36.051695 [NOTICE] switch_loadable_module.c:192 Adding Codec AAL2-G726-32 122 G.726 32k (AAL2) 8000hz 10ms 32000bps
+2015-03-23 16:10:36.051700 [NOTICE] switch_loadable_module.c:192 Adding Codec AAL2-G726-32 122 G.726 32k (AAL2) 8000hz 20ms 32000bps
+2015-03-23 16:10:36.051705 [NOTICE] switch_loadable_module.c:192 Adding Codec AAL2-G726-32 122 G.726 32k (AAL2) 8000hz 30ms 32000bps
+2015-03-23 16:10:36.051710 [NOTICE] switch_loadable_module.c:192 Adding Codec AAL2-G726-32 122 G.726 32k (AAL2) 8000hz 40ms 32000bps
+2015-03-23 16:10:36.051714 [NOTICE] switch_loadable_module.c:192 Adding Codec AAL2-G726-32 122 G.726 32k (AAL2) 8000hz 50ms 32000bps
+2015-03-23 16:10:36.051719 [NOTICE] switch_loadable_module.c:192 Adding Codec AAL2-G726-32 122 G.726 32k (AAL2) 8000hz 60ms 32000bps
+2015-03-23 16:10:36.051723 [NOTICE] switch_loadable_module.c:192 Adding Codec AAL2-G726-32 122 G.726 32k (AAL2) 8000hz 70ms 32000bps
+2015-03-23 16:10:36.051728 [NOTICE] switch_loadable_module.c:192 Adding Codec AAL2-G726-32 122 G.726 32k (AAL2) 8000hz 80ms 32000bps
+2015-03-23 16:10:36.051733 [NOTICE] switch_loadable_module.c:192 Adding Codec AAL2-G726-32 122 G.726 32k (AAL2) 8000hz 90ms 32000bps
+2015-03-23 16:10:36.051737 [NOTICE] switch_loadable_module.c:192 Adding Codec AAL2-G726-32 122 G.726 32k (AAL2) 8000hz 100ms 32000bps
+2015-03-23 16:10:36.051742 [NOTICE] switch_loadable_module.c:192 Adding Codec AAL2-G726-32 122 G.726 32k (AAL2) 8000hz 110ms 32000bps
+2015-03-23 16:10:36.051746 [NOTICE] switch_loadable_module.c:192 Adding Codec AAL2-G726-32 122 G.726 32k (AAL2) 8000hz 120ms 32000bps
+2015-03-23 16:10:36.051764 [NOTICE] switch_loadable_module.c:192 Adding Codec G726-32 122 G.726 32k 8000hz 10ms 32000bps
+2015-03-23 16:10:36.051770 [NOTICE] switch_loadable_module.c:192 Adding Codec G726-32 122 G.726 32k 8000hz 20ms 32000bps
+2015-03-23 16:10:36.051775 [NOTICE] switch_loadable_module.c:192 Adding Codec G726-32 122 G.726 32k 8000hz 30ms 32000bps
+2015-03-23 16:10:36.051779 [NOTICE] switch_loadable_module.c:192 Adding Codec G726-32 122 G.726 32k 8000hz 40ms 32000bps
+2015-03-23 16:10:36.051784 [NOTICE] switch_loadable_module.c:192 Adding Codec G726-32 122 G.726 32k 8000hz 50ms 32000bps
+2015-03-23 16:10:36.051788 [NOTICE] switch_loadable_module.c:192 Adding Codec G726-32 122 G.726 32k 8000hz 60ms 32000bps
+2015-03-23 16:10:36.051793 [NOTICE] switch_loadable_module.c:192 Adding Codec G726-32 122 G.726 32k 8000hz 70ms 32000bps
+2015-03-23 16:10:36.051797 [NOTICE] switch_loadable_module.c:192 Adding Codec G726-32 122 G.726 32k 8000hz 80ms 32000bps
+2015-03-23 16:10:36.051802 [NOTICE] switch_loadable_module.c:192 Adding Codec G726-32 122 G.726 32k 8000hz 90ms 32000bps
+2015-03-23 16:10:36.051806 [NOTICE] switch_loadable_module.c:192 Adding Codec G726-32 122 G.726 32k 8000hz 100ms 32000bps
+2015-03-23 16:10:36.051811 [NOTICE] switch_loadable_module.c:192 Adding Codec G726-32 122 G.726 32k 8000hz 110ms 32000bps
+2015-03-23 16:10:36.051815 [NOTICE] switch_loadable_module.c:192 Adding Codec G726-32 122 G.726 32k 8000hz 120ms 32000bps
+2015-03-23 16:10:36.051832 [NOTICE] switch_loadable_module.c:192 Adding Codec AAL2-G726-40 121 G.726 40k (AAL2) 8000hz 10ms 40000bps
+2015-03-23 16:10:36.051837 [NOTICE] switch_loadable_module.c:192 Adding Codec AAL2-G726-40 121 G.726 40k (AAL2) 8000hz 20ms 40000bps
+2015-03-23 16:10:36.051842 [NOTICE] switch_loadable_module.c:192 Adding Codec AAL2-G726-40 121 G.726 40k (AAL2) 8000hz 30ms 40000bps
+2015-03-23 16:10:36.051847 [NOTICE] switch_loadable_module.c:192 Adding Codec AAL2-G726-40 121 G.726 40k (AAL2) 8000hz 40ms 40000bps
+2015-03-23 16:10:36.051851 [NOTICE] switch_loadable_module.c:192 Adding Codec AAL2-G726-40 121 G.726 40k (AAL2) 8000hz 50ms 40000bps
+2015-03-23 16:10:36.051856 [NOTICE] switch_loadable_module.c:192 Adding Codec AAL2-G726-40 121 G.726 40k (AAL2) 8000hz 60ms 40000bps
+2015-03-23 16:10:36.051861 [NOTICE] switch_loadable_module.c:192 Adding Codec AAL2-G726-40 121 G.726 40k (AAL2) 8000hz 70ms 40000bps
+2015-03-23 16:10:36.051865 [NOTICE] switch_loadable_module.c:192 Adding Codec AAL2-G726-40 121 G.726 40k (AAL2) 8000hz 80ms 40000bps
+2015-03-23 16:10:36.051870 [NOTICE] switch_loadable_module.c:192 Adding Codec AAL2-G726-40 121 G.726 40k (AAL2) 8000hz 90ms 40000bps
+2015-03-23 16:10:36.051874 [NOTICE] switch_loadable_module.c:192 Adding Codec AAL2-G726-40 121 G.726 40k (AAL2) 8000hz 100ms 40000bps
+2015-03-23 16:10:36.051878 [NOTICE] switch_loadable_module.c:192 Adding Codec AAL2-G726-40 121 G.726 40k (AAL2) 8000hz 110ms 40000bps
+2015-03-23 16:10:36.051883 [NOTICE] switch_loadable_module.c:192 Adding Codec AAL2-G726-40 121 G.726 40k (AAL2) 8000hz 120ms 40000bps
+2015-03-23 16:10:36.051900 [NOTICE] switch_loadable_module.c:192 Adding Codec G726-40 121 G.726 40k 8000hz 10ms 40000bps
+2015-03-23 16:10:36.051906 [NOTICE] switch_loadable_module.c:192 Adding Codec G726-40 121 G.726 40k 8000hz 20ms 40000bps
+2015-03-23 16:10:36.051910 [NOTICE] switch_loadable_module.c:192 Adding Codec G726-40 121 G.726 40k 8000hz 30ms 40000bps
+2015-03-23 16:10:36.051915 [NOTICE] switch_loadable_module.c:192 Adding Codec G726-40 121 G.726 40k 8000hz 40ms 40000bps
+2015-03-23 16:10:36.051919 [NOTICE] switch_loadable_module.c:192 Adding Codec G726-40 121 G.726 40k 8000hz 50ms 40000bps
+2015-03-23 16:10:36.051923 [NOTICE] switch_loadable_module.c:192 Adding Codec G726-40 121 G.726 40k 8000hz 60ms 40000bps
+2015-03-23 16:10:36.051928 [NOTICE] switch_loadable_module.c:192 Adding Codec G726-40 121 G.726 40k 8000hz 70ms 40000bps
+2015-03-23 16:10:36.051934 [NOTICE] switch_loadable_module.c:192 Adding Codec G726-40 121 G.726 40k 8000hz 80ms 40000bps
+2015-03-23 16:10:36.051939 [NOTICE] switch_loadable_module.c:192 Adding Codec G726-40 121 G.726 40k 8000hz 90ms 40000bps
+2015-03-23 16:10:36.051944 [NOTICE] switch_loadable_module.c:192 Adding Codec G726-40 121 G.726 40k 8000hz 100ms 40000bps
+2015-03-23 16:10:36.051953 [NOTICE] switch_loadable_module.c:192 Adding Codec G726-40 121 G.726 40k 8000hz 110ms 40000bps
+2015-03-23 16:10:36.051958 [NOTICE] switch_loadable_module.c:192 Adding Codec G726-40 121 G.726 40k 8000hz 120ms 40000bps
+2015-03-23 16:10:36.051976 [NOTICE] switch_loadable_module.c:192 Adding Codec G722 9 G.722 16000hz 10ms 64000bps
+2015-03-23 16:10:36.051981 [NOTICE] switch_loadable_module.c:192 Adding Codec G722 9 G.722 16000hz 20ms 64000bps
+2015-03-23 16:10:36.051986 [NOTICE] switch_loadable_module.c:192 Adding Codec G722 9 G.722 16000hz 30ms 64000bps
+2015-03-23 16:10:36.051991 [NOTICE] switch_loadable_module.c:192 Adding Codec G722 9 G.722 16000hz 40ms 64000bps
+2015-03-23 16:10:36.051996 [NOTICE] switch_loadable_module.c:192 Adding Codec G722 9 G.722 16000hz 50ms 64000bps
+2015-03-23 16:10:36.052000 [NOTICE] switch_loadable_module.c:192 Adding Codec G722 9 G.722 16000hz 60ms 64000bps
+2015-03-23 16:10:36.052017 [NOTICE] switch_loadable_module.c:192 Adding Codec GSM 3 GSM 8000hz 20ms 13200bps
+2015-03-23 16:10:36.052022 [NOTICE] switch_loadable_module.c:192 Adding Codec GSM 3 GSM 8000hz 40ms 13200bps
+2015-03-23 16:10:36.052027 [NOTICE] switch_loadable_module.c:192 Adding Codec GSM 3 GSM 8000hz 60ms 13200bps
+2015-03-23 16:10:36.052032 [NOTICE] switch_loadable_module.c:192 Adding Codec GSM 3 GSM 8000hz 80ms 13200bps
+2015-03-23 16:10:36.052041 [NOTICE] switch_loadable_module.c:192 Adding Codec GSM 3 GSM 8000hz 100ms 13200bps
+2015-03-23 16:10:36.052045 [NOTICE] switch_loadable_module.c:192 Adding Codec GSM 3 GSM 8000hz 120ms 13200bps
+2015-03-23 16:10:36.052060 [NOTICE] switch_loadable_module.c:192 Adding Codec LPC 7 LPC-10 8000hz 90ms 2400bps
+2015-03-23 16:10:36.052079 [NOTICE] switch_loadable_module.c:269 Adding Application 't38_gateway'
+2015-03-23 16:10:36.052099 [NOTICE] switch_loadable_module.c:269 Adding Application 'rxfax'
+2015-03-23 16:10:36.052116 [NOTICE] switch_loadable_module.c:269 Adding Application 'txfax'
+2015-03-23 16:10:36.052134 [NOTICE] switch_loadable_module.c:269 Adding Application 'stopfax'
+2015-03-23 16:10:36.052152 [NOTICE] switch_loadable_module.c:269 Adding Application 'spandsp_stop_dtmf'
+2015-03-23 16:10:36.052169 [NOTICE] switch_loadable_module.c:269 Adding Application 'spandsp_start_dtmf'
+2015-03-23 16:10:36.052188 [NOTICE] switch_loadable_module.c:269 Adding Application 'spandsp_stop_inject_tdd'
+2015-03-23 16:10:36.052204 [NOTICE] switch_loadable_module.c:269 Adding Application 'spandsp_inject_tdd'
+2015-03-23 16:10:36.052224 [NOTICE] switch_loadable_module.c:269 Adding Application 'spandsp_stop_detect_tdd'
+2015-03-23 16:10:36.052242 [NOTICE] switch_loadable_module.c:269 Adding Application 'spandsp_detect_tdd'
+2015-03-23 16:10:36.052259 [NOTICE] switch_loadable_module.c:269 Adding Application 'spandsp_send_tdd'
+2015-03-23 16:10:36.052277 [NOTICE] switch_loadable_module.c:269 Adding Application 'spandsp_start_fax_detect'
+2015-03-23 16:10:36.052294 [NOTICE] switch_loadable_module.c:269 Adding Application 'spandsp_stop_fax_detect'
+2015-03-23 16:10:36.052312 [NOTICE] switch_loadable_module.c:269 Adding Application 'spandsp_start_tone_detect'
+2015-03-23 16:10:36.052330 [NOTICE] switch_loadable_module.c:269 Adding Application 'spandsp_stop_tone_detect'
+2015-03-23 16:10:36.052346 [NOTICE] switch_loadable_module.c:315 Adding API Function 'spandsp_start_tone_detect'
+2015-03-23 16:10:36.052365 [NOTICE] switch_loadable_module.c:315 Adding API Function 'spandsp_stop_tone_detect'
+2015-03-23 16:10:36.052384 [NOTICE] switch_loadable_module.c:315 Adding API Function 'start_tdd_detect'
+2015-03-23 16:10:36.052401 [NOTICE] switch_loadable_module.c:315 Adding API Function 'stop_tdd_detect'
+2015-03-23 16:10:36.052419 [NOTICE] switch_loadable_module.c:315 Adding API Function 'uuid_send_tdd'
+2015-03-23 16:10:36.052804 [NOTICE] switch_loadable_module.c:192 Adding Codec G723 4 G.723.1 6.3k 8000hz 120ms 6300bps
+2015-03-23 16:10:36.052812 [NOTICE] switch_loadable_module.c:192 Adding Codec G723 4 G.723.1 6.3k 8000hz 90ms 6300bps
+2015-03-23 16:10:36.052817 [NOTICE] switch_loadable_module.c:192 Adding Codec G723 4 G.723.1 6.3k 8000hz 60ms 6300bps
+2015-03-23 16:10:36.052821 [NOTICE] switch_loadable_module.c:192 Adding Codec G723 4 G.723.1 6.3k 8000hz 30ms 6300bps
+2015-03-23 16:10:36.053108 [NOTICE] switch_loadable_module.c:192 Adding Codec G729 18 G.729 8000hz 10ms 8000bps
+2015-03-23 16:10:36.053114 [NOTICE] switch_loadable_module.c:192 Adding Codec G729 18 G.729 8000hz 20ms 8000bps
+2015-03-23 16:10:36.053119 [NOTICE] switch_loadable_module.c:192 Adding Codec G729 18 G.729 8000hz 30ms 8000bps
+2015-03-23 16:10:36.053123 [NOTICE] switch_loadable_module.c:192 Adding Codec G729 18 G.729 8000hz 40ms 8000bps
+2015-03-23 16:10:36.053128 [NOTICE] switch_loadable_module.c:192 Adding Codec G729 18 G.729 8000hz 50ms 8000bps
+2015-03-23 16:10:36.053132 [NOTICE] switch_loadable_module.c:192 Adding Codec G729 18 G.729 8000hz 60ms 8000bps
+2015-03-23 16:10:36.053136 [NOTICE] switch_loadable_module.c:192 Adding Codec G729 18 G.729 8000hz 70ms 8000bps
+2015-03-23 16:10:36.053140 [NOTICE] switch_loadable_module.c:192 Adding Codec G729 18 G.729 8000hz 80ms 8000bps
+2015-03-23 16:10:36.053146 [NOTICE] switch_loadable_module.c:192 Adding Codec G729 18 G.729 8000hz 90ms 8000bps
+2015-03-23 16:10:36.053150 [NOTICE] switch_loadable_module.c:192 Adding Codec G729 18 G.729 8000hz 100ms 8000bps
+2015-03-23 16:10:36.053155 [NOTICE] switch_loadable_module.c:192 Adding Codec G729 18 G.729 8000hz 110ms 8000bps
+2015-03-23 16:10:36.053159 [NOTICE] switch_loadable_module.c:192 Adding Codec G729 18 G.729 8000hz 120ms 8000bps
+2015-03-23 16:10:36.053469 [NOTICE] switch_loadable_module.c:192 Adding Codec AMR 96 AMR 8000hz 20ms 12200bps
+2015-03-23 16:10:36.053794 [NOTICE] switch_loadable_module.c:198 Adding Codec H264 97 H.264 Video (passthru) 90000hz 0ms (VBR)
+2015-03-23 16:10:36.053815 [NOTICE] switch_loadable_module.c:198 Adding Codec H263 34 H.263 Video (passthru) 90000hz 0ms (VBR)
+2015-03-23 16:10:36.053830 [NOTICE] switch_loadable_module.c:198 Adding Codec H263-1998 115 H.263+ Video (passthru) 90000hz 0ms (VBR)
+2015-03-23 16:10:36.053843 [NOTICE] switch_loadable_module.c:198 Adding Codec H263-2000 121 H.263++ Video (passthru) 90000hz 0ms (VBR)
+2015-03-23 16:10:36.053856 [NOTICE] switch_loadable_module.c:198 Adding Codec H261 31 H.261 Video (passthru) 90000hz 0ms (VBR)
+2015-03-23 16:10:36.054125 [NOTICE] switch_loadable_module.c:198 Adding Codec VP8 99 VP8 Video (passthru) 90000hz 0ms (VBR)
+2015-03-23 16:10:36.054149 [NOTICE] switch_loadable_module.c:198 Adding Codec red 103 red Video (passthru) 90000hz 0ms (VBR)
+2015-03-23 16:10:36.054165 [NOTICE] switch_loadable_module.c:198 Adding Codec ulpfec 104 ulpfec Video (passthru) 90000hz 0ms (VBR)
+2015-03-23 16:10:36.054402 [NOTICE] switch_loadable_module.c:192 Adding Codec b64 116 B64 (STANDARD) 32000hz 20ms 684800bps
+2015-03-23 16:10:36.054408 [NOTICE] switch_loadable_module.c:192 Adding Codec b64 116 B64 (STANDARD) 16000hz 20ms 342400bps
+2015-03-23 16:10:36.054412 [NOTICE] switch_loadable_module.c:192 Adding Codec b64 116 B64 (STANDARD) 8000hz 20ms 171200bps
+2015-03-23 16:10:36.054731 [NOTICE] switch_loadable_module.c:198 Adding Codec opus 116 OPUS (STANDARD) 8000hz 30ms (VBR)
+2015-03-23 16:10:36.054737 [NOTICE] switch_loadable_module.c:198 Adding Codec opus 116 OPUS (STANDARD) 8000hz 30ms (VBR)
+2015-03-23 16:10:36.054742 [NOTICE] switch_loadable_module.c:198 Adding Codec opus 116 OPUS (STANDARD) 8000hz 20ms (VBR)
+2015-03-23 16:10:36.054746 [NOTICE] switch_loadable_module.c:198 Adding Codec opus 116 OPUS (STANDARD) 8000hz 20ms (VBR)
+2015-03-23 16:10:36.054750 [NOTICE] switch_loadable_module.c:198 Adding Codec opus 116 OPUS (STANDARD) 8000hz 10ms (VBR)
+2015-03-23 16:10:36.054754 [NOTICE] switch_loadable_module.c:198 Adding Codec opus 116 OPUS (STANDARD) 8000hz 10ms (VBR)
+2015-03-23 16:10:36.054758 [NOTICE] switch_loadable_module.c:198 Adding Codec opus 116 OPUS (STANDARD) 48000hz 40ms (VBR)
+2015-03-23 16:10:36.054762 [NOTICE] switch_loadable_module.c:198 Adding Codec opus 116 OPUS (STANDARD) 48000hz 20ms (VBR)
+2015-03-23 16:10:36.054766 [NOTICE] switch_loadable_module.c:198 Adding Codec opus 116 OPUS (STANDARD) 48000hz 20ms (VBR)
+2015-03-23 16:10:36.054770 [NOTICE] switch_loadable_module.c:198 Adding Codec opus 116 OPUS (STANDARD) 48000hz 10ms (VBR)
+2015-03-23 16:10:36.054775 [NOTICE] switch_loadable_module.c:198 Adding Codec opus 116 OPUS (STANDARD) 48000hz 10ms (VBR)
+2015-03-23 16:10:36.055280 [INFO] mod_sndfile.c:388 
+LibSndFile Version : libsndfile-1.0.26pre5 Supported Formats
+================================================================================
+AIFF (Apple/SGI)  (extension "aiff")
+AU (Sun/NeXT)  (extension "au")
+AVR (Audio Visual Research)  (extension "avr")
+CAF (Apple Core Audio File)  (extension "caf")
+HTK (HMM Tool Kit)  (extension "htk")
+IFF (Amiga IFF/SVX8/SV16)  (extension "iff")
+MAT4 (GNU Octave 2.0 / Matlab 4.2)  (extension "mat")
+MAT5 (GNU Octave 2.1 / Matlab 5.0)  (extension "mat")
+MPC (Akai MPC 2k)  (extension "mpc")
+PAF (Ensoniq PARIS)  (extension "paf")
+PVF (Portable Voice Format)  (extension "pvf")
+RAW (header-less)  (extension "raw")
+RF64 (RIFF 64)  (extension "rf64")
+SD2 (Sound Designer II)  (extension "sd2")
+SDS (Midi Sample Dump Standard)  (extension "sds")
+SF (Berkeley/IRCAM/CARL)  (extension "sf")
+VOC (Creative Labs)  (extension "voc")
+W64 (SoundFoundry WAVE 64)  (extension "w64")
+WAV (Microsoft)  (extension "wav")
+WAV (NIST Sphere)  (extension "wav")
+WAVEX (Microsoft)  (extension "wav")
+WVE (Psion Series 3)  (extension "wve")
+XI (FastTracker 2)  (extension "xi")
+================================================================================
+2015-03-23 16:10:36.055362 [NOTICE] switch_loadable_module.c:365 Adding File Format 'aiff'
+2015-03-23 16:10:36.055384 [NOTICE] switch_loadable_module.c:365 Adding File Format 'au'
+2015-03-23 16:10:36.055401 [NOTICE] switch_loadable_module.c:365 Adding File Format 'avr'
+2015-03-23 16:10:36.055415 [NOTICE] switch_loadable_module.c:365 Adding File Format 'caf'
+2015-03-23 16:10:36.055431 [NOTICE] switch_loadable_module.c:365 Adding File Format 'htk'
+2015-03-23 16:10:36.055447 [NOTICE] switch_loadable_module.c:365 Adding File Format 'iff'
+2015-03-23 16:10:36.055462 [NOTICE] switch_loadable_module.c:365 Adding File Format 'mat'
+2015-03-23 16:10:36.055477 [NOTICE] switch_loadable_module.c:365 Adding File Format 'mpc'
+2015-03-23 16:10:36.055492 [NOTICE] switch_loadable_module.c:365 Adding File Format 'paf'
+2015-03-23 16:10:36.055508 [NOTICE] switch_loadable_module.c:365 Adding File Format 'pvf'
+2015-03-23 16:10:36.055524 [NOTICE] switch_loadable_module.c:365 Adding File Format 'raw'
+2015-03-23 16:10:36.055539 [NOTICE] switch_loadable_module.c:365 Adding File Format 'rf64'
+2015-03-23 16:10:36.055555 [NOTICE] switch_loadable_module.c:365 Adding File Format 'sd2'
+2015-03-23 16:10:36.055569 [NOTICE] switch_loadable_module.c:365 Adding File Format 'sds'
+2015-03-23 16:10:36.055584 [NOTICE] switch_loadable_module.c:365 Adding File Format 'sf'
+2015-03-23 16:10:36.055599 [NOTICE] switch_loadable_module.c:365 Adding File Format 'voc'
+2015-03-23 16:10:36.055614 [NOTICE] switch_loadable_module.c:365 Adding File Format 'w64'
+2015-03-23 16:10:36.055629 [NOTICE] switch_loadable_module.c:365 Adding File Format 'wav'
+2015-03-23 16:10:36.055644 [NOTICE] switch_loadable_module.c:365 Adding File Format 'wve'
+2015-03-23 16:10:36.055658 [NOTICE] switch_loadable_module.c:365 Adding File Format 'xi'
+2015-03-23 16:10:36.055673 [NOTICE] switch_loadable_module.c:365 Adding File Format 'r8'
+2015-03-23 16:10:36.055688 [NOTICE] switch_loadable_module.c:365 Adding File Format 'r16'
+2015-03-23 16:10:36.055702 [NOTICE] switch_loadable_module.c:365 Adding File Format 'r24'
+2015-03-23 16:10:36.055716 [NOTICE] switch_loadable_module.c:365 Adding File Format 'r32'
+2015-03-23 16:10:36.055731 [NOTICE] switch_loadable_module.c:365 Adding File Format 'gsm'
+2015-03-23 16:10:36.055746 [NOTICE] switch_loadable_module.c:365 Adding File Format 'ul'
+2015-03-23 16:10:36.055760 [NOTICE] switch_loadable_module.c:365 Adding File Format 'ulaw'
+2015-03-23 16:10:36.055776 [NOTICE] switch_loadable_module.c:365 Adding File Format 'al'
+2015-03-23 16:10:36.055790 [NOTICE] switch_loadable_module.c:365 Adding File Format 'alaw'
+2015-03-23 16:10:36.055805 [NOTICE] switch_loadable_module.c:365 Adding File Format 'adpcm'
+2015-03-23 16:10:36.055820 [NOTICE] switch_loadable_module.c:365 Adding File Format 'vox'
+2015-03-23 16:10:36.056151 [NOTICE] switch_loadable_module.c:365 Adding File Format 'AAL2-G726-32'
+2015-03-23 16:10:36.056168 [NOTICE] switch_loadable_module.c:365 Adding File Format 'DVI4'
+2015-03-23 16:10:36.056181 [NOTICE] switch_loadable_module.c:365 Adding File Format 'PCMU'
+2015-03-23 16:10:36.056194 [NOTICE] switch_loadable_module.c:365 Adding File Format 'G722'
+2015-03-23 16:10:36.056208 [NOTICE] switch_loadable_module.c:365 Adding File Format 'opus'
+2015-03-23 16:10:36.056222 [NOTICE] switch_loadable_module.c:365 Adding File Format 'AAL2-G726-24'
+2015-03-23 16:10:36.056234 [NOTICE] switch_loadable_module.c:365 Adding File Format 'SPEEX'
+2015-03-23 16:10:36.056247 [NOTICE] switch_loadable_module.c:365 Adding File Format 'b64'
+2015-03-23 16:10:36.056260 [NOTICE] switch_loadable_module.c:365 Adding File Format 'AAL2-G726-40'
+2015-03-23 16:10:36.056273 [NOTICE] switch_loadable_module.c:365 Adding File Format 'L16'
+2015-03-23 16:10:36.056286 [NOTICE] switch_loadable_module.c:365 Adding File Format 'G726-16'
+2015-03-23 16:10:36.056298 [NOTICE] switch_loadable_module.c:365 Adding File Format 'PCMA'
+2015-03-23 16:10:36.056311 [NOTICE] switch_loadable_module.c:365 Adding File Format 'PROXY'
+2015-03-23 16:10:36.056324 [NOTICE] switch_loadable_module.c:365 Adding File Format 'G726-24'
+2015-03-23 16:10:36.056337 [NOTICE] switch_loadable_module.c:365 Adding File Format 'G729'
+2015-03-23 16:10:36.056349 [NOTICE] switch_loadable_module.c:365 Adding File Format 'AAL2-G726-16'
+2015-03-23 16:10:36.056362 [NOTICE] switch_loadable_module.c:365 Adding File Format 'G726-32'
+2015-03-23 16:10:36.056376 [NOTICE] switch_loadable_module.c:365 Adding File Format 'AMR'
+2015-03-23 16:10:36.056389 [NOTICE] switch_loadable_module.c:365 Adding File Format 'GSM'
+2015-03-23 16:10:36.056402 [NOTICE] switch_loadable_module.c:365 Adding File Format 'G726-40'
+2015-03-23 16:10:36.056415 [NOTICE] switch_loadable_module.c:365 Adding File Format 'H261'
+2015-03-23 16:10:36.056427 [NOTICE] switch_loadable_module.c:365 Adding File Format 'H264'
+2015-03-23 16:10:36.056440 [NOTICE] switch_loadable_module.c:365 Adding File Format 'VP8'
+2015-03-23 16:10:36.056453 [NOTICE] switch_loadable_module.c:365 Adding File Format 'H263-2000'
+2015-03-23 16:10:36.056467 [NOTICE] switch_loadable_module.c:365 Adding File Format 'PROXY-VID'
+2015-03-23 16:10:36.056482 [NOTICE] switch_loadable_module.c:365 Adding File Format 'red'
+2015-03-23 16:10:36.056497 [NOTICE] switch_loadable_module.c:365 Adding File Format 'H263'
+2015-03-23 16:10:36.056513 [NOTICE] switch_loadable_module.c:365 Adding File Format 'G723'
+2015-03-23 16:10:36.056529 [NOTICE] switch_loadable_module.c:365 Adding File Format 'LPC'
+2015-03-23 16:10:36.056547 [NOTICE] switch_loadable_module.c:365 Adding File Format 'ulpfec'
+2015-03-23 16:10:36.056564 [NOTICE] switch_loadable_module.c:365 Adding File Format 'H263-1998'
+2015-03-23 16:10:36.057177 [NOTICE] switch_loadable_module.c:315 Adding API Function 'hup_local_stream'
+2015-03-23 16:10:36.057197 [NOTICE] switch_loadable_module.c:315 Adding API Function 'reload_local_stream'
+2015-03-23 16:10:36.057214 [NOTICE] switch_loadable_module.c:315 Adding API Function 'stop_local_stream'
+2015-03-23 16:10:36.057229 [NOTICE] switch_loadable_module.c:315 Adding API Function 'start_local_stream'
+2015-03-23 16:10:36.057245 [NOTICE] switch_loadable_module.c:315 Adding API Function 'show_local_stream'
+2015-03-23 16:10:36.057260 [NOTICE] switch_loadable_module.c:365 Adding File Format 'local_stream'
+2015-03-23 16:10:36.057769 [NOTICE] switch_loadable_module.c:365 Adding File Format 'tone_stream'
+2015-03-23 16:10:36.057787 [NOTICE] switch_loadable_module.c:365 Adding File Format 'silence_stream'
+2015-03-23 16:10:36.058731 [DEBUG] switch_loadable_module.c:1398 Loading module with global namespace at request of module
+2015-03-23 16:10:36.058768 [NOTICE] switch_loadable_module.c:227 Adding Dialplan 'LUA'
+2015-03-23 16:10:36.058784 [NOTICE] switch_loadable_module.c:269 Adding Application 'lua'
+2015-03-23 16:10:36.058801 [NOTICE] switch_loadable_module.c:292 Adding Chat Application 'lua'
+2015-03-23 16:10:36.058816 [NOTICE] switch_loadable_module.c:315 Adding API Function 'luarun'
+2015-03-23 16:10:36.058832 [NOTICE] switch_loadable_module.c:315 Adding API Function 'lua'
+2015-03-23 16:10:36.059053 [NOTICE] switch_loadable_module.c:471 Adding Say interface 'en'
+2015-03-23 16:10:36.059623 [NOTICE] switch_core.c:1315 Created ip list rfc6598.auto default (deny)
+2015-03-23 16:10:36.059633 [NOTICE] switch_utils.c:325 Adding 100.64.0.0/10 (allow) [] to list rfc6598.auto
+2015-03-23 16:10:36.059639 [NOTICE] switch_core.c:1321 Created ip list rfc1918.auto default (deny)
+2015-03-23 16:10:36.059643 [NOTICE] switch_utils.c:325 Adding 10.0.0.0/8 (allow) [] to list rfc1918.auto
+2015-03-23 16:10:36.059648 [NOTICE] switch_utils.c:325 Adding 172.16.0.0/12 (allow) [] to list rfc1918.auto
+2015-03-23 16:10:36.059652 [NOTICE] switch_utils.c:325 Adding 192.168.0.0/16 (allow) [] to list rfc1918.auto
+2015-03-23 16:10:36.059657 [NOTICE] switch_core.c:1329 Created ip list wan.auto default (allow)
+2015-03-23 16:10:36.059660 [NOTICE] switch_utils.c:325 Adding 0.0.0.0/8 (deny) [] to list wan.auto
+2015-03-23 16:10:36.059665 [NOTICE] switch_utils.c:325 Adding 10.0.0.0/8 (deny) [] to list wan.auto
+2015-03-23 16:10:36.059668 [NOTICE] switch_utils.c:325 Adding 172.16.0.0/12 (deny) [] to list wan.auto
+2015-03-23 16:10:36.059673 [NOTICE] switch_utils.c:325 Adding 192.168.0.0/16 (deny) [] to list wan.auto
+2015-03-23 16:10:36.059677 [NOTICE] switch_utils.c:325 Adding 169.254.0.0/16 (deny) [] to list wan.auto
+2015-03-23 16:10:36.059682 [NOTICE] switch_core.c:1339 Created ip list nat.auto default (deny)
+2015-03-23 16:10:36.059686 [NOTICE] switch_core.c:1341 Adding 192.168.10.107/255.255.255.0 (deny) to list nat.auto
+2015-03-23 16:10:36.059691 [NOTICE] switch_utils.c:325 Adding 10.0.0.0/8 (allow) [] to list nat.auto
+2015-03-23 16:10:36.059695 [NOTICE] switch_utils.c:325 Adding 172.16.0.0/12 (allow) [] to list nat.auto
+2015-03-23 16:10:36.059700 [NOTICE] switch_utils.c:325 Adding 192.168.0.0/16 (allow) [] to list nat.auto
+2015-03-23 16:10:36.059704 [NOTICE] switch_utils.c:325 Adding 100.64.0.0/10 (allow) [] to list nat.auto
+2015-03-23 16:10:36.059707 [NOTICE] switch_core.c:1351 Created ip list loopback.auto default (deny)
+2015-03-23 16:10:36.059711 [NOTICE] switch_utils.c:325 Adding 127.0.0.0/8 (allow) [] to list loopback.auto
+2015-03-23 16:10:36.059716 [NOTICE] switch_core.c:1357 Created ip list localnet.auto default (deny)
+2015-03-23 16:10:36.059721 [NOTICE] switch_core.c:1360 Adding 192.168.10.107/255.255.255.0 (allow) to list localnet.auto
+2015-03-23 16:10:36.059734 [NOTICE] switch_utils.c:325 Adding 192.168.42.0/24 (deny) [] to list lan
+2015-03-23 16:10:36.059738 [NOTICE] switch_core.c:1460 Adding 192.168.42.0/24 (deny) to list lan
+2015-03-23 16:10:36.059744 [NOTICE] switch_utils.c:325 Adding 192.168.42.42/32 (allow) [] to list lan
+2015-03-23 16:10:36.059748 [NOTICE] switch_core.c:1460 Adding 192.168.42.42/32 (allow) to list lan
+2015-03-23 16:10:36.059786 [NOTICE] switch_utils.c:325 Adding 192.0.2.0/24 (allow) [brian@192.168.10.107] to list domains
+2015-03-23 16:10:36.059879 [INFO] switch_core.c:2230 
+FreeSWITCH Version 1.4.17~64bit ( 64bit)
+
+FreeSWITCH Started
+Max Sessions [1000]
+Session Rate [30]
+SQL [Enabled]
+2015-03-23 16:10:36.060882 [DEBUG] switch_loadable_module.c:702 Chat Thread Started
+2015-03-23 16:10:36.060915 [DEBUG] switch_loadable_module.c:702 Chat Thread Started
+2015-03-23 16:10:36.061040 [INFO] switch_time.c:607 Clock synchronized to system time.
+2015-03-23 16:10:36.061197 [DEBUG] mod_event_socket.c:2884 Socket up listening on 127.0.0.1:8021
+22dc7f04-d134-11e4-b813-85e03683d452 2015-03-23 16:10:58.121049 [NOTICE] switch_channel.c:1055 New Channel sofia/internal/1002@192.168.10.107 [22dc7f04-d134-11e4-b813-85e03683d452]
+22dc7f04-d134-11e4-b813-85e03683d452 2015-03-23 16:10:58.121049 [DEBUG] switch_core_session.c:1061 Send signal sofia/internal/1002@192.168.10.107 [BREAK]
+22dc7f04-d134-11e4-b813-85e03683d452 2015-03-23 16:10:58.121049 [DEBUG] switch_core_session.c:1061 Send signal sofia/internal/1002@192.168.10.107 [BREAK]
+22dc7f04-d134-11e4-b813-85e03683d452 2015-03-23 16:10:58.121049 [DEBUG] switch_core_state_machine.c:472 (sofia/internal/1002@192.168.10.107) Running State Change CS_NEW
+22dc7f04-d134-11e4-b813-85e03683d452 2015-03-23 16:10:58.121049 [DEBUG] sofia.c:8844 sofia/internal/1002@192.168.10.107 receiving invite from 192.168.10.106:35650 version: 1.4.17  64bit
+2015-03-23 16:10:58.121049 [DEBUG] sofia.c:9011 IP 192.168.10.106 Rejected by acl "domains". Falling back to Digest auth.
+22dc7f04-d134-11e4-b813-85e03683d452 2015-03-23 16:10:58.121049 [DEBUG] switch_core_state_machine.c:491 (sofia/internal/1002@192.168.10.107) State NEW
+22dc7f04-d134-11e4-b813-85e03683d452 2015-03-23 16:10:58.141056 [DEBUG] switch_core_session.c:1061 Send signal sofia/internal/1002@192.168.10.107 [BREAK]
+2015-03-23 16:10:58.141056 [DEBUG] sofia.c:2065 detaching session 22dc7f04-d134-11e4-b813-85e03683d452
+2015-03-23 16:10:58.181049 [DEBUG] sofia.c:2173 Re-attaching to session 22dc7f04-d134-11e4-b813-85e03683d452
+22dc7f04-d134-11e4-b813-85e03683d452 2015-03-23 16:10:58.181049 [DEBUG] switch_core_session.c:1061 Send signal sofia/internal/1002@192.168.10.107 [BREAK]
+22dc7f04-d134-11e4-b813-85e03683d452 2015-03-23 16:10:58.181049 [DEBUG] switch_core_session.c:1061 Send signal sofia/internal/1002@192.168.10.107 [BREAK]
+22dc7f04-d134-11e4-b813-85e03683d452 2015-03-23 16:10:58.201070 [DEBUG] sofia.c:8844 sofia/internal/1002@192.168.10.107 receiving invite from 192.168.10.106:35650 version: 1.4.17  64bit
+2015-03-23 16:10:58.201070 [DEBUG] sofia.c:9011 IP 192.168.10.106 Rejected by acl "domains". Falling back to Digest auth.
+22dc7f04-d134-11e4-b813-85e03683d452 2015-03-23 16:10:58.201070 [DEBUG] sofia.c:6623 Channel sofia/internal/1002@192.168.10.107 entering state [received][100]
+22dc7f04-d134-11e4-b813-85e03683d452 2015-03-23 16:10:58.201070 [DEBUG] sofia.c:6633 Remote SDP:
+22dc7f04-d134-11e4-b813-85e03683d452 v=0
+22dc7f04-d134-11e4-b813-85e03683d452 o=1002 1616 199 IN IP4 192.168.10.106
+22dc7f04-d134-11e4-b813-85e03683d452 s=Talk
+22dc7f04-d134-11e4-b813-85e03683d452 c=IN IP4 192.168.10.106
+22dc7f04-d134-11e4-b813-85e03683d452 b=AS:380
+22dc7f04-d134-11e4-b813-85e03683d452 t=0 0
+22dc7f04-d134-11e4-b813-85e03683d452 m=audio 7076 RTP/AVP 124 120 111 110 0 8 101
+22dc7f04-d134-11e4-b813-85e03683d452 a=rtpmap:124 opus/48000/2
+22dc7f04-d134-11e4-b813-85e03683d452 a=fmtp:124 useinbandfec=1; stereo=0; sprop-stereo=0
+22dc7f04-d134-11e4-b813-85e03683d452 a=rtpmap:120 SILK/16000
+22dc7f04-d134-11e4-b813-85e03683d452 a=rtpmap:111 speex/16000
+22dc7f04-d134-11e4-b813-85e03683d452 a=fmtp:111 vbr=on
+22dc7f04-d134-11e4-b813-85e03683d452 a=rtpmap:110 speex/8000
+22dc7f04-d134-11e4-b813-85e03683d452 a=fmtp:110 vbr=on
+22dc7f04-d134-11e4-b813-85e03683d452 a=rtpmap:101 telephone-event/8000
+22dc7f04-d134-11e4-b813-85e03683d452 a=fmtp:101 0-15
+22dc7f04-d134-11e4-b813-85e03683d452 
+22dc7f04-d134-11e4-b813-85e03683d452 2015-03-23 16:10:58.201070 [DEBUG] sofia.c:6899 (sofia/internal/1002@192.168.10.107) State Change CS_NEW -> CS_INIT
+22dc7f04-d134-11e4-b813-85e03683d452 2015-03-23 16:10:58.201070 [DEBUG] switch_core_session.c:1396 Send signal sofia/internal/1002@192.168.10.107 [BREAK]
+22dc7f04-d134-11e4-b813-85e03683d452 2015-03-23 16:10:58.201070 [DEBUG] switch_core_state_machine.c:472 (sofia/internal/1002@192.168.10.107) Running State Change CS_INIT
+22dc7f04-d134-11e4-b813-85e03683d452 2015-03-23 16:10:58.201070 [DEBUG] switch_core_state_machine.c:512 (sofia/internal/1002@192.168.10.107) State INIT
+22dc7f04-d134-11e4-b813-85e03683d452 2015-03-23 16:10:58.201070 [DEBUG] mod_sofia.c:87 sofia/internal/1002@192.168.10.107 SOFIA INIT
+22dc7f04-d134-11e4-b813-85e03683d452 2015-03-23 16:10:58.201070 [DEBUG] switch_core_state_machine.c:40 sofia/internal/1002@192.168.10.107 Standard INIT
+22dc7f04-d134-11e4-b813-85e03683d452 2015-03-23 16:10:58.201070 [DEBUG] switch_core_state_machine.c:48 (sofia/internal/1002@192.168.10.107) State Change CS_INIT -> CS_ROUTING
+22dc7f04-d134-11e4-b813-85e03683d452 2015-03-23 16:10:58.201070 [DEBUG] switch_core_session.c:1396 Send signal sofia/internal/1002@192.168.10.107 [BREAK]
+22dc7f04-d134-11e4-b813-85e03683d452 2015-03-23 16:10:58.201070 [DEBUG] switch_core_state_machine.c:512 (sofia/internal/1002@192.168.10.107) State INIT going to sleep
+22dc7f04-d134-11e4-b813-85e03683d452 2015-03-23 16:10:58.201070 [DEBUG] switch_core_state_machine.c:472 (sofia/internal/1002@192.168.10.107) Running State Change CS_ROUTING
+22dc7f04-d134-11e4-b813-85e03683d452 2015-03-23 16:10:58.201070 [DEBUG] switch_channel.c:2184 (sofia/internal/1002@192.168.10.107) Callstate Change DOWN -> RINGING
+22dc7f04-d134-11e4-b813-85e03683d452 2015-03-23 16:10:58.201070 [DEBUG] switch_core_state_machine.c:528 (sofia/internal/1002@192.168.10.107) State ROUTING
+22dc7f04-d134-11e4-b813-85e03683d452 2015-03-23 16:10:58.201070 [DEBUG] mod_sofia.c:123 sofia/internal/1002@192.168.10.107 SOFIA ROUTING
+22dc7f04-d134-11e4-b813-85e03683d452 2015-03-23 16:10:58.201070 [DEBUG] switch_core_state_machine.c:166 sofia/internal/1002@192.168.10.107 Standard ROUTING
+22dc7f04-d134-11e4-b813-85e03683d452 2015-03-23 16:10:58.201070 [INFO] mod_dialplan_xml.c:635 Processing 1002 <1002>->9664 in context default
+22dc7f04-d134-11e4-b813-85e03683d452 Dialplan: sofia/internal/1002@192.168.10.107 parsing [default->unloop] continue=false
+22dc7f04-d134-11e4-b813-85e03683d452 Dialplan: sofia/internal/1002@192.168.10.107 Regex (PASS) [unloop] ${unroll_loops}(true) =~ /^true$/ break=on-false
+22dc7f04-d134-11e4-b813-85e03683d452 Dialplan: sofia/internal/1002@192.168.10.107 Regex (FAIL) [unloop] ${sip_looped_call}() =~ /^true$/ break=on-false
+22dc7f04-d134-11e4-b813-85e03683d452 Dialplan: sofia/internal/1002@192.168.10.107 parsing [default->tod_example] continue=true
+22dc7f04-d134-11e4-b813-85e03683d452 Dialplan: sofia/internal/1002@192.168.10.107 Date/Time Match (PASS) [tod_example] break=on-false
+22dc7f04-d134-11e4-b813-85e03683d452 Dialplan: sofia/internal/1002@192.168.10.107 Action set(open=true)
+22dc7f04-d134-11e4-b813-85e03683d452 Dialplan: sofia/internal/1002@192.168.10.107 parsing [default->holiday_example] continue=true
+22dc7f04-d134-11e4-b813-85e03683d452 Dialplan: sofia/internal/1002@192.168.10.107 Date/TimeMatch (FAIL) [holiday_example] break=on-false
+22dc7f04-d134-11e4-b813-85e03683d452 Dialplan: sofia/internal/1002@192.168.10.107 parsing [default->global-intercept] continue=false
+22dc7f04-d134-11e4-b813-85e03683d452 Dialplan: sofia/internal/1002@192.168.10.107 Regex (FAIL) [global-intercept] destination_number(9664) =~ /^886$/ break=on-false
+22dc7f04-d134-11e4-b813-85e03683d452 Dialplan: sofia/internal/1002@192.168.10.107 parsing [default->group-intercept] continue=false
+22dc7f04-d134-11e4-b813-85e03683d452 Dialplan: sofia/internal/1002@192.168.10.107 Regex (FAIL) [group-intercept] destination_number(9664) =~ /^\*8$/ break=on-false
+22dc7f04-d134-11e4-b813-85e03683d452 Dialplan: sofia/internal/1002@192.168.10.107 parsing [default->intercept-ext] continue=false
+22dc7f04-d134-11e4-b813-85e03683d452 Dialplan: sofia/internal/1002@192.168.10.107 Regex (FAIL) [intercept-ext] destination_number(9664) =~ /^\*\*(\d+)$/ break=on-false
+22dc7f04-d134-11e4-b813-85e03683d452 Dialplan: sofia/internal/1002@192.168.10.107 parsing [default->redial] continue=false
+22dc7f04-d134-11e4-b813-85e03683d452 Dialplan: sofia/internal/1002@192.168.10.107 Regex (FAIL) [redial] destination_number(9664) =~ /^(redial|870)$/ break=on-false
+22dc7f04-d134-11e4-b813-85e03683d452 Dialplan: sofia/internal/1002@192.168.10.107 parsing [default->global] continue=true
+22dc7f04-d134-11e4-b813-85e03683d452 Dialplan: sofia/internal/1002@192.168.10.107 Regex (FAIL) [global] ${call_debug}(false) =~ /^true$/ break=never
+22dc7f04-d134-11e4-b813-85e03683d452 Dialplan: sofia/internal/1002@192.168.10.107 Regex (PASS) [global] ${default_password}(1234) =~ /^1234$/ break=never
+22dc7f04-d134-11e4-b813-85e03683d452 Dialplan: sofia/internal/1002@192.168.10.107 Action log(CRIT WARNING WARNING WARNING WARNING WARNING WARNING WARNING WARNING WARNING )
+22dc7f04-d134-11e4-b813-85e03683d452 Dialplan: sofia/internal/1002@192.168.10.107 Action log(CRIT Open /home/archer/Documents/freeswitch/bin/freeswitch-conf/conf/vars.xml and change the default_password.)
+22dc7f04-d134-11e4-b813-85e03683d452 Dialplan: sofia/internal/1002@192.168.10.107 Action log(CRIT Once changed type reloadxml at the console.)
+22dc7f04-d134-11e4-b813-85e03683d452 Dialplan: sofia/internal/1002@192.168.10.107 Action log(CRIT WARNING WARNING WARNING WARNING WARNING WARNING WARNING WARNING WARNING )
+22dc7f04-d134-11e4-b813-85e03683d452 Dialplan: sofia/internal/1002@192.168.10.107 Action sleep(10000)
+22dc7f04-d134-11e4-b813-85e03683d452 Dialplan: sofia/internal/1002@192.168.10.107 Regex (FAIL) [global] ${rtp_has_crypto}() =~ /^(AEAD_AES_256_GCM_8|AEAD_AES_128_GCM_8|AES_CM_256_HMAC_SHA1_80|AES_CM_192_HMAC_SHA1_80|AES_CM_128_HMAC_SHA1_80|AES_CM_256_HMAC_SHA1_32|AES_CM_192_HMAC_SHA1_32|AES_CM_128_HMAC_SHA1_32|AES_CM_128_NULL_AUTH)$/ break=never
+22dc7f04-d134-11e4-b813-85e03683d452 Dialplan: sofia/internal/1002@192.168.10.107 Regex (PASS) [global] ${endpoint_disposition}(DELAYED NEGOTIATION) =~ /^(DELAYED NEGOTIATION)/ break=on-false
+22dc7f04-d134-11e4-b813-85e03683d452 Dialplan: sofia/internal/1002@192.168.10.107 Regex (FAIL) [global] ${switch_r_sdp}(v=0
+22dc7f04-d134-11e4-b813-85e03683d452 o=1002 1616 199 IN IP4 192.168.10.106
+22dc7f04-d134-11e4-b813-85e03683d452 s=Talk
+22dc7f04-d134-11e4-b813-85e03683d452 c=IN IP4 192.168.10.106
+22dc7f04-d134-11e4-b813-85e03683d452 b=AS:380
+22dc7f04-d134-11e4-b813-85e03683d452 t=0 0
+22dc7f04-d134-11e4-b813-85e03683d452 m=audio 7076 RTP/AVP 124 120 111 110 0 8 101
+22dc7f04-d134-11e4-b813-85e03683d452 a=rtpmap:124 opus/48000/2
+22dc7f04-d134-11e4-b813-85e03683d452 a=fmtp:124 useinbandfec=1; stereo=0; sprop-stereo=0
+22dc7f04-d134-11e4-b813-85e03683d452 a=rtpmap:120 SILK/16000
+22dc7f04-d134-11e4-b813-85e03683d452 a=rtpmap:111 speex/16000
+22dc7f04-d134-11e4-b813-85e03683d452 a=fmtp:111 vbr=on
+22dc7f04-d134-11e4-b813-85e03683d452 a=rtpmap:110 speex/8000
+22dc7f04-d134-11e4-b813-85e03683d452 a=fmtp:110 vbr=on
+22dc7f04-d134-11e4-b813-85e03683d452 a=rtpmap:101 telephone-event/8000
+22dc7f04-d134-11e4-b813-85e03683d452 a=fmtp:101 0-15
+22dc7f04-d134-11e4-b813-85e03683d452 ) =~ /(AES_CM_128_HMAC_SHA1_32|AES_CM_128_HMAC_SHA1_80)/ break=never
+22dc7f04-d134-11e4-b813-85e03683d452 Dialplan: sofia/internal/1002@192.168.10.107 Absolute Condition [global]
+22dc7f04-d134-11e4-b813-85e03683d452 Dialplan: sofia/internal/1002@192.168.10.107 Action hash(insert/${domain_name}-spymap/${caller_id_number}/${uuid})
+22dc7f04-d134-11e4-b813-85e03683d452 Dialplan: sofia/internal/1002@192.168.10.107 Action hash(insert/${domain_name}-last_dial/${caller_id_number}/${destination_number})
+22dc7f04-d134-11e4-b813-85e03683d452 Dialplan: sofia/internal/1002@192.168.10.107 Action hash(insert/${domain_name}-last_dial/global/${uuid})
+22dc7f04-d134-11e4-b813-85e03683d452 Dialplan: sofia/internal/1002@192.168.10.107 Action export(RFC2822_DATE=${strftime(%a, %d %b %Y %T %z)})
+22dc7f04-d134-11e4-b813-85e03683d452 Dialplan: sofia/internal/1002@192.168.10.107 parsing [default->snom-demo-2] continue=false
+22dc7f04-d134-11e4-b813-85e03683d452 Dialplan: sofia/internal/1002@192.168.10.107 Regex (FAIL) [snom-demo-2] destination_number(9664) =~ /^9001$/ break=on-false
+22dc7f04-d134-11e4-b813-85e03683d452 Dialplan: sofia/internal/1002@192.168.10.107 parsing [default->snom-demo-1] continue=false
+22dc7f04-d134-11e4-b813-85e03683d452 Dialplan: sofia/internal/1002@192.168.10.107 Regex (FAIL) [snom-demo-1] destination_number(9664) =~ /^9000$/ break=on-false
+22dc7f04-d134-11e4-b813-85e03683d452 Dialplan: sofia/internal/1002@192.168.10.107 parsing [default->eavesdrop] continue=false
+22dc7f04-d134-11e4-b813-85e03683d452 Dialplan: sofia/internal/1002@192.168.10.107 Regex (FAIL) [eavesdrop] destination_number(9664) =~ /^88(\d{4})$|^\*0(.*)$/ break=on-false
+22dc7f04-d134-11e4-b813-85e03683d452 Dialplan: sofia/internal/1002@192.168.10.107 parsing [default->eavesdrop] continue=false
+22dc7f04-d134-11e4-b813-85e03683d452 Dialplan: sofia/internal/1002@192.168.10.107 Regex (FAIL) [eavesdrop] destination_number(9664) =~ /^779$/ break=on-false
+22dc7f04-d134-11e4-b813-85e03683d452 Dialplan: sofia/internal/1002@192.168.10.107 parsing [default->call_return] continue=false
+22dc7f04-d134-11e4-b813-85e03683d452 Dialplan: sofia/internal/1002@192.168.10.107 Regex (FAIL) [call_return] destination_number(9664) =~ /^\*69$|^869$|^lcr$/ break=on-false
+22dc7f04-d134-11e4-b813-85e03683d452 Dialplan: sofia/internal/1002@192.168.10.107 parsing [default->del-group] continue=false
+22dc7f04-d134-11e4-b813-85e03683d452 Dialplan: sofia/internal/1002@192.168.10.107 Regex (FAIL) [del-group] destination_number(9664) =~ /^80(\d{2})$/ break=on-false
+22dc7f04-d134-11e4-b813-85e03683d452 Dialplan: sofia/internal/1002@192.168.10.107 parsing [default->add-group] continue=false
+22dc7f04-d134-11e4-b813-85e03683d452 Dialplan: sofia/internal/1002@192.168.10.107 Regex (FAIL) [add-group] destination_number(9664) =~ /^81(\d{2})$/ break=on-false
+22dc7f04-d134-11e4-b813-85e03683d452 Dialplan: sofia/internal/1002@192.168.10.107 parsing [default->call-group-simo] continue=false
+22dc7f04-d134-11e4-b813-85e03683d452 Dialplan: sofia/internal/1002@192.168.10.107 Regex (FAIL) [call-group-simo] destination_number(9664) =~ /^82(\d{2})$/ break=on-false
+22dc7f04-d134-11e4-b813-85e03683d452 Dialplan: sofia/internal/1002@192.168.10.107 parsing [default->call-group-order] continue=false
+22dc7f04-d134-11e4-b813-85e03683d452 Dialplan: sofia/internal/1002@192.168.10.107 Regex (FAIL) [call-group-order] destination_number(9664) =~ /^83(\d{2})$/ break=on-false
+22dc7f04-d134-11e4-b813-85e03683d452 Dialplan: sofia/internal/1002@192.168.10.107 parsing [default->extension-intercom] continue=false
+22dc7f04-d134-11e4-b813-85e03683d452 Dialplan: sofia/internal/1002@192.168.10.107 Regex (FAIL) [extension-intercom] destination_number(9664) =~ /^8(10[01][0-9])$/ break=on-false
+22dc7f04-d134-11e4-b813-85e03683d452 Dialplan: sofia/internal/1002@192.168.10.107 parsing [default->Local_Extension] continue=false
+22dc7f04-d134-11e4-b813-85e03683d452 Dialplan: sofia/internal/1002@192.168.10.107 Regex (FAIL) [Local_Extension] destination_number(9664) =~ /^(10[01][0-9])$/ break=on-false
+22dc7f04-d134-11e4-b813-85e03683d452 Dialplan: sofia/internal/1002@192.168.10.107 parsing [default->Local_Extension_Skinny] continue=false
+22dc7f04-d134-11e4-b813-85e03683d452 Dialplan: sofia/internal/1002@192.168.10.107 Regex (FAIL) [Local_Extension_Skinny] destination_number(9664) =~ /^(11[01][0-9])$/ break=on-false
+22dc7f04-d134-11e4-b813-85e03683d452 Dialplan: sofia/internal/1002@192.168.10.107 parsing [default->group_dial_sales] continue=false
+22dc7f04-d134-11e4-b813-85e03683d452 Dialplan: sofia/internal/1002@192.168.10.107 Regex (FAIL) [group_dial_sales] destination_number(9664) =~ /^2000$/ break=on-false
+22dc7f04-d134-11e4-b813-85e03683d452 Dialplan: sofia/internal/1002@192.168.10.107 parsing [default->group_dial_support] continue=false
+22dc7f04-d134-11e4-b813-85e03683d452 Dialplan: sofia/internal/1002@192.168.10.107 Regex (FAIL) [group_dial_support] destination_number(9664) =~ /^2001$/ break=on-false
+22dc7f04-d134-11e4-b813-85e03683d452 Dialplan: sofia/internal/1002@192.168.10.107 parsing [default->group_dial_billing] continue=false
+22dc7f04-d134-11e4-b813-85e03683d452 Dialplan: sofia/internal/1002@192.168.10.107 Regex (FAIL) [group_dial_billing] destination_number(9664) =~ /^2002$/ break=on-false
+22dc7f04-d134-11e4-b813-85e03683d452 Dialplan: sofia/internal/1002@192.168.10.107 parsing [default->operator] continue=false
+22dc7f04-d134-11e4-b813-85e03683d452 Dialplan: sofia/internal/1002@192.168.10.107 Regex (FAIL) [operator] destination_number(9664) =~ /^(operator|0)$/ break=on-false
+22dc7f04-d134-11e4-b813-85e03683d452 Dialplan: sofia/internal/1002@192.168.10.107 parsing [default->vmain] continue=false
+22dc7f04-d134-11e4-b813-85e03683d452 Dialplan: sofia/internal/1002@192.168.10.107 Regex (FAIL) [vmain] destination_number(9664) =~ /^vmain$|^4000$|^\*98$/ break=on-false
+22dc7f04-d134-11e4-b813-85e03683d452 Dialplan: sofia/internal/1002@192.168.10.107 parsing [default->sip_uri] continue=false
+22dc7f04-d134-11e4-b813-85e03683d452 Dialplan: sofia/internal/1002@192.168.10.107 Regex (FAIL) [sip_uri] destination_number(9664) =~ /^sip:(.*)$/ break=on-false
+22dc7f04-d134-11e4-b813-85e03683d452 Dialplan: sofia/internal/1002@192.168.10.107 parsing [default->nb_conferences] continue=false
+22dc7f04-d134-11e4-b813-85e03683d452 Dialplan: sofia/internal/1002@192.168.10.107 Regex (FAIL) [nb_conferences] destination_number(9664) =~ /^(30\d{2})$/ break=on-false
+22dc7f04-d134-11e4-b813-85e03683d452 Dialplan: sofia/internal/1002@192.168.10.107 parsing [default->wb_conferences] continue=false
+22dc7f04-d134-11e4-b813-85e03683d452 Dialplan: sofia/internal/1002@192.168.10.107 Regex (FAIL) [wb_conferences] destination_number(9664) =~ /^(31\d{2})$/ break=on-false
+22dc7f04-d134-11e4-b813-85e03683d452 Dialplan: sofia/internal/1002@192.168.10.107 parsing [default->uwb_conferences] continue=false
+22dc7f04-d134-11e4-b813-85e03683d452 Dialplan: sofia/internal/1002@192.168.10.107 Regex (FAIL) [uwb_conferences] destination_number(9664) =~ /^(32\d{2})$/ break=on-false
+22dc7f04-d134-11e4-b813-85e03683d452 Dialplan: sofia/internal/1002@192.168.10.107 parsing [default->cdquality_conferences] continue=false
+22dc7f04-d134-11e4-b813-85e03683d452 Dialplan: sofia/internal/1002@192.168.10.107 Regex (FAIL) [cdquality_conferences] destination_number(9664) =~ /^(33\d{2})$/ break=on-false
+22dc7f04-d134-11e4-b813-85e03683d452 Dialplan: sofia/internal/1002@192.168.10.107 parsing [default->freeswitch_public_conf_via_sip] continue=false
+22dc7f04-d134-11e4-b813-85e03683d452 Dialplan: sofia/internal/1002@192.168.10.107 Regex (FAIL) [freeswitch_public_conf_via_sip] destination_number(9664) =~ /^9(888|8888|1616|3232)$/ break=on-false
+22dc7f04-d134-11e4-b813-85e03683d452 Dialplan: sofia/internal/1002@192.168.10.107 parsing [default->mad_boss_intercom] continue=false
+22dc7f04-d134-11e4-b813-85e03683d452 Dialplan: sofia/internal/1002@192.168.10.107 Regex (FAIL) [mad_boss_intercom] destination_number(9664) =~ /^0911$/ break=on-false
+22dc7f04-d134-11e4-b813-85e03683d452 Dialplan: sofia/internal/1002@192.168.10.107 parsing [default->mad_boss_intercom] continue=false
+22dc7f04-d134-11e4-b813-85e03683d452 Dialplan: sofia/internal/1002@192.168.10.107 Regex (FAIL) [mad_boss_intercom] destination_number(9664) =~ /^0912$/ break=on-false
+22dc7f04-d134-11e4-b813-85e03683d452 Dialplan: sofia/internal/1002@192.168.10.107 parsing [default->mad_boss] continue=false
+22dc7f04-d134-11e4-b813-85e03683d452 Dialplan: sofia/internal/1002@192.168.10.107 Regex (FAIL) [mad_boss] destination_number(9664) =~ /^0913$/ break=on-false
+22dc7f04-d134-11e4-b813-85e03683d452 Dialplan: sofia/internal/1002@192.168.10.107 parsing [default->ivr_demo] continue=false
+22dc7f04-d134-11e4-b813-85e03683d452 Dialplan: sofia/internal/1002@192.168.10.107 Regex (FAIL) [ivr_demo] destination_number(9664) =~ /^5000$/ break=on-false
+22dc7f04-d134-11e4-b813-85e03683d452 Dialplan: sofia/internal/1002@192.168.10.107 parsing [default->dynamic_conference] continue=false
+22dc7f04-d134-11e4-b813-85e03683d452 Dialplan: sofia/internal/1002@192.168.10.107 Regex (FAIL) [dynamic_conference] destination_number(9664) =~ /^5001$/ break=on-false
+22dc7f04-d134-11e4-b813-85e03683d452 Dialplan: sofia/internal/1002@192.168.10.107 parsing [default->rtp_multicast_page] continue=false
+22dc7f04-d134-11e4-b813-85e03683d452 Dialplan: sofia/internal/1002@192.168.10.107 Regex (FAIL) [rtp_multicast_page] destination_number(9664) =~ /^pagegroup$|^7243$/ break=on-false
+22dc7f04-d134-11e4-b813-85e03683d452 Dialplan: sofia/internal/1002@192.168.10.107 parsing [default->park] continue=false
+22dc7f04-d134-11e4-b813-85e03683d452 Dialplan: sofia/internal/1002@192.168.10.107 Regex (FAIL) [park] destination_number(9664) =~ /^5900$/ break=on-false
+22dc7f04-d134-11e4-b813-85e03683d452 Dialplan: sofia/internal/1002@192.168.10.107 parsing [default->unpark] continue=false
+22dc7f04-d134-11e4-b813-85e03683d452 Dialplan: sofia/internal/1002@192.168.10.107 Regex (FAIL) [unpark] destination_number(9664) =~ /^5901$/ break=on-false
+22dc7f04-d134-11e4-b813-85e03683d452 Dialplan: sofia/internal/1002@192.168.10.107 parsing [default->valet_park] continue=false
+22dc7f04-d134-11e4-b813-85e03683d452 Dialplan: sofia/internal/1002@192.168.10.107 Regex (FAIL) [valet_park] destination_number(9664) =~ /^(6000)$/ break=on-false
+22dc7f04-d134-11e4-b813-85e03683d452 Dialplan: sofia/internal/1002@192.168.10.107 parsing [default->valet_park] continue=false
+22dc7f04-d134-11e4-b813-85e03683d452 Dialplan: sofia/internal/1002@192.168.10.107 Regex (FAIL) [valet_park] destination_number(9664) =~ /^((?!6000)60\d{2})$/ break=on-false
+22dc7f04-d134-11e4-b813-85e03683d452 Dialplan: sofia/internal/1002@192.168.10.107 parsing [default->park] continue=false
+22dc7f04-d134-11e4-b813-85e03683d452 Dialplan: sofia/internal/1002@192.168.10.107 Regex (PASS) [park] source(mod_sofia) =~ /mod_sofia/ break=on-false
+22dc7f04-d134-11e4-b813-85e03683d452 Dialplan: sofia/internal/1002@192.168.10.107 Regex (FAIL) [park] destination_number(9664) =~ /park\+(\d+)/ break=on-false
+22dc7f04-d134-11e4-b813-85e03683d452 Dialplan: sofia/internal/1002@192.168.10.107 parsing [default->unpark] continue=false
+22dc7f04-d134-11e4-b813-85e03683d452 Dialplan: sofia/internal/1002@192.168.10.107 Regex (PASS) [unpark] source(mod_sofia) =~ /mod_sofia/ break=on-false
+22dc7f04-d134-11e4-b813-85e03683d452 Dialplan: sofia/internal/1002@192.168.10.107 Regex (FAIL) [unpark] destination_number(9664) =~ /^parking$/ break=on-false
+22dc7f04-d134-11e4-b813-85e03683d452 Dialplan: sofia/internal/1002@192.168.10.107 parsing [default->park] continue=false
+22dc7f04-d134-11e4-b813-85e03683d452 Dialplan: sofia/internal/1002@192.168.10.107 Regex (PASS) [park] source(mod_sofia) =~ /mod_sofia/ break=on-false
+22dc7f04-d134-11e4-b813-85e03683d452 Dialplan: sofia/internal/1002@192.168.10.107 Regex (FAIL) [park] destination_number(9664) =~ /callpark/ break=on-false
+22dc7f04-d134-11e4-b813-85e03683d452 Dialplan: sofia/internal/1002@192.168.10.107 parsing [default->unpark] continue=false
+22dc7f04-d134-11e4-b813-85e03683d452 Dialplan: sofia/internal/1002@192.168.10.107 Regex (PASS) [unpark] source(mod_sofia) =~ /mod_sofia/ break=on-false
+22dc7f04-d134-11e4-b813-85e03683d452 Dialplan: sofia/internal/1002@192.168.10.107 Regex (FAIL) [unpark] destination_number(9664) =~ /pickup/ break=on-false
+22dc7f04-d134-11e4-b813-85e03683d452 Dialplan: sofia/internal/1002@192.168.10.107 parsing [default->wait] continue=false
+22dc7f04-d134-11e4-b813-85e03683d452 Dialplan: sofia/internal/1002@192.168.10.107 Regex (FAIL) [wait] destination_number(9664) =~ /^wait$/ break=on-false
+22dc7f04-d134-11e4-b813-85e03683d452 Dialplan: sofia/internal/1002@192.168.10.107 parsing [default->fax_receive] continue=false
+22dc7f04-d134-11e4-b813-85e03683d452 Dialplan: sofia/internal/1002@192.168.10.107 Regex (FAIL) [fax_receive] destination_number(9664) =~ /^9178$/ break=on-false
+22dc7f04-d134-11e4-b813-85e03683d452 Dialplan: sofia/internal/1002@192.168.10.107 parsing [default->fax_transmit] continue=false
+22dc7f04-d134-11e4-b813-85e03683d452 Dialplan: sofia/internal/1002@192.168.10.107 Regex (FAIL) [fax_transmit] destination_number(9664) =~ /^9179$/ break=on-false
+22dc7f04-d134-11e4-b813-85e03683d452 Dialplan: sofia/internal/1002@192.168.10.107 parsing [default->ringback_180] continue=false
+22dc7f04-d134-11e4-b813-85e03683d452 Dialplan: sofia/internal/1002@192.168.10.107 Regex (FAIL) [ringback_180] destination_number(9664) =~ /^9180$/ break=on-false
+22dc7f04-d134-11e4-b813-85e03683d452 Dialplan: sofia/internal/1002@192.168.10.107 parsing [default->ringback_183_uk_ring] continue=false
+22dc7f04-d134-11e4-b813-85e03683d452 Dialplan: sofia/internal/1002@192.168.10.107 Regex (FAIL) [ringback_183_uk_ring] destination_number(9664) =~ /^9181$/ break=on-false
+22dc7f04-d134-11e4-b813-85e03683d452 Dialplan: sofia/internal/1002@192.168.10.107 parsing [default->ringback_183_music_ring] continue=false
+22dc7f04-d134-11e4-b813-85e03683d452 Dialplan: sofia/internal/1002@192.168.10.107 Regex (FAIL) [ringback_183_music_ring] destination_number(9664) =~ /^9182$/ break=on-false
+22dc7f04-d134-11e4-b813-85e03683d452 Dialplan: sofia/internal/1002@192.168.10.107 parsing [default->ringback_post_answer_uk_ring] continue=false
+22dc7f04-d134-11e4-b813-85e03683d452 Dialplan: sofia/internal/1002@192.168.10.107 Regex (FAIL) [ringback_post_answer_uk_ring] destination_number(9664) =~ /^9183$/ break=on-false
+22dc7f04-d134-11e4-b813-85e03683d452 Dialplan: sofia/internal/1002@192.168.10.107 parsing [default->ringback_post_answer_music] continue=false
+22dc7f04-d134-11e4-b813-85e03683d452 Dialplan: sofia/internal/1002@192.168.10.107 Regex (FAIL) [ringback_post_answer_music] destination_number(9664) =~ /^9184$/ break=on-false
+22dc7f04-d134-11e4-b813-85e03683d452 Dialplan: sofia/internal/1002@192.168.10.107 parsing [default->ClueCon] continue=false
+22dc7f04-d134-11e4-b813-85e03683d452 Dialplan: sofia/internal/1002@192.168.10.107 Regex (FAIL) [ClueCon] destination_number(9664) =~ /^9191$/ break=on-false
+22dc7f04-d134-11e4-b813-85e03683d452 Dialplan: sofia/internal/1002@192.168.10.107 parsing [default->show_info] continue=false
+22dc7f04-d134-11e4-b813-85e03683d452 Dialplan: sofia/internal/1002@192.168.10.107 Regex (FAIL) [show_info] destination_number(9664) =~ /^9192$/ break=on-false
+22dc7f04-d134-11e4-b813-85e03683d452 Dialplan: sofia/internal/1002@192.168.10.107 parsing [default->video_record] continue=false
+22dc7f04-d134-11e4-b813-85e03683d452 Dialplan: sofia/internal/1002@192.168.10.107 Regex (FAIL) [video_record] destination_number(9664) =~ /^9193$/ break=on-false
+22dc7f04-d134-11e4-b813-85e03683d452 Dialplan: sofia/internal/1002@192.168.10.107 parsing [default->video_playback] continue=false
+22dc7f04-d134-11e4-b813-85e03683d452 Dialplan: sofia/internal/1002@192.168.10.107 Regex (FAIL) [video_playback] destination_number(9664) =~ /^9194$/ break=on-false
+22dc7f04-d134-11e4-b813-85e03683d452 Dialplan: sofia/internal/1002@192.168.10.107 parsing [default->delay_echo] continue=false
+22dc7f04-d134-11e4-b813-85e03683d452 Dialplan: sofia/internal/1002@192.168.10.107 Regex (FAIL) [delay_echo] destination_number(9664) =~ /^9195$/ break=on-false
+22dc7f04-d134-11e4-b813-85e03683d452 Dialplan: sofia/internal/1002@192.168.10.107 parsing [default->echo] continue=false
+22dc7f04-d134-11e4-b813-85e03683d452 Dialplan: sofia/internal/1002@192.168.10.107 Regex (FAIL) [echo] destination_number(9664) =~ /^9196$/ break=on-false
+22dc7f04-d134-11e4-b813-85e03683d452 Dialplan: sofia/internal/1002@192.168.10.107 parsing [default->milliwatt] continue=false
+22dc7f04-d134-11e4-b813-85e03683d452 Dialplan: sofia/internal/1002@192.168.10.107 Regex (FAIL) [milliwatt] destination_number(9664) =~ /^9197$/ break=on-false
+22dc7f04-d134-11e4-b813-85e03683d452 Dialplan: sofia/internal/1002@192.168.10.107 parsing [default->tone_stream] continue=false
+22dc7f04-d134-11e4-b813-85e03683d452 Dialplan: sofia/internal/1002@192.168.10.107 Regex (FAIL) [tone_stream] destination_number(9664) =~ /^9198$/ break=on-false
+22dc7f04-d134-11e4-b813-85e03683d452 Dialplan: sofia/internal/1002@192.168.10.107 parsing [default->zrtp_enrollement] continue=false
+22dc7f04-d134-11e4-b813-85e03683d452 Dialplan: sofia/internal/1002@192.168.10.107 Regex (FAIL) [zrtp_enrollement] destination_number(9664) =~ /^9787$/ break=on-false
+22dc7f04-d134-11e4-b813-85e03683d452 Dialplan: sofia/internal/1002@192.168.10.107 parsing [default->hold_music] continue=false
+22dc7f04-d134-11e4-b813-85e03683d452 Dialplan: sofia/internal/1002@192.168.10.107 Regex (PASS) [hold_music] destination_number(9664) =~ /^9664$/ break=on-false
+22dc7f04-d134-11e4-b813-85e03683d452 Dialplan: sofia/internal/1002@192.168.10.107 Regex (FAIL) [hold_music] ${rtp_has_crypto}() =~ /^(AES_CM_128_HMAC_SHA1_32|AES_CM_128_HMAC_SHA1_80)$/ break=on-false
+22dc7f04-d134-11e4-b813-85e03683d452 Dialplan: sofia/internal/1002@192.168.10.107 ANTI-Action set(zrtp_secure_media=true)
+22dc7f04-d134-11e4-b813-85e03683d452 Dialplan: sofia/internal/1002@192.168.10.107 ANTI-Action answer()
+22dc7f04-d134-11e4-b813-85e03683d452 Dialplan: sofia/internal/1002@192.168.10.107 ANTI-Action playback(silence_stream://2000)
+22dc7f04-d134-11e4-b813-85e03683d452 Dialplan: sofia/internal/1002@192.168.10.107 ANTI-Action execute_extension(is_zrtp_secure XML features)
+22dc7f04-d134-11e4-b813-85e03683d452 Dialplan: sofia/internal/1002@192.168.10.107 ANTI-Action playback(local_stream://moh)
+22dc7f04-d134-11e4-b813-85e03683d452 2015-03-23 16:10:58.201070 [DEBUG] switch_core_state_machine.c:216 (sofia/internal/1002@192.168.10.107) State Change CS_ROUTING -> CS_EXECUTE
+22dc7f04-d134-11e4-b813-85e03683d452 2015-03-23 16:10:58.201070 [DEBUG] switch_core_session.c:1396 Send signal sofia/internal/1002@192.168.10.107 [BREAK]
+22dc7f04-d134-11e4-b813-85e03683d452 2015-03-23 16:10:58.201070 [DEBUG] switch_core_state_machine.c:528 (sofia/internal/1002@192.168.10.107) State ROUTING going to sleep
+22dc7f04-d134-11e4-b813-85e03683d452 2015-03-23 16:10:58.201070 [DEBUG] switch_core_state_machine.c:472 (sofia/internal/1002@192.168.10.107) Running State Change CS_EXECUTE
+22dc7f04-d134-11e4-b813-85e03683d452 2015-03-23 16:10:58.201070 [DEBUG] switch_core_state_machine.c:535 (sofia/internal/1002@192.168.10.107) State EXECUTE
+22dc7f04-d134-11e4-b813-85e03683d452 2015-03-23 16:10:58.201070 [DEBUG] mod_sofia.c:178 sofia/internal/1002@192.168.10.107 SOFIA EXECUTE
+22dc7f04-d134-11e4-b813-85e03683d452 2015-03-23 16:10:58.201070 [DEBUG] switch_core_state_machine.c:258 sofia/internal/1002@192.168.10.107 Standard EXECUTE
+22dc7f04-d134-11e4-b813-85e03683d452 EXECUTE sofia/internal/1002@192.168.10.107 set(open=true)
+22dc7f04-d134-11e4-b813-85e03683d452 2015-03-23 16:10:58.201070 [DEBUG] mod_dptools.c:1445 sofia/internal/1002@192.168.10.107 SET [open]=[true]
+22dc7f04-d134-11e4-b813-85e03683d452 EXECUTE sofia/internal/1002@192.168.10.107 log(CRIT WARNING WARNING WARNING WARNING WARNING WARNING WARNING WARNING WARNING )
+22dc7f04-d134-11e4-b813-85e03683d452 2015-03-23 16:10:58.201070 [CRIT] mod_dptools.c:1638 WARNING WARNING WARNING WARNING WARNING WARNING WARNING WARNING WARNING
+22dc7f04-d134-11e4-b813-85e03683d452 EXECUTE sofia/internal/1002@192.168.10.107 log(CRIT Open /home/archer/Documents/freeswitch/bin/freeswitch-conf/conf/vars.xml and change the default_password.)
+22dc7f04-d134-11e4-b813-85e03683d452 2015-03-23 16:10:58.201070 [CRIT] mod_dptools.c:1638 Open /home/archer/Documents/freeswitch/bin/freeswitch-conf/conf/vars.xml and change the default_password.
+22dc7f04-d134-11e4-b813-85e03683d452 EXECUTE sofia/internal/1002@192.168.10.107 log(CRIT Once changed type reloadxml at the console.)
+22dc7f04-d134-11e4-b813-85e03683d452 2015-03-23 16:10:58.201070 [CRIT] mod_dptools.c:1638 Once changed type reloadxml at the console.
+22dc7f04-d134-11e4-b813-85e03683d452 EXECUTE sofia/internal/1002@192.168.10.107 log(CRIT WARNING WARNING WARNING WARNING WARNING WARNING WARNING WARNING WARNING )
+22dc7f04-d134-11e4-b813-85e03683d452 2015-03-23 16:10:58.201070 [CRIT] mod_dptools.c:1638 WARNING WARNING WARNING WARNING WARNING WARNING WARNING WARNING WARNING
+22dc7f04-d134-11e4-b813-85e03683d452 EXECUTE sofia/internal/1002@192.168.10.107 sleep(10000)
+22dc7f04-d134-11e4-b813-85e03683d452 EXECUTE sofia/internal/1002@192.168.10.107 hash(insert/192.168.10.107-spymap/1002/22dc7f04-d134-11e4-b813-85e03683d452)
+22dc7f04-d134-11e4-b813-85e03683d452 EXECUTE sofia/internal/1002@192.168.10.107 hash(insert/192.168.10.107-last_dial/1002/9664)
+22dc7f04-d134-11e4-b813-85e03683d452 EXECUTE sofia/internal/1002@192.168.10.107 hash(insert/192.168.10.107-last_dial/global/22dc7f04-d134-11e4-b813-85e03683d452)
+22dc7f04-d134-11e4-b813-85e03683d452 EXECUTE sofia/internal/1002@192.168.10.107 export(RFC2822_DATE=Mon, 23 Mar 2015 16:11:08 +0800)
+22dc7f04-d134-11e4-b813-85e03683d452 2015-03-23 16:11:08.241049 [DEBUG] switch_channel.c:1247 EXPORT (export_vars) [RFC2822_DATE]=[Mon, 23 Mar 2015 16:11:08 +0800]
+22dc7f04-d134-11e4-b813-85e03683d452 EXECUTE sofia/internal/1002@192.168.10.107 set(zrtp_secure_media=true)
+22dc7f04-d134-11e4-b813-85e03683d452 2015-03-23 16:11:08.241049 [DEBUG] mod_dptools.c:1445 sofia/internal/1002@192.168.10.107 SET [zrtp_secure_media]=[true]
+22dc7f04-d134-11e4-b813-85e03683d452 EXECUTE sofia/internal/1002@192.168.10.107 answer()
+22dc7f04-d134-11e4-b813-85e03683d452 2015-03-23 16:11:08.241049 [DEBUG] switch_core_media.c:3632 Audio Codec Compare [opus:124:48000:20:0:1]/[opus:116:48000:20:0:1]
+22dc7f04-d134-11e4-b813-85e03683d452 2015-03-23 16:11:08.241049 [DEBUG] switch_core_media.c:3687 Audio Codec Compare [opus:116:48000:20:0:1] ++++ is saved as a match
+22dc7f04-d134-11e4-b813-85e03683d452 2015-03-23 16:11:08.241049 [DEBUG] switch_core_media.c:3632 Audio Codec Compare [opus:124:48000:20:0:1]/[G722:9:8000:20:64000:1]
+22dc7f04-d134-11e4-b813-85e03683d452 2015-03-23 16:11:08.241049 [DEBUG] switch_core_media.c:3632 Audio Codec Compare [opus:124:48000:20:0:1]/[PCMU:0:8000:20:64000:1]
+22dc7f04-d134-11e4-b813-85e03683d452 2015-03-23 16:11:08.241049 [DEBUG] switch_core_media.c:3632 Audio Codec Compare [opus:124:48000:20:0:1]/[PCMA:8:8000:20:64000:1]
+22dc7f04-d134-11e4-b813-85e03683d452 2015-03-23 16:11:08.241049 [DEBUG] switch_core_media.c:3632 Audio Codec Compare [opus:124:48000:20:0:1]/[GSM:3:8000:20:13200:1]
+22dc7f04-d134-11e4-b813-85e03683d452 2015-03-23 16:11:08.241049 [DEBUG] switch_core_media.c:3632 Audio Codec Compare [SILK:120:16000:20:0:1]/[opus:116:48000:20:0:1]
+22dc7f04-d134-11e4-b813-85e03683d452 2015-03-23 16:11:08.241049 [DEBUG] switch_core_media.c:3632 Audio Codec Compare [SILK:120:16000:20:0:1]/[G722:9:8000:20:64000:1]
+22dc7f04-d134-11e4-b813-85e03683d452 2015-03-23 16:11:08.241049 [DEBUG] switch_core_media.c:3632 Audio Codec Compare [SILK:120:16000:20:0:1]/[PCMU:0:8000:20:64000:1]
+22dc7f04-d134-11e4-b813-85e03683d452 2015-03-23 16:11:08.241049 [DEBUG] switch_core_media.c:3632 Audio Codec Compare [SILK:120:16000:20:0:1]/[PCMA:8:8000:20:64000:1]
+22dc7f04-d134-11e4-b813-85e03683d452 2015-03-23 16:11:08.241049 [DEBUG] switch_core_media.c:3632 Audio Codec Compare [SILK:120:16000:20:0:1]/[GSM:3:8000:20:13200:1]
+22dc7f04-d134-11e4-b813-85e03683d452 2015-03-23 16:11:08.241049 [DEBUG] switch_core_media.c:3632 Audio Codec Compare [speex:111:16000:20:0:1]/[opus:116:48000:20:0:1]
+22dc7f04-d134-11e4-b813-85e03683d452 2015-03-23 16:11:08.241049 [DEBUG] switch_core_media.c:3632 Audio Codec Compare [speex:111:16000:20:0:1]/[G722:9:8000:20:64000:1]
+22dc7f04-d134-11e4-b813-85e03683d452 2015-03-23 16:11:08.241049 [DEBUG] switch_core_media.c:3632 Audio Codec Compare [speex:111:16000:20:0:1]/[PCMU:0:8000:20:64000:1]
+22dc7f04-d134-11e4-b813-85e03683d452 2015-03-23 16:11:08.241049 [DEBUG] switch_core_media.c:3632 Audio Codec Compare [speex:111:16000:20:0:1]/[PCMA:8:8000:20:64000:1]
+22dc7f04-d134-11e4-b813-85e03683d452 2015-03-23 16:11:08.241049 [DEBUG] switch_core_media.c:3632 Audio Codec Compare [speex:111:16000:20:0:1]/[GSM:3:8000:20:13200:1]
+22dc7f04-d134-11e4-b813-85e03683d452 2015-03-23 16:11:08.241049 [DEBUG] switch_core_media.c:3632 Audio Codec Compare [speex:110:8000:20:0:1]/[opus:116:48000:20:0:1]
+22dc7f04-d134-11e4-b813-85e03683d452 2015-03-23 16:11:08.241049 [DEBUG] switch_core_media.c:3632 Audio Codec Compare [speex:110:8000:20:0:1]/[G722:9:8000:20:64000:1]
+22dc7f04-d134-11e4-b813-85e03683d452 2015-03-23 16:11:08.241049 [DEBUG] switch_core_media.c:3632 Audio Codec Compare [speex:110:8000:20:0:1]/[PCMU:0:8000:20:64000:1]
+22dc7f04-d134-11e4-b813-85e03683d452 2015-03-23 16:11:08.241049 [DEBUG] switch_core_media.c:3632 Audio Codec Compare [speex:110:8000:20:0:1]/[PCMA:8:8000:20:64000:1]
+22dc7f04-d134-11e4-b813-85e03683d452 2015-03-23 16:11:08.241049 [DEBUG] switch_core_media.c:3632 Audio Codec Compare [speex:110:8000:20:0:1]/[GSM:3:8000:20:13200:1]
+22dc7f04-d134-11e4-b813-85e03683d452 2015-03-23 16:11:08.241049 [DEBUG] switch_core_media.c:3632 Audio Codec Compare [PCMU:0:8000:20:64000:1]/[opus:116:48000:20:0:1]
+22dc7f04-d134-11e4-b813-85e03683d452 2015-03-23 16:11:08.241049 [DEBUG] switch_core_media.c:3632 Audio Codec Compare [PCMU:0:8000:20:64000:1]/[G722:9:8000:20:64000:1]
+22dc7f04-d134-11e4-b813-85e03683d452 2015-03-23 16:11:08.241049 [DEBUG] switch_core_media.c:3632 Audio Codec Compare [PCMU:0:8000:20:64000:1]/[PCMU:0:8000:20:64000:1]
+22dc7f04-d134-11e4-b813-85e03683d452 2015-03-23 16:11:08.241049 [DEBUG] switch_core_media.c:3687 Audio Codec Compare [PCMU:0:8000:20:64000:1] ++++ is saved as a match
+22dc7f04-d134-11e4-b813-85e03683d452 2015-03-23 16:11:08.241049 [DEBUG] switch_core_media.c:3632 Audio Codec Compare [PCMU:0:8000:20:64000:1]/[PCMA:8:8000:20:64000:1]
+22dc7f04-d134-11e4-b813-85e03683d452 2015-03-23 16:11:08.241049 [DEBUG] switch_core_media.c:3632 Audio Codec Compare [PCMU:0:8000:20:64000:1]/[GSM:3:8000:20:13200:1]
+22dc7f04-d134-11e4-b813-85e03683d452 2015-03-23 16:11:08.241049 [DEBUG] switch_core_media.c:3632 Audio Codec Compare [PCMA:8:8000:20:64000:1]/[opus:116:48000:20:0:1]
+22dc7f04-d134-11e4-b813-85e03683d452 2015-03-23 16:11:08.241049 [DEBUG] switch_core_media.c:3632 Audio Codec Compare [PCMA:8:8000:20:64000:1]/[G722:9:8000:20:64000:1]
+22dc7f04-d134-11e4-b813-85e03683d452 2015-03-23 16:11:08.241049 [DEBUG] switch_core_media.c:3632 Audio Codec Compare [PCMA:8:8000:20:64000:1]/[PCMU:0:8000:20:64000:1]
+22dc7f04-d134-11e4-b813-85e03683d452 2015-03-23 16:11:08.241049 [DEBUG] switch_core_media.c:3632 Audio Codec Compare [PCMA:8:8000:20:64000:1]/[PCMA:8:8000:20:64000:1]
+22dc7f04-d134-11e4-b813-85e03683d452 2015-03-23 16:11:08.241049 [DEBUG] switch_core_media.c:3687 Audio Codec Compare [PCMA:8:8000:20:64000:1] ++++ is saved as a match
+22dc7f04-d134-11e4-b813-85e03683d452 2015-03-23 16:11:08.241049 [DEBUG] switch_core_media.c:3632 Audio Codec Compare [PCMA:8:8000:20:64000:1]/[GSM:3:8000:20:13200:1]
+22dc7f04-d134-11e4-b813-85e03683d452 2015-03-23 16:11:08.241049 [DEBUG] switch_core_media.c:3548 Set telephone-event payload to 101
+2015-03-23 16:11:08.241049 [DEBUG] mod_opus.c:287 Opus encoder set bitrate to local settings [-1000bps]
+2015-03-23 16:11:08.241049 [DEBUG] mod_opus.c:287 Opus encoder set bitrate to local settings [-1000bps]
+22dc7f04-d134-11e4-b813-85e03683d452 2015-03-23 16:11:08.241049 [DEBUG] switch_core_media.c:2473 Set Codec sofia/internal/1002@192.168.10.107 opus/48000 20 ms 960 samples 0 bits 1 channels
+22dc7f04-d134-11e4-b813-85e03683d452 2015-03-23 16:11:08.241049 [DEBUG] switch_core_codec.c:111 sofia/internal/1002@192.168.10.107 Original read codec set to opus:116
+22dc7f04-d134-11e4-b813-85e03683d452 2015-03-23 16:11:08.241049 [DEBUG] switch_core_media.c:3895 Set 2833 dtmf send/recv payload to 101
+22dc7f04-d134-11e4-b813-85e03683d452 2015-03-23 16:11:08.241049 [DEBUG] switch_core_media.c:5147 AUDIO RTP [sofia/internal/1002@192.168.10.107] 192.168.10.107 port 29642 -> 192.168.10.106 port 7076 codec: 124 ms: 20
+22dc7f04-d134-11e4-b813-85e03683d452 2015-03-23 16:11:08.241049 [DEBUG] switch_rtp.c:3562 Starting timer [soft] 960 bytes per 20ms
+22dc7f04-d134-11e4-b813-85e03683d452 2015-03-23 16:11:08.241049 [DEBUG] switch_core_media.c:5445 Set 2833 dtmf send payload to 101
+22dc7f04-d134-11e4-b813-85e03683d452 2015-03-23 16:11:08.241049 [DEBUG] switch_core_media.c:5451 Set 2833 dtmf receive payload to 101
+22dc7f04-d134-11e4-b813-85e03683d452 2015-03-23 16:11:08.241049 [NOTICE] sofia_media.c:92 Pre-Answer sofia/internal/1002@192.168.10.107!
+22dc7f04-d134-11e4-b813-85e03683d452 2015-03-23 16:11:08.241049 [DEBUG] switch_channel.c:3399 (sofia/internal/1002@192.168.10.107) Callstate Change RINGING -> EARLY
+22dc7f04-d134-11e4-b813-85e03683d452 2015-03-23 16:11:08.241049 [DEBUG] mod_sofia.c:780 Local SDP sofia/internal/1002@192.168.10.107:
+22dc7f04-d134-11e4-b813-85e03683d452 v=0
+22dc7f04-d134-11e4-b813-85e03683d452 o=FreeSWITCH 1427068626 1427068627 IN IP4 192.168.10.107
+22dc7f04-d134-11e4-b813-85e03683d452 s=FreeSWITCH
+22dc7f04-d134-11e4-b813-85e03683d452 c=IN IP4 192.168.10.107
+22dc7f04-d134-11e4-b813-85e03683d452 t=0 0
+22dc7f04-d134-11e4-b813-85e03683d452 m=audio 29642 RTP/AVP 124 101
+22dc7f04-d134-11e4-b813-85e03683d452 a=rtpmap:124 opus/48000/2
+22dc7f04-d134-11e4-b813-85e03683d452 a=fmtp:124 useinbandfec=1
+22dc7f04-d134-11e4-b813-85e03683d452 a=rtpmap:101 telephone-event/8000
+22dc7f04-d134-11e4-b813-85e03683d452 a=fmtp:101 0-16
+22dc7f04-d134-11e4-b813-85e03683d452 a=ptime:20
+22dc7f04-d134-11e4-b813-85e03683d452 a=sendrecv
+22dc7f04-d134-11e4-b813-85e03683d452 
+22dc7f04-d134-11e4-b813-85e03683d452 2015-03-23 16:11:08.241049 [DEBUG] switch_core_session.c:912 Send signal sofia/internal/1002@192.168.10.107 [BREAK]
+22dc7f04-d134-11e4-b813-85e03683d452 2015-03-23 16:11:08.241049 [NOTICE] mod_dptools.c:1268 Channel [sofia/internal/1002@192.168.10.107] has been answered
+22dc7f04-d134-11e4-b813-85e03683d452 2015-03-23 16:11:08.241049 [DEBUG] switch_core_session.c:1061 Send signal sofia/internal/1002@192.168.10.107 [BREAK]
+22dc7f04-d134-11e4-b813-85e03683d452 2015-03-23 16:11:08.241049 [DEBUG] switch_channel.c:3689 (sofia/internal/1002@192.168.10.107) Callstate Change EARLY -> ACTIVE
+22dc7f04-d134-11e4-b813-85e03683d452 2015-03-23 16:11:08.241049 [DEBUG] sofia.c:6623 Channel sofia/internal/1002@192.168.10.107 entering state [completed][200]
+22dc7f04-d134-11e4-b813-85e03683d452 EXECUTE sofia/internal/1002@192.168.10.107 playback(silence_stream://2000)
+22dc7f04-d134-11e4-b813-85e03683d452 2015-03-23 16:11:08.241049 [DEBUG] switch_ivr_play_say.c:1314 Codec Activated L16@48000hz 1 channels 20ms
+22dc7f04-d134-11e4-b813-85e03683d452 2015-03-23 16:11:08.361052 [DEBUG] switch_core_session.c:1061 Send signal sofia/internal/1002@192.168.10.107 [BREAK]
+22dc7f04-d134-11e4-b813-85e03683d452 2015-03-23 16:11:08.361052 [DEBUG] switch_core_session.c:1061 Send signal sofia/internal/1002@192.168.10.107 [BREAK]
+22dc7f04-d134-11e4-b813-85e03683d452 2015-03-23 16:11:08.361052 [DEBUG] switch_core_session.c:1061 Send signal sofia/internal/1002@192.168.10.107 [BREAK]
+22dc7f04-d134-11e4-b813-85e03683d452 2015-03-23 16:11:08.381053 [DEBUG] sofia.c:6623 Channel sofia/internal/1002@192.168.10.107 entering state [ready][200]
+22dc7f04-d134-11e4-b813-85e03683d452 2015-03-23 16:11:08.761074 [DEBUG] switch_rtp.c:5870 Correct ip/port confirmed.
+22dc7f04-d134-11e4-b813-85e03683d452 2015-03-23 16:11:10.241047 [DEBUG] switch_ivr_play_say.c:1747 done playing file silence_stream://2000
+22dc7f04-d134-11e4-b813-85e03683d452 EXECUTE sofia/internal/1002@192.168.10.107 execute_extension(is_zrtp_secure XML features)
+22dc7f04-d134-11e4-b813-85e03683d452 2015-03-23 16:11:10.241047 [INFO] mod_dialplan_xml.c:635 Processing 1002 <1002>->is_zrtp_secure in context features
+22dc7f04-d134-11e4-b813-85e03683d452 Dialplan: sofia/internal/1002@192.168.10.107 parsing [features->dx] continue=false
+22dc7f04-d134-11e4-b813-85e03683d452 Dialplan: sofia/internal/1002@192.168.10.107 Regex (FAIL) [dx] destination_number(is_zrtp_secure) =~ /^dx$/ break=on-false
+22dc7f04-d134-11e4-b813-85e03683d452 Dialplan: sofia/internal/1002@192.168.10.107 parsing [features->att_xfer] continue=false
+22dc7f04-d134-11e4-b813-85e03683d452 Dialplan: sofia/internal/1002@192.168.10.107 Regex (FAIL) [att_xfer] destination_number(is_zrtp_secure) =~ /^att_xfer$/ break=on-false
+22dc7f04-d134-11e4-b813-85e03683d452 Dialplan: sofia/internal/1002@192.168.10.107 parsing [features->is_transfer] continue=false
+22dc7f04-d134-11e4-b813-85e03683d452 Dialplan: sofia/internal/1002@192.168.10.107 Regex (FAIL) [is_transfer] destination_number(is_zrtp_secure) =~ /^is_transfer$/ break=on-false
+22dc7f04-d134-11e4-b813-85e03683d452 Dialplan: sofia/internal/1002@192.168.10.107 parsing [features->cf] continue=false
+22dc7f04-d134-11e4-b813-85e03683d452 Dialplan: sofia/internal/1002@192.168.10.107 Regex (FAIL) [cf] destination_number(is_zrtp_secure) =~ /^cf$/ break=on-false
+22dc7f04-d134-11e4-b813-85e03683d452 Dialplan: sofia/internal/1002@192.168.10.107 parsing [features->please_hold] continue=false
+22dc7f04-d134-11e4-b813-85e03683d452 Dialplan: sofia/internal/1002@192.168.10.107 Regex (FAIL) [please_hold] destination_number(is_zrtp_secure) =~ /^(10[01][0-9])$/ break=on-false
+22dc7f04-d134-11e4-b813-85e03683d452 Dialplan: sofia/internal/1002@192.168.10.107 parsing [features->is_zrtp_secure] continue=true
+22dc7f04-d134-11e4-b813-85e03683d452 Dialplan: sofia/internal/1002@192.168.10.107 Regex (FAIL) [is_zrtp_secure] ${zrtp_secure_media_confirmed}() =~ /^true$/ break=on-false
+22dc7f04-d134-11e4-b813-85e03683d452 Dialplan: sofia/internal/1002@192.168.10.107 ANTI-Action eval(not_secure)
+22dc7f04-d134-11e4-b813-85e03683d452 Dialplan: sofia/internal/1002@192.168.10.107 parsing [features->is_secure] continue=true
+22dc7f04-d134-11e4-b813-85e03683d452 Dialplan: sofia/internal/1002@192.168.10.107 Regex (FAIL) [is_secure] ${sip_via_protocol}(udp) =~ /tls/ break=on-false
+22dc7f04-d134-11e4-b813-85e03683d452 2015-03-23 16:11:10.241047 [NOTICE] switch_core_session.c:3000 Execute eval(not_secure)
+22dc7f04-d134-11e4-b813-85e03683d452 EXECUTE sofia/internal/1002@192.168.10.107 eval(not_secure)
+22dc7f04-d134-11e4-b813-85e03683d452 EXECUTE sofia/internal/1002@192.168.10.107 playback(local_stream://moh)
+2015-03-23 16:11:10.241047 [WARNING] mod_local_stream.c:470 Unknown source moh, trying 'default'
+2015-03-23 16:11:10.241047 [DEBUG] mod_local_stream.c:498 Opening Stream [default] 8000hz
+2015-03-23 16:11:10.241047 [DEBUG] switch_core_file.c:216 File moh sample rate 8000 doesn't match requested rate 48000
+22dc7f04-d134-11e4-b813-85e03683d452 2015-03-23 16:11:10.241047 [DEBUG] switch_ivr_play_say.c:1314 Codec Activated L16@48000hz 1 channels 20ms
+22dc7f04-d134-11e4-b813-85e03683d452 2015-03-23 16:11:17.121050 [DEBUG] switch_core_session.c:1061 Send signal sofia/internal/1002@192.168.10.107 [BREAK]
+22dc7f04-d134-11e4-b813-85e03683d452 2015-03-23 16:11:17.141050 [NOTICE] sofia.c:952 Hangup sofia/internal/1002@192.168.10.107 [CS_EXECUTE] [NORMAL_CLEARING]
+22dc7f04-d134-11e4-b813-85e03683d452 2015-03-23 16:11:17.141050 [DEBUG] switch_channel.c:3222 Send signal sofia/internal/1002@192.168.10.107 [KILL]
+22dc7f04-d134-11e4-b813-85e03683d452 2015-03-23 16:11:17.141050 [DEBUG] switch_core_session.c:1396 Send signal sofia/internal/1002@192.168.10.107 [BREAK]
+22dc7f04-d134-11e4-b813-85e03683d452 2015-03-23 16:11:17.141050 [DEBUG] switch_ivr_play_say.c:1747 done playing file local_stream://moh
+22dc7f04-d134-11e4-b813-85e03683d452 2015-03-23 16:11:17.141050 [DEBUG] switch_core_session.c:2901 sofia/internal/1002@192.168.10.107 skip receive message [APPLICATION_EXEC_COMPLETE] (channel is hungup already)
+22dc7f04-d134-11e4-b813-85e03683d452 2015-03-23 16:11:17.141050 [DEBUG] switch_core_state_machine.c:535 (sofia/internal/1002@192.168.10.107) State EXECUTE going to sleep
+22dc7f04-d134-11e4-b813-85e03683d452 2015-03-23 16:11:17.141050 [DEBUG] switch_core_state_machine.c:472 (sofia/internal/1002@192.168.10.107) Running State Change CS_HANGUP
+22dc7f04-d134-11e4-b813-85e03683d452 2015-03-23 16:11:17.141050 [DEBUG] switch_core_state_machine.c:735 (sofia/internal/1002@192.168.10.107) Callstate Change ACTIVE -> HANGUP
+22dc7f04-d134-11e4-b813-85e03683d452 2015-03-23 16:11:17.141050 [DEBUG] switch_core_state_machine.c:737 (sofia/internal/1002@192.168.10.107) State HANGUP
+22dc7f04-d134-11e4-b813-85e03683d452 2015-03-23 16:11:17.141050 [DEBUG] mod_sofia.c:413 Channel sofia/internal/1002@192.168.10.107 hanging up, cause: NORMAL_CLEARING
+22dc7f04-d134-11e4-b813-85e03683d452 2015-03-23 16:11:17.141050 [DEBUG] switch_core_state_machine.c:60 sofia/internal/1002@192.168.10.107 Standard HANGUP, cause: NORMAL_CLEARING
+22dc7f04-d134-11e4-b813-85e03683d452 2015-03-23 16:11:17.141050 [DEBUG] switch_core_state_machine.c:737 (sofia/internal/1002@192.168.10.107) State HANGUP going to sleep
+22dc7f04-d134-11e4-b813-85e03683d452 2015-03-23 16:11:17.141050 [DEBUG] switch_core_state_machine.c:504 (sofia/internal/1002@192.168.10.107) State Change CS_HANGUP -> CS_REPORTING
+22dc7f04-d134-11e4-b813-85e03683d452 2015-03-23 16:11:17.141050 [DEBUG] switch_core_session.c:1396 Send signal sofia/internal/1002@192.168.10.107 [BREAK]
+22dc7f04-d134-11e4-b813-85e03683d452 2015-03-23 16:11:17.141050 [DEBUG] switch_core_state_machine.c:472 (sofia/internal/1002@192.168.10.107) Running State Change CS_REPORTING
+22dc7f04-d134-11e4-b813-85e03683d452 2015-03-23 16:11:17.141050 [DEBUG] switch_core_state_machine.c:823 (sofia/internal/1002@192.168.10.107) State REPORTING
+22dc7f04-d134-11e4-b813-85e03683d452 2015-03-23 16:11:17.141050 [DEBUG] switch_core_state_machine.c:104 sofia/internal/1002@192.168.10.107 Standard REPORTING, cause: NORMAL_CLEARING
+22dc7f04-d134-11e4-b813-85e03683d452 2015-03-23 16:11:17.141050 [DEBUG] switch_core_state_machine.c:823 (sofia/internal/1002@192.168.10.107) State REPORTING going to sleep
+22dc7f04-d134-11e4-b813-85e03683d452 2015-03-23 16:11:17.141050 [DEBUG] switch_core_state_machine.c:498 (sofia/internal/1002@192.168.10.107) State Change CS_REPORTING -> CS_DESTROY
+22dc7f04-d134-11e4-b813-85e03683d452 2015-03-23 16:11:17.141050 [DEBUG] switch_core_session.c:1396 Send signal sofia/internal/1002@192.168.10.107 [BREAK]
+22dc7f04-d134-11e4-b813-85e03683d452 2015-03-23 16:11:17.141050 [DEBUG] switch_core_session.c:1623 Session 1 (sofia/internal/1002@192.168.10.107) Locked, Waiting on external entities
+22dc7f04-d134-11e4-b813-85e03683d452 2015-03-23 16:11:17.141050 [NOTICE] switch_core_session.c:1641 Session 1 (sofia/internal/1002@192.168.10.107) Ended
+22dc7f04-d134-11e4-b813-85e03683d452 2015-03-23 16:11:17.141050 [NOTICE] switch_core_session.c:1645 Close Channel sofia/internal/1002@192.168.10.107 [CS_DESTROY]
+22dc7f04-d134-11e4-b813-85e03683d452 2015-03-23 16:11:17.141050 [DEBUG] switch_core_state_machine.c:626 (sofia/internal/1002@192.168.10.107) Running State Change CS_DESTROY
+22dc7f04-d134-11e4-b813-85e03683d452 2015-03-23 16:11:17.141050 [DEBUG] switch_core_state_machine.c:636 (sofia/internal/1002@192.168.10.107) State DESTROY
+22dc7f04-d134-11e4-b813-85e03683d452 2015-03-23 16:11:17.141050 [DEBUG] mod_sofia.c:323 sofia/internal/1002@192.168.10.107 SOFIA DESTROY
+22dc7f04-d134-11e4-b813-85e03683d452 2015-03-23 16:11:17.141050 [DEBUG] switch_core_state_machine.c:111 sofia/internal/1002@192.168.10.107 Standard DESTROY
+22dc7f04-d134-11e4-b813-85e03683d452 2015-03-23 16:11:17.141050 [DEBUG] switch_core_state_machine.c:636 (sofia/internal/1002@192.168.10.107) State DESTROY going to sleep
+313c1a8c-d134-11e4-b827-85e03683d452 2015-03-23 16:11:22.241070 [NOTICE] switch_channel.c:1055 New Channel sofia/internal/1002@192.168.10.107 [313c1a8c-d134-11e4-b827-85e03683d452]
+313c1a8c-d134-11e4-b827-85e03683d452 2015-03-23 16:11:22.241070 [DEBUG] switch_core_session.c:1061 Send signal sofia/internal/1002@192.168.10.107 [BREAK]
+313c1a8c-d134-11e4-b827-85e03683d452 2015-03-23 16:11:22.241070 [DEBUG] switch_core_session.c:1061 Send signal sofia/internal/1002@192.168.10.107 [BREAK]
+313c1a8c-d134-11e4-b827-85e03683d452 2015-03-23 16:11:22.241070 [DEBUG] switch_core_state_machine.c:472 (sofia/internal/1002@192.168.10.107) Running State Change CS_NEW
+313c1a8c-d134-11e4-b827-85e03683d452 2015-03-23 16:11:22.241070 [DEBUG] sofia.c:8844 sofia/internal/1002@192.168.10.107 receiving invite from 192.168.10.106:35650 version: 1.4.17  64bit
+2015-03-23 16:11:22.241070 [DEBUG] sofia.c:9011 IP 192.168.10.106 Rejected by acl "domains". Falling back to Digest auth.
+313c1a8c-d134-11e4-b827-85e03683d452 2015-03-23 16:11:22.241070 [DEBUG] switch_core_state_machine.c:491 (sofia/internal/1002@192.168.10.107) State NEW
+313c1a8c-d134-11e4-b827-85e03683d452 2015-03-23 16:11:22.241070 [DEBUG] switch_core_session.c:1061 Send signal sofia/internal/1002@192.168.10.107 [BREAK]
+2015-03-23 16:11:22.241070 [DEBUG] sofia.c:2065 detaching session 313c1a8c-d134-11e4-b827-85e03683d452
+2015-03-23 16:11:22.281065 [DEBUG] sofia.c:2173 Re-attaching to session 313c1a8c-d134-11e4-b827-85e03683d452
+313c1a8c-d134-11e4-b827-85e03683d452 2015-03-23 16:11:22.281065 [DEBUG] switch_core_session.c:1061 Send signal sofia/internal/1002@192.168.10.107 [BREAK]
+313c1a8c-d134-11e4-b827-85e03683d452 2015-03-23 16:11:22.281065 [DEBUG] switch_core_session.c:1061 Send signal sofia/internal/1002@192.168.10.107 [BREAK]
+313c1a8c-d134-11e4-b827-85e03683d452 2015-03-23 16:11:22.301071 [DEBUG] sofia.c:8844 sofia/internal/1002@192.168.10.107 receiving invite from 192.168.10.106:35650 version: 1.4.17  64bit
+2015-03-23 16:11:22.301071 [DEBUG] sofia.c:9011 IP 192.168.10.106 Rejected by acl "domains". Falling back to Digest auth.
+313c1a8c-d134-11e4-b827-85e03683d452 2015-03-23 16:11:22.301071 [DEBUG] sofia.c:6623 Channel sofia/internal/1002@192.168.10.107 entering state [received][100]
+313c1a8c-d134-11e4-b827-85e03683d452 2015-03-23 16:11:22.301071 [DEBUG] sofia.c:6633 Remote SDP:
+313c1a8c-d134-11e4-b827-85e03683d452 v=0
+313c1a8c-d134-11e4-b827-85e03683d452 o=1002 133 3292 IN IP4 192.168.10.106
+313c1a8c-d134-11e4-b827-85e03683d452 s=Talk
+313c1a8c-d134-11e4-b827-85e03683d452 c=IN IP4 192.168.10.106
+313c1a8c-d134-11e4-b827-85e03683d452 b=AS:380
+313c1a8c-d134-11e4-b827-85e03683d452 t=0 0
+313c1a8c-d134-11e4-b827-85e03683d452 m=audio 7076 RTP/AVP 124 120 111 110 0 8 101
+313c1a8c-d134-11e4-b827-85e03683d452 a=rtpmap:124 opus/48000/2
+313c1a8c-d134-11e4-b827-85e03683d452 a=fmtp:124 useinbandfec=1; stereo=0; sprop-stereo=0
+313c1a8c-d134-11e4-b827-85e03683d452 a=rtpmap:120 SILK/16000
+313c1a8c-d134-11e4-b827-85e03683d452 a=rtpmap:111 speex/16000
+313c1a8c-d134-11e4-b827-85e03683d452 a=fmtp:111 vbr=on
+313c1a8c-d134-11e4-b827-85e03683d452 a=rtpmap:110 speex/8000
+313c1a8c-d134-11e4-b827-85e03683d452 a=fmtp:110 vbr=on
+313c1a8c-d134-11e4-b827-85e03683d452 a=rtpmap:101 telephone-event/8000
+313c1a8c-d134-11e4-b827-85e03683d452 a=fmtp:101 0-15
+313c1a8c-d134-11e4-b827-85e03683d452 
+313c1a8c-d134-11e4-b827-85e03683d452 2015-03-23 16:11:22.301071 [DEBUG] sofia.c:6899 (sofia/internal/1002@192.168.10.107) State Change CS_NEW -> CS_INIT
+313c1a8c-d134-11e4-b827-85e03683d452 2015-03-23 16:11:22.301071 [DEBUG] switch_core_session.c:1396 Send signal sofia/internal/1002@192.168.10.107 [BREAK]
+313c1a8c-d134-11e4-b827-85e03683d452 2015-03-23 16:11:22.301071 [DEBUG] switch_core_state_machine.c:472 (sofia/internal/1002@192.168.10.107) Running State Change CS_INIT
+313c1a8c-d134-11e4-b827-85e03683d452 2015-03-23 16:11:22.301071 [DEBUG] switch_core_state_machine.c:512 (sofia/internal/1002@192.168.10.107) State INIT
+313c1a8c-d134-11e4-b827-85e03683d452 2015-03-23 16:11:22.301071 [DEBUG] mod_sofia.c:87 sofia/internal/1002@192.168.10.107 SOFIA INIT
+313c1a8c-d134-11e4-b827-85e03683d452 2015-03-23 16:11:22.301071 [DEBUG] switch_core_state_machine.c:40 sofia/internal/1002@192.168.10.107 Standard INIT
+313c1a8c-d134-11e4-b827-85e03683d452 2015-03-23 16:11:22.301071 [DEBUG] switch_core_state_machine.c:48 (sofia/internal/1002@192.168.10.107) State Change CS_INIT -> CS_ROUTING
+313c1a8c-d134-11e4-b827-85e03683d452 2015-03-23 16:11:22.301071 [DEBUG] switch_core_session.c:1396 Send signal sofia/internal/1002@192.168.10.107 [BREAK]
+313c1a8c-d134-11e4-b827-85e03683d452 2015-03-23 16:11:22.301071 [DEBUG] switch_core_state_machine.c:512 (sofia/internal/1002@192.168.10.107) State INIT going to sleep
+313c1a8c-d134-11e4-b827-85e03683d452 2015-03-23 16:11:22.301071 [DEBUG] switch_core_state_machine.c:472 (sofia/internal/1002@192.168.10.107) Running State Change CS_ROUTING
+313c1a8c-d134-11e4-b827-85e03683d452 2015-03-23 16:11:22.301071 [DEBUG] switch_channel.c:2184 (sofia/internal/1002@192.168.10.107) Callstate Change DOWN -> RINGING
+313c1a8c-d134-11e4-b827-85e03683d452 2015-03-23 16:11:22.301071 [DEBUG] switch_core_state_machine.c:528 (sofia/internal/1002@192.168.10.107) State ROUTING
+313c1a8c-d134-11e4-b827-85e03683d452 2015-03-23 16:11:22.301071 [DEBUG] mod_sofia.c:123 sofia/internal/1002@192.168.10.107 SOFIA ROUTING
+313c1a8c-d134-11e4-b827-85e03683d452 2015-03-23 16:11:22.301071 [DEBUG] switch_core_state_machine.c:166 sofia/internal/1002@192.168.10.107 Standard ROUTING
+313c1a8c-d134-11e4-b827-85e03683d452 2015-03-23 16:11:22.301071 [INFO] mod_dialplan_xml.c:635 Processing 1002 <1002>->3001 in context default
+313c1a8c-d134-11e4-b827-85e03683d452 Dialplan: sofia/internal/1002@192.168.10.107 parsing [default->unloop] continue=false
+313c1a8c-d134-11e4-b827-85e03683d452 Dialplan: sofia/internal/1002@192.168.10.107 Regex (PASS) [unloop] ${unroll_loops}(true) =~ /^true$/ break=on-false
+313c1a8c-d134-11e4-b827-85e03683d452 Dialplan: sofia/internal/1002@192.168.10.107 Regex (FAIL) [unloop] ${sip_looped_call}() =~ /^true$/ break=on-false
+313c1a8c-d134-11e4-b827-85e03683d452 Dialplan: sofia/internal/1002@192.168.10.107 parsing [default->tod_example] continue=true
+313c1a8c-d134-11e4-b827-85e03683d452 Dialplan: sofia/internal/1002@192.168.10.107 Date/Time Match (PASS) [tod_example] break=on-false
+313c1a8c-d134-11e4-b827-85e03683d452 Dialplan: sofia/internal/1002@192.168.10.107 Action set(open=true)
+313c1a8c-d134-11e4-b827-85e03683d452 Dialplan: sofia/internal/1002@192.168.10.107 parsing [default->holiday_example] continue=true
+313c1a8c-d134-11e4-b827-85e03683d452 Dialplan: sofia/internal/1002@192.168.10.107 Date/TimeMatch (FAIL) [holiday_example] break=on-false
+313c1a8c-d134-11e4-b827-85e03683d452 Dialplan: sofia/internal/1002@192.168.10.107 parsing [default->global-intercept] continue=false
+313c1a8c-d134-11e4-b827-85e03683d452 Dialplan: sofia/internal/1002@192.168.10.107 Regex (FAIL) [global-intercept] destination_number(3001) =~ /^886$/ break=on-false
+313c1a8c-d134-11e4-b827-85e03683d452 Dialplan: sofia/internal/1002@192.168.10.107 parsing [default->group-intercept] continue=false
+313c1a8c-d134-11e4-b827-85e03683d452 Dialplan: sofia/internal/1002@192.168.10.107 Regex (FAIL) [group-intercept] destination_number(3001) =~ /^\*8$/ break=on-false
+313c1a8c-d134-11e4-b827-85e03683d452 Dialplan: sofia/internal/1002@192.168.10.107 parsing [default->intercept-ext] continue=false
+313c1a8c-d134-11e4-b827-85e03683d452 Dialplan: sofia/internal/1002@192.168.10.107 Regex (FAIL) [intercept-ext] destination_number(3001) =~ /^\*\*(\d+)$/ break=on-false
+313c1a8c-d134-11e4-b827-85e03683d452 Dialplan: sofia/internal/1002@192.168.10.107 parsing [default->redial] continue=false
+313c1a8c-d134-11e4-b827-85e03683d452 Dialplan: sofia/internal/1002@192.168.10.107 Regex (FAIL) [redial] destination_number(3001) =~ /^(redial|870)$/ break=on-false
+313c1a8c-d134-11e4-b827-85e03683d452 Dialplan: sofia/internal/1002@192.168.10.107 parsing [default->global] continue=true
+313c1a8c-d134-11e4-b827-85e03683d452 Dialplan: sofia/internal/1002@192.168.10.107 Regex (FAIL) [global] ${call_debug}(false) =~ /^true$/ break=never
+313c1a8c-d134-11e4-b827-85e03683d452 Dialplan: sofia/internal/1002@192.168.10.107 Regex (PASS) [global] ${default_password}(1234) =~ /^1234$/ break=never
+313c1a8c-d134-11e4-b827-85e03683d452 Dialplan: sofia/internal/1002@192.168.10.107 Action log(CRIT WARNING WARNING WARNING WARNING WARNING WARNING WARNING WARNING WARNING )
+313c1a8c-d134-11e4-b827-85e03683d452 Dialplan: sofia/internal/1002@192.168.10.107 Action log(CRIT Open /home/archer/Documents/freeswitch/bin/freeswitch-conf/conf/vars.xml and change the default_password.)
+313c1a8c-d134-11e4-b827-85e03683d452 Dialplan: sofia/internal/1002@192.168.10.107 Action log(CRIT Once changed type reloadxml at the console.)
+313c1a8c-d134-11e4-b827-85e03683d452 Dialplan: sofia/internal/1002@192.168.10.107 Action log(CRIT WARNING WARNING WARNING WARNING WARNING WARNING WARNING WARNING WARNING )
+313c1a8c-d134-11e4-b827-85e03683d452 Dialplan: sofia/internal/1002@192.168.10.107 Action sleep(10000)
+313c1a8c-d134-11e4-b827-85e03683d452 Dialplan: sofia/internal/1002@192.168.10.107 Regex (FAIL) [global] ${rtp_has_crypto}() =~ /^(AEAD_AES_256_GCM_8|AEAD_AES_128_GCM_8|AES_CM_256_HMAC_SHA1_80|AES_CM_192_HMAC_SHA1_80|AES_CM_128_HMAC_SHA1_80|AES_CM_256_HMAC_SHA1_32|AES_CM_192_HMAC_SHA1_32|AES_CM_128_HMAC_SHA1_32|AES_CM_128_NULL_AUTH)$/ break=never
+313c1a8c-d134-11e4-b827-85e03683d452 Dialplan: sofia/internal/1002@192.168.10.107 Regex (PASS) [global] ${endpoint_disposition}(DELAYED NEGOTIATION) =~ /^(DELAYED NEGOTIATION)/ break=on-false
+313c1a8c-d134-11e4-b827-85e03683d452 Dialplan: sofia/internal/1002@192.168.10.107 Regex (FAIL) [global] ${switch_r_sdp}(v=0
+313c1a8c-d134-11e4-b827-85e03683d452 o=1002 133 3292 IN IP4 192.168.10.106
+313c1a8c-d134-11e4-b827-85e03683d452 s=Talk
+313c1a8c-d134-11e4-b827-85e03683d452 c=IN IP4 192.168.10.106
+313c1a8c-d134-11e4-b827-85e03683d452 b=AS:380
+313c1a8c-d134-11e4-b827-85e03683d452 t=0 0
+313c1a8c-d134-11e4-b827-85e03683d452 m=audio 7076 RTP/AVP 124 120 111 110 0 8 101
+313c1a8c-d134-11e4-b827-85e03683d452 a=rtpmap:124 opus/48000/2
+313c1a8c-d134-11e4-b827-85e03683d452 a=fmtp:124 useinbandfec=1; stereo=0; sprop-stereo=0
+313c1a8c-d134-11e4-b827-85e03683d452 a=rtpmap:120 SILK/16000
+313c1a8c-d134-11e4-b827-85e03683d452 a=rtpmap:111 speex/16000
+313c1a8c-d134-11e4-b827-85e03683d452 a=fmtp:111 vbr=on
+313c1a8c-d134-11e4-b827-85e03683d452 a=rtpmap:110 speex/8000
+313c1a8c-d134-11e4-b827-85e03683d452 a=fmtp:110 vbr=on
+313c1a8c-d134-11e4-b827-85e03683d452 a=rtpmap:101 telephone-event/8000
+313c1a8c-d134-11e4-b827-85e03683d452 a=fmtp:101 0-15
+313c1a8c-d134-11e4-b827-85e03683d452 ) =~ /(AES_CM_128_HMAC_SHA1_32|AES_CM_128_HMAC_SHA1_80)/ break=never
+313c1a8c-d134-11e4-b827-85e03683d452 Dialplan: sofia/internal/1002@192.168.10.107 Absolute Condition [global]
+313c1a8c-d134-11e4-b827-85e03683d452 Dialplan: sofia/internal/1002@192.168.10.107 Action hash(insert/${domain_name}-spymap/${caller_id_number}/${uuid})
+313c1a8c-d134-11e4-b827-85e03683d452 Dialplan: sofia/internal/1002@192.168.10.107 Action hash(insert/${domain_name}-last_dial/${caller_id_number}/${destination_number})
+313c1a8c-d134-11e4-b827-85e03683d452 Dialplan: sofia/internal/1002@192.168.10.107 Action hash(insert/${domain_name}-last_dial/global/${uuid})
+313c1a8c-d134-11e4-b827-85e03683d452 Dialplan: sofia/internal/1002@192.168.10.107 Action export(RFC2822_DATE=${strftime(%a, %d %b %Y %T %z)})
+313c1a8c-d134-11e4-b827-85e03683d452 Dialplan: sofia/internal/1002@192.168.10.107 parsing [default->snom-demo-2] continue=false
+313c1a8c-d134-11e4-b827-85e03683d452 Dialplan: sofia/internal/1002@192.168.10.107 Regex (FAIL) [snom-demo-2] destination_number(3001) =~ /^9001$/ break=on-false
+313c1a8c-d134-11e4-b827-85e03683d452 Dialplan: sofia/internal/1002@192.168.10.107 parsing [default->snom-demo-1] continue=false
+313c1a8c-d134-11e4-b827-85e03683d452 Dialplan: sofia/internal/1002@192.168.10.107 Regex (FAIL) [snom-demo-1] destination_number(3001) =~ /^9000$/ break=on-false
+313c1a8c-d134-11e4-b827-85e03683d452 Dialplan: sofia/internal/1002@192.168.10.107 parsing [default->eavesdrop] continue=false
+313c1a8c-d134-11e4-b827-85e03683d452 Dialplan: sofia/internal/1002@192.168.10.107 Regex (FAIL) [eavesdrop] destination_number(3001) =~ /^88(\d{4})$|^\*0(.*)$/ break=on-false
+313c1a8c-d134-11e4-b827-85e03683d452 Dialplan: sofia/internal/1002@192.168.10.107 parsing [default->eavesdrop] continue=false
+313c1a8c-d134-11e4-b827-85e03683d452 Dialplan: sofia/internal/1002@192.168.10.107 Regex (FAIL) [eavesdrop] destination_number(3001) =~ /^779$/ break=on-false
+313c1a8c-d134-11e4-b827-85e03683d452 Dialplan: sofia/internal/1002@192.168.10.107 parsing [default->call_return] continue=false
+313c1a8c-d134-11e4-b827-85e03683d452 Dialplan: sofia/internal/1002@192.168.10.107 Regex (FAIL) [call_return] destination_number(3001) =~ /^\*69$|^869$|^lcr$/ break=on-false
+313c1a8c-d134-11e4-b827-85e03683d452 Dialplan: sofia/internal/1002@192.168.10.107 parsing [default->del-group] continue=false
+313c1a8c-d134-11e4-b827-85e03683d452 Dialplan: sofia/internal/1002@192.168.10.107 Regex (FAIL) [del-group] destination_number(3001) =~ /^80(\d{2})$/ break=on-false
+313c1a8c-d134-11e4-b827-85e03683d452 Dialplan: sofia/internal/1002@192.168.10.107 parsing [default->add-group] continue=false
+313c1a8c-d134-11e4-b827-85e03683d452 Dialplan: sofia/internal/1002@192.168.10.107 Regex (FAIL) [add-group] destination_number(3001) =~ /^81(\d{2})$/ break=on-false
+313c1a8c-d134-11e4-b827-85e03683d452 Dialplan: sofia/internal/1002@192.168.10.107 parsing [default->call-group-simo] continue=false
+313c1a8c-d134-11e4-b827-85e03683d452 Dialplan: sofia/internal/1002@192.168.10.107 Regex (FAIL) [call-group-simo] destination_number(3001) =~ /^82(\d{2})$/ break=on-false
+313c1a8c-d134-11e4-b827-85e03683d452 Dialplan: sofia/internal/1002@192.168.10.107 parsing [default->call-group-order] continue=false
+313c1a8c-d134-11e4-b827-85e03683d452 Dialplan: sofia/internal/1002@192.168.10.107 Regex (FAIL) [call-group-order] destination_number(3001) =~ /^83(\d{2})$/ break=on-false
+313c1a8c-d134-11e4-b827-85e03683d452 Dialplan: sofia/internal/1002@192.168.10.107 parsing [default->extension-intercom] continue=false
+313c1a8c-d134-11e4-b827-85e03683d452 Dialplan: sofia/internal/1002@192.168.10.107 Regex (FAIL) [extension-intercom] destination_number(3001) =~ /^8(10[01][0-9])$/ break=on-false
+313c1a8c-d134-11e4-b827-85e03683d452 Dialplan: sofia/internal/1002@192.168.10.107 parsing [default->Local_Extension] continue=false
+313c1a8c-d134-11e4-b827-85e03683d452 Dialplan: sofia/internal/1002@192.168.10.107 Regex (FAIL) [Local_Extension] destination_number(3001) =~ /^(10[01][0-9])$/ break=on-false
+313c1a8c-d134-11e4-b827-85e03683d452 Dialplan: sofia/internal/1002@192.168.10.107 parsing [default->Local_Extension_Skinny] continue=false
+313c1a8c-d134-11e4-b827-85e03683d452 Dialplan: sofia/internal/1002@192.168.10.107 Regex (FAIL) [Local_Extension_Skinny] destination_number(3001) =~ /^(11[01][0-9])$/ break=on-false
+313c1a8c-d134-11e4-b827-85e03683d452 Dialplan: sofia/internal/1002@192.168.10.107 parsing [default->group_dial_sales] continue=false
+313c1a8c-d134-11e4-b827-85e03683d452 Dialplan: sofia/internal/1002@192.168.10.107 Regex (FAIL) [group_dial_sales] destination_number(3001) =~ /^2000$/ break=on-false
+313c1a8c-d134-11e4-b827-85e03683d452 Dialplan: sofia/internal/1002@192.168.10.107 parsing [default->group_dial_support] continue=false
+313c1a8c-d134-11e4-b827-85e03683d452 Dialplan: sofia/internal/1002@192.168.10.107 Regex (FAIL) [group_dial_support] destination_number(3001) =~ /^2001$/ break=on-false
+313c1a8c-d134-11e4-b827-85e03683d452 Dialplan: sofia/internal/1002@192.168.10.107 parsing [default->group_dial_billing] continue=false
+313c1a8c-d134-11e4-b827-85e03683d452 Dialplan: sofia/internal/1002@192.168.10.107 Regex (FAIL) [group_dial_billing] destination_number(3001) =~ /^2002$/ break=on-false
+313c1a8c-d134-11e4-b827-85e03683d452 Dialplan: sofia/internal/1002@192.168.10.107 parsing [default->operator] continue=false
+313c1a8c-d134-11e4-b827-85e03683d452 Dialplan: sofia/internal/1002@192.168.10.107 Regex (FAIL) [operator] destination_number(3001) =~ /^(operator|0)$/ break=on-false
+313c1a8c-d134-11e4-b827-85e03683d452 Dialplan: sofia/internal/1002@192.168.10.107 parsing [default->vmain] continue=false
+313c1a8c-d134-11e4-b827-85e03683d452 Dialplan: sofia/internal/1002@192.168.10.107 Regex (FAIL) [vmain] destination_number(3001) =~ /^vmain$|^4000$|^\*98$/ break=on-false
+313c1a8c-d134-11e4-b827-85e03683d452 Dialplan: sofia/internal/1002@192.168.10.107 parsing [default->sip_uri] continue=false
+313c1a8c-d134-11e4-b827-85e03683d452 Dialplan: sofia/internal/1002@192.168.10.107 Regex (FAIL) [sip_uri] destination_number(3001) =~ /^sip:(.*)$/ break=on-false
+313c1a8c-d134-11e4-b827-85e03683d452 Dialplan: sofia/internal/1002@192.168.10.107 parsing [default->nb_conferences] continue=false
+313c1a8c-d134-11e4-b827-85e03683d452 Dialplan: sofia/internal/1002@192.168.10.107 Regex (PASS) [nb_conferences] destination_number(3001) =~ /^(30\d{2})$/ break=on-false
+313c1a8c-d134-11e4-b827-85e03683d452 Dialplan: sofia/internal/1002@192.168.10.107 Action answer()
+313c1a8c-d134-11e4-b827-85e03683d452 Dialplan: sofia/internal/1002@192.168.10.107 Action conference(3001-${domain_name}@default)
+313c1a8c-d134-11e4-b827-85e03683d452 2015-03-23 16:11:22.301071 [DEBUG] switch_core_state_machine.c:216 (sofia/internal/1002@192.168.10.107) State Change CS_ROUTING -> CS_EXECUTE
+313c1a8c-d134-11e4-b827-85e03683d452 2015-03-23 16:11:22.301071 [DEBUG] switch_core_session.c:1396 Send signal sofia/internal/1002@192.168.10.107 [BREAK]
+313c1a8c-d134-11e4-b827-85e03683d452 2015-03-23 16:11:22.301071 [DEBUG] switch_core_state_machine.c:528 (sofia/internal/1002@192.168.10.107) State ROUTING going to sleep
+313c1a8c-d134-11e4-b827-85e03683d452 2015-03-23 16:11:22.301071 [DEBUG] switch_core_state_machine.c:472 (sofia/internal/1002@192.168.10.107) Running State Change CS_EXECUTE
+313c1a8c-d134-11e4-b827-85e03683d452 2015-03-23 16:11:22.301071 [DEBUG] switch_core_state_machine.c:535 (sofia/internal/1002@192.168.10.107) State EXECUTE
+313c1a8c-d134-11e4-b827-85e03683d452 2015-03-23 16:11:22.301071 [DEBUG] mod_sofia.c:178 sofia/internal/1002@192.168.10.107 SOFIA EXECUTE
+313c1a8c-d134-11e4-b827-85e03683d452 2015-03-23 16:11:22.301071 [DEBUG] switch_core_state_machine.c:258 sofia/internal/1002@192.168.10.107 Standard EXECUTE
+313c1a8c-d134-11e4-b827-85e03683d452 EXECUTE sofia/internal/1002@192.168.10.107 set(open=true)
+313c1a8c-d134-11e4-b827-85e03683d452 2015-03-23 16:11:22.301071 [DEBUG] mod_dptools.c:1445 sofia/internal/1002@192.168.10.107 SET [open]=[true]
+313c1a8c-d134-11e4-b827-85e03683d452 EXECUTE sofia/internal/1002@192.168.10.107 log(CRIT WARNING WARNING WARNING WARNING WARNING WARNING WARNING WARNING WARNING )
+313c1a8c-d134-11e4-b827-85e03683d452 2015-03-23 16:11:22.301071 [CRIT] mod_dptools.c:1638 WARNING WARNING WARNING WARNING WARNING WARNING WARNING WARNING WARNING
+313c1a8c-d134-11e4-b827-85e03683d452 EXECUTE sofia/internal/1002@192.168.10.107 log(CRIT Open /home/archer/Documents/freeswitch/bin/freeswitch-conf/conf/vars.xml and change the default_password.)
+313c1a8c-d134-11e4-b827-85e03683d452 2015-03-23 16:11:22.301071 [CRIT] mod_dptools.c:1638 Open /home/archer/Documents/freeswitch/bin/freeswitch-conf/conf/vars.xml and change the default_password.
+313c1a8c-d134-11e4-b827-85e03683d452 EXECUTE sofia/internal/1002@192.168.10.107 log(CRIT Once changed type reloadxml at the console.)
+313c1a8c-d134-11e4-b827-85e03683d452 2015-03-23 16:11:22.301071 [CRIT] mod_dptools.c:1638 Once changed type reloadxml at the console.
+313c1a8c-d134-11e4-b827-85e03683d452 EXECUTE sofia/internal/1002@192.168.10.107 log(CRIT WARNING WARNING WARNING WARNING WARNING WARNING WARNING WARNING WARNING )
+313c1a8c-d134-11e4-b827-85e03683d452 2015-03-23 16:11:22.301071 [CRIT] mod_dptools.c:1638 WARNING WARNING WARNING WARNING WARNING WARNING WARNING WARNING WARNING
+313c1a8c-d134-11e4-b827-85e03683d452 EXECUTE sofia/internal/1002@192.168.10.107 sleep(10000)
+313c1a8c-d134-11e4-b827-85e03683d452 EXECUTE sofia/internal/1002@192.168.10.107 hash(insert/192.168.10.107-spymap/1002/313c1a8c-d134-11e4-b827-85e03683d452)
+313c1a8c-d134-11e4-b827-85e03683d452 EXECUTE sofia/internal/1002@192.168.10.107 hash(insert/192.168.10.107-last_dial/1002/3001)
+313c1a8c-d134-11e4-b827-85e03683d452 EXECUTE sofia/internal/1002@192.168.10.107 hash(insert/192.168.10.107-last_dial/global/313c1a8c-d134-11e4-b827-85e03683d452)
+313c1a8c-d134-11e4-b827-85e03683d452 EXECUTE sofia/internal/1002@192.168.10.107 export(RFC2822_DATE=Mon, 23 Mar 2015 16:11:32 +0800)
+313c1a8c-d134-11e4-b827-85e03683d452 2015-03-23 16:11:32.341074 [DEBUG] switch_channel.c:1247 EXPORT (export_vars) [RFC2822_DATE]=[Mon, 23 Mar 2015 16:11:32 +0800]
+313c1a8c-d134-11e4-b827-85e03683d452 EXECUTE sofia/internal/1002@192.168.10.107 answer()
+313c1a8c-d134-11e4-b827-85e03683d452 2015-03-23 16:11:32.341074 [DEBUG] switch_core_media.c:3632 Audio Codec Compare [opus:124:48000:20:0:1]/[opus:116:48000:20:0:1]
+313c1a8c-d134-11e4-b827-85e03683d452 2015-03-23 16:11:32.341074 [DEBUG] switch_core_media.c:3687 Audio Codec Compare [opus:116:48000:20:0:1] ++++ is saved as a match
+313c1a8c-d134-11e4-b827-85e03683d452 2015-03-23 16:11:32.341074 [DEBUG] switch_core_media.c:3632 Audio Codec Compare [opus:124:48000:20:0:1]/[G722:9:8000:20:64000:1]
+313c1a8c-d134-11e4-b827-85e03683d452 2015-03-23 16:11:32.341074 [DEBUG] switch_core_media.c:3632 Audio Codec Compare [opus:124:48000:20:0:1]/[PCMU:0:8000:20:64000:1]
+313c1a8c-d134-11e4-b827-85e03683d452 2015-03-23 16:11:32.341074 [DEBUG] switch_core_media.c:3632 Audio Codec Compare [opus:124:48000:20:0:1]/[PCMA:8:8000:20:64000:1]
+313c1a8c-d134-11e4-b827-85e03683d452 2015-03-23 16:11:32.341074 [DEBUG] switch_core_media.c:3632 Audio Codec Compare [opus:124:48000:20:0:1]/[GSM:3:8000:20:13200:1]
+313c1a8c-d134-11e4-b827-85e03683d452 2015-03-23 16:11:32.341074 [DEBUG] switch_core_media.c:3632 Audio Codec Compare [SILK:120:16000:20:0:1]/[opus:116:48000:20:0:1]
+313c1a8c-d134-11e4-b827-85e03683d452 2015-03-23 16:11:32.341074 [DEBUG] switch_core_media.c:3632 Audio Codec Compare [SILK:120:16000:20:0:1]/[G722:9:8000:20:64000:1]
+313c1a8c-d134-11e4-b827-85e03683d452 2015-03-23 16:11:32.341074 [DEBUG] switch_core_media.c:3632 Audio Codec Compare [SILK:120:16000:20:0:1]/[PCMU:0:8000:20:64000:1]
+313c1a8c-d134-11e4-b827-85e03683d452 2015-03-23 16:11:32.341074 [DEBUG] switch_core_media.c:3632 Audio Codec Compare [SILK:120:16000:20:0:1]/[PCMA:8:8000:20:64000:1]
+313c1a8c-d134-11e4-b827-85e03683d452 2015-03-23 16:11:32.341074 [DEBUG] switch_core_media.c:3632 Audio Codec Compare [SILK:120:16000:20:0:1]/[GSM:3:8000:20:13200:1]
+313c1a8c-d134-11e4-b827-85e03683d452 2015-03-23 16:11:32.341074 [DEBUG] switch_core_media.c:3632 Audio Codec Compare [speex:111:16000:20:0:1]/[opus:116:48000:20:0:1]
+313c1a8c-d134-11e4-b827-85e03683d452 2015-03-23 16:11:32.341074 [DEBUG] switch_core_media.c:3632 Audio Codec Compare [speex:111:16000:20:0:1]/[G722:9:8000:20:64000:1]
+313c1a8c-d134-11e4-b827-85e03683d452 2015-03-23 16:11:32.341074 [DEBUG] switch_core_media.c:3632 Audio Codec Compare [speex:111:16000:20:0:1]/[PCMU:0:8000:20:64000:1]
+313c1a8c-d134-11e4-b827-85e03683d452 2015-03-23 16:11:32.341074 [DEBUG] switch_core_media.c:3632 Audio Codec Compare [speex:111:16000:20:0:1]/[PCMA:8:8000:20:64000:1]
+313c1a8c-d134-11e4-b827-85e03683d452 2015-03-23 16:11:32.341074 [DEBUG] switch_core_media.c:3632 Audio Codec Compare [speex:111:16000:20:0:1]/[GSM:3:8000:20:13200:1]
+313c1a8c-d134-11e4-b827-85e03683d452 2015-03-23 16:11:32.341074 [DEBUG] switch_core_media.c:3632 Audio Codec Compare [speex:110:8000:20:0:1]/[opus:116:48000:20:0:1]
+313c1a8c-d134-11e4-b827-85e03683d452 2015-03-23 16:11:32.341074 [DEBUG] switch_core_media.c:3632 Audio Codec Compare [speex:110:8000:20:0:1]/[G722:9:8000:20:64000:1]
+313c1a8c-d134-11e4-b827-85e03683d452 2015-03-23 16:11:32.341074 [DEBUG] switch_core_media.c:3632 Audio Codec Compare [speex:110:8000:20:0:1]/[PCMU:0:8000:20:64000:1]
+313c1a8c-d134-11e4-b827-85e03683d452 2015-03-23 16:11:32.341074 [DEBUG] switch_core_media.c:3632 Audio Codec Compare [speex:110:8000:20:0:1]/[PCMA:8:8000:20:64000:1]
+313c1a8c-d134-11e4-b827-85e03683d452 2015-03-23 16:11:32.341074 [DEBUG] switch_core_media.c:3632 Audio Codec Compare [speex:110:8000:20:0:1]/[GSM:3:8000:20:13200:1]
+313c1a8c-d134-11e4-b827-85e03683d452 2015-03-23 16:11:32.341074 [DEBUG] switch_core_media.c:3632 Audio Codec Compare [PCMU:0:8000:20:64000:1]/[opus:116:48000:20:0:1]
+313c1a8c-d134-11e4-b827-85e03683d452 2015-03-23 16:11:32.341074 [DEBUG] switch_core_media.c:3632 Audio Codec Compare [PCMU:0:8000:20:64000:1]/[G722:9:8000:20:64000:1]
+313c1a8c-d134-11e4-b827-85e03683d452 2015-03-23 16:11:32.341074 [DEBUG] switch_core_media.c:3632 Audio Codec Compare [PCMU:0:8000:20:64000:1]/[PCMU:0:8000:20:64000:1]
+313c1a8c-d134-11e4-b827-85e03683d452 2015-03-23 16:11:32.341074 [DEBUG] switch_core_media.c:3687 Audio Codec Compare [PCMU:0:8000:20:64000:1] ++++ is saved as a match
+313c1a8c-d134-11e4-b827-85e03683d452 2015-03-23 16:11:32.341074 [DEBUG] switch_core_media.c:3632 Audio Codec Compare [PCMU:0:8000:20:64000:1]/[PCMA:8:8000:20:64000:1]
+313c1a8c-d134-11e4-b827-85e03683d452 2015-03-23 16:11:32.341074 [DEBUG] switch_core_media.c:3632 Audio Codec Compare [PCMU:0:8000:20:64000:1]/[GSM:3:8000:20:13200:1]
+313c1a8c-d134-11e4-b827-85e03683d452 2015-03-23 16:11:32.341074 [DEBUG] switch_core_media.c:3632 Audio Codec Compare [PCMA:8:8000:20:64000:1]/[opus:116:48000:20:0:1]
+313c1a8c-d134-11e4-b827-85e03683d452 2015-03-23 16:11:32.341074 [DEBUG] switch_core_media.c:3632 Audio Codec Compare [PCMA:8:8000:20:64000:1]/[G722:9:8000:20:64000:1]
+313c1a8c-d134-11e4-b827-85e03683d452 2015-03-23 16:11:32.341074 [DEBUG] switch_core_media.c:3632 Audio Codec Compare [PCMA:8:8000:20:64000:1]/[PCMU:0:8000:20:64000:1]
+313c1a8c-d134-11e4-b827-85e03683d452 2015-03-23 16:11:32.341074 [DEBUG] switch_core_media.c:3632 Audio Codec Compare [PCMA:8:8000:20:64000:1]/[PCMA:8:8000:20:64000:1]
+313c1a8c-d134-11e4-b827-85e03683d452 2015-03-23 16:11:32.341074 [DEBUG] switch_core_media.c:3687 Audio Codec Compare [PCMA:8:8000:20:64000:1] ++++ is saved as a match
+313c1a8c-d134-11e4-b827-85e03683d452 2015-03-23 16:11:32.341074 [DEBUG] switch_core_media.c:3632 Audio Codec Compare [PCMA:8:8000:20:64000:1]/[GSM:3:8000:20:13200:1]
+313c1a8c-d134-11e4-b827-85e03683d452 2015-03-23 16:11:32.341074 [DEBUG] switch_core_media.c:3548 Set telephone-event payload to 101
+2015-03-23 16:11:32.341074 [DEBUG] mod_opus.c:287 Opus encoder set bitrate to local settings [-1000bps]
+2015-03-23 16:11:32.341074 [DEBUG] mod_opus.c:287 Opus encoder set bitrate to local settings [-1000bps]
+313c1a8c-d134-11e4-b827-85e03683d452 2015-03-23 16:11:32.341074 [DEBUG] switch_core_media.c:2473 Set Codec sofia/internal/1002@192.168.10.107 opus/48000 20 ms 960 samples 0 bits 1 channels
+313c1a8c-d134-11e4-b827-85e03683d452 2015-03-23 16:11:32.341074 [DEBUG] switch_core_codec.c:111 sofia/internal/1002@192.168.10.107 Original read codec set to opus:116
+313c1a8c-d134-11e4-b827-85e03683d452 2015-03-23 16:11:32.341074 [DEBUG] switch_core_media.c:3895 Set 2833 dtmf send/recv payload to 101
+313c1a8c-d134-11e4-b827-85e03683d452 2015-03-23 16:11:32.341074 [DEBUG] switch_core_media.c:5147 AUDIO RTP [sofia/internal/1002@192.168.10.107] 192.168.10.107 port 17560 -> 192.168.10.106 port 7076 codec: 124 ms: 20
+313c1a8c-d134-11e4-b827-85e03683d452 2015-03-23 16:11:32.341074 [DEBUG] switch_rtp.c:3562 Starting timer [soft] 960 bytes per 20ms
+313c1a8c-d134-11e4-b827-85e03683d452 2015-03-23 16:11:32.341074 [DEBUG] switch_core_media.c:5445 Set 2833 dtmf send payload to 101
+313c1a8c-d134-11e4-b827-85e03683d452 2015-03-23 16:11:32.341074 [DEBUG] switch_core_media.c:5451 Set 2833 dtmf receive payload to 101
+313c1a8c-d134-11e4-b827-85e03683d452 2015-03-23 16:11:32.341074 [NOTICE] sofia_media.c:92 Pre-Answer sofia/internal/1002@192.168.10.107!
+313c1a8c-d134-11e4-b827-85e03683d452 2015-03-23 16:11:32.341074 [DEBUG] switch_channel.c:3399 (sofia/internal/1002@192.168.10.107) Callstate Change RINGING -> EARLY
+313c1a8c-d134-11e4-b827-85e03683d452 2015-03-23 16:11:32.341074 [DEBUG] mod_sofia.c:780 Local SDP sofia/internal/1002@192.168.10.107:
+313c1a8c-d134-11e4-b827-85e03683d452 v=0
+313c1a8c-d134-11e4-b827-85e03683d452 o=FreeSWITCH 1427080732 1427080733 IN IP4 192.168.10.107
+313c1a8c-d134-11e4-b827-85e03683d452 s=FreeSWITCH
+313c1a8c-d134-11e4-b827-85e03683d452 c=IN IP4 192.168.10.107
+313c1a8c-d134-11e4-b827-85e03683d452 t=0 0
+313c1a8c-d134-11e4-b827-85e03683d452 m=audio 17560 RTP/AVP 124 101
+313c1a8c-d134-11e4-b827-85e03683d452 a=rtpmap:124 opus/48000/2
+313c1a8c-d134-11e4-b827-85e03683d452 a=fmtp:124 useinbandfec=1
+313c1a8c-d134-11e4-b827-85e03683d452 a=rtpmap:101 telephone-event/8000
+313c1a8c-d134-11e4-b827-85e03683d452 a=fmtp:101 0-16
+313c1a8c-d134-11e4-b827-85e03683d452 a=ptime:20
+313c1a8c-d134-11e4-b827-85e03683d452 a=sendrecv
+313c1a8c-d134-11e4-b827-85e03683d452 
+313c1a8c-d134-11e4-b827-85e03683d452 2015-03-23 16:11:32.341074 [DEBUG] switch_core_session.c:912 Send signal sofia/internal/1002@192.168.10.107 [BREAK]
+313c1a8c-d134-11e4-b827-85e03683d452 2015-03-23 16:11:32.341074 [NOTICE] mod_dptools.c:1268 Channel [sofia/internal/1002@192.168.10.107] has been answered
+313c1a8c-d134-11e4-b827-85e03683d452 2015-03-23 16:11:32.341074 [DEBUG] switch_core_session.c:1061 Send signal sofia/internal/1002@192.168.10.107 [BREAK]
+313c1a8c-d134-11e4-b827-85e03683d452 2015-03-23 16:11:32.341074 [DEBUG] switch_channel.c:3689 (sofia/internal/1002@192.168.10.107) Callstate Change EARLY -> ACTIVE
+313c1a8c-d134-11e4-b827-85e03683d452 2015-03-23 16:11:32.341074 [DEBUG] sofia.c:6623 Channel sofia/internal/1002@192.168.10.107 entering state [completed][200]
+313c1a8c-d134-11e4-b827-85e03683d452 EXECUTE sofia/internal/1002@192.168.10.107 conference(3001-192.168.10.107@default)
+2015-03-23 16:11:32.341074 [INFO] mod_conference.c:10368 using channel sound prefix: /home/archer/Documents/freeswitch/bin/freeswitch-conf/sounds/en/us/callie
+313c1a8c-d134-11e4-b827-85e03683d452 2015-03-23 16:11:32.341074 [DEBUG] mod_conference.c:8995 Raw Codec Activation Success L16@48000hz 1 channel 20ms
+313c1a8c-d134-11e4-b827-85e03683d452 2015-03-23 16:11:32.341074 [DEBUG] mod_conference.c:9041 Raw Codec Activation Success L16@8000hz 1 channel 20ms
+2015-03-23 16:11:32.341074 [DEBUG] mod_conference.c:3043 Setup timer success interval: 20  samples: 160
+313c1a8c-d134-11e4-b827-85e03683d452 2015-03-23 16:11:32.341074 [DEBUG] switch_core_codec.c:221 sofia/internal/1002@192.168.10.107 Push codec L16:100
+2015-03-23 16:11:32.341074 [INFO] mod_conference.c:10971 sofia/internal/1002@192.168.10.107 binding '0' to 'mute'
+2015-03-23 16:11:32.341074 [INFO] switch_ivr_async.c:212 Digit parser mod_conference: Setting realm to 'conf'
+2015-03-23 16:11:32.341074 [DEBUG] switch_ivr_async.c:321 Digit parser mod_conference: binding 0/conf/0 callback: 0x7f9372cf55c0 data: 0x7f9398049c60
+2015-03-23 16:11:32.341074 [INFO] mod_conference.c:10971 sofia/internal/1002@192.168.10.107 binding '*' to 'deaf mute'
+2015-03-23 16:11:32.341074 [DEBUG] switch_ivr_async.c:321 Digit parser mod_conference: binding */conf/0 callback: 0x7f9372cf55c0 data: 0x7f9398049c90
+2015-03-23 16:11:32.341074 [INFO] mod_conference.c:10971 sofia/internal/1002@192.168.10.107 binding '9' to 'energy up'
+2015-03-23 16:11:32.341074 [DEBUG] switch_ivr_async.c:321 Digit parser mod_conference: binding 9/conf/0 callback: 0x7f9372cf55c0 data: 0x7f9398049cc0
+2015-03-23 16:11:32.341074 [INFO] mod_conference.c:10971 sofia/internal/1002@192.168.10.107 binding '8' to 'energy equ'
+2015-03-23 16:11:32.341074 [DEBUG] switch_ivr_async.c:321 Digit parser mod_conference: binding 8/conf/0 callback: 0x7f9372cf55c0 data: 0x7f9398049cf0
+2015-03-23 16:11:32.341074 [INFO] mod_conference.c:10971 sofia/internal/1002@192.168.10.107 binding '7' to 'energy dn'
+2015-03-23 16:11:32.341074 [DEBUG] switch_ivr_async.c:321 Digit parser mod_conference: binding 7/conf/0 callback: 0x7f9372cf55c0 data: 0x7f9398049d20
+2015-03-23 16:11:32.361050 [INFO] mod_conference.c:10971 sofia/internal/1002@192.168.10.107 binding '3' to 'vol talk up'
+2015-03-23 16:11:32.361050 [DEBUG] switch_ivr_async.c:321 Digit parser mod_conference: binding 3/conf/0 callback: 0x7f9372cf55c0 data: 0x7f9398049d50
+2015-03-23 16:11:32.361050 [INFO] mod_conference.c:10971 sofia/internal/1002@192.168.10.107 binding '2' to 'vol talk zero'
+2015-03-23 16:11:32.361050 [DEBUG] switch_ivr_async.c:321 Digit parser mod_conference: binding 2/conf/0 callback: 0x7f9372cf55c0 data: 0x7f9398049d80
+2015-03-23 16:11:32.361050 [INFO] mod_conference.c:10971 sofia/internal/1002@192.168.10.107 binding '1' to 'vol talk dn'
+2015-03-23 16:11:32.361050 [DEBUG] switch_ivr_async.c:321 Digit parser mod_conference: binding 1/conf/0 callback: 0x7f9372cf55c0 data: 0x7f9398049db0
+2015-03-23 16:11:32.361050 [INFO] mod_conference.c:10971 sofia/internal/1002@192.168.10.107 binding '6' to 'vol listen up'
+2015-03-23 16:11:32.361050 [DEBUG] switch_ivr_async.c:321 Digit parser mod_conference: binding 6/conf/0 callback: 0x7f9372cf55c0 data: 0x7f9398049de0
+2015-03-23 16:11:32.361050 [INFO] mod_conference.c:10971 sofia/internal/1002@192.168.10.107 binding '5' to 'vol listen zero'
+2015-03-23 16:11:32.361050 [DEBUG] switch_ivr_async.c:321 Digit parser mod_conference: binding 5/conf/0 callback: 0x7f9372cf55c0 data: 0x7f9398049e10
+2015-03-23 16:11:32.361050 [INFO] mod_conference.c:10971 sofia/internal/1002@192.168.10.107 binding '4' to 'vol listen dn'
+2015-03-23 16:11:32.361050 [DEBUG] switch_ivr_async.c:321 Digit parser mod_conference: binding 4/conf/0 callback: 0x7f9372cf55c0 data: 0x7f9398049e40
+2015-03-23 16:11:32.361050 [INFO] mod_conference.c:10971 sofia/internal/1002@192.168.10.107 binding '#' to 'hangup'
+2015-03-23 16:11:32.361050 [DEBUG] switch_ivr_async.c:321 Digit parser mod_conference: binding #/conf/0 callback: 0x7f9372cf55c0 data: 0x7f9398049e70
+313c1a8c-d134-11e4-b827-85e03683d452 2015-03-23 16:11:32.361050 [DEBUG] switch_core_session.c:912 Send signal sofia/internal/1002@192.168.10.107 [BREAK]
+313c1a8c-d134-11e4-b827-85e03683d452 2015-03-23 16:11:32.361050 [DEBUG] mod_conference.c:4765 Setup timer soft success interval: 20  samples: 960
+313c1a8c-d134-11e4-b827-85e03683d452 2015-03-23 16:11:32.381063 [NOTICE] switch_core_io.c:1261 Activating write resampler
+313c1a8c-d134-11e4-b827-85e03683d452 2015-03-23 16:11:32.501048 [DEBUG] switch_core_session.c:1061 Send signal sofia/internal/1002@192.168.10.107 [BREAK]
+313c1a8c-d134-11e4-b827-85e03683d452 2015-03-23 16:11:32.501048 [DEBUG] switch_core_session.c:1061 Send signal sofia/internal/1002@192.168.10.107 [BREAK]
+313c1a8c-d134-11e4-b827-85e03683d452 2015-03-23 16:11:32.501048 [DEBUG] switch_core_session.c:1061 Send signal sofia/internal/1002@192.168.10.107 [BREAK]
+313c1a8c-d134-11e4-b827-85e03683d452 2015-03-23 16:11:32.521049 [DEBUG] sofia.c:6623 Channel sofia/internal/1002@192.168.10.107 entering state [ready][200]
+313c1a8c-d134-11e4-b827-85e03683d452 2015-03-23 16:11:32.881048 [DEBUG] switch_rtp.c:5870 Correct ip/port confirmed.
+2015-03-23 16:11:35.101062 [DEBUG] mod_local_stream.c:498 Opening Stream [moh/8000] 8000hz
+313c1a8c-d134-11e4-b827-85e03683d452 2015-03-23 16:11:51.221063 [DEBUG] switch_core_session.c:1061 Send signal sofia/internal/1002@192.168.10.107 [BREAK]
+313c1a8c-d134-11e4-b827-85e03683d452 2015-03-23 16:11:51.241061 [NOTICE] sofia.c:952 Hangup sofia/internal/1002@192.168.10.107 [CS_EXECUTE] [NORMAL_CLEARING]
+313c1a8c-d134-11e4-b827-85e03683d452 2015-03-23 16:11:51.241061 [DEBUG] switch_channel.c:3222 Send signal sofia/internal/1002@192.168.10.107 [KILL]
+313c1a8c-d134-11e4-b827-85e03683d452 2015-03-23 16:11:51.241061 [DEBUG] switch_core_session.c:1396 Send signal sofia/internal/1002@192.168.10.107 [BREAK]
+313c1a8c-d134-11e4-b827-85e03683d452 2015-03-23 16:11:51.241061 [DEBUG] mod_conference.c:5057 Channel leaving conference, cause: NORMAL_CLEARING
+313c1a8c-d134-11e4-b827-85e03683d452 2015-03-23 16:11:51.241061 [DEBUG] mod_conference.c:9654 sofia/internal/1002@192.168.10.107 skip receive message [UNBRIDGE] (channel is hungup already)
+313c1a8c-d134-11e4-b827-85e03683d452 2015-03-23 16:11:51.241061 [DEBUG] switch_core_media.c:7756 sofia/internal/1002@192.168.10.107 skip receive message [REFER_EVENT] (channel is hungup already)
+313c1a8c-d134-11e4-b827-85e03683d452 2015-03-23 16:11:51.241061 [DEBUG] switch_core_codec.c:246 sofia/internal/1002@192.168.10.107 Restore previous codec opus:116.
+313c1a8c-d134-11e4-b827-85e03683d452 2015-03-23 16:11:51.241061 [DEBUG] switch_core_session.c:2901 sofia/internal/1002@192.168.10.107 skip receive message [APPLICATION_EXEC_COMPLETE] (channel is hungup already)
+313c1a8c-d134-11e4-b827-85e03683d452 2015-03-23 16:11:51.241061 [DEBUG] switch_core_state_machine.c:535 (sofia/internal/1002@192.168.10.107) State EXECUTE going to sleep
+313c1a8c-d134-11e4-b827-85e03683d452 2015-03-23 16:11:51.241061 [DEBUG] switch_core_state_machine.c:472 (sofia/internal/1002@192.168.10.107) Running State Change CS_HANGUP
+313c1a8c-d134-11e4-b827-85e03683d452 2015-03-23 16:11:51.241061 [DEBUG] switch_core_state_machine.c:735 (sofia/internal/1002@192.168.10.107) Callstate Change ACTIVE -> HANGUP
+313c1a8c-d134-11e4-b827-85e03683d452 2015-03-23 16:11:51.241061 [DEBUG] switch_core_state_machine.c:737 (sofia/internal/1002@192.168.10.107) State HANGUP
+313c1a8c-d134-11e4-b827-85e03683d452 2015-03-23 16:11:51.241061 [DEBUG] mod_sofia.c:413 Channel sofia/internal/1002@192.168.10.107 hanging up, cause: NORMAL_CLEARING
+313c1a8c-d134-11e4-b827-85e03683d452 2015-03-23 16:11:51.241061 [DEBUG] switch_core_state_machine.c:60 sofia/internal/1002@192.168.10.107 Standard HANGUP, cause: NORMAL_CLEARING
+313c1a8c-d134-11e4-b827-85e03683d452 2015-03-23 16:11:51.241061 [DEBUG] switch_core_state_machine.c:737 (sofia/internal/1002@192.168.10.107) State HANGUP going to sleep
+313c1a8c-d134-11e4-b827-85e03683d452 2015-03-23 16:11:51.241061 [DEBUG] switch_core_state_machine.c:504 (sofia/internal/1002@192.168.10.107) State Change CS_HANGUP -> CS_REPORTING
+313c1a8c-d134-11e4-b827-85e03683d452 2015-03-23 16:11:51.241061 [DEBUG] switch_core_session.c:1396 Send signal sofia/internal/1002@192.168.10.107 [BREAK]
+313c1a8c-d134-11e4-b827-85e03683d452 2015-03-23 16:11:51.241061 [DEBUG] switch_core_state_machine.c:472 (sofia/internal/1002@192.168.10.107) Running State Change CS_REPORTING
+313c1a8c-d134-11e4-b827-85e03683d452 2015-03-23 16:11:51.241061 [DEBUG] switch_core_state_machine.c:823 (sofia/internal/1002@192.168.10.107) State REPORTING
+313c1a8c-d134-11e4-b827-85e03683d452 2015-03-23 16:11:51.241061 [DEBUG] switch_core_state_machine.c:104 sofia/internal/1002@192.168.10.107 Standard REPORTING, cause: NORMAL_CLEARING
+313c1a8c-d134-11e4-b827-85e03683d452 2015-03-23 16:11:51.241061 [DEBUG] switch_core_state_machine.c:823 (sofia/internal/1002@192.168.10.107) State REPORTING going to sleep
+313c1a8c-d134-11e4-b827-85e03683d452 2015-03-23 16:11:51.241061 [DEBUG] switch_core_state_machine.c:498 (sofia/internal/1002@192.168.10.107) State Change CS_REPORTING -> CS_DESTROY
+313c1a8c-d134-11e4-b827-85e03683d452 2015-03-23 16:11:51.241061 [DEBUG] switch_core_session.c:1396 Send signal sofia/internal/1002@192.168.10.107 [BREAK]
+313c1a8c-d134-11e4-b827-85e03683d452 2015-03-23 16:11:51.241061 [DEBUG] switch_core_session.c:1623 Session 2 (sofia/internal/1002@192.168.10.107) Locked, Waiting on external entities
+313c1a8c-d134-11e4-b827-85e03683d452 2015-03-23 16:11:51.241061 [NOTICE] switch_core_session.c:1641 Session 2 (sofia/internal/1002@192.168.10.107) Ended
+313c1a8c-d134-11e4-b827-85e03683d452 2015-03-23 16:11:51.241061 [NOTICE] switch_core_session.c:1645 Close Channel sofia/internal/1002@192.168.10.107 [CS_DESTROY]
+313c1a8c-d134-11e4-b827-85e03683d452 2015-03-23 16:11:51.241061 [DEBUG] switch_core_state_machine.c:626 (sofia/internal/1002@192.168.10.107) Running State Change CS_DESTROY
+313c1a8c-d134-11e4-b827-85e03683d452 2015-03-23 16:11:51.241061 [DEBUG] switch_core_state_machine.c:636 (sofia/internal/1002@192.168.10.107) State DESTROY
+313c1a8c-d134-11e4-b827-85e03683d452 2015-03-23 16:11:51.241061 [DEBUG] mod_sofia.c:323 sofia/internal/1002@192.168.10.107 SOFIA DESTROY
+313c1a8c-d134-11e4-b827-85e03683d452 2015-03-23 16:11:51.241061 [DEBUG] switch_core_state_machine.c:111 sofia/internal/1002@192.168.10.107 Standard DESTROY
+313c1a8c-d134-11e4-b827-85e03683d452 2015-03-23 16:11:51.241061 [DEBUG] switch_core_state_machine.c:636 (sofia/internal/1002@192.168.10.107) State DESTROY going to sleep
+2015-03-23 16:11:51.241061 [DEBUG] mod_conference.c:3614 Write Lock ON
+2015-03-23 16:11:51.241061 [DEBUG] mod_conference.c:3617 Write Lock OFF
