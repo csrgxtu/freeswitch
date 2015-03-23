@@ -356,7 +356,7 @@
     <extension name="nb_conferences">
       <condition field="destination_number" expression="^(30\d{2})$">
 	<action application="answer"/>
-	<action application="conference" data="$1-${domain_name}@default"/>
+	<action application="conference" data="$1-${domain_name}@default+1234"/>
       </condition>
     </extension>
 
