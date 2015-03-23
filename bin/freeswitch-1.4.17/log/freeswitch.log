@@ -2545,3 +2545,8 @@ stack traceback:
 7d69ab9e-d126-11e4-8dd3-0172ca0cb61e 2015-03-23 14:33:41.348760 [DEBUG] mod_sofia.c:323 sofia/internal/1002@192.168.10.106:37058 SOFIA DESTROY
 7d69ab9e-d126-11e4-8dd3-0172ca0cb61e 2015-03-23 14:33:41.348760 [DEBUG] switch_core_state_machine.c:111 sofia/internal/1002@192.168.10.106:37058 Standard DESTROY
 7d69ab9e-d126-11e4-8dd3-0172ca0cb61e 2015-03-23 14:33:41.348760 [DEBUG] switch_core_state_machine.c:636 (sofia/internal/1002@192.168.10.106:37058) State DESTROY going to sleep
+2015-03-23 14:38:21.748710 [INFO] mod_enum.c:880 ENUM Reloaded
+2015-03-23 14:38:21.748710 [INFO] switch_time.c:1411 Timezone reloaded 1781 definitions
+2015-03-23 14:38:21.748710 [NOTICE] switch_loadable_module.c:315 Adding API Function 'telecast'
+2015-03-23 14:38:21.748710 [NOTICE] switch_loadable_module.c:365 Adding File Format 'shout'
+2015-03-23 14:38:21.748710 [NOTICE] switch_loadable_module.c:365 Adding File Format 'mp3'
