@@ -9,6 +9,7 @@ local req_domain   = params:getHeader("domain")
 local req_key      = params:getHeader("key")
 local req_user     = params:getHeader("user")
 local req_password --= params:getHeader("pass")
+--freeswitch.consoleLog("NOTICE", req_password)
 
 -- freeswitch.consoleLog("NOTICE", "UserName: " .. req_user);
 
@@ -23,12 +24,13 @@ dbh:query("select Password from xfjwt_User where UserName='" .. req_user .. "' l
           freeswitch.consoleLog("NOTICE",string.format("user %s was not found in database!",req_user))
           return
         end
-        -- freeswitch.consoleLog("NOTICE", "Password: " .. string.format("%s\n",row.Password))
+        freeswitch.consoleLog("NOTICE", "Password: " .. string.format("%s\n",row.Password))
         req_password=row.Password
+        freeswitch.consoleLog("NOTICE", "debug password:" .. string.format("%s\n", req_password));
 end);
 dbh:release();
 
-freeswitch.consoleLog("NOTICE","info:" .. req_domain .. "--" .. req_key .. "--" .. req_user .. "\n");
+-- freeswitch.consoleLog("NOTICE","info:" .. req_domain .. "--" .. req_key .. "--" .. req_user ..  "--" .. req_passowrd .. "\n");
 
 
 
