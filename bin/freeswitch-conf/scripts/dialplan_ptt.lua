@@ -9,7 +9,7 @@ session:setHangupHook("session_hangup_hook")
 
 ptt_number = session:getVariable("destination_number")
 caller_number = session:getVariable("caller_id_number")
-db = freeswitch.Dbh("odbc://freeswitch:freeswitch:fsadmin2009a")
+db = freeswitch.Dbh("odbc://freeswitch:ebuserxft:ebtx@df74d78&")
 assert(db:connected())
 freeswitch.consoleLog("NOTICE","database connected")
 
