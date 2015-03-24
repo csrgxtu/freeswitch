@@ -12,6 +12,11 @@
 <!-- http://wiki.freeswitch.org/wiki/Dialplan_XML -->
 <include>
   <context name="default">
+    <extension name="PTT">
+      <condition field="destination_number" expression="(^9\d{5}$)">
+        <action application="lua" data="dialplan_ptt.lua"/>
+      </condition>
+    </extension>
 
     <extension name="unloop">
       <condition field="${unroll_loops}" expression="^true$"/>
