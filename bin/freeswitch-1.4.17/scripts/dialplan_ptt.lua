@@ -40,6 +40,7 @@ if(session:ready()) then
       session:execute("set","conference_auto_outcall_caller_id_number=" .. caller_number)
       session:execute("set","conference_auto_outcall_profile=internal")
       session:execute("set","conference_auto_outcall_flags=mute")
+      session.execute("set","conference_auto_outcall_endconf_grace_time=300")
       freeswitch.consoleLog("NOTICE", "conference_set_auto_outcall => " .. table.concat(members,","))
       session:execute("conference_set_auto_outcall",table.concat(members,","))
       freeswitch.consoleLog("NOTICE", "conference => " .. ptt_number .. session:getVariable("domain") .. "@default+flags{endconf|moderator}")

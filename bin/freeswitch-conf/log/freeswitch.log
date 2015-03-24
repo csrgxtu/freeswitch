@@ -8477,3 +8477,1272 @@ e995ebc2-d13d-11e4-b961-85e03683d452 2015-03-23 17:29:16.561119 [DEBUG] switch_c
 9aed6d76-d140-11e4-b995-85e03683d452 2015-03-23 17:41:04.881117 [DEBUG] switch_core_state_machine.c:636 (sofia/internal/1002@192.168.10.107) State DESTROY going to sleep
 2015-03-23 17:41:04.881117 [DEBUG] mod_conference.c:3614 Write Lock ON
 2015-03-23 17:41:04.881117 [DEBUG] mod_conference.c:3617 Write Lock OFF
+2015-03-23 17:59:18.441050 [INFO] switch_core.c:2567 Shutting down
+2015-03-23 17:59:18.441050 [INFO] switch_core.c:2567 Shutting down
+2015-03-23 17:59:18.441050 [DEBUG] switch_console.c:1085 Editline thread exiting
+2015-03-23 17:59:18.441050 [CRIT] switch_time.c:1187 Virtual Migration Detected! Syncing Clock
+2015-03-23 17:59:18.441050 [INFO] switch_time.c:607 Clock synchronized to system time.
+2015-03-23 21:27:44.281045 [DEBUG] switch_loadable_module.c:711 Chat Thread Ended
+2015-03-23 21:27:44.281045 [DEBUG] switch_loadable_module.c:711 Chat Thread Ended
+2015-03-23 21:27:44.281045 [NOTICE] switch_loadable_module.c:944 Deleting Codec VP8 99 VP8 Video (passthru) 90000hz 0ms
+2015-03-23 21:27:44.281045 [NOTICE] switch_loadable_module.c:944 Deleting Codec red 103 red Video (passthru) 90000hz 0ms
+2015-03-23 21:27:44.281045 [NOTICE] switch_loadable_module.c:944 Deleting Codec ulpfec 104 ulpfec Video (passthru) 90000hz 0ms
+2015-03-23 21:27:44.281045 [NOTICE] switch_loadable_module.c:1003 Deleting Application 'play_fsv'
+2015-03-23 21:27:44.281045 [DEBUG] switch_loadable_module.c:1005 Write lock interface 'play_fsv' to wait for existing references.
+2015-03-23 21:27:44.281045 [NOTICE] switch_loadable_module.c:1003 Deleting Application 'record_fsv'
+2015-03-23 21:27:44.281045 [DEBUG] switch_loadable_module.c:1005 Write lock interface 'record_fsv' to wait for existing references.
+2015-03-23 21:27:44.281045 [DEBUG] switch_loadable_module.c:1120 Write lock interface 'mod_fsv' to wait for existing references.
+2015-03-23 21:27:44.281045 [NOTICE] switch_loadable_module.c:1130 Deleting File Format 'fsv'
+2015-03-23 21:27:44.281045 [NOTICE] switch_loadable_module.c:1003 Deleting Application 'hash'
+2015-03-23 21:27:44.281045 [DEBUG] switch_loadable_module.c:1005 Write lock interface 'hash' to wait for existing references.
+2015-03-23 21:27:44.281045 [NOTICE] switch_loadable_module.c:1058 Deleting API Function 'hash'
+2015-03-23 21:27:44.281045 [DEBUG] switch_loadable_module.c:1060 Write lock interface 'hash' to wait for existing references.
+2015-03-23 21:27:44.281045 [NOTICE] switch_loadable_module.c:1058 Deleting API Function 'hash_dump'
+2015-03-23 21:27:44.281045 [DEBUG] switch_loadable_module.c:1060 Write lock interface 'hash_dump' to wait for existing references.
+2015-03-23 21:27:44.281045 [NOTICE] switch_loadable_module.c:1058 Deleting API Function 'hash_remote'
+2015-03-23 21:27:44.281045 [DEBUG] switch_loadable_module.c:1060 Write lock interface 'hash_remote' to wait for existing references.
+2015-03-23 21:27:44.281045 [NOTICE] switch_loadable_module.c:1300 Deleting Limit interface 'hash'
+2015-03-23 21:27:44.281045 [NOTICE] switch_loadable_module.c:944 Deleting Codec SPEEX 99 Speex 32000hz 20ms
+2015-03-23 21:27:44.281045 [NOTICE] switch_loadable_module.c:944 Deleting Codec SPEEX 99 Speex 16000hz 20ms
+2015-03-23 21:27:44.281045 [NOTICE] switch_loadable_module.c:944 Deleting Codec SPEEX 99 Speex 8000hz 20ms
+2015-03-23 21:27:44.281045 [DEBUG] switch_loadable_module.c:1120 Write lock interface 'mod_native_file' to wait for existing references.
+2015-03-23 21:27:44.281045 [NOTICE] switch_loadable_module.c:1130 Deleting File Format 'AAL2-G726-32'
+2015-03-23 21:27:44.281045 [NOTICE] switch_loadable_module.c:1130 Deleting File Format 'DVI4'
+2015-03-23 21:27:44.281045 [NOTICE] switch_loadable_module.c:1130 Deleting File Format 'PCMU'
+2015-03-23 21:27:44.281045 [NOTICE] switch_loadable_module.c:1130 Deleting File Format 'G722'
+2015-03-23 21:27:44.281045 [NOTICE] switch_loadable_module.c:1130 Deleting File Format 'opus'
+2015-03-23 21:27:44.281045 [NOTICE] switch_loadable_module.c:1130 Deleting File Format 'AAL2-G726-24'
+2015-03-23 21:27:44.281045 [NOTICE] switch_loadable_module.c:1130 Deleting File Format 'SPEEX'
+2015-03-23 21:27:44.281045 [NOTICE] switch_loadable_module.c:1130 Deleting File Format 'b64'
+2015-03-23 21:27:44.281045 [NOTICE] switch_loadable_module.c:1130 Deleting File Format 'AAL2-G726-40'
+2015-03-23 21:27:44.281045 [NOTICE] switch_loadable_module.c:1130 Deleting File Format 'L16'
+2015-03-23 21:27:44.281045 [NOTICE] switch_loadable_module.c:1130 Deleting File Format 'G726-16'
+2015-03-23 21:27:44.281045 [NOTICE] switch_loadable_module.c:1130 Deleting File Format 'PCMA'
+2015-03-23 21:27:44.281045 [NOTICE] switch_loadable_module.c:1130 Deleting File Format 'PROXY'
+2015-03-23 21:27:44.281045 [NOTICE] switch_loadable_module.c:1130 Deleting File Format 'G726-24'
+2015-03-23 21:27:44.281045 [NOTICE] switch_loadable_module.c:1130 Deleting File Format 'G729'
+2015-03-23 21:27:44.281045 [NOTICE] switch_loadable_module.c:1130 Deleting File Format 'AAL2-G726-16'
+2015-03-23 21:27:44.281045 [NOTICE] switch_loadable_module.c:1130 Deleting File Format 'G726-32'
+2015-03-23 21:27:44.281045 [NOTICE] switch_loadable_module.c:1130 Deleting File Format 'AMR'
+2015-03-23 21:27:44.281045 [NOTICE] switch_loadable_module.c:1130 Deleting File Format 'GSM'
+2015-03-23 21:27:44.281045 [NOTICE] switch_loadable_module.c:1130 Deleting File Format 'G726-40'
+2015-03-23 21:27:44.281045 [NOTICE] switch_loadable_module.c:1130 Deleting File Format 'H261'
+2015-03-23 21:27:44.281045 [NOTICE] switch_loadable_module.c:1130 Deleting File Format 'H264'
+2015-03-23 21:27:44.281045 [NOTICE] switch_loadable_module.c:1130 Deleting File Format 'VP8'
+2015-03-23 21:27:44.281045 [NOTICE] switch_loadable_module.c:1130 Deleting File Format 'H263-2000'
+2015-03-23 21:27:44.281045 [NOTICE] switch_loadable_module.c:1130 Deleting File Format 'PROXY-VID'
+2015-03-23 21:27:44.281045 [NOTICE] switch_loadable_module.c:1130 Deleting File Format 'red'
+2015-03-23 21:27:44.281045 [NOTICE] switch_loadable_module.c:1130 Deleting File Format 'H263'
+2015-03-23 21:27:44.281045 [NOTICE] switch_loadable_module.c:1130 Deleting File Format 'G723'
+2015-03-23 21:27:44.281045 [NOTICE] switch_loadable_module.c:1130 Deleting File Format 'LPC'
+2015-03-23 21:27:44.281045 [NOTICE] switch_loadable_module.c:1130 Deleting File Format 'ulpfec'
+2015-03-23 21:27:44.281045 [NOTICE] switch_loadable_module.c:1130 Deleting File Format 'H263-1998'
+2015-03-23 21:27:44.281045 [NOTICE] switch_loadable_module.c:1058 Deleting API Function 'cdr_csv'
+2015-03-23 21:27:44.281045 [DEBUG] switch_loadable_module.c:1060 Write lock interface 'cdr_csv' to wait for existing references.
+2015-03-23 21:27:44.281045 [NOTICE] switch_event.c:2073 Event Binding deleted for mod_cdr_csv:TRAP
+2015-03-23 21:27:44.281045 [DEBUG] switch_loadable_module.c:909 Write lock interface 'loopback' to wait for existing references.
+2015-03-23 21:27:44.281045 [NOTICE] switch_loadable_module.c:917 Deleting Endpoint 'loopback'
+2015-03-23 21:27:44.281045 [NOTICE] switch_loadable_module.c:1003 Deleting Application 'unloop'
+2015-03-23 21:27:44.281045 [DEBUG] switch_loadable_module.c:1005 Write lock interface 'unloop' to wait for existing references.
+2015-03-23 21:27:44.281045 [NOTICE] switch_loadable_module.c:1003 Deleting Application 'voicemail'
+2015-03-23 21:27:44.281045 [DEBUG] switch_loadable_module.c:1005 Write lock interface 'voicemail' to wait for existing references.
+2015-03-23 21:27:44.281045 [NOTICE] switch_loadable_module.c:1058 Deleting API Function 'voicemail'
+2015-03-23 21:27:44.281045 [DEBUG] switch_loadable_module.c:1060 Write lock interface 'voicemail' to wait for existing references.
+2015-03-23 21:27:44.281045 [NOTICE] switch_loadable_module.c:1058 Deleting API Function 'voicemail_inject'
+2015-03-23 21:27:44.281045 [DEBUG] switch_loadable_module.c:1060 Write lock interface 'voicemail_inject' to wait for existing references.
+2015-03-23 21:27:44.281045 [NOTICE] switch_loadable_module.c:1058 Deleting API Function 'vm_inject'
+2015-03-23 21:27:44.281045 [DEBUG] switch_loadable_module.c:1060 Write lock interface 'vm_inject' to wait for existing references.
+2015-03-23 21:27:44.281045 [NOTICE] switch_loadable_module.c:1058 Deleting API Function 'vm_boxcount'
+2015-03-23 21:27:44.281045 [DEBUG] switch_loadable_module.c:1060 Write lock interface 'vm_boxcount' to wait for existing references.
+2015-03-23 21:27:44.281045 [NOTICE] switch_loadable_module.c:1058 Deleting API Function 'vm_prefs'
+2015-03-23 21:27:44.281045 [DEBUG] switch_loadable_module.c:1060 Write lock interface 'vm_prefs' to wait for existing references.
+2015-03-23 21:27:44.281045 [NOTICE] switch_loadable_module.c:1058 Deleting API Function 'vm_delete'
+2015-03-23 21:27:44.281045 [DEBUG] switch_loadable_module.c:1060 Write lock interface 'vm_delete' to wait for existing references.
+2015-03-23 21:27:44.281045 [NOTICE] switch_loadable_module.c:1058 Deleting API Function 'vm_read'
+2015-03-23 21:27:44.281045 [DEBUG] switch_loadable_module.c:1060 Write lock interface 'vm_read' to wait for existing references.
+2015-03-23 21:27:44.281045 [NOTICE] switch_loadable_module.c:1058 Deleting API Function 'vm_list'
+2015-03-23 21:27:44.281045 [DEBUG] switch_loadable_module.c:1060 Write lock interface 'vm_list' to wait for existing references.
+2015-03-23 21:27:44.281045 [NOTICE] switch_loadable_module.c:1058 Deleting API Function 'vm_fsdb_auth_login'
+2015-03-23 21:27:44.281045 [DEBUG] switch_loadable_module.c:1060 Write lock interface 'vm_fsdb_auth_login' to wait for existing references.
+2015-03-23 21:27:44.281045 [NOTICE] switch_loadable_module.c:1058 Deleting API Function 'vm_fsdb_msg_count'
+2015-03-23 21:27:44.281045 [DEBUG] switch_loadable_module.c:1060 Write lock interface 'vm_fsdb_msg_count' to wait for existing references.
+2015-03-23 21:27:44.281045 [NOTICE] switch_loadable_module.c:1058 Deleting API Function 'vm_fsdb_msg_list'
+2015-03-23 21:27:44.281045 [DEBUG] switch_loadable_module.c:1060 Write lock interface 'vm_fsdb_msg_list' to wait for existing references.
+2015-03-23 21:27:44.281045 [NOTICE] switch_loadable_module.c:1058 Deleting API Function 'vm_fsdb_msg_get'
+2015-03-23 21:27:44.281045 [DEBUG] switch_loadable_module.c:1060 Write lock interface 'vm_fsdb_msg_get' to wait for existing references.
+2015-03-23 21:27:44.281045 [NOTICE] switch_loadable_module.c:1058 Deleting API Function 'vm_fsdb_msg_delete'
+2015-03-23 21:27:44.281045 [DEBUG] switch_loadable_module.c:1060 Write lock interface 'vm_fsdb_msg_delete' to wait for existing references.
+2015-03-23 21:27:44.281045 [NOTICE] switch_loadable_module.c:1058 Deleting API Function 'vm_fsdb_msg_undelete'
+2015-03-23 21:27:44.281045 [DEBUG] switch_loadable_module.c:1060 Write lock interface 'vm_fsdb_msg_undelete' to wait for existing references.
+2015-03-23 21:27:44.281045 [NOTICE] switch_loadable_module.c:1058 Deleting API Function 'vm_fsdb_msg_email'
+2015-03-23 21:27:44.281045 [DEBUG] switch_loadable_module.c:1060 Write lock interface 'vm_fsdb_msg_email' to wait for existing references.
+2015-03-23 21:27:44.281045 [NOTICE] switch_loadable_module.c:1058 Deleting API Function 'vm_fsdb_msg_purge'
+2015-03-23 21:27:44.281045 [DEBUG] switch_loadable_module.c:1060 Write lock interface 'vm_fsdb_msg_purge' to wait for existing references.
+2015-03-23 21:27:44.281045 [NOTICE] switch_loadable_module.c:1058 Deleting API Function 'vm_fsdb_msg_save'
+2015-03-23 21:27:44.281045 [DEBUG] switch_loadable_module.c:1060 Write lock interface 'vm_fsdb_msg_save' to wait for existing references.
+2015-03-23 21:27:44.281045 [NOTICE] switch_loadable_module.c:1058 Deleting API Function 'vm_fsdb_msg_forward'
+2015-03-23 21:27:44.281045 [DEBUG] switch_loadable_module.c:1060 Write lock interface 'vm_fsdb_msg_forward' to wait for existing references.
+2015-03-23 21:27:44.281045 [NOTICE] switch_loadable_module.c:1058 Deleting API Function 'vm_fsdb_pref_greeting_set'
+2015-03-23 21:27:44.281045 [DEBUG] switch_loadable_module.c:1060 Write lock interface 'vm_fsdb_pref_greeting_set' to wait for existing references.
+2015-03-23 21:27:44.281045 [NOTICE] switch_loadable_module.c:1058 Deleting API Function 'vm_fsdb_pref_greeting_get'
+2015-03-23 21:27:44.281045 [DEBUG] switch_loadable_module.c:1060 Write lock interface 'vm_fsdb_pref_greeting_get' to wait for existing references.
+2015-03-23 21:27:44.281045 [NOTICE] switch_loadable_module.c:1058 Deleting API Function 'vm_fsdb_pref_recname_set'
+2015-03-23 21:27:44.281045 [DEBUG] switch_loadable_module.c:1060 Write lock interface 'vm_fsdb_pref_recname_set' to wait for existing references.
+2015-03-23 21:27:44.281045 [NOTICE] switch_loadable_module.c:1058 Deleting API Function 'vm_fsdb_pref_password_set'
+2015-03-23 21:27:44.281045 [DEBUG] switch_loadable_module.c:1060 Write lock interface 'vm_fsdb_pref_password_set' to wait for existing references.
+2015-03-23 21:27:44.281045 [NOTICE] switch_event.c:457 Subclass reservation deleted for mod_voicemail.c:vm::maintenance
+2015-03-23 21:27:44.281045 [NOTICE] switch_event.c:2073 Event Binding deleted for mod_voicemail:MESSAGE_QUERY
+2015-03-23 21:27:44.341047 [DEBUG] mod_voicemail.c:6287 Waiting for write lock (Profile default)
+2015-03-23 21:27:44.341047 [DEBUG] mod_voicemail.c:6290 Destroying Profile default
+2015-03-23 21:27:44.341047 [DEBUG] switch_loadable_module.c:909 Write lock interface 'modem' to wait for existing references.
+2015-03-23 21:27:44.341047 [NOTICE] switch_loadable_module.c:917 Deleting Endpoint 'modem'
+2015-03-23 21:27:44.341047 [NOTICE] switch_loadable_module.c:944 Deleting Codec DVI4 6 ADPCM (IMA) 16000hz 10ms
+2015-03-23 21:27:44.341047 [NOTICE] switch_loadable_module.c:944 Deleting Codec DVI4 6 ADPCM (IMA) 16000hz 20ms
+2015-03-23 21:27:44.341047 [NOTICE] switch_loadable_module.c:944 Deleting Codec DVI4 6 ADPCM (IMA) 16000hz 30ms
+2015-03-23 21:27:44.341047 [NOTICE] switch_loadable_module.c:944 Deleting Codec DVI4 6 ADPCM (IMA) 16000hz 40ms
+2015-03-23 21:27:44.341047 [NOTICE] switch_loadable_module.c:944 Deleting Codec DVI4 6 ADPCM (IMA) 16000hz 50ms
+2015-03-23 21:27:44.341047 [NOTICE] switch_loadable_module.c:944 Deleting Codec DVI4 6 ADPCM (IMA) 16000hz 60ms
+2015-03-23 21:27:44.341047 [NOTICE] switch_loadable_module.c:944 Deleting Codec DVI4 5 ADPCM (IMA) 8000hz 10ms
+2015-03-23 21:27:44.341047 [NOTICE] switch_loadable_module.c:944 Deleting Codec DVI4 5 ADPCM (IMA) 8000hz 20ms
+2015-03-23 21:27:44.341047 [NOTICE] switch_loadable_module.c:944 Deleting Codec DVI4 5 ADPCM (IMA) 8000hz 30ms
+2015-03-23 21:27:44.341047 [NOTICE] switch_loadable_module.c:944 Deleting Codec DVI4 5 ADPCM (IMA) 8000hz 40ms
+2015-03-23 21:27:44.341047 [NOTICE] switch_loadable_module.c:944 Deleting Codec DVI4 5 ADPCM (IMA) 8000hz 50ms
+2015-03-23 21:27:44.341047 [NOTICE] switch_loadable_module.c:944 Deleting Codec DVI4 5 ADPCM (IMA) 8000hz 60ms
+2015-03-23 21:27:44.341047 [NOTICE] switch_loadable_module.c:944 Deleting Codec DVI4 5 ADPCM (IMA) 8000hz 70ms
+2015-03-23 21:27:44.341047 [NOTICE] switch_loadable_module.c:944 Deleting Codec DVI4 5 ADPCM (IMA) 8000hz 80ms
+2015-03-23 21:27:44.341047 [NOTICE] switch_loadable_module.c:944 Deleting Codec DVI4 5 ADPCM (IMA) 8000hz 90ms
+2015-03-23 21:27:44.341047 [NOTICE] switch_loadable_module.c:944 Deleting Codec DVI4 5 ADPCM (IMA) 8000hz 100ms
+2015-03-23 21:27:44.341047 [NOTICE] switch_loadable_module.c:944 Deleting Codec DVI4 5 ADPCM (IMA) 8000hz 110ms
+2015-03-23 21:27:44.341047 [NOTICE] switch_loadable_module.c:944 Deleting Codec DVI4 5 ADPCM (IMA) 8000hz 120ms
+2015-03-23 21:27:44.341047 [NOTICE] switch_loadable_module.c:944 Deleting Codec AAL2-G726-16 124 G.726 16k (AAL2) 8000hz 10ms
+2015-03-23 21:27:44.341047 [NOTICE] switch_loadable_module.c:944 Deleting Codec AAL2-G726-16 124 G.726 16k (AAL2) 8000hz 20ms
+2015-03-23 21:27:44.341047 [NOTICE] switch_loadable_module.c:944 Deleting Codec AAL2-G726-16 124 G.726 16k (AAL2) 8000hz 30ms
+2015-03-23 21:27:44.341047 [NOTICE] switch_loadable_module.c:944 Deleting Codec AAL2-G726-16 124 G.726 16k (AAL2) 8000hz 40ms
+2015-03-23 21:27:44.341047 [NOTICE] switch_loadable_module.c:944 Deleting Codec AAL2-G726-16 124 G.726 16k (AAL2) 8000hz 50ms
+2015-03-23 21:27:44.341047 [NOTICE] switch_loadable_module.c:944 Deleting Codec AAL2-G726-16 124 G.726 16k (AAL2) 8000hz 60ms
+2015-03-23 21:27:44.341047 [NOTICE] switch_loadable_module.c:944 Deleting Codec AAL2-G726-16 124 G.726 16k (AAL2) 8000hz 70ms
+2015-03-23 21:27:44.341047 [NOTICE] switch_loadable_module.c:944 Deleting Codec AAL2-G726-16 124 G.726 16k (AAL2) 8000hz 80ms
+2015-03-23 21:27:44.341047 [NOTICE] switch_loadable_module.c:944 Deleting Codec AAL2-G726-16 124 G.726 16k (AAL2) 8000hz 90ms
+2015-03-23 21:27:44.341047 [NOTICE] switch_loadable_module.c:944 Deleting Codec AAL2-G726-16 124 G.726 16k (AAL2) 8000hz 100ms
+2015-03-23 21:27:44.341047 [NOTICE] switch_loadable_module.c:944 Deleting Codec AAL2-G726-16 124 G.726 16k (AAL2) 8000hz 110ms
+2015-03-23 21:27:44.341047 [NOTICE] switch_loadable_module.c:944 Deleting Codec AAL2-G726-16 124 G.726 16k (AAL2) 8000hz 120ms
+2015-03-23 21:27:44.341047 [NOTICE] switch_loadable_module.c:944 Deleting Codec G726-16 124 G.726 16k 8000hz 10ms
+2015-03-23 21:27:44.341047 [NOTICE] switch_loadable_module.c:944 Deleting Codec G726-16 124 G.726 16k 8000hz 20ms
+2015-03-23 21:27:44.341047 [NOTICE] switch_loadable_module.c:944 Deleting Codec G726-16 124 G.726 16k 8000hz 30ms
+2015-03-23 21:27:44.341047 [NOTICE] switch_loadable_module.c:944 Deleting Codec G726-16 124 G.726 16k 8000hz 40ms
+2015-03-23 21:27:44.341047 [NOTICE] switch_loadable_module.c:944 Deleting Codec G726-16 124 G.726 16k 8000hz 50ms
+2015-03-23 21:27:44.341047 [NOTICE] switch_loadable_module.c:944 Deleting Codec G726-16 124 G.726 16k 8000hz 60ms
+2015-03-23 21:27:44.341047 [NOTICE] switch_loadable_module.c:944 Deleting Codec G726-16 124 G.726 16k 8000hz 70ms
+2015-03-23 21:27:44.341047 [NOTICE] switch_loadable_module.c:944 Deleting Codec G726-16 124 G.726 16k 8000hz 80ms
+2015-03-23 21:27:44.341047 [NOTICE] switch_loadable_module.c:944 Deleting Codec G726-16 124 G.726 16k 8000hz 90ms
+2015-03-23 21:27:44.341047 [NOTICE] switch_loadable_module.c:944 Deleting Codec G726-16 124 G.726 16k 8000hz 100ms
+2015-03-23 21:27:44.341047 [NOTICE] switch_loadable_module.c:944 Deleting Codec G726-16 124 G.726 16k 8000hz 110ms
+2015-03-23 21:27:44.341047 [NOTICE] switch_loadable_module.c:944 Deleting Codec G726-16 124 G.726 16k 8000hz 120ms
+2015-03-23 21:27:44.341047 [NOTICE] switch_loadable_module.c:944 Deleting Codec AAL2-G726-24 123 G.726 24k (AAL2) 8000hz 10ms
+2015-03-23 21:27:44.341047 [NOTICE] switch_loadable_module.c:944 Deleting Codec AAL2-G726-24 123 G.726 24k (AAL2) 8000hz 20ms
+2015-03-23 21:27:44.341047 [NOTICE] switch_loadable_module.c:944 Deleting Codec AAL2-G726-24 123 G.726 24k (AAL2) 8000hz 30ms
+2015-03-23 21:27:44.341047 [NOTICE] switch_loadable_module.c:944 Deleting Codec AAL2-G726-24 123 G.726 24k (AAL2) 8000hz 40ms
+2015-03-23 21:27:44.341047 [NOTICE] switch_loadable_module.c:944 Deleting Codec AAL2-G726-24 123 G.726 24k (AAL2) 8000hz 50ms
+2015-03-23 21:27:44.341047 [NOTICE] switch_loadable_module.c:944 Deleting Codec AAL2-G726-24 123 G.726 24k (AAL2) 8000hz 60ms
+2015-03-23 21:27:44.341047 [NOTICE] switch_loadable_module.c:944 Deleting Codec AAL2-G726-24 123 G.726 24k (AAL2) 8000hz 70ms
+2015-03-23 21:27:44.341047 [NOTICE] switch_loadable_module.c:944 Deleting Codec AAL2-G726-24 123 G.726 24k (AAL2) 8000hz 80ms
+2015-03-23 21:27:44.341047 [NOTICE] switch_loadable_module.c:944 Deleting Codec AAL2-G726-24 123 G.726 24k (AAL2) 8000hz 90ms
+2015-03-23 21:27:44.341047 [NOTICE] switch_loadable_module.c:944 Deleting Codec AAL2-G726-24 123 G.726 24k (AAL2) 8000hz 100ms
+2015-03-23 21:27:44.341047 [NOTICE] switch_loadable_module.c:944 Deleting Codec AAL2-G726-24 123 G.726 24k (AAL2) 8000hz 110ms
+2015-03-23 21:27:44.341047 [NOTICE] switch_loadable_module.c:944 Deleting Codec AAL2-G726-24 123 G.726 24k (AAL2) 8000hz 120ms
+2015-03-23 21:27:44.341047 [NOTICE] switch_loadable_module.c:944 Deleting Codec G726-24 123 G.726 24k 8000hz 10ms
+2015-03-23 21:27:44.341047 [NOTICE] switch_loadable_module.c:944 Deleting Codec G726-24 123 G.726 24k 8000hz 20ms
+2015-03-23 21:27:44.341047 [NOTICE] switch_loadable_module.c:944 Deleting Codec G726-24 123 G.726 24k 8000hz 30ms
+2015-03-23 21:27:44.341047 [NOTICE] switch_loadable_module.c:944 Deleting Codec G726-24 123 G.726 24k 8000hz 40ms
+2015-03-23 21:27:44.341047 [NOTICE] switch_loadable_module.c:944 Deleting Codec G726-24 123 G.726 24k 8000hz 50ms
+2015-03-23 21:27:44.341047 [NOTICE] switch_loadable_module.c:944 Deleting Codec G726-24 123 G.726 24k 8000hz 60ms
+2015-03-23 21:27:44.341047 [NOTICE] switch_loadable_module.c:944 Deleting Codec G726-24 123 G.726 24k 8000hz 70ms
+2015-03-23 21:27:44.341047 [NOTICE] switch_loadable_module.c:944 Deleting Codec G726-24 123 G.726 24k 8000hz 80ms
+2015-03-23 21:27:44.341047 [NOTICE] switch_loadable_module.c:944 Deleting Codec G726-24 123 G.726 24k 8000hz 90ms
+2015-03-23 21:27:44.341047 [NOTICE] switch_loadable_module.c:944 Deleting Codec G726-24 123 G.726 24k 8000hz 100ms
+2015-03-23 21:27:44.341047 [NOTICE] switch_loadable_module.c:944 Deleting Codec G726-24 123 G.726 24k 8000hz 110ms
+2015-03-23 21:27:44.341047 [NOTICE] switch_loadable_module.c:944 Deleting Codec G726-24 123 G.726 24k 8000hz 120ms
+2015-03-23 21:27:44.341047 [NOTICE] switch_loadable_module.c:944 Deleting Codec AAL2-G726-32 122 G.726 32k (AAL2) 8000hz 10ms
+2015-03-23 21:27:44.341047 [NOTICE] switch_loadable_module.c:944 Deleting Codec AAL2-G726-32 122 G.726 32k (AAL2) 8000hz 20ms
+2015-03-23 21:27:44.341047 [NOTICE] switch_loadable_module.c:944 Deleting Codec AAL2-G726-32 122 G.726 32k (AAL2) 8000hz 30ms
+2015-03-23 21:27:44.341047 [NOTICE] switch_loadable_module.c:944 Deleting Codec AAL2-G726-32 122 G.726 32k (AAL2) 8000hz 40ms
+2015-03-23 21:27:44.341047 [NOTICE] switch_loadable_module.c:944 Deleting Codec AAL2-G726-32 122 G.726 32k (AAL2) 8000hz 50ms
+2015-03-23 21:27:44.341047 [NOTICE] switch_loadable_module.c:944 Deleting Codec AAL2-G726-32 122 G.726 32k (AAL2) 8000hz 60ms
+2015-03-23 21:27:44.341047 [NOTICE] switch_loadable_module.c:944 Deleting Codec AAL2-G726-32 122 G.726 32k (AAL2) 8000hz 70ms
+2015-03-23 21:27:44.341047 [NOTICE] switch_loadable_module.c:944 Deleting Codec AAL2-G726-32 122 G.726 32k (AAL2) 8000hz 80ms
+2015-03-23 21:27:44.341047 [NOTICE] switch_loadable_module.c:944 Deleting Codec AAL2-G726-32 122 G.726 32k (AAL2) 8000hz 90ms
+2015-03-23 21:27:44.341047 [NOTICE] switch_loadable_module.c:944 Deleting Codec AAL2-G726-32 122 G.726 32k (AAL2) 8000hz 100ms
+2015-03-23 21:27:44.341047 [NOTICE] switch_loadable_module.c:944 Deleting Codec AAL2-G726-32 122 G.726 32k (AAL2) 8000hz 110ms
+2015-03-23 21:27:44.341047 [NOTICE] switch_loadable_module.c:944 Deleting Codec AAL2-G726-32 122 G.726 32k (AAL2) 8000hz 120ms
+2015-03-23 21:27:44.341047 [NOTICE] switch_loadable_module.c:944 Deleting Codec G726-32 122 G.726 32k 8000hz 10ms
+2015-03-23 21:27:44.341047 [NOTICE] switch_loadable_module.c:944 Deleting Codec G726-32 122 G.726 32k 8000hz 20ms
+2015-03-23 21:27:44.341047 [NOTICE] switch_loadable_module.c:944 Deleting Codec G726-32 122 G.726 32k 8000hz 30ms
+2015-03-23 21:27:44.341047 [NOTICE] switch_loadable_module.c:944 Deleting Codec G726-32 122 G.726 32k 8000hz 40ms
+2015-03-23 21:27:44.341047 [NOTICE] switch_loadable_module.c:944 Deleting Codec G726-32 122 G.726 32k 8000hz 50ms
+2015-03-23 21:27:44.341047 [NOTICE] switch_loadable_module.c:944 Deleting Codec G726-32 122 G.726 32k 8000hz 60ms
+2015-03-23 21:27:44.341047 [NOTICE] switch_loadable_module.c:944 Deleting Codec G726-32 122 G.726 32k 8000hz 70ms
+2015-03-23 21:27:44.341047 [NOTICE] switch_loadable_module.c:944 Deleting Codec G726-32 122 G.726 32k 8000hz 80ms
+2015-03-23 21:27:44.341047 [NOTICE] switch_loadable_module.c:944 Deleting Codec G726-32 122 G.726 32k 8000hz 90ms
+2015-03-23 21:27:44.341047 [NOTICE] switch_loadable_module.c:944 Deleting Codec G726-32 122 G.726 32k 8000hz 100ms
+2015-03-23 21:27:44.341047 [NOTICE] switch_loadable_module.c:944 Deleting Codec G726-32 122 G.726 32k 8000hz 110ms
+2015-03-23 21:27:44.341047 [NOTICE] switch_loadable_module.c:944 Deleting Codec G726-32 122 G.726 32k 8000hz 120ms
+2015-03-23 21:27:44.341047 [NOTICE] switch_loadable_module.c:944 Deleting Codec AAL2-G726-40 121 G.726 40k (AAL2) 8000hz 10ms
+2015-03-23 21:27:44.341047 [NOTICE] switch_loadable_module.c:944 Deleting Codec AAL2-G726-40 121 G.726 40k (AAL2) 8000hz 20ms
+2015-03-23 21:27:44.341047 [NOTICE] switch_loadable_module.c:944 Deleting Codec AAL2-G726-40 121 G.726 40k (AAL2) 8000hz 30ms
+2015-03-23 21:27:44.341047 [NOTICE] switch_loadable_module.c:944 Deleting Codec AAL2-G726-40 121 G.726 40k (AAL2) 8000hz 40ms
+2015-03-23 21:27:44.341047 [NOTICE] switch_loadable_module.c:944 Deleting Codec AAL2-G726-40 121 G.726 40k (AAL2) 8000hz 50ms
+2015-03-23 21:27:44.341047 [NOTICE] switch_loadable_module.c:944 Deleting Codec AAL2-G726-40 121 G.726 40k (AAL2) 8000hz 60ms
+2015-03-23 21:27:44.341047 [NOTICE] switch_loadable_module.c:944 Deleting Codec AAL2-G726-40 121 G.726 40k (AAL2) 8000hz 70ms
+2015-03-23 21:27:44.341047 [NOTICE] switch_loadable_module.c:944 Deleting Codec AAL2-G726-40 121 G.726 40k (AAL2) 8000hz 80ms
+2015-03-23 21:27:44.341047 [NOTICE] switch_loadable_module.c:944 Deleting Codec AAL2-G726-40 121 G.726 40k (AAL2) 8000hz 90ms
+2015-03-23 21:27:44.341047 [NOTICE] switch_loadable_module.c:944 Deleting Codec AAL2-G726-40 121 G.726 40k (AAL2) 8000hz 100ms
+2015-03-23 21:27:44.341047 [NOTICE] switch_loadable_module.c:944 Deleting Codec AAL2-G726-40 121 G.726 40k (AAL2) 8000hz 110ms
+2015-03-23 21:27:44.341047 [NOTICE] switch_loadable_module.c:944 Deleting Codec AAL2-G726-40 121 G.726 40k (AAL2) 8000hz 120ms
+2015-03-23 21:27:44.341047 [NOTICE] switch_loadable_module.c:944 Deleting Codec G726-40 121 G.726 40k 8000hz 10ms
+2015-03-23 21:27:44.341047 [NOTICE] switch_loadable_module.c:944 Deleting Codec G726-40 121 G.726 40k 8000hz 20ms
+2015-03-23 21:27:44.341047 [NOTICE] switch_loadable_module.c:944 Deleting Codec G726-40 121 G.726 40k 8000hz 30ms
+2015-03-23 21:27:44.341047 [NOTICE] switch_loadable_module.c:944 Deleting Codec G726-40 121 G.726 40k 8000hz 40ms
+2015-03-23 21:27:44.341047 [NOTICE] switch_loadable_module.c:944 Deleting Codec G726-40 121 G.726 40k 8000hz 50ms
+2015-03-23 21:27:44.341047 [NOTICE] switch_loadable_module.c:944 Deleting Codec G726-40 121 G.726 40k 8000hz 60ms
+2015-03-23 21:27:44.341047 [NOTICE] switch_loadable_module.c:944 Deleting Codec G726-40 121 G.726 40k 8000hz 70ms
+2015-03-23 21:27:44.341047 [NOTICE] switch_loadable_module.c:944 Deleting Codec G726-40 121 G.726 40k 8000hz 80ms
+2015-03-23 21:27:44.341047 [NOTICE] switch_loadable_module.c:944 Deleting Codec G726-40 121 G.726 40k 8000hz 90ms
+2015-03-23 21:27:44.341047 [NOTICE] switch_loadable_module.c:944 Deleting Codec G726-40 121 G.726 40k 8000hz 100ms
+2015-03-23 21:27:44.341047 [NOTICE] switch_loadable_module.c:944 Deleting Codec G726-40 121 G.726 40k 8000hz 110ms
+2015-03-23 21:27:44.341047 [NOTICE] switch_loadable_module.c:944 Deleting Codec G726-40 121 G.726 40k 8000hz 120ms
+2015-03-23 21:27:44.341047 [NOTICE] switch_loadable_module.c:944 Deleting Codec G722 9 G.722 16000hz 10ms
+2015-03-23 21:27:44.341047 [NOTICE] switch_loadable_module.c:944 Deleting Codec G722 9 G.722 16000hz 20ms
+2015-03-23 21:27:44.341047 [NOTICE] switch_loadable_module.c:944 Deleting Codec G722 9 G.722 16000hz 30ms
+2015-03-23 21:27:44.341047 [NOTICE] switch_loadable_module.c:944 Deleting Codec G722 9 G.722 16000hz 40ms
+2015-03-23 21:27:44.341047 [NOTICE] switch_loadable_module.c:944 Deleting Codec G722 9 G.722 16000hz 50ms
+2015-03-23 21:27:44.341047 [NOTICE] switch_loadable_module.c:944 Deleting Codec G722 9 G.722 16000hz 60ms
+2015-03-23 21:27:44.341047 [NOTICE] switch_loadable_module.c:944 Deleting Codec GSM 3 GSM 8000hz 20ms
+2015-03-23 21:27:44.341047 [NOTICE] switch_loadable_module.c:944 Deleting Codec GSM 3 GSM 8000hz 40ms
+2015-03-23 21:27:44.341047 [NOTICE] switch_loadable_module.c:944 Deleting Codec GSM 3 GSM 8000hz 60ms
+2015-03-23 21:27:44.341047 [NOTICE] switch_loadable_module.c:944 Deleting Codec GSM 3 GSM 8000hz 80ms
+2015-03-23 21:27:44.341047 [NOTICE] switch_loadable_module.c:944 Deleting Codec GSM 3 GSM 8000hz 100ms
+2015-03-23 21:27:44.341047 [NOTICE] switch_loadable_module.c:944 Deleting Codec GSM 3 GSM 8000hz 120ms
+2015-03-23 21:27:44.341047 [NOTICE] switch_loadable_module.c:944 Deleting Codec LPC 7 LPC-10 8000hz 90ms
+2015-03-23 21:27:44.341047 [NOTICE] switch_loadable_module.c:1003 Deleting Application 't38_gateway'
+2015-03-23 21:27:44.341047 [DEBUG] switch_loadable_module.c:1005 Write lock interface 't38_gateway' to wait for existing references.
+2015-03-23 21:27:44.341047 [NOTICE] switch_loadable_module.c:1003 Deleting Application 'rxfax'
+2015-03-23 21:27:44.341047 [DEBUG] switch_loadable_module.c:1005 Write lock interface 'rxfax' to wait for existing references.
+2015-03-23 21:27:44.341047 [NOTICE] switch_loadable_module.c:1003 Deleting Application 'txfax'
+2015-03-23 21:27:44.341047 [DEBUG] switch_loadable_module.c:1005 Write lock interface 'txfax' to wait for existing references.
+2015-03-23 21:27:44.341047 [NOTICE] switch_loadable_module.c:1003 Deleting Application 'stopfax'
+2015-03-23 21:27:44.341047 [DEBUG] switch_loadable_module.c:1005 Write lock interface 'stopfax' to wait for existing references.
+2015-03-23 21:27:44.341047 [NOTICE] switch_loadable_module.c:1003 Deleting Application 'spandsp_stop_dtmf'
+2015-03-23 21:27:44.341047 [DEBUG] switch_loadable_module.c:1005 Write lock interface 'spandsp_stop_dtmf' to wait for existing references.
+2015-03-23 21:27:44.341047 [NOTICE] switch_loadable_module.c:1003 Deleting Application 'spandsp_start_dtmf'
+2015-03-23 21:27:44.341047 [DEBUG] switch_loadable_module.c:1005 Write lock interface 'spandsp_start_dtmf' to wait for existing references.
+2015-03-23 21:27:44.341047 [NOTICE] switch_loadable_module.c:1003 Deleting Application 'spandsp_stop_inject_tdd'
+2015-03-23 21:27:44.341047 [DEBUG] switch_loadable_module.c:1005 Write lock interface 'spandsp_stop_inject_tdd' to wait for existing references.
+2015-03-23 21:27:44.341047 [NOTICE] switch_loadable_module.c:1003 Deleting Application 'spandsp_inject_tdd'
+2015-03-23 21:27:44.341047 [DEBUG] switch_loadable_module.c:1005 Write lock interface 'spandsp_inject_tdd' to wait for existing references.
+2015-03-23 21:27:44.341047 [NOTICE] switch_loadable_module.c:1003 Deleting Application 'spandsp_stop_detect_tdd'
+2015-03-23 21:27:44.341047 [DEBUG] switch_loadable_module.c:1005 Write lock interface 'spandsp_stop_detect_tdd' to wait for existing references.
+2015-03-23 21:27:44.341047 [NOTICE] switch_loadable_module.c:1003 Deleting Application 'spandsp_detect_tdd'
+2015-03-23 21:27:44.341047 [DEBUG] switch_loadable_module.c:1005 Write lock interface 'spandsp_detect_tdd' to wait for existing references.
+2015-03-23 21:27:44.341047 [NOTICE] switch_loadable_module.c:1003 Deleting Application 'spandsp_send_tdd'
+2015-03-23 21:27:44.341047 [DEBUG] switch_loadable_module.c:1005 Write lock interface 'spandsp_send_tdd' to wait for existing references.
+2015-03-23 21:27:44.341047 [NOTICE] switch_loadable_module.c:1003 Deleting Application 'spandsp_start_fax_detect'
+2015-03-23 21:27:44.341047 [DEBUG] switch_loadable_module.c:1005 Write lock interface 'spandsp_start_fax_detect' to wait for existing references.
+2015-03-23 21:27:44.341047 [NOTICE] switch_loadable_module.c:1003 Deleting Application 'spandsp_stop_fax_detect'
+2015-03-23 21:27:44.341047 [DEBUG] switch_loadable_module.c:1005 Write lock interface 'spandsp_stop_fax_detect' to wait for existing references.
+2015-03-23 21:27:44.341047 [NOTICE] switch_loadable_module.c:1003 Deleting Application 'spandsp_start_tone_detect'
+2015-03-23 21:27:44.341047 [DEBUG] switch_loadable_module.c:1005 Write lock interface 'spandsp_start_tone_detect' to wait for existing references.
+2015-03-23 21:27:44.341047 [NOTICE] switch_loadable_module.c:1003 Deleting Application 'spandsp_stop_tone_detect'
+2015-03-23 21:27:44.341047 [DEBUG] switch_loadable_module.c:1005 Write lock interface 'spandsp_stop_tone_detect' to wait for existing references.
+2015-03-23 21:27:44.341047 [NOTICE] switch_loadable_module.c:1058 Deleting API Function 'spandsp_start_tone_detect'
+2015-03-23 21:27:44.341047 [DEBUG] switch_loadable_module.c:1060 Write lock interface 'spandsp_start_tone_detect' to wait for existing references.
+2015-03-23 21:27:44.341047 [NOTICE] switch_loadable_module.c:1058 Deleting API Function 'spandsp_stop_tone_detect'
+2015-03-23 21:27:44.341047 [DEBUG] switch_loadable_module.c:1060 Write lock interface 'spandsp_stop_tone_detect' to wait for existing references.
+2015-03-23 21:27:44.341047 [NOTICE] switch_loadable_module.c:1058 Deleting API Function 'start_tdd_detect'
+2015-03-23 21:27:44.341047 [DEBUG] switch_loadable_module.c:1060 Write lock interface 'start_tdd_detect' to wait for existing references.
+2015-03-23 21:27:44.341047 [NOTICE] switch_loadable_module.c:1058 Deleting API Function 'stop_tdd_detect'
+2015-03-23 21:27:44.341047 [DEBUG] switch_loadable_module.c:1060 Write lock interface 'stop_tdd_detect' to wait for existing references.
+2015-03-23 21:27:44.341047 [NOTICE] switch_loadable_module.c:1058 Deleting API Function 'uuid_send_tdd'
+2015-03-23 21:27:44.341047 [DEBUG] switch_loadable_module.c:1060 Write lock interface 'uuid_send_tdd' to wait for existing references.
+2015-03-23 21:27:44.341047 [NOTICE] switch_event.c:2073 Event Binding deleted for mod_spandsp:RELOADXML
+2015-03-23 21:27:44.341047 [NOTICE] switch_event.c:2073 Event Binding deleted for mod_spandsp:CUSTOM
+2015-03-23 21:27:44.341047 [DEBUG] mod_spandsp_fax.c:235 FAX timer thread ended.
+2015-03-23 21:27:44.341047 [NOTICE] switch_loadable_module.c:944 Deleting Codec G723 4 G.723.1 6.3k 8000hz 120ms
+2015-03-23 21:27:44.341047 [NOTICE] switch_loadable_module.c:944 Deleting Codec G723 4 G.723.1 6.3k 8000hz 90ms
+2015-03-23 21:27:44.341047 [NOTICE] switch_loadable_module.c:944 Deleting Codec G723 4 G.723.1 6.3k 8000hz 60ms
+2015-03-23 21:27:44.341047 [NOTICE] switch_loadable_module.c:944 Deleting Codec G723 4 G.723.1 6.3k 8000hz 30ms
+2015-03-23 21:27:44.341047 [NOTICE] switch_loadable_module.c:1058 Deleting API Function 'hup_local_stream'
+2015-03-23 21:27:44.341047 [DEBUG] switch_loadable_module.c:1060 Write lock interface 'hup_local_stream' to wait for existing references.
+2015-03-23 21:27:44.341047 [NOTICE] switch_loadable_module.c:1058 Deleting API Function 'reload_local_stream'
+2015-03-23 21:27:44.341047 [DEBUG] switch_loadable_module.c:1060 Write lock interface 'reload_local_stream' to wait for existing references.
+2015-03-23 21:27:44.341047 [NOTICE] switch_loadable_module.c:1058 Deleting API Function 'stop_local_stream'
+2015-03-23 21:27:44.341047 [DEBUG] switch_loadable_module.c:1060 Write lock interface 'stop_local_stream' to wait for existing references.
+2015-03-23 21:27:44.341047 [NOTICE] switch_loadable_module.c:1058 Deleting API Function 'start_local_stream'
+2015-03-23 21:27:44.341047 [DEBUG] switch_loadable_module.c:1060 Write lock interface 'start_local_stream' to wait for existing references.
+2015-03-23 21:27:44.341047 [NOTICE] switch_loadable_module.c:1058 Deleting API Function 'show_local_stream'
+2015-03-23 21:27:44.341047 [DEBUG] switch_loadable_module.c:1060 Write lock interface 'show_local_stream' to wait for existing references.
+2015-03-23 21:27:44.341047 [DEBUG] switch_loadable_module.c:1120 Write lock interface 'mod_local_stream' to wait for existing references.
+2015-03-23 21:27:44.341047 [NOTICE] switch_loadable_module.c:1130 Deleting File Format 'local_stream'
+2015-03-23 21:27:44.341047 [NOTICE] switch_event.c:2073 Event Binding deleted for mod_local_stream:SHUTDOWN
+2015-03-23 21:27:44.341047 [DEBUG] switch_loadable_module.c:909 Write lock interface 'sofia' to wait for existing references.
+2015-03-23 21:27:44.341047 [NOTICE] switch_loadable_module.c:917 Deleting Endpoint 'sofia'
+2015-03-23 21:27:44.341047 [DEBUG] switch_loadable_module.c:909 Write lock interface 'rtp' to wait for existing references.
+2015-03-23 21:27:44.341047 [NOTICE] switch_loadable_module.c:917 Deleting Endpoint 'rtp'
+2015-03-23 21:27:44.341047 [NOTICE] switch_loadable_module.c:1003 Deleting Application 'sofia_sla'
+2015-03-23 21:27:44.341047 [DEBUG] switch_loadable_module.c:1005 Write lock interface 'sofia_sla' to wait for existing references.
+2015-03-23 21:27:44.341047 [NOTICE] switch_loadable_module.c:1058 Deleting API Function 'sofia'
+2015-03-23 21:27:44.341047 [DEBUG] switch_loadable_module.c:1060 Write lock interface 'sofia' to wait for existing references.
+2015-03-23 21:27:44.341047 [NOTICE] switch_loadable_module.c:1058 Deleting API Function 'sofia_gateway_data'
+2015-03-23 21:27:44.341047 [DEBUG] switch_loadable_module.c:1060 Write lock interface 'sofia_gateway_data' to wait for existing references.
+2015-03-23 21:27:44.341047 [NOTICE] switch_loadable_module.c:1058 Deleting API Function 'sofia_username_of'
+2015-03-23 21:27:44.341047 [DEBUG] switch_loadable_module.c:1060 Write lock interface 'sofia_username_of' to wait for existing references.
+2015-03-23 21:27:44.341047 [NOTICE] switch_loadable_module.c:1058 Deleting API Function 'sofia_contact'
+2015-03-23 21:27:44.341047 [DEBUG] switch_loadable_module.c:1060 Write lock interface 'sofia_contact' to wait for existing references.
+2015-03-23 21:27:44.341047 [NOTICE] switch_loadable_module.c:1058 Deleting API Function 'sofia_count_reg'
+2015-03-23 21:27:44.341047 [DEBUG] switch_loadable_module.c:1060 Write lock interface 'sofia_count_reg' to wait for existing references.
+2015-03-23 21:27:44.341047 [NOTICE] switch_loadable_module.c:1058 Deleting API Function 'sofia_dig'
+2015-03-23 21:27:44.341047 [DEBUG] switch_loadable_module.c:1060 Write lock interface 'sofia_dig' to wait for existing references.
+2015-03-23 21:27:44.341047 [NOTICE] switch_loadable_module.c:1058 Deleting API Function 'sofia_presence_data'
+2015-03-23 21:27:44.341047 [DEBUG] switch_loadable_module.c:1060 Write lock interface 'sofia_presence_data' to wait for existing references.
+2015-03-23 21:27:44.341047 [DEBUG] switch_loadable_module.c:1231 Write lock interface 'sip' to wait for existing references.
+2015-03-23 21:27:44.341047 [NOTICE] switch_loadable_module.c:1240 Deleting Chat interface 'sip'
+2015-03-23 21:27:44.341047 [NOTICE] switch_loadable_module.c:1282 Deleting Management interface 'mod_sofia' OID[.1.3.6.1.4.1.27880.1001]
+2015-03-23 21:27:44.341047 [NOTICE] switch_event.c:2073 Event Binding deleted for mod_sofia:PRESENCE_IN
+2015-03-23 21:27:44.341047 [NOTICE] switch_event.c:2073 Event Binding deleted for mod_sofia:PRESENCE_OUT
+2015-03-23 21:27:44.341047 [NOTICE] switch_event.c:2073 Event Binding deleted for mod_sofia:PRESENCE_PROBE
+2015-03-23 21:27:44.341047 [NOTICE] switch_event.c:2073 Event Binding deleted for mod_sofia:MESSAGE_WAITING
+2015-03-23 21:27:44.341047 [NOTICE] switch_event.c:2073 Event Binding deleted for mod_sofia:ROSTER
+2015-03-23 21:27:44.341047 [NOTICE] switch_event.c:2073 Event Binding deleted for mod_sofia:CONFERENCE_DATA
+2015-03-23 21:27:44.341047 [NOTICE] switch_event.c:2073 Event Binding deleted for mod_sofia:TRAP
+2015-03-23 21:27:44.341047 [NOTICE] switch_event.c:2073 Event Binding deleted for mod_sofia:NOTIFY
+2015-03-23 21:27:44.341047 [NOTICE] switch_event.c:2073 Event Binding deleted for mod_sofia:PHONE_FEATURE
+2015-03-23 21:27:44.341047 [NOTICE] switch_event.c:2073 Event Binding deleted for mod_sofia:SEND_MESSAGE
+2015-03-23 21:27:44.341047 [NOTICE] switch_event.c:2073 Event Binding deleted for mod_sofia:SEND_INFO
+2015-03-23 21:27:44.341047 [NOTICE] switch_event.c:2073 Event Binding deleted for mod_sofia:CUSTOM
+2015-03-23 21:27:44.641119 [WARNING] switch_scheduler.c:114 Task was executed late by 12490 seconds 1 heartbeat (core)
+2015-03-23 21:27:44.641119 [WARNING] switch_scheduler.c:114 Task was executed late by 12490 seconds 2 check_ip (core)
+2015-03-23 21:27:44.641119 [DEBUG] switch_scheduler.c:144 Deleting task 3 limit_hash_cleanup (mod_hash)
+2015-03-23 21:27:45.161121 [NOTICE] sofia.c:3048 Waiting for worker thread
+2015-03-23 21:27:45.161121 [NOTICE] sofia.c:3048 Waiting for worker thread
+2015-03-23 21:27:45.161121 [NOTICE] sofia.c:3048 Waiting for worker thread
+2015-03-23 21:27:45.161121 [INFO] switch_core_sqldb.c:1715 sofia:external-ipv6 Destroying SQL queue.
+2015-03-23 21:27:45.161121 [INFO] switch_core_sqldb.c:1715 sofia:internal-ipv6 Destroying SQL queue.
+2015-03-23 21:27:45.161121 [INFO] switch_core_sqldb.c:1715 sofia:external Destroying SQL queue.
+2015-03-23 21:27:45.181070 [NOTICE] sofia.c:3048 Waiting for worker thread
+2015-03-23 21:27:45.181070 [INFO] switch_core_sqldb.c:1715 sofia:internal Destroying SQL queue.
+2015-03-23 21:27:45.361126 [INFO] switch_core_sqldb.c:1678 sofia:internal-ipv6 Stopping SQL thread.
+2015-03-23 21:27:45.361126 [INFO] switch_core_sqldb.c:1678 sofia:external-ipv6 Stopping SQL thread.
+2015-03-23 21:27:45.361126 [DEBUG] sofia.c:3103 Write lock external-ipv6
+2015-03-23 21:27:45.361126 [DEBUG] sofia.c:3103 Write lock internal-ipv6
+2015-03-23 21:27:45.361126 [NOTICE] sofia_glue.c:1814 deleted gateway example.com from profile external-ipv6
+2015-03-23 21:27:45.361126 [DEBUG] sofia.c:3116 Write unlock external-ipv6
+2015-03-23 21:27:45.361126 [DEBUG] sofia.c:3116 Write unlock internal-ipv6
+2015-03-23 21:27:45.361126 [INFO] switch_core_sqldb.c:1678 sofia:external Stopping SQL thread.
+2015-03-23 21:27:45.361126 [DEBUG] sofia.c:3103 Write lock external
+2015-03-23 21:27:45.361126 [NOTICE] sofia_glue.c:1814 deleted gateway example.com from profile external
+2015-03-23 21:27:45.361126 [DEBUG] sofia.c:3116 Write unlock external
+2015-03-23 21:27:45.381117 [INFO] switch_core_sqldb.c:1678 sofia:internal Stopping SQL thread.
+2015-03-23 21:27:45.381117 [DEBUG] sofia.c:3103 Write lock internal
+2015-03-23 21:27:45.381117 [DEBUG] sofia.c:3116 Write unlock internal
+2015-03-23 21:27:45.381117 [WARNING] sofia.c:1955 MSG Thread Ended
+2015-03-23 21:27:45.381117 [NOTICE] switch_loadable_module.c:944 Deleting Codec H264 97 H.264 Video (passthru) 90000hz 0ms
+2015-03-23 21:27:45.381117 [NOTICE] switch_loadable_module.c:944 Deleting Codec H263 34 H.263 Video (passthru) 90000hz 0ms
+2015-03-23 21:27:45.381117 [NOTICE] switch_loadable_module.c:944 Deleting Codec H263-1998 115 H.263+ Video (passthru) 90000hz 0ms
+2015-03-23 21:27:45.381117 [NOTICE] switch_loadable_module.c:944 Deleting Codec H263-2000 121 H.263++ Video (passthru) 90000hz 0ms
+2015-03-23 21:27:45.381117 [NOTICE] switch_loadable_module.c:944 Deleting Codec H261 31 H.261 Video (passthru) 90000hz 0ms
+2015-03-23 21:27:45.381117 [NOTICE] switch_loadable_module.c:1003 Deleting Application 'esf_page_group'
+2015-03-23 21:27:45.381117 [DEBUG] switch_loadable_module.c:1005 Write lock interface 'esf_page_group' to wait for existing references.
+2015-03-23 21:27:45.381117 [DEBUG] switch_loadable_module.c:1120 Write lock interface 'mod_sndfile' to wait for existing references.
+2015-03-24 09:33:24.519346 [NOTICE] switch_loadable_module.c:227 Adding Dialplan 'enum'
+2015-03-24 09:33:24.519364 [NOTICE] switch_loadable_module.c:269 Adding Application 'enum'
+2015-03-24 09:33:24.519393 [NOTICE] switch_loadable_module.c:315 Adding API Function 'enum'
+2015-03-24 09:33:24.519408 [NOTICE] switch_loadable_module.c:315 Adding API Function 'enum_auto'
+2015-03-24 09:33:24.520635 [DEBUG] mod_cdr_csv.c:364 Adding default template.
+2015-03-24 09:33:24.520648 [DEBUG] mod_cdr_csv.c:411 Adding template sql.
+2015-03-24 09:33:24.520655 [DEBUG] mod_cdr_csv.c:411 Adding template example.
+2015-03-24 09:33:24.520671 [DEBUG] mod_cdr_csv.c:411 Adding template snom.
+2015-03-24 09:33:24.520676 [DEBUG] mod_cdr_csv.c:411 Adding template linksys.
+2015-03-24 09:33:24.520681 [DEBUG] mod_cdr_csv.c:411 Adding template asterisk.
+2015-03-24 09:33:24.520690 [DEBUG] mod_cdr_csv.c:411 Adding template opencdrrate.
+2015-03-24 09:33:24.520730 [NOTICE] switch_loadable_module.c:315 Adding API Function 'cdr_csv'
+2015-03-24 09:33:24.522251 [NOTICE] switch_loadable_module.c:269 Adding Application 'socket'
+2015-03-24 09:33:24.522270 [NOTICE] switch_loadable_module.c:315 Adding API Function 'event_sink'
+2015-03-24 09:33:24.526475 [INFO] mod_sofia.c:5728 Starting initial message thread.
+2015-03-24 09:33:24.527818 [WARNING] sofia.c:1937 MSG Thread 0 Started
+2015-03-24 09:33:24.530052 [DEBUG] sofia.c:4150 debug [0]
+2015-03-24 09:33:24.530057 [DEBUG] sofia.c:4150 sip-trace [no]
+2015-03-24 09:33:24.530062 [DEBUG] sofia.c:4150 sip-capture [no]
+2015-03-24 09:33:24.530066 [DEBUG] sofia.c:4150 rfc2833-pt [101]
+2015-03-24 09:33:24.530072 [DEBUG] sofia.c:4150 sip-port [5080]
+2015-03-24 09:33:24.530080 [DEBUG] sofia.c:4150 dialplan [XML]
+2015-03-24 09:33:24.530093 [DEBUG] sofia.c:4150 context [public]
+2015-03-24 09:33:24.530102 [DEBUG] sofia.c:4150 dtmf-duration [2000]
+2015-03-24 09:33:24.530113 [DEBUG] sofia.c:4150 inbound-codec-prefs [OPUS,G722,PCMU,PCMA,GSM]
+2015-03-24 09:33:24.530122 [DEBUG] sofia.c:4150 outbound-codec-prefs [PCMU,PCMA,GSM]
+2015-03-24 09:33:24.530129 [DEBUG] sofia.c:4150 hold-music [local_stream://moh]
+2015-03-24 09:33:24.530136 [DEBUG] sofia.c:4150 rtp-timer-name [soft]
+2015-03-24 09:33:24.530141 [DEBUG] sofia.c:4150 local-network-acl [localnet.auto]
+2015-03-24 09:33:24.530147 [DEBUG] sofia.c:4150 manage-presence [false]
+2015-03-24 09:33:24.530158 [DEBUG] sofia.c:4150 inbound-codec-negotiation [generous]
+2015-03-24 09:33:24.530166 [DEBUG] sofia.c:4150 nonce-ttl [60]
+2015-03-24 09:33:24.530173 [DEBUG] sofia.c:4150 auth-calls [false]
+2015-03-24 09:33:24.530179 [DEBUG] sofia.c:4150 inbound-late-negotiation [true]
+2015-03-24 09:33:24.530185 [DEBUG] sofia.c:4150 inbound-zrtp-passthru [true]
+2015-03-24 09:33:24.530190 [DEBUG] sofia.c:4150 rtp-ip [::1]
+2015-03-24 09:33:24.530195 [DEBUG] sofia.c:4150 sip-ip [::1]
+2015-03-24 09:33:24.530201 [DEBUG] sofia.c:4150 ext-rtp-ip [auto-nat]
+2015-03-24 09:33:24.530206 [DEBUG] sofia.c:4150 ext-sip-ip [auto-nat]
+2015-03-24 09:33:24.530213 [DEBUG] sofia.c:4150 rtp-timeout-sec [300]
+2015-03-24 09:33:24.530220 [DEBUG] sofia.c:4150 rtp-hold-timeout-sec [1800]
+2015-03-24 09:33:24.530226 [DEBUG] sofia.c:4150 tls [false]
+2015-03-24 09:33:24.530234 [DEBUG] sofia.c:4150 tls-only [false]
+2015-03-24 09:33:24.530242 [DEBUG] sofia.c:4150 tls-bind-params [transport=tls]
+2015-03-24 09:33:24.530250 [DEBUG] sofia.c:4150 tls-sip-port [5081]
+2015-03-24 09:33:24.530261 [DEBUG] sofia.c:4150 tls-passphrase []
+2015-03-24 09:33:24.530270 [DEBUG] sofia.c:4150 tls-verify-date [true]
+2015-03-24 09:33:24.530282 [DEBUG] sofia.c:4150 tls-verify-policy [none]
+2015-03-24 09:33:24.530290 [DEBUG] sofia.c:4150 tls-verify-depth [2]
+2015-03-24 09:33:24.530298 [DEBUG] sofia.c:4150 tls-verify-in-subjects []
+2015-03-24 09:33:24.530306 [DEBUG] sofia.c:4150 tls-version [tlsv1,tlsv1.1,tlsv1.2]
+2015-03-24 09:33:24.530322 [INFO] sofia.c:5401 Setting MAX Auth Validity to 0 Attempts
+2015-03-24 09:33:24.530351 [NOTICE] sofia.c:5568 Started Profile external-ipv6 [sofia_reg_external-ipv6]
+2015-03-24 09:33:24.530391 [DEBUG] sofia.c:4150 debug [0]
+2015-03-24 09:33:24.530396 [DEBUG] sofia.c:4150 sip-trace [no]
+2015-03-24 09:33:24.530400 [DEBUG] sofia.c:4150 sip-capture [no]
+2015-03-24 09:33:24.530404 [DEBUG] sofia.c:4150 rfc2833-pt [101]
+2015-03-24 09:33:24.530412 [DEBUG] sofia.c:4150 sip-port [5080]
+2015-03-24 09:33:24.530419 [DEBUG] sofia.c:4150 dialplan [XML]
+2015-03-24 09:33:24.530433 [DEBUG] sofia.c:4150 context [public]
+2015-03-24 09:33:24.530440 [DEBUG] sofia.c:4150 dtmf-duration [2000]
+2015-03-24 09:33:24.530459 [DEBUG] sofia.c:4150 inbound-codec-prefs [OPUS,G722,PCMU,PCMA,GSM]
+2015-03-24 09:33:24.530471 [DEBUG] sofia.c:4150 outbound-codec-prefs [PCMU,PCMA,GSM]
+2015-03-24 09:33:24.530478 [DEBUG] sofia.c:4150 hold-music [local_stream://moh]
+2015-03-24 09:33:24.530485 [DEBUG] sofia.c:4150 rtp-timer-name [soft]
+2015-03-24 09:33:24.530493 [DEBUG] sofia.c:4150 local-network-acl [localnet.auto]
+2015-03-24 09:33:24.530499 [DEBUG] sofia.c:4150 manage-presence [false]
+2015-03-24 09:33:24.530508 [DEBUG] sofia.c:4150 inbound-codec-negotiation [generous]
+2015-03-24 09:33:24.530516 [DEBUG] sofia.c:4150 nonce-ttl [60]
+2015-03-24 09:33:24.530523 [DEBUG] sofia.c:4150 auth-calls [false]
+2015-03-24 09:33:24.530530 [DEBUG] sofia.c:4150 inbound-late-negotiation [true]
+2015-03-24 09:33:24.530538 [DEBUG] sofia.c:4150 inbound-zrtp-passthru [true]
+2015-03-24 09:33:24.530544 [DEBUG] sofia.c:4150 rtp-ip [192.168.10.107]
+2015-03-24 09:33:24.530550 [DEBUG] sofia.c:4150 sip-ip [192.168.10.107]
+2015-03-24 09:33:24.530556 [DEBUG] sofia.c:4150 ext-rtp-ip [auto-nat]
+2015-03-24 09:33:24.530562 [DEBUG] sofia.c:4150 ext-sip-ip [auto-nat]
+2015-03-24 09:33:24.530570 [DEBUG] sofia.c:4150 rtp-timeout-sec [300]
+2015-03-24 09:33:24.530576 [DEBUG] sofia.c:4150 rtp-hold-timeout-sec [1800]
+2015-03-24 09:33:24.530583 [DEBUG] sofia.c:4150 tls [false]
+2015-03-24 09:33:24.530595 [DEBUG] sofia.c:4150 tls-only [false]
+2015-03-24 09:33:24.530606 [DEBUG] sofia.c:4150 tls-bind-params [transport=tls]
+2015-03-24 09:33:24.530613 [DEBUG] sofia.c:4150 tls-sip-port [5081]
+2015-03-24 09:33:24.530621 [DEBUG] sofia.c:4150 tls-passphrase []
+2015-03-24 09:33:24.530630 [DEBUG] sofia.c:4150 tls-verify-date [true]
+2015-03-24 09:33:24.530639 [DEBUG] sofia.c:4150 tls-verify-policy [none]
+2015-03-24 09:33:24.530648 [DEBUG] sofia.c:4150 tls-verify-depth [2]
+2015-03-24 09:33:24.530656 [DEBUG] sofia.c:4150 tls-verify-in-subjects []
+2015-03-24 09:33:24.530665 [DEBUG] sofia.c:4150 tls-version [tlsv1,tlsv1.1,tlsv1.2]
+2015-03-24 09:33:24.530676 [INFO] sofia.c:5401 Setting MAX Auth Validity to 0 Attempts
+2015-03-24 09:33:24.530703 [NOTICE] sofia.c:5568 Started Profile external [sofia_reg_external]
+2015-03-24 09:33:24.530744 [DEBUG] sofia.c:4150 debug [0]
+2015-03-24 09:33:24.530749 [DEBUG] sofia.c:4150 sip-trace [no]
+2015-03-24 09:33:24.530753 [DEBUG] sofia.c:4150 context [public]
+2015-03-24 09:33:24.530765 [DEBUG] sofia.c:4150 rfc2833-pt [101]
+2015-03-24 09:33:24.530771 [DEBUG] sofia.c:4150 sip-port [5060]
+2015-03-24 09:33:24.530778 [DEBUG] sofia.c:4150 dialplan [XML]
+2015-03-24 09:33:24.530787 [DEBUG] sofia.c:4150 dtmf-duration [2000]
+2015-03-24 09:33:24.530797 [DEBUG] sofia.c:4150 inbound-codec-prefs [OPUS,G722,PCMU,PCMA,GSM]
+2015-03-24 09:33:24.530810 [DEBUG] sofia.c:4150 outbound-codec-prefs [OPUS,G722,PCMU,PCMA,GSM]
+2015-03-24 09:33:24.530818 [DEBUG] sofia.c:4150 use-rtp-timer [true]
+2015-03-24 09:33:24.530827 [DEBUG] sofia.c:4150 rtp-timer-name [soft]
+2015-03-24 09:33:24.530836 [DEBUG] sofia.c:4150 rtp-ip [::1]
+2015-03-24 09:33:24.530843 [DEBUG] sofia.c:4150 sip-ip [::1]
+2015-03-24 09:33:24.530851 [DEBUG] sofia.c:4150 hold-music [local_stream://moh]
+2015-03-24 09:33:24.530858 [DEBUG] sofia.c:4150 apply-inbound-acl [domains]
+2015-03-24 09:33:24.530866 [DEBUG] sofia.c:4150 record-template [/home/archer/Documents/freeswitch/bin/freeswitch-conf/recordings/${caller_id_number}.${strftime(%Y-%m-%d-%H-%M-%S)}.wav]
+2015-03-24 09:33:24.530873 [DEBUG] sofia.c:4150 manage-presence [true]
+2015-03-24 09:33:24.530880 [DEBUG] sofia.c:4150 inbound-codec-negotiation [generous]
+2015-03-24 09:33:24.530889 [DEBUG] sofia.c:4150 tls [false]
+2015-03-24 09:33:24.530902 [DEBUG] sofia.c:4150 tls-bind-params [transport=tls]
+2015-03-24 09:33:24.530910 [DEBUG] sofia.c:4150 tls-sip-port [5061]
+2015-03-24 09:33:24.530920 [DEBUG] sofia.c:4150 tls-cert-dir []
+2015-03-24 09:33:24.530930 [DEBUG] sofia.c:4150 tls-version [tlsv1,tlsv1.1,tlsv1.2]
+2015-03-24 09:33:24.530956 [DEBUG] sofia.c:4150 inbound-late-negotiation [true]
+2015-03-24 09:33:24.530949 [DEBUG] sofia.c:2753 Creating agent for external-ipv6
+2015-03-24 09:33:24.530949 [DEBUG] sofia.c:2753 Creating agent for external
+2015-03-24 09:33:24.530964 [DEBUG] sofia.c:4150 inbound-zrtp-passthru [true]
+2015-03-24 09:33:24.530983 [DEBUG] sofia.c:4150 nonce-ttl [60]
+2015-03-24 09:33:24.530992 [DEBUG] sofia.c:4150 auth-calls [true]
+2015-03-24 09:33:24.531000 [DEBUG] sofia.c:4150 auth-all-packets [false]
+2015-03-24 09:33:24.531009 [DEBUG] sofia.c:4150 rtp-timeout-sec [300]
+2015-03-24 09:33:24.531017 [DEBUG] sofia.c:4150 rtp-hold-timeout-sec [1800]
+2015-03-24 09:33:24.531024 [DEBUG] sofia.c:4150 force-register-domain [192.168.10.107]
+2015-03-24 09:33:24.531032 [DEBUG] sofia.c:4150 force-register-db-domain [192.168.10.107]
+2015-03-24 09:33:24.531042 [INFO] sofia.c:5401 Setting MAX Auth Validity to 0 Attempts
+2015-03-24 09:33:24.531078 [NOTICE] sofia.c:5568 Started Profile internal-ipv6 [sofia_reg_internal-ipv6]
+2015-03-24 09:33:24.531118 [DEBUG] sofia.c:4150 debug [0]
+2015-03-24 09:33:24.531122 [DEBUG] sofia.c:4150 sip-trace [no]
+2015-03-24 09:33:24.531127 [DEBUG] sofia.c:4150 sip-capture [no]
+2015-03-24 09:33:24.531131 [DEBUG] sofia.c:4150 watchdog-enabled [no]
+2015-03-24 09:33:24.531133 [DEBUG] sofia.c:2753 Creating agent for internal-ipv6
+2015-03-24 09:33:24.531136 [DEBUG] sofia.c:4150 watchdog-step-timeout [30000]
+2015-03-24 09:33:24.531152 [DEBUG] sofia.c:4150 watchdog-event-timeout [30000]
+2015-03-24 09:33:24.531157 [DEBUG] sofia.c:4150 log-auth-failures [false]
+2015-03-24 09:33:24.531163 [DEBUG] sofia.c:4150 forward-unsolicited-mwi-notify [false]
+2015-03-24 09:33:24.531169 [DEBUG] sofia.c:4150 context [public]
+2015-03-24 09:33:24.531178 [DEBUG] sofia.c:4150 rfc2833-pt [101]
+2015-03-24 09:33:24.531184 [DEBUG] sofia.c:4150 sip-port [5060]
+2015-03-24 09:33:24.531190 [DEBUG] sofia.c:4150 dialplan [XML]
+2015-03-24 09:33:24.531209 [DEBUG] sofia.c:4150 dtmf-duration [2000]
+2015-03-24 09:33:24.531217 [DEBUG] sofia.c:4150 inbound-codec-prefs [OPUS,G722,PCMU,PCMA,GSM]
+2015-03-24 09:33:24.531225 [DEBUG] sofia.c:4150 outbound-codec-prefs [OPUS,G722,PCMU,PCMA,GSM]
+2015-03-24 09:33:24.531233 [DEBUG] sofia.c:4150 rtp-timer-name [soft]
+2015-03-24 09:33:24.531240 [DEBUG] sofia.c:4150 rtp-ip [192.168.10.107]
+2015-03-24 09:33:24.531245 [DEBUG] sofia.c:4150 sip-ip [192.168.10.107]
+2015-03-24 09:33:24.531250 [DEBUG] sofia.c:4150 hold-music [local_stream://moh]
+2015-03-24 09:33:24.531257 [DEBUG] sofia.c:4150 apply-nat-acl [nat.auto]
+2015-03-24 09:33:24.531269 [DEBUG] sofia.c:4150 apply-inbound-acl [domains]
+2015-03-24 09:33:24.531275 [DEBUG] sofia.c:4150 local-network-acl [localnet.auto]
+2015-03-24 09:33:24.531282 [DEBUG] sofia.c:4150 record-path [/home/archer/Documents/freeswitch/bin/freeswitch-conf/recordings]
+2015-03-24 09:33:24.531288 [DEBUG] sofia.c:4150 record-template [${caller_id_number}.${target_domain}.${strftime(%Y-%m-%d-%H-%M-%S)}.wav]
+2015-03-24 09:33:24.531295 [DEBUG] sofia.c:4150 manage-presence [true]
+2015-03-24 09:33:24.531302 [DEBUG] sofia.c:4150 presence-hosts [192.168.10.107,192.168.10.107]
+2015-03-24 09:33:24.531307 [DEBUG] sofia.c:4150 presence-privacy [false]
+2015-03-24 09:33:24.531313 [DEBUG] sofia.c:4150 inbound-codec-negotiation [generous]
+2015-03-24 09:33:24.531323 [DEBUG] sofia.c:4150 tls [false]
+2015-03-24 09:33:24.531330 [DEBUG] sofia.c:4150 tls-only [false]
+2015-03-24 09:33:24.531339 [DEBUG] sofia.c:4150 tls-bind-params [transport=tls]
+2015-03-24 09:33:24.531350 [DEBUG] sofia.c:4150 tls-sip-port [5061]
+2015-03-24 09:33:24.531358 [DEBUG] sofia.c:4150 tls-passphrase []
+2015-03-24 09:33:24.531367 [DEBUG] sofia.c:4150 tls-verify-date [true]
+2015-03-24 09:33:24.531375 [DEBUG] sofia.c:4150 tls-verify-policy [none]
+2015-03-24 09:33:24.531387 [DEBUG] sofia.c:4150 tls-verify-depth [2]
+2015-03-24 09:33:24.531394 [DEBUG] sofia.c:4150 tls-verify-in-subjects []
+2015-03-24 09:33:24.531407 [DEBUG] sofia.c:4150 tls-version [tlsv1,tlsv1.1,tlsv1.2]
+2015-03-24 09:33:24.531426 [DEBUG] sofia.c:4150 tls-ciphers [ALL:!ADH:!LOW:!EXP:!MD5:@STRENGTH]
+2015-03-24 09:33:24.531435 [DEBUG] sofia.c:4150 inbound-late-negotiation [true]
+2015-03-24 09:33:24.531443 [DEBUG] sofia.c:4150 inbound-zrtp-passthru [true]
+2015-03-24 09:33:24.531452 [DEBUG] sofia.c:4150 nonce-ttl [60]
+2015-03-24 09:33:24.531460 [DEBUG] sofia.c:4150 auth-calls [true]
+2015-03-24 09:33:24.531469 [DEBUG] sofia.c:4150 inbound-reg-force-matching-username [true]
+2015-03-24 09:33:24.531481 [DEBUG] sofia.c:4150 auth-all-packets [false]
+2015-03-24 09:33:24.531489 [DEBUG] sofia.c:4150 ext-rtp-ip [auto-nat]
+2015-03-24 09:33:24.531495 [DEBUG] sofia.c:4150 ext-sip-ip [auto-nat]
+2015-03-24 09:33:24.531505 [DEBUG] sofia.c:4150 rtp-timeout-sec [300]
+2015-03-24 09:33:24.531512 [DEBUG] sofia.c:4150 rtp-hold-timeout-sec [1800]
+2015-03-24 09:33:24.531522 [DEBUG] sofia.c:4150 force-register-domain [192.168.10.107]
+2015-03-24 09:33:24.531529 [DEBUG] sofia.c:4150 force-subscription-domain [192.168.10.107]
+2015-03-24 09:33:24.531536 [DEBUG] sofia.c:4150 force-register-db-domain [192.168.10.107]
+2015-03-24 09:33:24.531544 [DEBUG] sofia.c:4150 challenge-realm [auto_from]
+2015-03-24 09:33:24.531557 [INFO] sofia.c:5401 Setting MAX Auth Validity to 0 Attempts
+2015-03-24 09:33:24.531588 [NOTICE] sofia.c:5568 Started Profile internal [sofia_reg_internal]
+2015-03-24 09:33:24.531616 [DEBUG] mod_sofia.c:5741 Waiting for profiles to start
+2015-03-24 09:33:24.531618 [DEBUG] sofia.c:2753 Creating agent for internal
+2015-03-24 09:33:24.542120 [DEBUG] sofia.c:2871 Created agent for external-ipv6
+2015-03-24 09:33:24.542120 [DEBUG] sofia.c:2871 Created agent for internal
+2015-03-24 09:33:24.542125 [DEBUG] sofia.c:2871 Created agent for external
+2015-03-24 09:33:24.542157 [DEBUG] sofia.c:2919 Set params for external-ipv6
+2015-03-24 09:33:24.542159 [DEBUG] sofia.c:2919 Set params for external
+2015-03-24 09:33:24.542163 [DEBUG] sofia.c:2966 Activated db for external-ipv6
+2015-03-24 09:33:24.542159 [DEBUG] sofia.c:2919 Set params for internal
+2015-03-24 09:33:24.542172 [DEBUG] sofia.c:2966 Activated db for internal
+2015-03-24 09:33:24.542166 [DEBUG] sofia.c:2966 Activated db for external
+2015-03-24 09:33:24.542272 [DEBUG] sofia.c:2871 Created agent for internal-ipv6
+2015-03-24 09:33:24.542288 [DEBUG] sofia.c:2919 Set params for internal-ipv6
+2015-03-24 09:33:24.542292 [DEBUG] sofia.c:2966 Activated db for internal-ipv6
+2015-03-24 09:33:24.543471 [INFO] switch_core_sqldb.c:1693 sofia:internal Starting SQL thread.
+2015-03-24 09:33:24.543459 [INFO] switch_core_sqldb.c:1693 sofia:external-ipv6 Starting SQL thread.
+2015-03-24 09:33:24.543593 [INFO] switch_core_sqldb.c:1693 sofia:internal-ipv6 Starting SQL thread.
+2015-03-24 09:33:24.543609 [INFO] switch_core_sqldb.c:1693 sofia:external Starting SQL thread.
+2015-03-24 09:33:24.543633 [DEBUG] sofia.c:3004 Starting thread for external-ipv6
+2015-03-24 09:33:24.543640 [DEBUG] sofia.c:2653 Launching worker thread for external-ipv6
+2015-03-24 09:33:24.543654 [DEBUG] sofia.c:3004 Starting thread for internal-ipv6
+2015-03-24 09:33:24.543661 [DEBUG] sofia.c:2653 Launching worker thread for internal-ipv6
+2015-03-24 09:33:24.543707 [DEBUG] sofia.c:3004 Starting thread for internal
+2015-03-24 09:33:24.543714 [DEBUG] sofia.c:2653 Launching worker thread for internal
+2015-03-24 09:33:24.543777 [NOTICE] sofia.c:3738 Adding Alias [192.168.10.107] for profile [internal]
+2015-03-24 09:33:24.543799 [DEBUG] sofia.c:3004 Starting thread for external
+2015-03-24 09:33:24.543805 [DEBUG] sofia.c:2653 Launching worker thread for external
+2015-03-24 09:33:24.544275 [NOTICE] sofia_reg.c:3329 Added gateway 'example.com' to profile 'external'
+2015-03-24 09:33:26.039420 [NOTICE] switch_loadable_module.c:149 Adding Endpoint 'sofia'
+2015-03-24 09:33:26.039442 [NOTICE] switch_loadable_module.c:149 Adding Endpoint 'rtp'
+2015-03-24 09:33:26.039460 [NOTICE] switch_loadable_module.c:269 Adding Application 'sofia_sla'
+2015-03-24 09:33:26.039491 [NOTICE] switch_loadable_module.c:315 Adding API Function 'sofia'
+2015-03-24 09:33:26.039511 [NOTICE] switch_loadable_module.c:315 Adding API Function 'sofia_gateway_data'
+2015-03-24 09:33:26.039528 [NOTICE] switch_loadable_module.c:315 Adding API Function 'sofia_username_of'
+2015-03-24 09:33:26.039548 [NOTICE] switch_loadable_module.c:315 Adding API Function 'sofia_contact'
+2015-03-24 09:33:26.039566 [NOTICE] switch_loadable_module.c:315 Adding API Function 'sofia_count_reg'
+2015-03-24 09:33:26.039591 [NOTICE] switch_loadable_module.c:315 Adding API Function 'sofia_dig'
+2015-03-24 09:33:26.039608 [NOTICE] switch_loadable_module.c:315 Adding API Function 'sofia_presence_data'
+2015-03-24 09:33:26.039633 [NOTICE] switch_loadable_module.c:450 Adding Chat interface 'sip'
+2015-03-24 09:33:26.039651 [NOTICE] switch_loadable_module.c:496 Adding Management interface 'mod_sofia' OID[.1.3.6.1.4.1.27880.1001]
+2015-03-24 09:33:26.045771 [NOTICE] switch_loadable_module.c:149 Adding Endpoint 'loopback'
+2015-03-24 09:33:26.045789 [NOTICE] switch_loadable_module.c:269 Adding Application 'unloop'
+2015-03-24 09:33:26.047867 [NOTICE] switch_loadable_module.c:315 Adding API Function 'bg_system'
+2015-03-24 09:33:26.047895 [NOTICE] switch_loadable_module.c:315 Adding API Function 'system'
+2015-03-24 09:33:26.047905 [NOTICE] switch_loadable_module.c:315 Adding API Function 'acl'
+2015-03-24 09:33:26.047925 [NOTICE] switch_loadable_module.c:315 Adding API Function 'alias'
+2015-03-24 09:33:26.047937 [NOTICE] switch_loadable_module.c:315 Adding API Function 'coalesce'
+2015-03-24 09:33:26.047951 [NOTICE] switch_loadable_module.c:315 Adding API Function 'banner'
+2015-03-24 09:33:26.047961 [NOTICE] switch_loadable_module.c:315 Adding API Function 'bgapi'
+2015-03-24 09:33:26.047975 [NOTICE] switch_loadable_module.c:315 Adding API Function 'break'
+2015-03-24 09:33:26.047987 [NOTICE] switch_loadable_module.c:315 Adding API Function 'complete'
+2015-03-24 09:33:26.048001 [NOTICE] switch_loadable_module.c:315 Adding API Function 'cond'
+2015-03-24 09:33:26.048016 [NOTICE] switch_loadable_module.c:315 Adding API Function 'console_complete'
+2015-03-24 09:33:26.048026 [NOTICE] switch_loadable_module.c:315 Adding API Function 'console_complete_xml'
+2015-03-24 09:33:26.048039 [NOTICE] switch_loadable_module.c:315 Adding API Function 'create_uuid'
+2015-03-24 09:33:26.048055 [NOTICE] switch_loadable_module.c:315 Adding API Function 'db_cache'
+2015-03-24 09:33:26.048072 [NOTICE] switch_loadable_module.c:315 Adding API Function 'domain_exists'
+2015-03-24 09:33:26.048089 [NOTICE] switch_loadable_module.c:315 Adding API Function 'echo'
+2015-03-24 09:33:26.048102 [NOTICE] switch_loadable_module.c:315 Adding API Function 'escape'
+2015-03-24 09:33:26.048118 [NOTICE] switch_loadable_module.c:315 Adding API Function 'eval'
+2015-03-24 09:33:26.048135 [NOTICE] switch_loadable_module.c:315 Adding API Function 'expand'
+2015-03-24 09:33:26.048147 [NOTICE] switch_loadable_module.c:315 Adding API Function 'find_user_xml'
+2015-03-24 09:33:26.048162 [NOTICE] switch_loadable_module.c:315 Adding API Function 'fsctl'
+2015-03-24 09:33:26.048179 [NOTICE] switch_loadable_module.c:315 Adding API Function '...'
+2015-03-24 09:33:26.048192 [NOTICE] switch_loadable_module.c:315 Adding API Function 'shutdown'
+2015-03-24 09:33:26.048209 [NOTICE] switch_loadable_module.c:315 Adding API Function 'version'
+2015-03-24 09:33:26.048226 [NOTICE] switch_loadable_module.c:315 Adding API Function 'global_getvar'
+2015-03-24 09:33:26.048243 [NOTICE] switch_loadable_module.c:315 Adding API Function 'global_setvar'
+2015-03-24 09:33:26.048259 [NOTICE] switch_loadable_module.c:315 Adding API Function 'group_call'
+2015-03-24 09:33:26.048276 [NOTICE] switch_loadable_module.c:315 Adding API Function 'help'
+2015-03-24 09:33:26.048288 [NOTICE] switch_loadable_module.c:315 Adding API Function 'host_lookup'
+2015-03-24 09:33:26.048302 [NOTICE] switch_loadable_module.c:315 Adding API Function 'hostname'
+2015-03-24 09:33:26.048318 [NOTICE] switch_loadable_module.c:315 Adding API Function 'interface_ip'
+2015-03-24 09:33:26.048334 [NOTICE] switch_loadable_module.c:315 Adding API Function 'switchname'
+2015-03-24 09:33:26.048344 [NOTICE] switch_loadable_module.c:315 Adding API Function 'gethost'
+2015-03-24 09:33:26.048356 [NOTICE] switch_loadable_module.c:315 Adding API Function 'hupall'
+2015-03-24 09:33:26.048370 [NOTICE] switch_loadable_module.c:315 Adding API Function 'in_group'
+2015-03-24 09:33:26.048387 [NOTICE] switch_loadable_module.c:315 Adding API Function 'is_lan_addr'
+2015-03-24 09:33:26.048404 [NOTICE] switch_loadable_module.c:315 Adding API Function 'limit_usage'
+2015-03-24 09:33:26.048419 [NOTICE] switch_loadable_module.c:315 Adding API Function 'limit_hash_usage'
+2015-03-24 09:33:26.048437 [NOTICE] switch_loadable_module.c:315 Adding API Function 'limit_status'
+2015-03-24 09:33:26.048449 [NOTICE] switch_loadable_module.c:315 Adding API Function 'limit_reset'
+2015-03-24 09:33:26.048463 [NOTICE] switch_loadable_module.c:315 Adding API Function 'limit_interval_reset'
+2015-03-24 09:33:26.048476 [NOTICE] switch_loadable_module.c:315 Adding API Function 'list_users'
+2015-03-24 09:33:26.048490 [NOTICE] switch_loadable_module.c:315 Adding API Function 'load'
+2015-03-24 09:33:26.048505 [NOTICE] switch_loadable_module.c:315 Adding API Function 'log'
+2015-03-24 09:33:26.048522 [NOTICE] switch_loadable_module.c:315 Adding API Function 'md5'
+2015-03-24 09:33:26.048538 [NOTICE] switch_loadable_module.c:315 Adding API Function 'module_exists'
+2015-03-24 09:33:26.048551 [NOTICE] switch_loadable_module.c:315 Adding API Function 'msleep'
+2015-03-24 09:33:26.048564 [NOTICE] switch_loadable_module.c:315 Adding API Function 'nat_map'
+2015-03-24 09:33:26.048580 [NOTICE] switch_loadable_module.c:315 Adding API Function 'originate'
+2015-03-24 09:33:26.048598 [NOTICE] switch_loadable_module.c:315 Adding API Function 'pause'
+2015-03-24 09:33:26.048610 [NOTICE] switch_loadable_module.c:315 Adding API Function 'quote_shell_arg'
+2015-03-24 09:33:26.048629 [NOTICE] switch_loadable_module.c:315 Adding API Function 'regex'
+2015-03-24 09:33:26.048642 [NOTICE] switch_loadable_module.c:315 Adding API Function 'reloadacl'
+2015-03-24 09:33:26.048663 [NOTICE] switch_loadable_module.c:315 Adding API Function 'reload'
+2015-03-24 09:33:26.048675 [NOTICE] switch_loadable_module.c:315 Adding API Function 'reloadxml'
+2015-03-24 09:33:26.048691 [NOTICE] switch_loadable_module.c:315 Adding API Function 'replace'
+2015-03-24 09:33:26.048708 [NOTICE] switch_loadable_module.c:315 Adding API Function 'say_string'
+2015-03-24 09:33:26.048721 [NOTICE] switch_loadable_module.c:315 Adding API Function 'sched_api'
+2015-03-24 09:33:26.048739 [NOTICE] switch_loadable_module.c:315 Adding API Function 'sched_broadcast'
+2015-03-24 09:33:26.048757 [NOTICE] switch_loadable_module.c:315 Adding API Function 'sched_del'
+2015-03-24 09:33:26.048770 [NOTICE] switch_loadable_module.c:315 Adding API Function 'sched_hangup'
+2015-03-24 09:33:26.048788 [NOTICE] switch_loadable_module.c:315 Adding API Function 'sched_transfer'
+2015-03-24 09:33:26.048804 [NOTICE] switch_loadable_module.c:315 Adding API Function 'show'
+2015-03-24 09:33:26.048817 [NOTICE] switch_loadable_module.c:315 Adding API Function 'sql_escape'
+2015-03-24 09:33:26.048828 [NOTICE] switch_loadable_module.c:315 Adding API Function 'status'
+2015-03-24 09:33:26.048841 [NOTICE] switch_loadable_module.c:315 Adding API Function 'strftime_tz'
+2015-03-24 09:33:26.048858 [NOTICE] switch_loadable_module.c:315 Adding API Function 'stun'
+2015-03-24 09:33:26.048875 [NOTICE] switch_loadable_module.c:315 Adding API Function 'time_test'
+2015-03-24 09:33:26.048890 [NOTICE] switch_loadable_module.c:315 Adding API Function 'timer_test'
+2015-03-24 09:33:26.048908 [NOTICE] switch_loadable_module.c:315 Adding API Function 'tone_detect'
+2015-03-24 09:33:26.048920 [NOTICE] switch_loadable_module.c:315 Adding API Function 'unload'
+2015-03-24 09:33:26.048934 [NOTICE] switch_loadable_module.c:315 Adding API Function 'unsched_api'
+2015-03-24 09:33:26.048950 [NOTICE] switch_loadable_module.c:315 Adding API Function 'uptime'
+2015-03-24 09:33:26.048968 [NOTICE] switch_loadable_module.c:315 Adding API Function 'reg_url'
+2015-03-24 09:33:26.048982 [NOTICE] switch_loadable_module.c:315 Adding API Function 'url_decode'
+2015-03-24 09:33:26.048999 [NOTICE] switch_loadable_module.c:315 Adding API Function 'url_encode'
+2015-03-24 09:33:26.049015 [NOTICE] switch_loadable_module.c:315 Adding API Function 'user_data'
+2015-03-24 09:33:26.049033 [NOTICE] switch_loadable_module.c:315 Adding API Function 'uuid_early_ok'
+2015-03-24 09:33:26.049046 [NOTICE] switch_loadable_module.c:315 Adding API Function 'user_exists'
+2015-03-24 09:33:26.049061 [NOTICE] switch_loadable_module.c:315 Adding API Function 'uuid_answer'
+2015-03-24 09:33:26.049078 [NOTICE] switch_loadable_module.c:315 Adding API Function 'uuid_audio'
+2015-03-24 09:33:26.049094 [NOTICE] switch_loadable_module.c:315 Adding API Function 'uuid_break'
+2015-03-24 09:33:26.049107 [NOTICE] switch_loadable_module.c:315 Adding API Function 'uuid_bridge'
+2015-03-24 09:33:26.049121 [NOTICE] switch_loadable_module.c:315 Adding API Function 'uuid_broadcast'
+2015-03-24 09:33:26.049139 [NOTICE] switch_loadable_module.c:315 Adding API Function 'uuid_buglist'
+2015-03-24 09:33:26.049151 [NOTICE] switch_loadable_module.c:315 Adding API Function 'uuid_chat'
+2015-03-24 09:33:26.049165 [NOTICE] switch_loadable_module.c:315 Adding API Function 'uuid_debug_media'
+2015-03-24 09:33:26.049182 [NOTICE] switch_loadable_module.c:315 Adding API Function 'uuid_deflect'
+2015-03-24 09:33:26.049199 [NOTICE] switch_loadable_module.c:315 Adding API Function 'uuid_displace'
+2015-03-24 09:33:26.049214 [NOTICE] switch_loadable_module.c:315 Adding API Function 'uuid_display'
+2015-03-24 09:33:26.049230 [NOTICE] switch_loadable_module.c:315 Adding API Function 'uuid_drop_dtmf'
+2015-03-24 09:33:26.049245 [NOTICE] switch_loadable_module.c:315 Adding API Function 'uuid_dump'
+2015-03-24 09:33:26.049257 [NOTICE] switch_loadable_module.c:315 Adding API Function 'uuid_exists'
+2015-03-24 09:33:26.049277 [NOTICE] switch_loadable_module.c:315 Adding API Function 'uuid_fileman'
+2015-03-24 09:33:26.049289 [NOTICE] switch_loadable_module.c:315 Adding API Function 'uuid_flush_dtmf'
+2015-03-24 09:33:26.049304 [NOTICE] switch_loadable_module.c:315 Adding API Function 'uuid_getvar'
+2015-03-24 09:33:26.049321 [NOTICE] switch_loadable_module.c:315 Adding API Function 'uuid_hold'
+2015-03-24 09:33:26.049337 [NOTICE] switch_loadable_module.c:315 Adding API Function 'uuid_kill'
+2015-03-24 09:33:26.049350 [NOTICE] switch_loadable_module.c:315 Adding API Function 'uuid_send_message'
+2015-03-24 09:33:26.049365 [NOTICE] switch_loadable_module.c:315 Adding API Function 'uuid_send_info'
+2015-03-24 09:33:26.049380 [NOTICE] switch_loadable_module.c:315 Adding API Function 'uuid_set_media_stats'
+2015-03-24 09:33:26.049391 [NOTICE] switch_loadable_module.c:315 Adding API Function 'uuid_video_refresh'
+2015-03-24 09:33:26.049406 [NOTICE] switch_loadable_module.c:315 Adding API Function 'uuid_outgoing_answer'
+2015-03-24 09:33:26.049421 [NOTICE] switch_loadable_module.c:315 Adding API Function 'uuid_limit'
+2015-03-24 09:33:26.049435 [NOTICE] switch_loadable_module.c:315 Adding API Function 'uuid_limit_release'
+2015-03-24 09:33:26.049447 [NOTICE] switch_loadable_module.c:315 Adding API Function 'uuid_limit_release'
+2015-03-24 09:33:26.049462 [NOTICE] switch_loadable_module.c:315 Adding API Function 'uuid_loglevel'
+2015-03-24 09:33:26.049477 [NOTICE] switch_loadable_module.c:315 Adding API Function 'uuid_media'
+2015-03-24 09:33:26.049493 [NOTICE] switch_loadable_module.c:315 Adding API Function 'uuid_media_reneg'
+2015-03-24 09:33:26.049511 [NOTICE] switch_loadable_module.c:315 Adding API Function 'uuid_park'
+2015-03-24 09:33:26.049523 [NOTICE] switch_loadable_module.c:315 Adding API Function 'uuid_pause'
+2015-03-24 09:33:26.049539 [NOTICE] switch_loadable_module.c:315 Adding API Function 'uuid_phone_event'
+2015-03-24 09:33:26.049556 [NOTICE] switch_loadable_module.c:315 Adding API Function 'uuid_ring_ready'
+2015-03-24 09:33:26.049571 [NOTICE] switch_loadable_module.c:315 Adding API Function 'uuid_pre_answer'
+2015-03-24 09:33:26.049585 [NOTICE] switch_loadable_module.c:315 Adding API Function 'uuid_preprocess'
+2015-03-24 09:33:26.049596 [NOTICE] switch_loadable_module.c:315 Adding API Function 'uuid_record'
+2015-03-24 09:33:26.049614 [NOTICE] switch_loadable_module.c:315 Adding API Function 'uuid_recovery_refresh'
+2015-03-24 09:33:26.049632 [NOTICE] switch_loadable_module.c:315 Adding API Function 'uuid_recv_dtmf'
+2015-03-24 09:33:26.049643 [NOTICE] switch_loadable_module.c:315 Adding API Function 'uuid_send_dtmf'
+2015-03-24 09:33:26.049658 [NOTICE] switch_loadable_module.c:315 Adding API Function 'uuid_session_heartbeat'
+2015-03-24 09:33:26.049676 [NOTICE] switch_loadable_module.c:315 Adding API Function 'uuid_setvar_multi'
+2015-03-24 09:33:26.049692 [NOTICE] switch_loadable_module.c:315 Adding API Function 'uuid_setvar'
+2015-03-24 09:33:26.049704 [NOTICE] switch_loadable_module.c:315 Adding API Function 'uuid_transfer'
+2015-03-24 09:33:26.049719 [NOTICE] switch_loadable_module.c:315 Adding API Function 'uuid_dual_transfer'
+2015-03-24 09:33:26.049736 [NOTICE] switch_loadable_module.c:315 Adding API Function 'uuid_simplify'
+2015-03-24 09:33:26.049754 [NOTICE] switch_loadable_module.c:315 Adding API Function 'uuid_jitterbuffer'
+2015-03-24 09:33:26.049767 [NOTICE] switch_loadable_module.c:315 Adding API Function 'uuid_zombie_exec'
+2015-03-24 09:33:26.049785 [NOTICE] switch_loadable_module.c:315 Adding API Function 'xml_flush_cache'
+2015-03-24 09:33:26.049801 [NOTICE] switch_loadable_module.c:315 Adding API Function 'xml_locate'
+2015-03-24 09:33:26.049815 [NOTICE] switch_loadable_module.c:315 Adding API Function 'xml_wrap'
+2015-03-24 09:33:26.049830 [NOTICE] switch_loadable_module.c:315 Adding API Function 'file_exists'
+2015-03-24 09:33:26.049848 [NOTICE] switch_loadable_module.c:315 Adding API Function 'json'
+2015-03-24 09:33:26.049864 [NOTICE] switch_loadable_module.c:338 Adding JSON API Function 'mediaStats'
+2015-03-24 09:33:26.049881 [NOTICE] switch_loadable_module.c:338 Adding JSON API Function 'status'
+2015-03-24 09:33:26.049895 [NOTICE] switch_loadable_module.c:338 Adding JSON API Function 'fsapi'
+2015-03-24 09:33:26.049913 [NOTICE] switch_loadable_module.c:338 Adding JSON API Function 'execute'
+2015-03-24 09:33:26.049929 [NOTICE] switch_loadable_module.c:338 Adding JSON API Function 'channelData'
+2015-03-24 09:33:26.051982 [NOTICE] switch_loadable_module.c:269 Adding Application 'conference'
+2015-03-24 09:33:26.052002 [NOTICE] switch_loadable_module.c:269 Adding Application 'conference_set_auto_outcall'
+2015-03-24 09:33:26.052020 [NOTICE] switch_loadable_module.c:315 Adding API Function 'conference'
+2015-03-24 09:33:26.052042 [NOTICE] switch_loadable_module.c:450 Adding Chat interface 'conf'
+2015-03-24 09:33:26.054087 [NOTICE] switch_loadable_module.c:269 Adding Application 'db'
+2015-03-24 09:33:26.054105 [NOTICE] switch_loadable_module.c:269 Adding Application 'group'
+2015-03-24 09:33:26.054117 [NOTICE] switch_loadable_module.c:315 Adding API Function 'db'
+2015-03-24 09:33:26.054129 [NOTICE] switch_loadable_module.c:315 Adding API Function 'group'
+2015-03-24 09:33:26.054143 [NOTICE] switch_loadable_module.c:523 Adding Limit interface 'db'
+2015-03-24 09:33:26.552777 [NOTICE] switch_loadable_module.c:149 Adding Endpoint 'error'
+2015-03-24 09:33:26.552801 [NOTICE] switch_loadable_module.c:149 Adding Endpoint 'group'
+2015-03-24 09:33:26.552815 [NOTICE] switch_loadable_module.c:149 Adding Endpoint 'user'
+2015-03-24 09:33:26.552829 [NOTICE] switch_loadable_module.c:149 Adding Endpoint 'pickup'
+2015-03-24 09:33:26.552845 [NOTICE] switch_loadable_module.c:227 Adding Dialplan 'inline'
+2015-03-24 09:33:26.552860 [NOTICE] switch_loadable_module.c:269 Adding Application 'blind_transfer_ack'
+2015-03-24 09:33:26.552876 [NOTICE] switch_loadable_module.c:269 Adding Application 'bind_digit_action'
+2015-03-24 09:33:26.552891 [NOTICE] switch_loadable_module.c:269 Adding Application 'capture'
+2015-03-24 09:33:26.552906 [NOTICE] switch_loadable_module.c:269 Adding Application 'clear_digit_action'
+2015-03-24 09:33:26.552921 [NOTICE] switch_loadable_module.c:269 Adding Application 'digit_action_set_realm'
+2015-03-24 09:33:26.552935 [NOTICE] switch_loadable_module.c:269 Adding Application 'privacy'
+2015-03-24 09:33:26.552949 [NOTICE] switch_loadable_module.c:269 Adding Application 'set_audio_level'
+2015-03-24 09:33:26.552964 [NOTICE] switch_loadable_module.c:269 Adding Application 'set_mute'
+2015-03-24 09:33:26.552977 [NOTICE] switch_loadable_module.c:269 Adding Application 'flush_dtmf'
+2015-03-24 09:33:26.552991 [NOTICE] switch_loadable_module.c:269 Adding Application 'hold'
+2015-03-24 09:33:26.553005 [NOTICE] switch_loadable_module.c:269 Adding Application 'unhold'
+2015-03-24 09:33:26.553020 [NOTICE] switch_loadable_module.c:269 Adding Application 'mutex'
+2015-03-24 09:33:26.553034 [NOTICE] switch_loadable_module.c:269 Adding Application 'page'
+2015-03-24 09:33:26.553049 [NOTICE] switch_loadable_module.c:269 Adding Application 'transfer'
+2015-03-24 09:33:26.553063 [NOTICE] switch_loadable_module.c:269 Adding Application 'check_acl'
+2015-03-24 09:33:26.553077 [NOTICE] switch_loadable_module.c:269 Adding Application 'verbose_events'
+2015-03-24 09:33:26.553092 [NOTICE] switch_loadable_module.c:269 Adding Application 'novideo'
+2015-03-24 09:33:26.553106 [NOTICE] switch_loadable_module.c:269 Adding Application 'cng_plc'
+2015-03-24 09:33:26.553120 [NOTICE] switch_loadable_module.c:269 Adding Application 'early_hangup'
+2015-03-24 09:33:26.553134 [NOTICE] switch_loadable_module.c:269 Adding Application 'sleep'
+2015-03-24 09:33:26.553148 [NOTICE] switch_loadable_module.c:269 Adding Application 'delay_echo'
+2015-03-24 09:33:26.553163 [NOTICE] switch_loadable_module.c:269 Adding Application 'strftime'
+2015-03-24 09:33:26.553177 [NOTICE] switch_loadable_module.c:269 Adding Application 'phrase'
+2015-03-24 09:33:26.553192 [NOTICE] switch_loadable_module.c:269 Adding Application 'eval'
+2015-03-24 09:33:26.553206 [NOTICE] switch_loadable_module.c:269 Adding Application 'set_media_stats'
+2015-03-24 09:33:26.553220 [NOTICE] switch_loadable_module.c:269 Adding Application 'stop'
+2015-03-24 09:33:26.553235 [NOTICE] switch_loadable_module.c:269 Adding Application 'set_zombie_exec'
+2015-03-24 09:33:26.553249 [NOTICE] switch_loadable_module.c:269 Adding Application 'pre_answer'
+2015-03-24 09:33:26.553265 [NOTICE] switch_loadable_module.c:269 Adding Application 'answer'
+2015-03-24 09:33:26.553278 [NOTICE] switch_loadable_module.c:269 Adding Application 'wait_for_answer'
+2015-03-24 09:33:26.553293 [NOTICE] switch_loadable_module.c:269 Adding Application 'hangup'
+2015-03-24 09:33:26.553306 [NOTICE] switch_loadable_module.c:269 Adding Application 'set_name'
+2015-03-24 09:33:26.553320 [NOTICE] switch_loadable_module.c:269 Adding Application 'presence'
+2015-03-24 09:33:26.553333 [NOTICE] switch_loadable_module.c:269 Adding Application 'log'
+2015-03-24 09:33:26.553347 [NOTICE] switch_loadable_module.c:269 Adding Application 'info'
+2015-03-24 09:33:26.553362 [NOTICE] switch_loadable_module.c:269 Adding Application 'event'
+2015-03-24 09:33:26.553376 [NOTICE] switch_loadable_module.c:269 Adding Application 'sound_test'
+2015-03-24 09:33:26.553389 [NOTICE] switch_loadable_module.c:269 Adding Application 'export'
+2015-03-24 09:33:26.553403 [NOTICE] switch_loadable_module.c:269 Adding Application 'bridge_export'
+2015-03-24 09:33:26.553417 [NOTICE] switch_loadable_module.c:269 Adding Application 'set'
+2015-03-24 09:33:26.553431 [NOTICE] switch_loadable_module.c:269 Adding Application 'multiset'
+2015-03-24 09:33:26.553446 [NOTICE] switch_loadable_module.c:269 Adding Application 'push'
+2015-03-24 09:33:26.553460 [NOTICE] switch_loadable_module.c:269 Adding Application 'unshift'
+2015-03-24 09:33:26.553474 [NOTICE] switch_loadable_module.c:269 Adding Application 'set_global'
+2015-03-24 09:33:26.553488 [NOTICE] switch_loadable_module.c:269 Adding Application 'set_profile_var'
+2015-03-24 09:33:26.553503 [NOTICE] switch_loadable_module.c:269 Adding Application 'unset'
+2015-03-24 09:33:26.553518 [NOTICE] switch_loadable_module.c:269 Adding Application 'multiunset'
+2015-03-24 09:33:26.553533 [NOTICE] switch_loadable_module.c:269 Adding Application 'ring_ready'
+2015-03-24 09:33:26.553547 [NOTICE] switch_loadable_module.c:269 Adding Application 'remove_bugs'
+2015-03-24 09:33:26.553562 [NOTICE] switch_loadable_module.c:269 Adding Application 'break'
+2015-03-24 09:33:26.553575 [NOTICE] switch_loadable_module.c:269 Adding Application 'detect_speech'
+2015-03-24 09:33:26.553590 [NOTICE] switch_loadable_module.c:269 Adding Application 'play_and_detect_speech'
+2015-03-24 09:33:26.553605 [NOTICE] switch_loadable_module.c:269 Adding Application 'ivr'
+2015-03-24 09:33:26.553623 [NOTICE] switch_loadable_module.c:269 Adding Application 'redirect'
+2015-03-24 09:33:26.553638 [NOTICE] switch_loadable_module.c:269 Adding Application 'video_refresh'
+2015-03-24 09:33:26.553656 [NOTICE] switch_loadable_module.c:269 Adding Application 'send_info'
+2015-03-24 09:33:26.553674 [NOTICE] switch_loadable_module.c:269 Adding Application 'jitterbuffer'
+2015-03-24 09:33:26.553703 [NOTICE] switch_loadable_module.c:269 Adding Application 'send_display'
+2015-03-24 09:33:26.553714 [NOTICE] switch_loadable_module.c:269 Adding Application 'respond'
+2015-03-24 09:33:26.553728 [NOTICE] switch_loadable_module.c:269 Adding Application 'deflect'
+2015-03-24 09:33:26.553743 [NOTICE] switch_loadable_module.c:269 Adding Application 'recovery_refresh'
+2015-03-24 09:33:26.553761 [NOTICE] switch_loadable_module.c:269 Adding Application 'queue_dtmf'
+2015-03-24 09:33:26.553775 [NOTICE] switch_loadable_module.c:269 Adding Application 'send_dtmf'
+2015-03-24 09:33:26.553791 [NOTICE] switch_loadable_module.c:269 Adding Application 'sched_cancel'
+2015-03-24 09:33:26.553806 [NOTICE] switch_loadable_module.c:269 Adding Application 'sched_hangup'
+2015-03-24 09:33:26.553823 [NOTICE] switch_loadable_module.c:269 Adding Application 'sched_broadcast'
+2015-03-24 09:33:26.553839 [NOTICE] switch_loadable_module.c:269 Adding Application 'sched_transfer'
+2015-03-24 09:33:26.553856 [NOTICE] switch_loadable_module.c:269 Adding Application 'execute_extension'
+2015-03-24 09:33:26.553873 [NOTICE] switch_loadable_module.c:269 Adding Application 'sched_heartbeat'
+2015-03-24 09:33:26.553890 [NOTICE] switch_loadable_module.c:269 Adding Application 'enable_heartbeat'
+2015-03-24 09:33:26.553908 [NOTICE] switch_loadable_module.c:269 Adding Application 'enable_keepalive'
+2015-03-24 09:33:26.553926 [NOTICE] switch_loadable_module.c:269 Adding Application 'media_reset'
+2015-03-24 09:33:26.553941 [NOTICE] switch_loadable_module.c:269 Adding Application 'mkdir'
+2015-03-24 09:33:26.553956 [NOTICE] switch_loadable_module.c:269 Adding Application 'rename'
+2015-03-24 09:33:26.553970 [NOTICE] switch_loadable_module.c:269 Adding Application 'soft_hold'
+2015-03-24 09:33:26.553986 [NOTICE] switch_loadable_module.c:269 Adding Application 'bind_meta_app'
+2015-03-24 09:33:26.554001 [NOTICE] switch_loadable_module.c:269 Adding Application 'unbind_meta_app'
+2015-03-24 09:33:26.554015 [NOTICE] switch_loadable_module.c:269 Adding Application 'block_dtmf'
+2015-03-24 09:33:26.554031 [NOTICE] switch_loadable_module.c:269 Adding Application 'unblock_dtmf'
+2015-03-24 09:33:26.554054 [NOTICE] switch_loadable_module.c:269 Adding Application 'intercept'
+2015-03-24 09:33:26.554078 [NOTICE] switch_loadable_module.c:269 Adding Application 'eavesdrop'
+2015-03-24 09:33:26.554095 [NOTICE] switch_loadable_module.c:269 Adding Application 'three_way'
+2015-03-24 09:33:26.554111 [NOTICE] switch_loadable_module.c:269 Adding Application 'set_user'
+2015-03-24 09:33:26.554127 [NOTICE] switch_loadable_module.c:269 Adding Application 'stop_dtmf'
+2015-03-24 09:33:26.554143 [NOTICE] switch_loadable_module.c:269 Adding Application 'start_dtmf'
+2015-03-24 09:33:26.554158 [NOTICE] switch_loadable_module.c:269 Adding Application 'stop_dtmf_generate'
+2015-03-24 09:33:26.554174 [NOTICE] switch_loadable_module.c:269 Adding Application 'start_dtmf_generate'
+2015-03-24 09:33:26.554189 [NOTICE] switch_loadable_module.c:269 Adding Application 'stop_tone_detect'
+2015-03-24 09:33:26.554205 [NOTICE] switch_loadable_module.c:269 Adding Application 'fax_detect'
+2015-03-24 09:33:26.554220 [NOTICE] switch_loadable_module.c:269 Adding Application 'tone_detect'
+2015-03-24 09:33:26.554235 [NOTICE] switch_loadable_module.c:269 Adding Application 'echo'
+2015-03-24 09:33:26.554250 [NOTICE] switch_loadable_module.c:269 Adding Application 'park'
+2015-03-24 09:33:26.554266 [NOTICE] switch_loadable_module.c:269 Adding Application 'park_state'
+2015-03-24 09:33:26.554280 [NOTICE] switch_loadable_module.c:269 Adding Application 'gentones'
+2015-03-24 09:33:26.554296 [NOTICE] switch_loadable_module.c:269 Adding Application 'playback'
+2015-03-24 09:33:26.554310 [NOTICE] switch_loadable_module.c:269 Adding Application 'endless_playback'
+2015-03-24 09:33:26.554327 [NOTICE] switch_loadable_module.c:269 Adding Application 'loop_playback'
+2015-03-24 09:33:26.554342 [NOTICE] switch_loadable_module.c:269 Adding Application 'att_xfer'
+2015-03-24 09:33:26.554358 [NOTICE] switch_loadable_module.c:269 Adding Application 'read'
+2015-03-24 09:33:26.554373 [NOTICE] switch_loadable_module.c:269 Adding Application 'play_and_get_digits'
+2015-03-24 09:33:26.554389 [NOTICE] switch_loadable_module.c:269 Adding Application 'stop_record_session'
+2015-03-24 09:33:26.554406 [NOTICE] switch_loadable_module.c:269 Adding Application 'record_session'
+2015-03-24 09:33:26.554421 [NOTICE] switch_loadable_module.c:269 Adding Application 'record_session_mask'
+2015-03-24 09:33:26.554436 [NOTICE] switch_loadable_module.c:269 Adding Application 'record_session_unmask'
+2015-03-24 09:33:26.554451 [NOTICE] switch_loadable_module.c:269 Adding Application 'record'
+2015-03-24 09:33:26.554467 [NOTICE] switch_loadable_module.c:269 Adding Application 'preprocess'
+2015-03-24 09:33:26.554482 [NOTICE] switch_loadable_module.c:269 Adding Application 'stop_displace_session'
+2015-03-24 09:33:26.554497 [NOTICE] switch_loadable_module.c:269 Adding Application 'displace_session'
+2015-03-24 09:33:26.554514 [NOTICE] switch_loadable_module.c:269 Adding Application 'speak'
+2015-03-24 09:33:26.554529 [NOTICE] switch_loadable_module.c:269 Adding Application 'clear_speech_cache'
+2015-03-24 09:33:26.554545 [NOTICE] switch_loadable_module.c:269 Adding Application 'bridge'
+2015-03-24 09:33:26.554559 [NOTICE] switch_loadable_module.c:269 Adding Application 'system'
+2015-03-24 09:33:26.554575 [NOTICE] switch_loadable_module.c:269 Adding Application 'bgsystem'
+2015-03-24 09:33:26.554590 [NOTICE] switch_loadable_module.c:269 Adding Application 'say'
+2015-03-24 09:33:26.554606 [NOTICE] switch_loadable_module.c:269 Adding Application 'wait_for_silence'
+2015-03-24 09:33:26.554622 [NOTICE] switch_loadable_module.c:269 Adding Application 'session_loglevel'
+2015-03-24 09:33:26.554638 [NOTICE] switch_loadable_module.c:269 Adding Application 'limit'
+2015-03-24 09:33:26.554653 [NOTICE] switch_loadable_module.c:269 Adding Application 'limit_hash'
+2015-03-24 09:33:26.554672 [NOTICE] switch_loadable_module.c:269 Adding Application 'limit_execute'
+2015-03-24 09:33:26.554697 [NOTICE] switch_loadable_module.c:269 Adding Application 'limit_hash_execute'
+2015-03-24 09:33:26.554716 [NOTICE] switch_loadable_module.c:269 Adding Application 'pickup'
+2015-03-24 09:33:26.554735 [NOTICE] switch_loadable_module.c:315 Adding API Function 'strepoch'
+2015-03-24 09:33:26.554754 [NOTICE] switch_loadable_module.c:315 Adding API Function 'page'
+2015-03-24 09:33:26.554772 [NOTICE] switch_loadable_module.c:315 Adding API Function 'strmicroepoch'
+2015-03-24 09:33:26.554790 [NOTICE] switch_loadable_module.c:315 Adding API Function 'chat'
+2015-03-24 09:33:26.554807 [NOTICE] switch_loadable_module.c:315 Adding API Function 'strftime'
+2015-03-24 09:33:26.554823 [NOTICE] switch_loadable_module.c:315 Adding API Function 'presence'
+2015-03-24 09:33:26.554839 [NOTICE] switch_loadable_module.c:365 Adding File Format 'file_string'
+2015-03-24 09:33:26.554854 [NOTICE] switch_loadable_module.c:365 Adding File Format 'file'
+2015-03-24 09:33:26.554869 [NOTICE] switch_loadable_module.c:450 Adding Chat interface 'event'
+2015-03-24 09:33:26.554884 [NOTICE] switch_loadable_module.c:450 Adding Chat interface 'api'
+2015-03-24 09:33:26.564146 [NOTICE] switch_loadable_module.c:315 Adding API Function 'expr'
+2015-03-24 09:33:26.578185 [INFO] switch_core_sqldb.c:1693 fifo Starting SQL thread.
+2015-03-24 09:33:26.679087 [INFO] mod_fifo.c:4626 cool_fifo@192.168.10.107 configured
+2015-03-24 09:33:26.679217 [NOTICE] switch_loadable_module.c:269 Adding Application 'fifo'
+2015-03-24 09:33:26.679246 [NOTICE] switch_loadable_module.c:269 Adding Application 'fifo_track_call'
+2015-03-24 09:33:26.679273 [NOTICE] switch_loadable_module.c:315 Adding API Function 'fifo'
+2015-03-24 09:33:26.679304 [NOTICE] switch_loadable_module.c:315 Adding API Function 'fifo_member'
+2015-03-24 09:33:26.679340 [NOTICE] switch_loadable_module.c:315 Adding API Function 'fifo_add_outbound'
+2015-03-24 09:33:26.679359 [NOTICE] switch_loadable_module.c:315 Adding API Function 'fifo_check_bridge'
+2015-03-24 09:33:26.680743 [DEBUG] switch_scheduler.c:249 Added task 3 limit_hash_cleanup (mod_hash) to run at 1427161706
+2015-03-24 09:33:26.680847 [NOTICE] switch_loadable_module.c:269 Adding Application 'hash'
+2015-03-24 09:33:26.680861 [NOTICE] switch_loadable_module.c:315 Adding API Function 'hash'
+2015-03-24 09:33:26.680879 [NOTICE] switch_loadable_module.c:315 Adding API Function 'hash_dump'
+2015-03-24 09:33:26.680895 [NOTICE] switch_loadable_module.c:315 Adding API Function 'hash_remote'
+2015-03-24 09:33:26.680912 [NOTICE] switch_loadable_module.c:523 Adding Limit interface 'hash'
+2015-03-24 09:33:26.684341 [INFO] mod_voicemail.c:792 Added Profile default
+2015-03-24 09:33:26.684383 [NOTICE] switch_loadable_module.c:269 Adding Application 'voicemail'
+2015-03-24 09:33:26.684399 [NOTICE] switch_loadable_module.c:315 Adding API Function 'voicemail'
+2015-03-24 09:33:26.684416 [NOTICE] switch_loadable_module.c:315 Adding API Function 'voicemail_inject'
+2015-03-24 09:33:26.684433 [NOTICE] switch_loadable_module.c:315 Adding API Function 'vm_inject'
+2015-03-24 09:33:26.684451 [NOTICE] switch_loadable_module.c:315 Adding API Function 'vm_boxcount'
+2015-03-24 09:33:26.684469 [NOTICE] switch_loadable_module.c:315 Adding API Function 'vm_prefs'
+2015-03-24 09:33:26.684486 [NOTICE] switch_loadable_module.c:315 Adding API Function 'vm_delete'
+2015-03-24 09:33:26.684502 [NOTICE] switch_loadable_module.c:315 Adding API Function 'vm_read'
+2015-03-24 09:33:26.684519 [NOTICE] switch_loadable_module.c:315 Adding API Function 'vm_list'
+2015-03-24 09:33:26.684535 [NOTICE] switch_loadable_module.c:315 Adding API Function 'vm_fsdb_auth_login'
+2015-03-24 09:33:26.684551 [NOTICE] switch_loadable_module.c:315 Adding API Function 'vm_fsdb_msg_count'
+2015-03-24 09:33:26.684567 [NOTICE] switch_loadable_module.c:315 Adding API Function 'vm_fsdb_msg_list'
+2015-03-24 09:33:26.684582 [NOTICE] switch_loadable_module.c:315 Adding API Function 'vm_fsdb_msg_get'
+2015-03-24 09:33:26.684598 [NOTICE] switch_loadable_module.c:315 Adding API Function 'vm_fsdb_msg_delete'
+2015-03-24 09:33:26.684615 [NOTICE] switch_loadable_module.c:315 Adding API Function 'vm_fsdb_msg_undelete'
+2015-03-24 09:33:26.684631 [NOTICE] switch_loadable_module.c:315 Adding API Function 'vm_fsdb_msg_email'
+2015-03-24 09:33:26.684647 [NOTICE] switch_loadable_module.c:315 Adding API Function 'vm_fsdb_msg_purge'
+2015-03-24 09:33:26.684662 [NOTICE] switch_loadable_module.c:315 Adding API Function 'vm_fsdb_msg_save'
+2015-03-24 09:33:26.684677 [NOTICE] switch_loadable_module.c:315 Adding API Function 'vm_fsdb_msg_forward'
+2015-03-24 09:33:26.684693 [NOTICE] switch_loadable_module.c:315 Adding API Function 'vm_fsdb_pref_greeting_set'
+2015-03-24 09:33:26.684709 [NOTICE] switch_loadable_module.c:315 Adding API Function 'vm_fsdb_pref_greeting_get'
+2015-03-24 09:33:26.684725 [NOTICE] switch_loadable_module.c:315 Adding API Function 'vm_fsdb_pref_recname_set'
+2015-03-24 09:33:26.684740 [NOTICE] switch_loadable_module.c:315 Adding API Function 'vm_fsdb_pref_password_set'
+2015-03-24 09:33:26.685707 [NOTICE] switch_loadable_module.c:269 Adding Application 'esf_page_group'
+2015-03-24 09:33:26.686804 [NOTICE] switch_loadable_module.c:269 Adding Application 'play_fsv'
+2015-03-24 09:33:26.686819 [NOTICE] switch_loadable_module.c:269 Adding Application 'record_fsv'
+2015-03-24 09:33:26.686841 [NOTICE] switch_loadable_module.c:365 Adding File Format 'fsv'
+2015-03-24 09:33:26.687900 [NOTICE] switch_loadable_module.c:269 Adding Application 'valet_park'
+2015-03-24 09:33:26.687917 [NOTICE] switch_loadable_module.c:315 Adding API Function 'valet_info'
+2015-03-24 09:33:26.688871 [NOTICE] mod_httapi.c:2162 Profile [default] JSON Function [http://www.freeswitch.org/api/index.cgi]
+2015-03-24 09:33:26.688911 [NOTICE] switch_loadable_module.c:269 Adding Application 'httapi'
+2015-03-24 09:33:26.688928 [NOTICE] switch_loadable_module.c:315 Adding API Function 'httapi'
+2015-03-24 09:33:26.688966 [NOTICE] switch_loadable_module.c:365 Adding File Format 'http'
+2015-03-24 09:33:26.688981 [NOTICE] switch_loadable_module.c:365 Adding File Format 'https'
+2015-03-24 09:33:26.690287 [NOTICE] switch_loadable_module.c:227 Adding Dialplan 'XML'
+2015-03-24 09:33:26.690936 [NOTICE] switch_loadable_module.c:149 Adding Endpoint 'SIP'
+2015-03-24 09:33:26.690952 [NOTICE] switch_loadable_module.c:149 Adding Endpoint 'IAX2'
+2015-03-24 09:33:26.690974 [NOTICE] switch_loadable_module.c:227 Adding Dialplan 'asterisk'
+2015-03-24 09:33:26.691010 [NOTICE] switch_loadable_module.c:269 Adding Application 'Dial'
+2015-03-24 09:33:26.691026 [NOTICE] switch_loadable_module.c:269 Adding Application 'Goto'
+2015-03-24 09:33:26.691048 [NOTICE] switch_loadable_module.c:269 Adding Application 'AvoidingDeadlock'
+2015-03-24 09:33:26.697346 [DEBUG] mod_spandsp_fax.c:205 FAX timer thread started.
+2015-03-24 09:33:26.717729 [DEBUG] mod_spandsp.c:848 mod_spandsp loaded, using spandsp library version [20120902 163333]
+2015-03-24 09:33:26.717768 [NOTICE] switch_loadable_module.c:149 Adding Endpoint 'modem'
+2015-03-24 09:33:26.717793 [NOTICE] switch_loadable_module.c:192 Adding Codec DVI4 6 ADPCM (IMA) 16000hz 10ms 64000bps
+2015-03-24 09:33:26.717800 [NOTICE] switch_loadable_module.c:192 Adding Codec DVI4 6 ADPCM (IMA) 16000hz 20ms 64000bps
+2015-03-24 09:33:26.717804 [NOTICE] switch_loadable_module.c:192 Adding Codec DVI4 6 ADPCM (IMA) 16000hz 30ms 64000bps
+2015-03-24 09:33:26.717809 [NOTICE] switch_loadable_module.c:192 Adding Codec DVI4 6 ADPCM (IMA) 16000hz 40ms 64000bps
+2015-03-24 09:33:26.717814 [NOTICE] switch_loadable_module.c:192 Adding Codec DVI4 6 ADPCM (IMA) 16000hz 50ms 64000bps
+2015-03-24 09:33:26.717827 [NOTICE] switch_loadable_module.c:192 Adding Codec DVI4 6 ADPCM (IMA) 16000hz 60ms 64000bps
+2015-03-24 09:33:26.717831 [NOTICE] switch_loadable_module.c:192 Adding Codec DVI4 5 ADPCM (IMA) 8000hz 10ms 32000bps
+2015-03-24 09:33:26.717834 [NOTICE] switch_loadable_module.c:192 Adding Codec DVI4 5 ADPCM (IMA) 8000hz 20ms 32000bps
+2015-03-24 09:33:26.717837 [NOTICE] switch_loadable_module.c:192 Adding Codec DVI4 5 ADPCM (IMA) 8000hz 30ms 32000bps
+2015-03-24 09:33:26.717840 [NOTICE] switch_loadable_module.c:192 Adding Codec DVI4 5 ADPCM (IMA) 8000hz 40ms 32000bps
+2015-03-24 09:33:26.717843 [NOTICE] switch_loadable_module.c:192 Adding Codec DVI4 5 ADPCM (IMA) 8000hz 50ms 32000bps
+2015-03-24 09:33:26.717845 [NOTICE] switch_loadable_module.c:192 Adding Codec DVI4 5 ADPCM (IMA) 8000hz 60ms 32000bps
+2015-03-24 09:33:26.717847 [NOTICE] switch_loadable_module.c:192 Adding Codec DVI4 5 ADPCM (IMA) 8000hz 70ms 32000bps
+2015-03-24 09:33:26.717850 [NOTICE] switch_loadable_module.c:192 Adding Codec DVI4 5 ADPCM (IMA) 8000hz 80ms 32000bps
+2015-03-24 09:33:26.717853 [NOTICE] switch_loadable_module.c:192 Adding Codec DVI4 5 ADPCM (IMA) 8000hz 90ms 32000bps
+2015-03-24 09:33:26.717856 [NOTICE] switch_loadable_module.c:192 Adding Codec DVI4 5 ADPCM (IMA) 8000hz 100ms 32000bps
+2015-03-24 09:33:26.717858 [NOTICE] switch_loadable_module.c:192 Adding Codec DVI4 5 ADPCM (IMA) 8000hz 110ms 32000bps
+2015-03-24 09:33:26.717861 [NOTICE] switch_loadable_module.c:192 Adding Codec DVI4 5 ADPCM (IMA) 8000hz 120ms 32000bps
+2015-03-24 09:33:26.717881 [NOTICE] switch_loadable_module.c:192 Adding Codec AAL2-G726-16 124 G.726 16k (AAL2) 8000hz 10ms 16000bps
+2015-03-24 09:33:26.717889 [NOTICE] switch_loadable_module.c:192 Adding Codec AAL2-G726-16 124 G.726 16k (AAL2) 8000hz 20ms 16000bps
+2015-03-24 09:33:26.717894 [NOTICE] switch_loadable_module.c:192 Adding Codec AAL2-G726-16 124 G.726 16k (AAL2) 8000hz 30ms 16000bps
+2015-03-24 09:33:26.717898 [NOTICE] switch_loadable_module.c:192 Adding Codec AAL2-G726-16 124 G.726 16k (AAL2) 8000hz 40ms 16000bps
+2015-03-24 09:33:26.717903 [NOTICE] switch_loadable_module.c:192 Adding Codec AAL2-G726-16 124 G.726 16k (AAL2) 8000hz 50ms 16000bps
+2015-03-24 09:33:26.717906 [NOTICE] switch_loadable_module.c:192 Adding Codec AAL2-G726-16 124 G.726 16k (AAL2) 8000hz 60ms 16000bps
+2015-03-24 09:33:26.717908 [NOTICE] switch_loadable_module.c:192 Adding Codec AAL2-G726-16 124 G.726 16k (AAL2) 8000hz 70ms 16000bps
+2015-03-24 09:33:26.717923 [NOTICE] switch_loadable_module.c:192 Adding Codec AAL2-G726-16 124 G.726 16k (AAL2) 8000hz 80ms 16000bps
+2015-03-24 09:33:26.717932 [NOTICE] switch_loadable_module.c:192 Adding Codec AAL2-G726-16 124 G.726 16k (AAL2) 8000hz 90ms 16000bps
+2015-03-24 09:33:26.717937 [NOTICE] switch_loadable_module.c:192 Adding Codec AAL2-G726-16 124 G.726 16k (AAL2) 8000hz 100ms 16000bps
+2015-03-24 09:33:26.717940 [NOTICE] switch_loadable_module.c:192 Adding Codec AAL2-G726-16 124 G.726 16k (AAL2) 8000hz 110ms 16000bps
+2015-03-24 09:33:26.717943 [NOTICE] switch_loadable_module.c:192 Adding Codec AAL2-G726-16 124 G.726 16k (AAL2) 8000hz 120ms 16000bps
+2015-03-24 09:33:26.717959 [NOTICE] switch_loadable_module.c:192 Adding Codec G726-16 124 G.726 16k 8000hz 10ms 16000bps
+2015-03-24 09:33:26.717965 [NOTICE] switch_loadable_module.c:192 Adding Codec G726-16 124 G.726 16k 8000hz 20ms 16000bps
+2015-03-24 09:33:26.717969 [NOTICE] switch_loadable_module.c:192 Adding Codec G726-16 124 G.726 16k 8000hz 30ms 16000bps
+2015-03-24 09:33:26.717975 [NOTICE] switch_loadable_module.c:192 Adding Codec G726-16 124 G.726 16k 8000hz 40ms 16000bps
+2015-03-24 09:33:26.717982 [NOTICE] switch_loadable_module.c:192 Adding Codec G726-16 124 G.726 16k 8000hz 50ms 16000bps
+2015-03-24 09:33:26.717987 [NOTICE] switch_loadable_module.c:192 Adding Codec G726-16 124 G.726 16k 8000hz 60ms 16000bps
+2015-03-24 09:33:26.717990 [NOTICE] switch_loadable_module.c:192 Adding Codec G726-16 124 G.726 16k 8000hz 70ms 16000bps
+2015-03-24 09:33:26.717992 [NOTICE] switch_loadable_module.c:192 Adding Codec G726-16 124 G.726 16k 8000hz 80ms 16000bps
+2015-03-24 09:33:26.717995 [NOTICE] switch_loadable_module.c:192 Adding Codec G726-16 124 G.726 16k 8000hz 90ms 16000bps
+2015-03-24 09:33:26.717998 [NOTICE] switch_loadable_module.c:192 Adding Codec G726-16 124 G.726 16k 8000hz 100ms 16000bps
+2015-03-24 09:33:26.718001 [NOTICE] switch_loadable_module.c:192 Adding Codec G726-16 124 G.726 16k 8000hz 110ms 16000bps
+2015-03-24 09:33:26.718003 [NOTICE] switch_loadable_module.c:192 Adding Codec G726-16 124 G.726 16k 8000hz 120ms 16000bps
+2015-03-24 09:33:26.718016 [NOTICE] switch_loadable_module.c:192 Adding Codec AAL2-G726-24 123 G.726 24k (AAL2) 8000hz 10ms 24000bps
+2015-03-24 09:33:26.718022 [NOTICE] switch_loadable_module.c:192 Adding Codec AAL2-G726-24 123 G.726 24k (AAL2) 8000hz 20ms 24000bps
+2015-03-24 09:33:26.718027 [NOTICE] switch_loadable_module.c:192 Adding Codec AAL2-G726-24 123 G.726 24k (AAL2) 8000hz 30ms 24000bps
+2015-03-24 09:33:26.718032 [NOTICE] switch_loadable_module.c:192 Adding Codec AAL2-G726-24 123 G.726 24k (AAL2) 8000hz 40ms 24000bps
+2015-03-24 09:33:26.718037 [NOTICE] switch_loadable_module.c:192 Adding Codec AAL2-G726-24 123 G.726 24k (AAL2) 8000hz 50ms 24000bps
+2015-03-24 09:33:26.718048 [NOTICE] switch_loadable_module.c:192 Adding Codec AAL2-G726-24 123 G.726 24k (AAL2) 8000hz 60ms 24000bps
+2015-03-24 09:33:26.718051 [NOTICE] switch_loadable_module.c:192 Adding Codec AAL2-G726-24 123 G.726 24k (AAL2) 8000hz 70ms 24000bps
+2015-03-24 09:33:26.718054 [NOTICE] switch_loadable_module.c:192 Adding Codec AAL2-G726-24 123 G.726 24k (AAL2) 8000hz 80ms 24000bps
+2015-03-24 09:33:26.718057 [NOTICE] switch_loadable_module.c:192 Adding Codec AAL2-G726-24 123 G.726 24k (AAL2) 8000hz 90ms 24000bps
+2015-03-24 09:33:26.718060 [NOTICE] switch_loadable_module.c:192 Adding Codec AAL2-G726-24 123 G.726 24k (AAL2) 8000hz 100ms 24000bps
+2015-03-24 09:33:26.718063 [NOTICE] switch_loadable_module.c:192 Adding Codec AAL2-G726-24 123 G.726 24k (AAL2) 8000hz 110ms 24000bps
+2015-03-24 09:33:26.718068 [NOTICE] switch_loadable_module.c:192 Adding Codec AAL2-G726-24 123 G.726 24k (AAL2) 8000hz 120ms 24000bps
+2015-03-24 09:33:26.718081 [NOTICE] switch_loadable_module.c:192 Adding Codec G726-24 123 G.726 24k 8000hz 10ms 24000bps
+2015-03-24 09:33:26.718086 [NOTICE] switch_loadable_module.c:192 Adding Codec G726-24 123 G.726 24k 8000hz 20ms 24000bps
+2015-03-24 09:33:26.718090 [NOTICE] switch_loadable_module.c:192 Adding Codec G726-24 123 G.726 24k 8000hz 30ms 24000bps
+2015-03-24 09:33:26.718096 [NOTICE] switch_loadable_module.c:192 Adding Codec G726-24 123 G.726 24k 8000hz 40ms 24000bps
+2015-03-24 09:33:26.718108 [NOTICE] switch_loadable_module.c:192 Adding Codec G726-24 123 G.726 24k 8000hz 50ms 24000bps
+2015-03-24 09:33:26.718111 [NOTICE] switch_loadable_module.c:192 Adding Codec G726-24 123 G.726 24k 8000hz 60ms 24000bps
+2015-03-24 09:33:26.718114 [NOTICE] switch_loadable_module.c:192 Adding Codec G726-24 123 G.726 24k 8000hz 70ms 24000bps
+2015-03-24 09:33:26.718117 [NOTICE] switch_loadable_module.c:192 Adding Codec G726-24 123 G.726 24k 8000hz 80ms 24000bps
+2015-03-24 09:33:26.718122 [NOTICE] switch_loadable_module.c:192 Adding Codec G726-24 123 G.726 24k 8000hz 90ms 24000bps
+2015-03-24 09:33:26.718124 [NOTICE] switch_loadable_module.c:192 Adding Codec G726-24 123 G.726 24k 8000hz 100ms 24000bps
+2015-03-24 09:33:26.718128 [NOTICE] switch_loadable_module.c:192 Adding Codec G726-24 123 G.726 24k 8000hz 110ms 24000bps
+2015-03-24 09:33:26.718130 [NOTICE] switch_loadable_module.c:192 Adding Codec G726-24 123 G.726 24k 8000hz 120ms 24000bps
+2015-03-24 09:33:26.718145 [NOTICE] switch_loadable_module.c:192 Adding Codec AAL2-G726-32 122 G.726 32k (AAL2) 8000hz 10ms 32000bps
+2015-03-24 09:33:26.718151 [NOTICE] switch_loadable_module.c:192 Adding Codec AAL2-G726-32 122 G.726 32k (AAL2) 8000hz 20ms 32000bps
+2015-03-24 09:33:26.718157 [NOTICE] switch_loadable_module.c:192 Adding Codec AAL2-G726-32 122 G.726 32k (AAL2) 8000hz 30ms 32000bps
+2015-03-24 09:33:26.718165 [NOTICE] switch_loadable_module.c:192 Adding Codec AAL2-G726-32 122 G.726 32k (AAL2) 8000hz 40ms 32000bps
+2015-03-24 09:33:26.718168 [NOTICE] switch_loadable_module.c:192 Adding Codec AAL2-G726-32 122 G.726 32k (AAL2) 8000hz 50ms 32000bps
+2015-03-24 09:33:26.718177 [NOTICE] switch_loadable_module.c:192 Adding Codec AAL2-G726-32 122 G.726 32k (AAL2) 8000hz 60ms 32000bps
+2015-03-24 09:33:26.718180 [NOTICE] switch_loadable_module.c:192 Adding Codec AAL2-G726-32 122 G.726 32k (AAL2) 8000hz 70ms 32000bps
+2015-03-24 09:33:26.718182 [NOTICE] switch_loadable_module.c:192 Adding Codec AAL2-G726-32 122 G.726 32k (AAL2) 8000hz 80ms 32000bps
+2015-03-24 09:33:26.718185 [NOTICE] switch_loadable_module.c:192 Adding Codec AAL2-G726-32 122 G.726 32k (AAL2) 8000hz 90ms 32000bps
+2015-03-24 09:33:26.718188 [NOTICE] switch_loadable_module.c:192 Adding Codec AAL2-G726-32 122 G.726 32k (AAL2) 8000hz 100ms 32000bps
+2015-03-24 09:33:26.718193 [NOTICE] switch_loadable_module.c:192 Adding Codec AAL2-G726-32 122 G.726 32k (AAL2) 8000hz 110ms 32000bps
+2015-03-24 09:33:26.718196 [NOTICE] switch_loadable_module.c:192 Adding Codec AAL2-G726-32 122 G.726 32k (AAL2) 8000hz 120ms 32000bps
+2015-03-24 09:33:26.718213 [NOTICE] switch_loadable_module.c:192 Adding Codec G726-32 122 G.726 32k 8000hz 10ms 32000bps
+2015-03-24 09:33:26.718219 [NOTICE] switch_loadable_module.c:192 Adding Codec G726-32 122 G.726 32k 8000hz 20ms 32000bps
+2015-03-24 09:33:26.718228 [NOTICE] switch_loadable_module.c:192 Adding Codec G726-32 122 G.726 32k 8000hz 30ms 32000bps
+2015-03-24 09:33:26.718232 [NOTICE] switch_loadable_module.c:192 Adding Codec G726-32 122 G.726 32k 8000hz 40ms 32000bps
+2015-03-24 09:33:26.718237 [NOTICE] switch_loadable_module.c:192 Adding Codec G726-32 122 G.726 32k 8000hz 50ms 32000bps
+2015-03-24 09:33:26.718239 [NOTICE] switch_loadable_module.c:192 Adding Codec G726-32 122 G.726 32k 8000hz 60ms 32000bps
+2015-03-24 09:33:26.718243 [NOTICE] switch_loadable_module.c:192 Adding Codec G726-32 122 G.726 32k 8000hz 70ms 32000bps
+2015-03-24 09:33:26.718245 [NOTICE] switch_loadable_module.c:192 Adding Codec G726-32 122 G.726 32k 8000hz 80ms 32000bps
+2015-03-24 09:33:26.718248 [NOTICE] switch_loadable_module.c:192 Adding Codec G726-32 122 G.726 32k 8000hz 90ms 32000bps
+2015-03-24 09:33:26.718251 [NOTICE] switch_loadable_module.c:192 Adding Codec G726-32 122 G.726 32k 8000hz 100ms 32000bps
+2015-03-24 09:33:26.718254 [NOTICE] switch_loadable_module.c:192 Adding Codec G726-32 122 G.726 32k 8000hz 110ms 32000bps
+2015-03-24 09:33:26.718257 [NOTICE] switch_loadable_module.c:192 Adding Codec G726-32 122 G.726 32k 8000hz 120ms 32000bps
+2015-03-24 09:33:26.718271 [NOTICE] switch_loadable_module.c:192 Adding Codec AAL2-G726-40 121 G.726 40k (AAL2) 8000hz 10ms 40000bps
+2015-03-24 09:33:26.718278 [NOTICE] switch_loadable_module.c:192 Adding Codec AAL2-G726-40 121 G.726 40k (AAL2) 8000hz 20ms 40000bps
+2015-03-24 09:33:26.718286 [NOTICE] switch_loadable_module.c:192 Adding Codec AAL2-G726-40 121 G.726 40k (AAL2) 8000hz 30ms 40000bps
+2015-03-24 09:33:26.718289 [NOTICE] switch_loadable_module.c:192 Adding Codec AAL2-G726-40 121 G.726 40k (AAL2) 8000hz 40ms 40000bps
+2015-03-24 09:33:26.718291 [NOTICE] switch_loadable_module.c:192 Adding Codec AAL2-G726-40 121 G.726 40k (AAL2) 8000hz 50ms 40000bps
+2015-03-24 09:33:26.718295 [NOTICE] switch_loadable_module.c:192 Adding Codec AAL2-G726-40 121 G.726 40k (AAL2) 8000hz 60ms 40000bps
+2015-03-24 09:33:26.718300 [NOTICE] switch_loadable_module.c:192 Adding Codec AAL2-G726-40 121 G.726 40k (AAL2) 8000hz 70ms 40000bps
+2015-03-24 09:33:26.718302 [NOTICE] switch_loadable_module.c:192 Adding Codec AAL2-G726-40 121 G.726 40k (AAL2) 8000hz 80ms 40000bps
+2015-03-24 09:33:26.718305 [NOTICE] switch_loadable_module.c:192 Adding Codec AAL2-G726-40 121 G.726 40k (AAL2) 8000hz 90ms 40000bps
+2015-03-24 09:33:26.718309 [NOTICE] switch_loadable_module.c:192 Adding Codec AAL2-G726-40 121 G.726 40k (AAL2) 8000hz 100ms 40000bps
+2015-03-24 09:33:26.718314 [NOTICE] switch_loadable_module.c:192 Adding Codec AAL2-G726-40 121 G.726 40k (AAL2) 8000hz 110ms 40000bps
+2015-03-24 09:33:26.718316 [NOTICE] switch_loadable_module.c:192 Adding Codec AAL2-G726-40 121 G.726 40k (AAL2) 8000hz 120ms 40000bps
+2015-03-24 09:33:26.718329 [NOTICE] switch_loadable_module.c:192 Adding Codec G726-40 121 G.726 40k 8000hz 10ms 40000bps
+2015-03-24 09:33:26.718335 [NOTICE] switch_loadable_module.c:192 Adding Codec G726-40 121 G.726 40k 8000hz 20ms 40000bps
+2015-03-24 09:33:26.718340 [NOTICE] switch_loadable_module.c:192 Adding Codec G726-40 121 G.726 40k 8000hz 30ms 40000bps
+2015-03-24 09:33:26.718346 [NOTICE] switch_loadable_module.c:192 Adding Codec G726-40 121 G.726 40k 8000hz 40ms 40000bps
+2015-03-24 09:33:26.718349 [NOTICE] switch_loadable_module.c:192 Adding Codec G726-40 121 G.726 40k 8000hz 50ms 40000bps
+2015-03-24 09:33:26.718351 [NOTICE] switch_loadable_module.c:192 Adding Codec G726-40 121 G.726 40k 8000hz 60ms 40000bps
+2015-03-24 09:33:26.718354 [NOTICE] switch_loadable_module.c:192 Adding Codec G726-40 121 G.726 40k 8000hz 70ms 40000bps
+2015-03-24 09:33:26.718357 [NOTICE] switch_loadable_module.c:192 Adding Codec G726-40 121 G.726 40k 8000hz 80ms 40000bps
+2015-03-24 09:33:26.718362 [NOTICE] switch_loadable_module.c:192 Adding Codec G726-40 121 G.726 40k 8000hz 90ms 40000bps
+2015-03-24 09:33:26.718365 [NOTICE] switch_loadable_module.c:192 Adding Codec G726-40 121 G.726 40k 8000hz 100ms 40000bps
+2015-03-24 09:33:26.718368 [NOTICE] switch_loadable_module.c:192 Adding Codec G726-40 121 G.726 40k 8000hz 110ms 40000bps
+2015-03-24 09:33:26.718370 [NOTICE] switch_loadable_module.c:192 Adding Codec G726-40 121 G.726 40k 8000hz 120ms 40000bps
+2015-03-24 09:33:26.718381 [NOTICE] switch_loadable_module.c:192 Adding Codec G722 9 G.722 16000hz 10ms 64000bps
+2015-03-24 09:33:26.718388 [NOTICE] switch_loadable_module.c:192 Adding Codec G722 9 G.722 16000hz 20ms 64000bps
+2015-03-24 09:33:26.718396 [NOTICE] switch_loadable_module.c:192 Adding Codec G722 9 G.722 16000hz 30ms 64000bps
+2015-03-24 09:33:26.718398 [NOTICE] switch_loadable_module.c:192 Adding Codec G722 9 G.722 16000hz 40ms 64000bps
+2015-03-24 09:33:26.718401 [NOTICE] switch_loadable_module.c:192 Adding Codec G722 9 G.722 16000hz 50ms 64000bps
+2015-03-24 09:33:26.718404 [NOTICE] switch_loadable_module.c:192 Adding Codec G722 9 G.722 16000hz 60ms 64000bps
+2015-03-24 09:33:26.718415 [NOTICE] switch_loadable_module.c:192 Adding Codec GSM 3 GSM 8000hz 20ms 13200bps
+2015-03-24 09:33:26.718422 [NOTICE] switch_loadable_module.c:192 Adding Codec GSM 3 GSM 8000hz 40ms 13200bps
+2015-03-24 09:33:26.718430 [NOTICE] switch_loadable_module.c:192 Adding Codec GSM 3 GSM 8000hz 60ms 13200bps
+2015-03-24 09:33:26.718433 [NOTICE] switch_loadable_module.c:192 Adding Codec GSM 3 GSM 8000hz 80ms 13200bps
+2015-03-24 09:33:26.718436 [NOTICE] switch_loadable_module.c:192 Adding Codec GSM 3 GSM 8000hz 100ms 13200bps
+2015-03-24 09:33:26.718438 [NOTICE] switch_loadable_module.c:192 Adding Codec GSM 3 GSM 8000hz 120ms 13200bps
+2015-03-24 09:33:26.718450 [NOTICE] switch_loadable_module.c:192 Adding Codec LPC 7 LPC-10 8000hz 90ms 2400bps
+2015-03-24 09:33:26.718469 [NOTICE] switch_loadable_module.c:269 Adding Application 't38_gateway'
+2015-03-24 09:33:26.718487 [NOTICE] switch_loadable_module.c:269 Adding Application 'rxfax'
+2015-03-24 09:33:26.718503 [NOTICE] switch_loadable_module.c:269 Adding Application 'txfax'
+2015-03-24 09:33:26.718520 [NOTICE] switch_loadable_module.c:269 Adding Application 'stopfax'
+2015-03-24 09:33:26.718543 [NOTICE] switch_loadable_module.c:269 Adding Application 'spandsp_stop_dtmf'
+2015-03-24 09:33:26.718561 [NOTICE] switch_loadable_module.c:269 Adding Application 'spandsp_start_dtmf'
+2015-03-24 09:33:26.718583 [NOTICE] switch_loadable_module.c:269 Adding Application 'spandsp_stop_inject_tdd'
+2015-03-24 09:33:26.718600 [NOTICE] switch_loadable_module.c:269 Adding Application 'spandsp_inject_tdd'
+2015-03-24 09:33:26.718618 [NOTICE] switch_loadable_module.c:269 Adding Application 'spandsp_stop_detect_tdd'
+2015-03-24 09:33:26.718634 [NOTICE] switch_loadable_module.c:269 Adding Application 'spandsp_detect_tdd'
+2015-03-24 09:33:26.718651 [NOTICE] switch_loadable_module.c:269 Adding Application 'spandsp_send_tdd'
+2015-03-24 09:33:26.718667 [NOTICE] switch_loadable_module.c:269 Adding Application 'spandsp_start_fax_detect'
+2015-03-24 09:33:26.718689 [NOTICE] switch_loadable_module.c:269 Adding Application 'spandsp_stop_fax_detect'
+2015-03-24 09:33:26.718706 [NOTICE] switch_loadable_module.c:269 Adding Application 'spandsp_start_tone_detect'
+2015-03-24 09:33:26.718722 [NOTICE] switch_loadable_module.c:269 Adding Application 'spandsp_stop_tone_detect'
+2015-03-24 09:33:26.718745 [NOTICE] switch_loadable_module.c:315 Adding API Function 'spandsp_start_tone_detect'
+2015-03-24 09:33:26.718762 [NOTICE] switch_loadable_module.c:315 Adding API Function 'spandsp_stop_tone_detect'
+2015-03-24 09:33:26.718784 [NOTICE] switch_loadable_module.c:315 Adding API Function 'start_tdd_detect'
+2015-03-24 09:33:26.718802 [NOTICE] switch_loadable_module.c:315 Adding API Function 'stop_tdd_detect'
+2015-03-24 09:33:26.718824 [NOTICE] switch_loadable_module.c:315 Adding API Function 'uuid_send_tdd'
+2015-03-24 09:33:26.719529 [NOTICE] switch_loadable_module.c:192 Adding Codec G723 4 G.723.1 6.3k 8000hz 120ms 6300bps
+2015-03-24 09:33:26.719535 [NOTICE] switch_loadable_module.c:192 Adding Codec G723 4 G.723.1 6.3k 8000hz 90ms 6300bps
+2015-03-24 09:33:26.719538 [NOTICE] switch_loadable_module.c:192 Adding Codec G723 4 G.723.1 6.3k 8000hz 60ms 6300bps
+2015-03-24 09:33:26.719540 [NOTICE] switch_loadable_module.c:192 Adding Codec G723 4 G.723.1 6.3k 8000hz 30ms 6300bps
+2015-03-24 09:33:26.719924 [NOTICE] switch_loadable_module.c:192 Adding Codec G729 18 G.729 8000hz 10ms 8000bps
+2015-03-24 09:33:26.719931 [NOTICE] switch_loadable_module.c:192 Adding Codec G729 18 G.729 8000hz 20ms 8000bps
+2015-03-24 09:33:26.719934 [NOTICE] switch_loadable_module.c:192 Adding Codec G729 18 G.729 8000hz 30ms 8000bps
+2015-03-24 09:33:26.719937 [NOTICE] switch_loadable_module.c:192 Adding Codec G729 18 G.729 8000hz 40ms 8000bps
+2015-03-24 09:33:26.719940 [NOTICE] switch_loadable_module.c:192 Adding Codec G729 18 G.729 8000hz 50ms 8000bps
+2015-03-24 09:33:26.719944 [NOTICE] switch_loadable_module.c:192 Adding Codec G729 18 G.729 8000hz 60ms 8000bps
+2015-03-24 09:33:26.719947 [NOTICE] switch_loadable_module.c:192 Adding Codec G729 18 G.729 8000hz 70ms 8000bps
+2015-03-24 09:33:26.719950 [NOTICE] switch_loadable_module.c:192 Adding Codec G729 18 G.729 8000hz 80ms 8000bps
+2015-03-24 09:33:26.719953 [NOTICE] switch_loadable_module.c:192 Adding Codec G729 18 G.729 8000hz 90ms 8000bps
+2015-03-24 09:33:26.719957 [NOTICE] switch_loadable_module.c:192 Adding Codec G729 18 G.729 8000hz 100ms 8000bps
+2015-03-24 09:33:26.719959 [NOTICE] switch_loadable_module.c:192 Adding Codec G729 18 G.729 8000hz 110ms 8000bps
+2015-03-24 09:33:26.719962 [NOTICE] switch_loadable_module.c:192 Adding Codec G729 18 G.729 8000hz 120ms 8000bps
+2015-03-24 09:33:26.720590 [NOTICE] switch_loadable_module.c:192 Adding Codec AMR 96 AMR 8000hz 20ms 12200bps
+2015-03-24 09:33:26.720964 [NOTICE] switch_loadable_module.c:198 Adding Codec H264 97 H.264 Video (passthru) 90000hz 0ms (VBR)
+2015-03-24 09:33:26.720986 [NOTICE] switch_loadable_module.c:198 Adding Codec H263 34 H.263 Video (passthru) 90000hz 0ms (VBR)
+2015-03-24 09:33:26.720998 [NOTICE] switch_loadable_module.c:198 Adding Codec H263-1998 115 H.263+ Video (passthru) 90000hz 0ms (VBR)
+2015-03-24 09:33:26.721017 [NOTICE] switch_loadable_module.c:198 Adding Codec H263-2000 121 H.263++ Video (passthru) 90000hz 0ms (VBR)
+2015-03-24 09:33:26.721034 [NOTICE] switch_loadable_module.c:198 Adding Codec H261 31 H.261 Video (passthru) 90000hz 0ms (VBR)
+2015-03-24 09:33:26.721610 [NOTICE] switch_loadable_module.c:198 Adding Codec VP8 99 VP8 Video (passthru) 90000hz 0ms (VBR)
+2015-03-24 09:33:26.721640 [NOTICE] switch_loadable_module.c:198 Adding Codec red 103 red Video (passthru) 90000hz 0ms (VBR)
+2015-03-24 09:33:26.721650 [NOTICE] switch_loadable_module.c:198 Adding Codec ulpfec 104 ulpfec Video (passthru) 90000hz 0ms (VBR)
+2015-03-24 09:33:26.722258 [NOTICE] switch_loadable_module.c:192 Adding Codec b64 116 B64 (STANDARD) 32000hz 20ms 684800bps
+2015-03-24 09:33:26.722262 [NOTICE] switch_loadable_module.c:192 Adding Codec b64 116 B64 (STANDARD) 16000hz 20ms 342400bps
+2015-03-24 09:33:26.722265 [NOTICE] switch_loadable_module.c:192 Adding Codec b64 116 B64 (STANDARD) 8000hz 20ms 171200bps
+2015-03-24 09:33:26.723626 [NOTICE] switch_loadable_module.c:198 Adding Codec opus 116 OPUS (STANDARD) 8000hz 30ms (VBR)
+2015-03-24 09:33:26.723630 [NOTICE] switch_loadable_module.c:198 Adding Codec opus 116 OPUS (STANDARD) 8000hz 30ms (VBR)
+2015-03-24 09:33:26.723633 [NOTICE] switch_loadable_module.c:198 Adding Codec opus 116 OPUS (STANDARD) 8000hz 20ms (VBR)
+2015-03-24 09:33:26.723635 [NOTICE] switch_loadable_module.c:198 Adding Codec opus 116 OPUS (STANDARD) 8000hz 20ms (VBR)
+2015-03-24 09:33:26.723638 [NOTICE] switch_loadable_module.c:198 Adding Codec opus 116 OPUS (STANDARD) 8000hz 10ms (VBR)
+2015-03-24 09:33:26.723641 [NOTICE] switch_loadable_module.c:198 Adding Codec opus 116 OPUS (STANDARD) 8000hz 10ms (VBR)
+2015-03-24 09:33:26.723644 [NOTICE] switch_loadable_module.c:198 Adding Codec opus 116 OPUS (STANDARD) 48000hz 40ms (VBR)
+2015-03-24 09:33:26.723647 [NOTICE] switch_loadable_module.c:198 Adding Codec opus 116 OPUS (STANDARD) 48000hz 20ms (VBR)
+2015-03-24 09:33:26.723650 [NOTICE] switch_loadable_module.c:198 Adding Codec opus 116 OPUS (STANDARD) 48000hz 20ms (VBR)
+2015-03-24 09:33:26.723653 [NOTICE] switch_loadable_module.c:198 Adding Codec opus 116 OPUS (STANDARD) 48000hz 10ms (VBR)
+2015-03-24 09:33:26.723656 [NOTICE] switch_loadable_module.c:198 Adding Codec opus 116 OPUS (STANDARD) 48000hz 10ms (VBR)
+2015-03-24 09:33:26.726673 [INFO] mod_sndfile.c:388 
+LibSndFile Version : libsndfile-1.0.26pre5 Supported Formats
+================================================================================
+AIFF (Apple/SGI)  (extension "aiff")
+AU (Sun/NeXT)  (extension "au")
+AVR (Audio Visual Research)  (extension "avr")
+CAF (Apple Core Audio File)  (extension "caf")
+HTK (HMM Tool Kit)  (extension "htk")
+IFF (Amiga IFF/SVX8/SV16)  (extension "iff")
+MAT4 (GNU Octave 2.0 / Matlab 4.2)  (extension "mat")
+MAT5 (GNU Octave 2.1 / Matlab 5.0)  (extension "mat")
+MPC (Akai MPC 2k)  (extension "mpc")
+PAF (Ensoniq PARIS)  (extension "paf")
+PVF (Portable Voice Format)  (extension "pvf")
+RAW (header-less)  (extension "raw")
+RF64 (RIFF 64)  (extension "rf64")
+SD2 (Sound Designer II)  (extension "sd2")
+SDS (Midi Sample Dump Standard)  (extension "sds")
+SF (Berkeley/IRCAM/CARL)  (extension "sf")
+VOC (Creative Labs)  (extension "voc")
+W64 (SoundFoundry WAVE 64)  (extension "w64")
+WAV (Microsoft)  (extension "wav")
+WAV (NIST Sphere)  (extension "wav")
+WAVEX (Microsoft)  (extension "wav")
+WVE (Psion Series 3)  (extension "wve")
+XI (FastTracker 2)  (extension "xi")
+================================================================================
+2015-03-24 09:33:26.726753 [NOTICE] switch_loadable_module.c:365 Adding File Format 'aiff'
+2015-03-24 09:33:26.726770 [NOTICE] switch_loadable_module.c:365 Adding File Format 'au'
+2015-03-24 09:33:26.726783 [NOTICE] switch_loadable_module.c:365 Adding File Format 'avr'
+2015-03-24 09:33:26.726798 [NOTICE] switch_loadable_module.c:365 Adding File Format 'caf'
+2015-03-24 09:33:26.726821 [NOTICE] switch_loadable_module.c:365 Adding File Format 'htk'
+2015-03-24 09:33:26.726840 [NOTICE] switch_loadable_module.c:365 Adding File Format 'iff'
+2015-03-24 09:33:26.726858 [NOTICE] switch_loadable_module.c:365 Adding File Format 'mat'
+2015-03-24 09:33:26.726876 [NOTICE] switch_loadable_module.c:365 Adding File Format 'mpc'
+2015-03-24 09:33:26.726886 [NOTICE] switch_loadable_module.c:365 Adding File Format 'paf'
+2015-03-24 09:33:26.726896 [NOTICE] switch_loadable_module.c:365 Adding File Format 'pvf'
+2015-03-24 09:33:26.726910 [NOTICE] switch_loadable_module.c:365 Adding File Format 'raw'
+2015-03-24 09:33:26.726924 [NOTICE] switch_loadable_module.c:365 Adding File Format 'rf64'
+2015-03-24 09:33:26.726940 [NOTICE] switch_loadable_module.c:365 Adding File Format 'sd2'
+2015-03-24 09:33:26.726955 [NOTICE] switch_loadable_module.c:365 Adding File Format 'sds'
+2015-03-24 09:33:26.726964 [NOTICE] switch_loadable_module.c:365 Adding File Format 'sf'
+2015-03-24 09:33:26.726978 [NOTICE] switch_loadable_module.c:365 Adding File Format 'voc'
+2015-03-24 09:33:26.726992 [NOTICE] switch_loadable_module.c:365 Adding File Format 'w64'
+2015-03-24 09:33:26.727011 [NOTICE] switch_loadable_module.c:365 Adding File Format 'wav'
+2015-03-24 09:33:26.727025 [NOTICE] switch_loadable_module.c:365 Adding File Format 'wve'
+2015-03-24 09:33:26.727042 [NOTICE] switch_loadable_module.c:365 Adding File Format 'xi'
+2015-03-24 09:33:26.727057 [NOTICE] switch_loadable_module.c:365 Adding File Format 'r8'
+2015-03-24 09:33:26.727072 [NOTICE] switch_loadable_module.c:365 Adding File Format 'r16'
+2015-03-24 09:33:26.727083 [NOTICE] switch_loadable_module.c:365 Adding File Format 'r24'
+2015-03-24 09:33:26.727100 [NOTICE] switch_loadable_module.c:365 Adding File Format 'r32'
+2015-03-24 09:33:26.727119 [NOTICE] switch_loadable_module.c:365 Adding File Format 'gsm'
+2015-03-24 09:33:26.727138 [NOTICE] switch_loadable_module.c:365 Adding File Format 'ul'
+2015-03-24 09:33:26.727158 [NOTICE] switch_loadable_module.c:365 Adding File Format 'ulaw'
+2015-03-24 09:33:26.727176 [NOTICE] switch_loadable_module.c:365 Adding File Format 'al'
+2015-03-24 09:33:26.727192 [NOTICE] switch_loadable_module.c:365 Adding File Format 'alaw'
+2015-03-24 09:33:26.727212 [NOTICE] switch_loadable_module.c:365 Adding File Format 'adpcm'
+2015-03-24 09:33:26.727228 [NOTICE] switch_loadable_module.c:365 Adding File Format 'vox'
+2015-03-24 09:33:26.727877 [NOTICE] switch_loadable_module.c:365 Adding File Format 'AAL2-G726-32'
+2015-03-24 09:33:26.727893 [NOTICE] switch_loadable_module.c:365 Adding File Format 'DVI4'
+2015-03-24 09:33:26.727909 [NOTICE] switch_loadable_module.c:365 Adding File Format 'PCMU'
+2015-03-24 09:33:26.727928 [NOTICE] switch_loadable_module.c:365 Adding File Format 'G722'
+2015-03-24 09:33:26.727945 [NOTICE] switch_loadable_module.c:365 Adding File Format 'opus'
+2015-03-24 09:33:26.727961 [NOTICE] switch_loadable_module.c:365 Adding File Format 'AAL2-G726-24'
+2015-03-24 09:33:26.727973 [NOTICE] switch_loadable_module.c:365 Adding File Format 'SPEEX'
+2015-03-24 09:33:26.727992 [NOTICE] switch_loadable_module.c:365 Adding File Format 'b64'
+2015-03-24 09:33:26.728010 [NOTICE] switch_loadable_module.c:365 Adding File Format 'AAL2-G726-40'
+2015-03-24 09:33:26.728027 [NOTICE] switch_loadable_module.c:365 Adding File Format 'L16'
+2015-03-24 09:33:26.728042 [NOTICE] switch_loadable_module.c:365 Adding File Format 'G726-16'
+2015-03-24 09:33:26.728057 [NOTICE] switch_loadable_module.c:365 Adding File Format 'PCMA'
+2015-03-24 09:33:26.728072 [NOTICE] switch_loadable_module.c:365 Adding File Format 'PROXY'
+2015-03-24 09:33:26.728087 [NOTICE] switch_loadable_module.c:365 Adding File Format 'G726-24'
+2015-03-24 09:33:26.728099 [NOTICE] switch_loadable_module.c:365 Adding File Format 'G729'
+2015-03-24 09:33:26.728115 [NOTICE] switch_loadable_module.c:365 Adding File Format 'AAL2-G726-16'
+2015-03-24 09:33:26.728137 [NOTICE] switch_loadable_module.c:365 Adding File Format 'G726-32'
+2015-03-24 09:33:26.728154 [NOTICE] switch_loadable_module.c:365 Adding File Format 'AMR'
+2015-03-24 09:33:26.728170 [NOTICE] switch_loadable_module.c:365 Adding File Format 'GSM'
+2015-03-24 09:33:26.728185 [NOTICE] switch_loadable_module.c:365 Adding File Format 'G726-40'
+2015-03-24 09:33:26.728200 [NOTICE] switch_loadable_module.c:365 Adding File Format 'H261'
+2015-03-24 09:33:26.728222 [NOTICE] switch_loadable_module.c:365 Adding File Format 'H264'
+2015-03-24 09:33:26.728239 [NOTICE] switch_loadable_module.c:365 Adding File Format 'VP8'
+2015-03-24 09:33:26.728255 [NOTICE] switch_loadable_module.c:365 Adding File Format 'H263-2000'
+2015-03-24 09:33:26.728270 [NOTICE] switch_loadable_module.c:365 Adding File Format 'PROXY-VID'
+2015-03-24 09:33:26.728289 [NOTICE] switch_loadable_module.c:365 Adding File Format 'red'
+2015-03-24 09:33:26.728308 [NOTICE] switch_loadable_module.c:365 Adding File Format 'H263'
+2015-03-24 09:33:26.728325 [NOTICE] switch_loadable_module.c:365 Adding File Format 'G723'
+2015-03-24 09:33:26.728345 [NOTICE] switch_loadable_module.c:365 Adding File Format 'LPC'
+2015-03-24 09:33:26.728367 [NOTICE] switch_loadable_module.c:365 Adding File Format 'ulpfec'
+2015-03-24 09:33:26.728383 [NOTICE] switch_loadable_module.c:365 Adding File Format 'H263-1998'
+2015-03-24 09:33:26.729732 [NOTICE] switch_loadable_module.c:315 Adding API Function 'hup_local_stream'
+2015-03-24 09:33:26.729758 [NOTICE] switch_loadable_module.c:315 Adding API Function 'reload_local_stream'
+2015-03-24 09:33:26.729801 [NOTICE] switch_loadable_module.c:315 Adding API Function 'stop_local_stream'
+2015-03-24 09:33:26.729816 [NOTICE] switch_loadable_module.c:315 Adding API Function 'start_local_stream'
+2015-03-24 09:33:26.729862 [NOTICE] switch_loadable_module.c:315 Adding API Function 'show_local_stream'
+2015-03-24 09:33:26.729872 [NOTICE] switch_loadable_module.c:365 Adding File Format 'local_stream'
+2015-03-24 09:33:26.730281 [NOTICE] switch_loadable_module.c:365 Adding File Format 'tone_stream'
+2015-03-24 09:33:26.730296 [NOTICE] switch_loadable_module.c:365 Adding File Format 'silence_stream'
+2015-03-24 09:33:26.732982 [DEBUG] switch_loadable_module.c:1398 Loading module with global namespace at request of module
+2015-03-24 09:33:26.733027 [NOTICE] switch_loadable_module.c:227 Adding Dialplan 'LUA'
+2015-03-24 09:33:26.733042 [NOTICE] switch_loadable_module.c:269 Adding Application 'lua'
+2015-03-24 09:33:26.733053 [NOTICE] switch_loadable_module.c:292 Adding Chat Application 'lua'
+2015-03-24 09:33:26.733069 [NOTICE] switch_loadable_module.c:315 Adding API Function 'luarun'
+2015-03-24 09:33:26.733098 [NOTICE] switch_loadable_module.c:315 Adding API Function 'lua'
+2015-03-24 09:33:26.733810 [NOTICE] switch_loadable_module.c:471 Adding Say interface 'en'
+2015-03-24 09:33:26.733949 [DEBUG] mod_event_socket.c:2884 Socket up listening on 127.0.0.1:8021
+2015-03-24 09:33:26.733962 [INFO] switch_time.c:607 Clock synchronized to system time.
+2015-03-24 09:33:26.734043 [NOTICE] switch_core.c:1315 Created ip list rfc6598.auto default (deny)
+2015-03-24 09:33:26.734052 [NOTICE] switch_utils.c:325 Adding 100.64.0.0/10 (allow) [] to list rfc6598.auto
+2015-03-24 09:33:26.734056 [NOTICE] switch_core.c:1321 Created ip list rfc1918.auto default (deny)
+2015-03-24 09:33:26.734058 [NOTICE] switch_utils.c:325 Adding 10.0.0.0/8 (allow) [] to list rfc1918.auto
+2015-03-24 09:33:26.734061 [NOTICE] switch_utils.c:325 Adding 172.16.0.0/12 (allow) [] to list rfc1918.auto
+2015-03-24 09:33:26.734066 [NOTICE] switch_utils.c:325 Adding 192.168.0.0/16 (allow) [] to list rfc1918.auto
+2015-03-24 09:33:26.734068 [NOTICE] switch_core.c:1329 Created ip list wan.auto default (allow)
+2015-03-24 09:33:26.734071 [NOTICE] switch_utils.c:325 Adding 0.0.0.0/8 (deny) [] to list wan.auto
+2015-03-24 09:33:26.734073 [NOTICE] switch_utils.c:325 Adding 10.0.0.0/8 (deny) [] to list wan.auto
+2015-03-24 09:33:26.734075 [NOTICE] switch_utils.c:325 Adding 172.16.0.0/12 (deny) [] to list wan.auto
+2015-03-24 09:33:26.734078 [NOTICE] switch_utils.c:325 Adding 192.168.0.0/16 (deny) [] to list wan.auto
+2015-03-24 09:33:26.734081 [NOTICE] switch_utils.c:325 Adding 169.254.0.0/16 (deny) [] to list wan.auto
+2015-03-24 09:33:26.734086 [NOTICE] switch_core.c:1339 Created ip list nat.auto default (deny)
+2015-03-24 09:33:26.734089 [NOTICE] switch_core.c:1341 Adding 192.168.10.107/255.255.255.0 (deny) to list nat.auto
+2015-03-24 09:33:26.734091 [NOTICE] switch_utils.c:325 Adding 10.0.0.0/8 (allow) [] to list nat.auto
+2015-03-24 09:33:26.734094 [NOTICE] switch_utils.c:325 Adding 172.16.0.0/12 (allow) [] to list nat.auto
+2015-03-24 09:33:26.734099 [NOTICE] switch_utils.c:325 Adding 192.168.0.0/16 (allow) [] to list nat.auto
+2015-03-24 09:33:26.734101 [NOTICE] switch_utils.c:325 Adding 100.64.0.0/10 (allow) [] to list nat.auto
+2015-03-24 09:33:26.734104 [NOTICE] switch_core.c:1351 Created ip list loopback.auto default (deny)
+2015-03-24 09:33:26.734106 [NOTICE] switch_utils.c:325 Adding 127.0.0.0/8 (allow) [] to list loopback.auto
+2015-03-24 09:33:26.734109 [NOTICE] switch_core.c:1357 Created ip list localnet.auto default (deny)
+2015-03-24 09:33:26.734111 [NOTICE] switch_core.c:1360 Adding 192.168.10.107/255.255.255.0 (allow) to list localnet.auto
+2015-03-24 09:33:26.734119 [NOTICE] switch_utils.c:325 Adding 192.168.42.0/24 (deny) [] to list lan
+2015-03-24 09:33:26.734121 [NOTICE] switch_core.c:1460 Adding 192.168.42.0/24 (deny) to list lan
+2015-03-24 09:33:26.734125 [NOTICE] switch_utils.c:325 Adding 192.168.42.42/32 (allow) [] to list lan
+2015-03-24 09:33:26.734128 [NOTICE] switch_core.c:1460 Adding 192.168.42.42/32 (allow) to list lan
+2015-03-24 09:33:26.734151 [NOTICE] switch_utils.c:325 Adding 192.0.2.0/24 (allow) [brian@192.168.10.107] to list domains
+2015-03-24 09:33:26.734206 [DEBUG] switch_loadable_module.c:702 Chat Thread Started
+2015-03-24 09:33:26.734201 [INFO] switch_core.c:2230 
+FreeSWITCH Version 1.4.17~64bit ( 64bit)
+
+FreeSWITCH Started
+Max Sessions [1000]
+Session Rate [30]
+SQL [Enabled]
+2015-03-24 09:33:26.734212 [DEBUG] switch_loadable_module.c:702 Chat Thread Started
