@@ -8,8 +8,8 @@ freeswitch.consoleLog("NOTICE","lua take the users...\n");
 local req_domain   = params:getHeader("domain")
 local req_key      = params:getHeader("key")
 local req_user     = params:getHeader("user")
-local req_password --= params:getHeader("pass")
---freeswitch.consoleLog("NOTICE", req_password)
+local req_password = params:getHeader("pass")
+freeswitch.consoleLog("NOTICE", params:serialize())
 
 -- freeswitch.consoleLog("NOTICE", "UserName: " .. req_user);
 

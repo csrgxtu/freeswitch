@@ -71,7 +71,7 @@
   <!--
       This setting is what sets the default domain FreeSWITCH will use if all else fails.
       
-      FreeSWICH will default to 192.168.10.107 unless changed.  Changing this setting does 
+      FreeSWICH will default to 192.168.10.135 unless changed.  Changing this setting does 
       affect the sip authentication.  Please review conf/directory/default.xml for more
       information on this topic.
   -->
@@ -408,7 +408,7 @@
     -->
     <list name="domains" default="deny">
       <!-- domain= is special it scans the domain from the directory to build the ACL -->
-      <node type="allow" domain="192.168.10.107"/>
+      <node type="allow" domain="192.168.10.135"/>
       <!-- use cidr= if you wish to allow ip ranges to this domains acl. -->
       <!-- <node type="allow" cidr="192.168.0.0/24"/> -->
     </list>
@@ -620,7 +620,7 @@
 <configuration name="conference.conf" description="Audio Conference">
   <!-- Advertise certain presence on startup . -->
   <advertise>
-    <room name="3001@192.168.10.107" status="FreeSWITCH"/>
+    <room name="3001@192.168.10.135" status="FreeSWITCH"/>
   </advertise>
 
   <!-- These are the default keys that map when you do not specify a caller control group -->	
@@ -654,7 +654,7 @@
       <!-- <param name="cdr-log-dir" value="auto"/> -->
       
       <!-- Domain (for presence) -->
-      <param name="domain" value="192.168.10.107"/>
+      <param name="domain" value="192.168.10.135"/>
       <!-- Sample Rate-->
       <param name="rate" value="8000"/>
       <!-- Number of milliseconds per frame -->
@@ -746,7 +746,7 @@
     </profile>
 
     <profile name="wideband">
-      <param name="domain" value="192.168.10.107"/>
+      <param name="domain" value="192.168.10.135"/>
       <param name="rate" value="16000"/>
       <param name="interval" value="20"/>
       <param name="energy-level" value="300"/>
@@ -771,7 +771,7 @@
     </profile>
 
     <profile name="ultrawideband">
-      <param name="domain" value="192.168.10.107"/>
+      <param name="domain" value="192.168.10.135"/>
       <param name="rate" value="32000"/>
       <param name="interval" value="20"/>
       <param name="energy-level" value="300"/>
@@ -796,7 +796,7 @@
     </profile>
 
     <profile name="cdquality">
-      <param name="domain" value="192.168.10.107"/>
+      <param name="domain" value="192.168.10.135"/>
       <param name="rate" value="48000"/>
       <param name="interval" value="20"/>
       <param name="energy-level" value="300"/>
@@ -819,7 +819,7 @@
     </profile>
 
     <profile name="sla">
-      <param name="domain" value="192.168.10.107"/>
+      <param name="domain" value="192.168.10.135"/>
       <param name="rate" value="16000"/>
       <param name="interval" value="20"/>
       <param name="caller-controls" value="none"/>
@@ -1105,8 +1105,8 @@
     <param name="delete-all-outbound-member-on-startup" value="false"/>
   </settings>
   <fifos>
-    <fifo name="cool_fifo@192.168.10.107" importance="0">
-      <!--<member timeout="60" simo="1" lag="20">{member_wait=nowait}user/1005@192.168.10.107</member>-->
+    <fifo name="cool_fifo@192.168.10.135" importance="0">
+      <!--<member timeout="60" simo="1" lag="20">{member_wait=nowait}user/1005@192.168.10.135</member>-->
     </fifo>
   </fifos>
 </configuration>
@@ -1394,7 +1394,7 @@
 
     <!-- The following are the definitions for the digits the user dials -->
     <!-- Digit 1 transfer caller to the public FreeSWITCH conference -->
-    <entry action="menu-exec-app" digits="1" param="bridge sofia/192.168.10.107/888@conference.freeswitch.org"/>
+    <entry action="menu-exec-app" digits="1" param="bridge sofia/192.168.10.135/888@conference.freeswitch.org"/>
     <entry action="menu-exec-app" digits="2" param="transfer 9196 XML default"/>    <!-- FS echo -->
     <entry action="menu-exec-app" digits="3" param="transfer 9664 XML default"/>    <!-- MOH -->
     <entry action="menu-exec-app" digits="4" param="transfer 9191 XML default"/>    <!-- ClueCon -->
@@ -1937,11 +1937,11 @@ SELECT l.digits AS lcr_digits,
       <!-- <param name="disable-transcoding" value="true"/> -->  <!-- do not transcode, use source channel codec only -->
       <param name="gk-address" value=""/>                        <!-- empty to disable, "*" to search LAN -->
       <param name="gk-identifer" value=""/>                      <!-- optional name of gk -->
-      <param name="gk-interface" value="192.168.10.107"/>       <!-- optional listener interface name -->
+      <param name="gk-interface" value="192.168.10.135"/>       <!-- optional listener interface name -->
    </settings>
    <listeners>
       <listener name="default">
-         <param name="h323-ip" value="192.168.10.107"/>
+         <param name="h323-ip" value="192.168.10.135"/>
          <param name="h323-port" value="1720"/>
       </listener>
    </listeners>
@@ -2287,7 +2287,7 @@ the sip-server-addr and sip-server-port to the oreka server
 </configuration>
 <configuration name="presence_map.conf" description="PRESENCE MAP">
   <domains>
-    <domain name="192.168.10.107">
+    <domain name="192.168.10.135">
       <exten regex="3\d+" proto="conf"/>
     </domain>
   </domains>
@@ -2388,8 +2388,8 @@ the sip-server-addr and sip-server-port to the oreka server
   <profiles>
 <profile name="internal">
   <settings>
-    <param name="domain" value="192.168.10.107"/>
-    <param name="ip" value="192.168.10.107"/>
+    <param name="domain" value="192.168.10.135"/>
+    <param name="ip" value="192.168.10.135"/>
     <param name="port" value="2000"/>
     <param name="patterns-dialplan" value="XML"/>
     <param name="patterns-context" value="skinny-patterns"/>
@@ -2530,10 +2530,10 @@ the sip-server-addr and sip-server-port to the oreka server
     -->
     <!-- Name of the db to use for this profile -->
     <!--<param name="dbname" value="share_presence"/>-->
-    <!--<param name="presence-hosts" value="192.168.10.107"/>-->
-    <!--<param name="force-register-domain" value="192.168.10.107"/>-->
+    <!--<param name="presence-hosts" value="192.168.10.135"/>-->
+    <!--<param name="force-register-domain" value="192.168.10.135"/>-->
     <!--all inbound reg will stored in the db using this domain -->
-    <!--<param name="force-register-db-domain" value="192.168.10.107"/>-->
+    <!--<param name="force-register-db-domain" value="192.168.10.135"/>-->
     <!-- ************************************************* -->
 
     <!--<param name="aggressive-nat-detection" value="true"/>-->
@@ -2664,10 +2664,10 @@ the sip-server-addr and sip-server-port to the oreka server
     -->
     <!-- Name of the db to use for this profile -->
     <!--<param name="dbname" value="share_presence"/>-->
-    <!--<param name="presence-hosts" value="192.168.10.107"/>-->
-    <!--<param name="force-register-domain" value="192.168.10.107"/>-->
+    <!--<param name="presence-hosts" value="192.168.10.135"/>-->
+    <!--<param name="force-register-domain" value="192.168.10.135"/>-->
     <!--all inbound reg will stored in the db using this domain -->
-    <!--<param name="force-register-db-domain" value="192.168.10.107"/>-->
+    <!--<param name="force-register-db-domain" value="192.168.10.135"/>-->
     <!-- ************************************************* -->
 
     <!--<param name="aggressive-nat-detection" value="true"/>-->
@@ -2679,8 +2679,8 @@ the sip-server-addr and sip-server-port to the oreka server
     <!--
         DO NOT USE HOSTNAMES, ONLY IP ADDRESSES IN THESE SETTINGS!
     -->
-    <param name="rtp-ip" value="192.168.10.107"/>
-    <param name="sip-ip" value="192.168.10.107"/>
+    <param name="rtp-ip" value="192.168.10.135"/>
+    <param name="sip-ip" value="192.168.10.135"/>
     <param name="ext-rtp-ip" value="auto-nat"/>
     <param name="ext-sip-ip" value="auto-nat"/>
     <param name="rtp-timeout-sec" value="300"/>
@@ -2826,9 +2826,9 @@ the sip-server-addr and sip-server-port to the oreka server
 
     -->
     <!--all inbound reg will look in this domain for the users -->
-    <param name="force-register-domain" value="192.168.10.107"/>
+    <param name="force-register-domain" value="192.168.10.135"/>
     <!--all inbound reg will stored in the db using this domain -->
-    <param name="force-register-db-domain" value="192.168.10.107"/>
+    <param name="force-register-db-domain" value="192.168.10.135"/>
     <!-- disable register and transfer which may be undesirable in a public switch -->
     <!--<param name="disable-transfer" value="true"/>-->
     <!--<param name="disable-register" value="true"/>-->
@@ -2866,7 +2866,7 @@ the sip-server-addr and sip-server-port to the oreka server
 
   <domains>
     <!-- indicator to parse the directory for domains with parse="true" to get gateways-->
-    <!--<domain name="192.168.10.107" parse="true"/>-->
+    <!--<domain name="192.168.10.135" parse="true"/>-->
     <!-- indicator to parse the directory for domains with parse="true" to get gateways and alias every domain to this profile -->
     <!--<domain name="all" alias="true" parse="true"/>-->
     <domain name="all" alias="true" parse="false"/>
@@ -2941,9 +2941,9 @@ the sip-server-addr and sip-server-port to the oreka server
     <param name="outbound-codec-prefs" value="OPUS,G722,PCMU,PCMA,GSM"/>
     <param name="rtp-timer-name" value="soft"/>
     <!-- ip address to use for rtp, DO NOT USE HOSTNAMES ONLY IP ADDRESSES -->
-    <param name="rtp-ip" value="192.168.10.107"/>
+    <param name="rtp-ip" value="192.168.10.135"/>
     <!-- ip address to bind to, DO NOT USE HOSTNAMES ONLY IP ADDRESSES -->
-    <param name="sip-ip" value="192.168.10.107"/>
+    <param name="sip-ip" value="192.168.10.135"/>
     <param name="hold-music" value="local_stream://moh"/>
     <param name="apply-nat-acl" value="nat.auto"/>
 
@@ -3011,7 +3011,7 @@ the sip-server-addr and sip-server-port to the oreka server
     <!-- used to share presence info across sofia profiles -->
     <!-- Name of the db to use for this profile -->
     <!--<param name="dbname" value="share_presence"/>-->
-    <param name="presence-hosts" value="192.168.10.107,192.168.10.107"/>
+    <param name="presence-hosts" value="192.168.10.135,192.168.10.135"/>
     <param name="presence-privacy" value="false"/>
     <!-- ************************************************* -->
 
@@ -3145,11 +3145,11 @@ the sip-server-addr and sip-server-port to the oreka server
 
     -->
     <!--all inbound reg will look in this domain for the users -->
-    <param name="force-register-domain" value="192.168.10.107"/>
+    <param name="force-register-domain" value="192.168.10.135"/>
     <!--force the domain in subscriptions to this value -->
-    <param name="force-subscription-domain" value="192.168.10.107"/>
+    <param name="force-subscription-domain" value="192.168.10.135"/>
     <!--all inbound reg will stored in the db using this domain -->
-    <param name="force-register-db-domain" value="192.168.10.107"/>
+    <param name="force-register-db-domain" value="192.168.10.135"/>
 
 
     <!-- uncomment for sip over websocket support -->
@@ -5762,7 +5762,7 @@ the sip-server-addr and sip-server-port to the oreka server
       <param name="blind-reg" value="false"/>
       <param name="mcast-ip" value="224.1.1.1"/>
       <param name="mcast-port" value="1337"/>
-      <param name="rtp-ip" value="192.168.10.107"/>
+      <param name="rtp-ip" value="192.168.10.135"/>
       <!--  <param name="ext-rtp-ip" value=""/> -->
       <param name="local-network" value="localnet.auto"/>
       <param name="outbound-codec-string" value="opus,vp8"/>
@@ -6134,7 +6134,7 @@ the sip-server-addr and sip-server-port to the oreka server
   <bindings>
     <binding name="example">
       <!-- Allow to bind on a particular IP for requests sent -->
-      <!--<param name="bind-local" value="192.168.10.107" />-->
+      <!--<param name="bind-local" value="192.168.10.135" />-->
       <!-- The url to a gateway cgi that can generate xml similar to
 	   what's in this file only on-the-fly (leave it commented if you dont
 	   need it) -->
@@ -6877,7 +6877,7 @@ the sip-server-addr and sip-server-port to the oreka server
     <extension name="ClueCon">
       <condition field="destination_number" expression="^9191$">
         <action application="set" data="effective_caller_id_name=ClueCon IVR"/>
-        <action application="bridge" data="sofia/192.168.10.107/2000@bkw.org"/>
+        <action application="bridge" data="sofia/192.168.10.135/2000@bkw.org"/>
       </condition>
     </extension>
 
@@ -7161,7 +7161,7 @@ the sip-server-addr and sip-server-port to the oreka server
      <condition field="destination_number" expression="^att_xfer$">
        <action application="read" data="3 4 'tone_stream://%(10000,0,350,440)' digits 30000 #"/>
        <action application="set" data="origination_cancel_key=#"/>
-       <action application="att_xfer" data="user/${digits}@192.168.10.107"/>
+       <action application="att_xfer" data="user/${digits}@192.168.10.135"/>
      </condition>
     </extension>
 
@@ -7264,11 +7264,11 @@ the sip-server-addr and sip-server-port to the oreka server
 	  target_domain on these calls so they hit the proper domain after you
 	  transfer the caller into the default context. 
 	  
-	  192.168.10.107 is the default domain set from vars.xml but you can set it
+	  192.168.10.135 is the default domain set from vars.xml but you can set it
 	  to any domain you have setup in your user directory.
 
       --> 
-      <action application="set" data="domain_name=192.168.10.107"/>
+      <action application="set" data="domain_name=192.168.10.135"/>
       <!-- This example maps the DID 5551212 to ring 1000 in the default context -->
       <action application="transfer" data="1000 XML default"/>
     </condition>
@@ -7386,7 +7386,7 @@ the sip-server-addr and sip-server-port to the oreka server
 -->
 
   <!--the domain or ip (the right hand side of the @ in the addr-->
-  <domain name="192.168.10.107">
+  <domain name="192.168.10.135">
     <params>
       <param name="dial-string" value="{^^:sip_invite_domain=${dialed_domain}:presence_id=${dialed_user}@${dialed_domain}}${sofia_contact(*/${dialed_user}@${dialed_domain})}"/>
       <!-- These are required for Verto to function properly -->
