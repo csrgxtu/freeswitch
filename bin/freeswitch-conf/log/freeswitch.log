@@ -24254,3 +24254,384 @@ bd0e77a2-d4eb-11e4-9c75-c34bb78549f3 2015-03-28 09:44:09.210786 [DEBUG] switch_c
 bd0e77a2-d4eb-11e4-9c75-c34bb78549f3 2015-03-28 09:44:09.210786 [DEBUG] mod_sofia.c:323 sofia/internal/1002@192.168.10.135 SOFIA DESTROY
 bd0e77a2-d4eb-11e4-9c75-c34bb78549f3 2015-03-28 09:44:09.210786 [DEBUG] switch_core_state_machine.c:111 sofia/internal/1002@192.168.10.135 Standard DESTROY
 bd0e77a2-d4eb-11e4-9c75-c34bb78549f3 2015-03-28 09:44:09.210786 [DEBUG] switch_core_state_machine.c:636 (sofia/internal/1002@192.168.10.135) State DESTROY going to sleep
+1e92503e-d4ec-11e4-9c83-c34bb78549f3 2015-03-28 09:45:31.810831 [NOTICE] switch_channel.c:1055 New Channel sofia/internal/1001@192.168.10.135 [1e92503e-d4ec-11e4-9c83-c34bb78549f3]
+1e92503e-d4ec-11e4-9c83-c34bb78549f3 2015-03-28 09:45:31.810831 [DEBUG] switch_core_session.c:1061 Send signal sofia/internal/1001@192.168.10.135 [BREAK]
+1e92503e-d4ec-11e4-9c83-c34bb78549f3 2015-03-28 09:45:31.810831 [DEBUG] switch_core_session.c:1061 Send signal sofia/internal/1001@192.168.10.135 [BREAK]
+1e92503e-d4ec-11e4-9c83-c34bb78549f3 2015-03-28 09:45:31.810831 [DEBUG] switch_core_state_machine.c:472 (sofia/internal/1001@192.168.10.135) Running State Change CS_NEW
+1e92503e-d4ec-11e4-9c83-c34bb78549f3 2015-03-28 09:45:31.810831 [DEBUG] sofia.c:8844 sofia/internal/1001@192.168.10.135 receiving invite from 192.168.10.150:41307 version: 1.4.17  64bit
+2015-03-28 09:45:31.810831 [DEBUG] sofia.c:9011 IP 192.168.10.150 Rejected by acl "domains". Falling back to Digest auth.
+1e92503e-d4ec-11e4-9c83-c34bb78549f3 2015-03-28 09:45:31.810831 [DEBUG] switch_core_state_machine.c:491 (sofia/internal/1001@192.168.10.135) State NEW
+1e92503e-d4ec-11e4-9c83-c34bb78549f3 2015-03-28 09:45:31.810831 [DEBUG] switch_core_session.c:1061 Send signal sofia/internal/1001@192.168.10.135 [BREAK]
+2015-03-28 09:45:31.810831 [DEBUG] sofia.c:2065 detaching session 1e92503e-d4ec-11e4-9c83-c34bb78549f3
+2015-03-28 09:45:31.950807 [DEBUG] sofia.c:2173 Re-attaching to session 1e92503e-d4ec-11e4-9c83-c34bb78549f3
+1e92503e-d4ec-11e4-9c83-c34bb78549f3 2015-03-28 09:45:31.950807 [DEBUG] switch_core_session.c:1061 Send signal sofia/internal/1001@192.168.10.135 [BREAK]
+1e92503e-d4ec-11e4-9c83-c34bb78549f3 2015-03-28 09:45:31.950807 [DEBUG] switch_core_session.c:1061 Send signal sofia/internal/1001@192.168.10.135 [BREAK]
+1e92503e-d4ec-11e4-9c83-c34bb78549f3 2015-03-28 09:45:31.950807 [DEBUG] sofia.c:8844 sofia/internal/1001@192.168.10.135 receiving invite from 192.168.10.150:41307 version: 1.4.17  64bit
+2015-03-28 09:45:31.950807 [DEBUG] sofia.c:9011 IP 192.168.10.150 Rejected by acl "domains". Falling back to Digest auth.
+1e92503e-d4ec-11e4-9c83-c34bb78549f3 2015-03-28 09:45:31.950807 [DEBUG] sofia.c:6623 Channel sofia/internal/1001@192.168.10.135 entering state [received][100]
+1e92503e-d4ec-11e4-9c83-c34bb78549f3 2015-03-28 09:45:31.950807 [DEBUG] sofia.c:6633 Remote SDP:
+1e92503e-d4ec-11e4-9c83-c34bb78549f3 v=0
+1e92503e-d4ec-11e4-9c83-c34bb78549f3 o=- 3636495942 3636495942 IN IP4 192.168.10.150
+1e92503e-d4ec-11e4-9c83-c34bb78549f3 s=pjmedia
+1e92503e-d4ec-11e4-9c83-c34bb78549f3 c=IN IP4 192.168.10.150
+1e92503e-d4ec-11e4-9c83-c34bb78549f3 t=0 0
+1e92503e-d4ec-11e4-9c83-c34bb78549f3 m=audio 4014 RTP/AVP 99 0 8 101
+1e92503e-d4ec-11e4-9c83-c34bb78549f3 c=IN IP4 192.168.10.150
+1e92503e-d4ec-11e4-9c83-c34bb78549f3 a=rtpmap:99 SILK/24000
+1e92503e-d4ec-11e4-9c83-c34bb78549f3 a=fmtp:99 useinbandfec=0
+1e92503e-d4ec-11e4-9c83-c34bb78549f3 a=rtpmap:0 PCMU/8000
+1e92503e-d4ec-11e4-9c83-c34bb78549f3 a=rtpmap:8 PCMA/8000
+1e92503e-d4ec-11e4-9c83-c34bb78549f3 a=rtpmap:101 telephone-event/8000
+1e92503e-d4ec-11e4-9c83-c34bb78549f3 a=fmtp:101 0-15
+1e92503e-d4ec-11e4-9c83-c34bb78549f3 a=rtcp:4015 IN IP4 192.168.10.150
+1e92503e-d4ec-11e4-9c83-c34bb78549f3 
+1e92503e-d4ec-11e4-9c83-c34bb78549f3 2015-03-28 09:45:31.950807 [DEBUG] sofia.c:6899 (sofia/internal/1001@192.168.10.135) State Change CS_NEW -> CS_INIT
+1e92503e-d4ec-11e4-9c83-c34bb78549f3 2015-03-28 09:45:31.950807 [DEBUG] switch_core_session.c:1396 Send signal sofia/internal/1001@192.168.10.135 [BREAK]
+1e92503e-d4ec-11e4-9c83-c34bb78549f3 2015-03-28 09:45:31.950807 [DEBUG] switch_core_state_machine.c:472 (sofia/internal/1001@192.168.10.135) Running State Change CS_INIT
+1e92503e-d4ec-11e4-9c83-c34bb78549f3 2015-03-28 09:45:31.950807 [DEBUG] switch_core_state_machine.c:512 (sofia/internal/1001@192.168.10.135) State INIT
+1e92503e-d4ec-11e4-9c83-c34bb78549f3 2015-03-28 09:45:31.950807 [DEBUG] mod_sofia.c:87 sofia/internal/1001@192.168.10.135 SOFIA INIT
+1e92503e-d4ec-11e4-9c83-c34bb78549f3 2015-03-28 09:45:31.950807 [DEBUG] switch_core_state_machine.c:40 sofia/internal/1001@192.168.10.135 Standard INIT
+1e92503e-d4ec-11e4-9c83-c34bb78549f3 2015-03-28 09:45:31.950807 [DEBUG] switch_core_state_machine.c:48 (sofia/internal/1001@192.168.10.135) State Change CS_INIT -> CS_ROUTING
+1e92503e-d4ec-11e4-9c83-c34bb78549f3 2015-03-28 09:45:31.950807 [DEBUG] switch_core_session.c:1396 Send signal sofia/internal/1001@192.168.10.135 [BREAK]
+1e92503e-d4ec-11e4-9c83-c34bb78549f3 2015-03-28 09:45:31.950807 [DEBUG] switch_core_state_machine.c:512 (sofia/internal/1001@192.168.10.135) State INIT going to sleep
+1e92503e-d4ec-11e4-9c83-c34bb78549f3 2015-03-28 09:45:31.950807 [DEBUG] switch_core_state_machine.c:472 (sofia/internal/1001@192.168.10.135) Running State Change CS_ROUTING
+1e92503e-d4ec-11e4-9c83-c34bb78549f3 2015-03-28 09:45:31.950807 [DEBUG] switch_channel.c:2184 (sofia/internal/1001@192.168.10.135) Callstate Change DOWN -> RINGING
+1e92503e-d4ec-11e4-9c83-c34bb78549f3 2015-03-28 09:45:31.950807 [DEBUG] switch_core_state_machine.c:528 (sofia/internal/1001@192.168.10.135) State ROUTING
+1e92503e-d4ec-11e4-9c83-c34bb78549f3 2015-03-28 09:45:31.950807 [DEBUG] mod_sofia.c:123 sofia/internal/1001@192.168.10.135 SOFIA ROUTING
+1e92503e-d4ec-11e4-9c83-c34bb78549f3 2015-03-28 09:45:31.950807 [DEBUG] switch_core_state_machine.c:166 sofia/internal/1001@192.168.10.135 Standard ROUTING
+1e92503e-d4ec-11e4-9c83-c34bb78549f3 2015-03-28 09:45:31.950807 [INFO] mod_dialplan_xml.c:635 Processing 1001 <1001>->900000 in context default
+1e92503e-d4ec-11e4-9c83-c34bb78549f3 Dialplan: sofia/internal/1001@192.168.10.135 parsing [default->PTT] continue=false
+1e92503e-d4ec-11e4-9c83-c34bb78549f3 Dialplan: sofia/internal/1001@192.168.10.135 Regex (PASS) [PTT] destination_number(900000) =~ /(^9\d{5}$)/ break=on-false
+1e92503e-d4ec-11e4-9c83-c34bb78549f3 Dialplan: sofia/internal/1001@192.168.10.135 Action lua(dialplan_ptt.lua)
+1e92503e-d4ec-11e4-9c83-c34bb78549f3 2015-03-28 09:45:31.950807 [DEBUG] switch_core_state_machine.c:216 (sofia/internal/1001@192.168.10.135) State Change CS_ROUTING -> CS_EXECUTE
+1e92503e-d4ec-11e4-9c83-c34bb78549f3 2015-03-28 09:45:31.950807 [DEBUG] switch_core_session.c:1396 Send signal sofia/internal/1001@192.168.10.135 [BREAK]
+1e92503e-d4ec-11e4-9c83-c34bb78549f3 2015-03-28 09:45:31.950807 [DEBUG] switch_core_state_machine.c:528 (sofia/internal/1001@192.168.10.135) State ROUTING going to sleep
+1e92503e-d4ec-11e4-9c83-c34bb78549f3 2015-03-28 09:45:31.950807 [DEBUG] switch_core_state_machine.c:472 (sofia/internal/1001@192.168.10.135) Running State Change CS_EXECUTE
+1e92503e-d4ec-11e4-9c83-c34bb78549f3 2015-03-28 09:45:31.950807 [DEBUG] switch_core_state_machine.c:535 (sofia/internal/1001@192.168.10.135) State EXECUTE
+1e92503e-d4ec-11e4-9c83-c34bb78549f3 2015-03-28 09:45:31.950807 [DEBUG] mod_sofia.c:178 sofia/internal/1001@192.168.10.135 SOFIA EXECUTE
+1e92503e-d4ec-11e4-9c83-c34bb78549f3 2015-03-28 09:45:31.950807 [DEBUG] switch_core_state_machine.c:258 sofia/internal/1001@192.168.10.135 Standard EXECUTE
+1e92503e-d4ec-11e4-9c83-c34bb78549f3 EXECUTE sofia/internal/1001@192.168.10.135 lua(dialplan_ptt.lua)
+1e92503e-d4ec-11e4-9c83-c34bb78549f3 2015-03-28 09:45:31.950807 [DEBUG] switch_core_media.c:3632 Audio Codec Compare [SILK:99:24000:20:0:1]/[opus:116:48000:20:0:1]
+1e92503e-d4ec-11e4-9c83-c34bb78549f3 2015-03-28 09:45:31.950807 [DEBUG] switch_core_media.c:3632 Audio Codec Compare [SILK:99:24000:20:0:1]/[G722:9:8000:20:64000:1]
+1e92503e-d4ec-11e4-9c83-c34bb78549f3 2015-03-28 09:45:31.950807 [DEBUG] switch_core_media.c:3632 Audio Codec Compare [SILK:99:24000:20:0:1]/[PCMU:0:8000:20:64000:1]
+1e92503e-d4ec-11e4-9c83-c34bb78549f3 2015-03-28 09:45:31.950807 [DEBUG] switch_core_media.c:3632 Audio Codec Compare [SILK:99:24000:20:0:1]/[PCMA:8:8000:20:64000:1]
+1e92503e-d4ec-11e4-9c83-c34bb78549f3 2015-03-28 09:45:31.950807 [DEBUG] switch_core_media.c:3632 Audio Codec Compare [SILK:99:24000:20:0:1]/[GSM:3:8000:20:13200:1]
+1e92503e-d4ec-11e4-9c83-c34bb78549f3 2015-03-28 09:45:31.950807 [DEBUG] switch_core_media.c:3632 Audio Codec Compare [PCMU:0:8000:20:64000:1]/[opus:116:48000:20:0:1]
+1e92503e-d4ec-11e4-9c83-c34bb78549f3 2015-03-28 09:45:31.950807 [DEBUG] switch_core_media.c:3632 Audio Codec Compare [PCMU:0:8000:20:64000:1]/[G722:9:8000:20:64000:1]
+1e92503e-d4ec-11e4-9c83-c34bb78549f3 2015-03-28 09:45:31.950807 [DEBUG] switch_core_media.c:3632 Audio Codec Compare [PCMU:0:8000:20:64000:1]/[PCMU:0:8000:20:64000:1]
+1e92503e-d4ec-11e4-9c83-c34bb78549f3 2015-03-28 09:45:31.950807 [DEBUG] switch_core_media.c:3687 Audio Codec Compare [PCMU:0:8000:20:64000:1] ++++ is saved as a match
+1e92503e-d4ec-11e4-9c83-c34bb78549f3 2015-03-28 09:45:31.950807 [DEBUG] switch_core_media.c:3632 Audio Codec Compare [PCMU:0:8000:20:64000:1]/[PCMA:8:8000:20:64000:1]
+1e92503e-d4ec-11e4-9c83-c34bb78549f3 2015-03-28 09:45:31.950807 [DEBUG] switch_core_media.c:3632 Audio Codec Compare [PCMU:0:8000:20:64000:1]/[GSM:3:8000:20:13200:1]
+1e92503e-d4ec-11e4-9c83-c34bb78549f3 2015-03-28 09:45:31.950807 [DEBUG] switch_core_media.c:3632 Audio Codec Compare [PCMA:8:8000:20:64000:1]/[opus:116:48000:20:0:1]
+1e92503e-d4ec-11e4-9c83-c34bb78549f3 2015-03-28 09:45:31.950807 [DEBUG] switch_core_media.c:3632 Audio Codec Compare [PCMA:8:8000:20:64000:1]/[G722:9:8000:20:64000:1]
+1e92503e-d4ec-11e4-9c83-c34bb78549f3 2015-03-28 09:45:31.950807 [DEBUG] switch_core_media.c:3632 Audio Codec Compare [PCMA:8:8000:20:64000:1]/[PCMU:0:8000:20:64000:1]
+1e92503e-d4ec-11e4-9c83-c34bb78549f3 2015-03-28 09:45:31.950807 [DEBUG] switch_core_media.c:3632 Audio Codec Compare [PCMA:8:8000:20:64000:1]/[PCMA:8:8000:20:64000:1]
+1e92503e-d4ec-11e4-9c83-c34bb78549f3 2015-03-28 09:45:31.950807 [DEBUG] switch_core_media.c:3687 Audio Codec Compare [PCMA:8:8000:20:64000:1] ++++ is saved as a match
+1e92503e-d4ec-11e4-9c83-c34bb78549f3 2015-03-28 09:45:31.950807 [DEBUG] switch_core_media.c:3632 Audio Codec Compare [PCMA:8:8000:20:64000:1]/[GSM:3:8000:20:13200:1]
+1e92503e-d4ec-11e4-9c83-c34bb78549f3 2015-03-28 09:45:31.950807 [DEBUG] switch_core_media.c:3548 Set telephone-event payload to 101
+1e92503e-d4ec-11e4-9c83-c34bb78549f3 2015-03-28 09:45:31.950807 [DEBUG] switch_core_media.c:2473 Set Codec sofia/internal/1001@192.168.10.135 PCMU/8000 20 ms 160 samples 64000 bits 1 channels
+1e92503e-d4ec-11e4-9c83-c34bb78549f3 2015-03-28 09:45:31.950807 [DEBUG] switch_core_codec.c:111 sofia/internal/1001@192.168.10.135 Original read codec set to PCMU:0
+1e92503e-d4ec-11e4-9c83-c34bb78549f3 2015-03-28 09:45:31.950807 [DEBUG] switch_core_media.c:3895 Set 2833 dtmf send/recv payload to 101
+1e92503e-d4ec-11e4-9c83-c34bb78549f3 2015-03-28 09:45:31.950807 [DEBUG] switch_core_media.c:5147 AUDIO RTP [sofia/internal/1001@192.168.10.135] 192.168.10.135 port 20300 -> 192.168.10.150 port 4014 codec: 0 ms: 20
+1e92503e-d4ec-11e4-9c83-c34bb78549f3 2015-03-28 09:45:31.950807 [DEBUG] switch_rtp.c:3562 Starting timer [soft] 160 bytes per 20ms
+1e92503e-d4ec-11e4-9c83-c34bb78549f3 2015-03-28 09:45:31.970766 [INFO] switch_core_media.c:5364 Activating RTCP PORT 4015
+1e92503e-d4ec-11e4-9c83-c34bb78549f3 2015-03-28 09:45:31.970766 [DEBUG] switch_rtp.c:3912 RTCP send rate is: 5000 and packet rate is: 20000 Remote Port: 4015
+1e92503e-d4ec-11e4-9c83-c34bb78549f3 2015-03-28 09:45:31.970766 [DEBUG] switch_rtp.c:2367 Setting RTCP remote addr to 192.168.10.150:4015
+1e92503e-d4ec-11e4-9c83-c34bb78549f3 2015-03-28 09:45:31.970766 [DEBUG] switch_core_media.c:5445 Set 2833 dtmf send payload to 101
+1e92503e-d4ec-11e4-9c83-c34bb78549f3 2015-03-28 09:45:31.970766 [DEBUG] switch_core_media.c:5451 Set 2833 dtmf receive payload to 101
+1e92503e-d4ec-11e4-9c83-c34bb78549f3 2015-03-28 09:45:31.970766 [NOTICE] sofia_media.c:92 Pre-Answer sofia/internal/1001@192.168.10.135!
+1e92503e-d4ec-11e4-9c83-c34bb78549f3 2015-03-28 09:45:31.970766 [DEBUG] switch_channel.c:3399 (sofia/internal/1001@192.168.10.135) Callstate Change RINGING -> EARLY
+1e92503e-d4ec-11e4-9c83-c34bb78549f3 2015-03-28 09:45:31.970766 [DEBUG] mod_sofia.c:780 Local SDP sofia/internal/1001@192.168.10.135:
+1e92503e-d4ec-11e4-9c83-c34bb78549f3 v=0
+1e92503e-d4ec-11e4-9c83-c34bb78549f3 o=FreeSWITCH 1427486831 1427486832 IN IP4 192.168.10.135
+1e92503e-d4ec-11e4-9c83-c34bb78549f3 s=FreeSWITCH
+1e92503e-d4ec-11e4-9c83-c34bb78549f3 c=IN IP4 192.168.10.135
+1e92503e-d4ec-11e4-9c83-c34bb78549f3 t=0 0
+1e92503e-d4ec-11e4-9c83-c34bb78549f3 m=audio 20300 RTP/AVP 0 101
+1e92503e-d4ec-11e4-9c83-c34bb78549f3 a=rtpmap:0 PCMU/8000
+1e92503e-d4ec-11e4-9c83-c34bb78549f3 a=rtpmap:101 telephone-event/8000
+1e92503e-d4ec-11e4-9c83-c34bb78549f3 a=fmtp:101 0-16
+1e92503e-d4ec-11e4-9c83-c34bb78549f3 a=ptime:20
+1e92503e-d4ec-11e4-9c83-c34bb78549f3 a=sendrecv
+1e92503e-d4ec-11e4-9c83-c34bb78549f3 a=rtcp:20301 IN IP4 192.168.10.135
+1e92503e-d4ec-11e4-9c83-c34bb78549f3 
+1e92503e-d4ec-11e4-9c83-c34bb78549f3 2015-03-28 09:45:31.970766 [DEBUG] switch_core_session.c:912 Send signal sofia/internal/1001@192.168.10.135 [BREAK]
+1e92503e-d4ec-11e4-9c83-c34bb78549f3 2015-03-28 09:45:31.970766 [NOTICE] switch_cpp.cpp:658 Channel [sofia/internal/1001@192.168.10.135] has been answered
+1e92503e-d4ec-11e4-9c83-c34bb78549f3 2015-03-28 09:45:31.970766 [DEBUG] switch_core_session.c:1061 Send signal sofia/internal/1001@192.168.10.135 [BREAK]
+1e92503e-d4ec-11e4-9c83-c34bb78549f3 2015-03-28 09:45:31.970766 [DEBUG] switch_channel.c:3689 (sofia/internal/1001@192.168.10.135) Callstate Change EARLY -> ACTIVE
+1e92503e-d4ec-11e4-9c83-c34bb78549f3 2015-03-28 09:45:31.970766 [DEBUG] sofia.c:6623 Channel sofia/internal/1001@192.168.10.135 entering state [completed][200]
+1e92503e-d4ec-11e4-9c83-c34bb78549f3 2015-03-28 09:45:32.090830 [DEBUG] switch_core_session.c:1061 Send signal sofia/internal/1001@192.168.10.135 [BREAK]
+1e92503e-d4ec-11e4-9c83-c34bb78549f3 2015-03-28 09:45:32.090830 [DEBUG] switch_core_session.c:1061 Send signal sofia/internal/1001@192.168.10.135 [BREAK]
+1e92503e-d4ec-11e4-9c83-c34bb78549f3 2015-03-28 09:45:32.090830 [DEBUG] switch_core_session.c:1061 Send signal sofia/internal/1001@192.168.10.135 [BREAK]
+2015-03-28 09:45:32.590831 [DEBUG] freeswitch_lua.cpp:360 DBH handle 0x7f058006d130 Connected.
+2015-03-28 09:45:32.590831 [NOTICE] switch_cpp.cpp:1328 database connected1e92503e-d4ec-11e4-9c83-c34bb78549f3 2015-03-28 09:45:32.590831 [DEBUG] sofia.c:6623 Channel sofia/internal/1001@192.168.10.135 entering state [ready][200]
+2015-03-28 09:45:32.590831 [NOTICE] switch_cpp.cpp:1328 database query SELECT ptt_members,current_speaker_id,start_time FROM ptt_groups WHERE ptt_number=9000002015-03-28 09:45:32.690831 [NOTICE] switch_cpp.cpp:1328 Current Speaker: , PTT Members: 1000,1001,1002,1003,1004,1005,1006,1007,1008,1009
+2015-03-28 09:45:32.690831 [NOTICE] switch_cpp.cpp:1328 Current speaker is:  add 10012015-03-28 09:45:32.690831 [NOTICE] switch_cpp.cpp:1328 Start Conference: 192.168.10.135@default+flags{mute}1e92503e-d4ec-11e4-9c83-c34bb78549f3 EXECUTE sofia/internal/1001@192.168.10.135 conference(900000192.168.10.135@default)
+2015-03-28 09:45:32.690831 [INFO] mod_conference.c:10368 using channel sound prefix: /home/archer/Documents/freeswitch/bin/freeswitch-conf/sounds/en/us/callie
+1e92503e-d4ec-11e4-9c83-c34bb78549f3 2015-03-28 09:45:32.690831 [DEBUG] mod_conference.c:8995 Raw Codec Activation Success L16@8000hz 1 channel 20ms
+1e92503e-d4ec-11e4-9c83-c34bb78549f3 2015-03-28 09:45:32.690831 [DEBUG] mod_conference.c:9041 Raw Codec Activation Success L16@8000hz 1 channel 20ms
+1e92503e-d4ec-11e4-9c83-c34bb78549f3 2015-03-28 09:45:32.690831 [DEBUG] switch_core_codec.c:221 sofia/internal/1001@192.168.10.135 Push codec L16:100
+2015-03-28 09:45:32.690831 [DEBUG] mod_conference.c:3043 Setup timer success interval: 20  samples: 160
+2015-03-28 09:45:32.690831 [INFO] mod_conference.c:10971 sofia/internal/1001@192.168.10.135 binding '0' to 'mute'
+2015-03-28 09:45:32.690831 [INFO] switch_ivr_async.c:212 Digit parser mod_conference: Setting realm to 'conf'
+2015-03-28 09:45:32.690831 [DEBUG] switch_ivr_async.c:321 Digit parser mod_conference: binding 0/conf/0 callback: 0x7f05d94065c0 data: 0x7f058009ab30
+2015-03-28 09:45:32.690831 [INFO] mod_conference.c:10971 sofia/internal/1001@192.168.10.135 binding '*' to 'deaf mute'
+2015-03-28 09:45:32.690831 [DEBUG] switch_ivr_async.c:321 Digit parser mod_conference: binding */conf/0 callback: 0x7f05d94065c0 data: 0x7f058009ab60
+2015-03-28 09:45:32.690831 [INFO] mod_conference.c:10971 sofia/internal/1001@192.168.10.135 binding '9' to 'energy up'
+2015-03-28 09:45:32.690831 [DEBUG] switch_ivr_async.c:321 Digit parser mod_conference: binding 9/conf/0 callback: 0x7f05d94065c0 data: 0x7f058009ab90
+2015-03-28 09:45:32.690831 [INFO] mod_conference.c:10971 sofia/internal/1001@192.168.10.135 binding '8' to 'energy equ'
+2015-03-28 09:45:32.690831 [DEBUG] switch_ivr_async.c:321 Digit parser mod_conference: binding 8/conf/0 callback: 0x7f05d94065c0 data: 0x7f058009abc0
+2015-03-28 09:45:32.690831 [INFO] mod_conference.c:10971 sofia/internal/1001@192.168.10.135 binding '7' to 'energy dn'
+2015-03-28 09:45:32.690831 [DEBUG] switch_ivr_async.c:321 Digit parser mod_conference: binding 7/conf/0 callback: 0x7f05d94065c0 data: 0x7f058009abf0
+2015-03-28 09:45:32.690831 [INFO] mod_conference.c:10971 sofia/internal/1001@192.168.10.135 binding '3' to 'vol talk up'
+2015-03-28 09:45:32.690831 [DEBUG] switch_ivr_async.c:321 Digit parser mod_conference: binding 3/conf/0 callback: 0x7f05d94065c0 data: 0x7f058009ac20
+2015-03-28 09:45:32.690831 [INFO] mod_conference.c:10971 sofia/internal/1001@192.168.10.135 binding '2' to 'vol talk zero'
+2015-03-28 09:45:32.690831 [DEBUG] switch_ivr_async.c:321 Digit parser mod_conference: binding 2/conf/0 callback: 0x7f05d94065c0 data: 0x7f058009ac50
+2015-03-28 09:45:32.690831 [INFO] mod_conference.c:10971 sofia/internal/1001@192.168.10.135 binding '1' to 'vol talk dn'
+2015-03-28 09:45:32.690831 [DEBUG] switch_ivr_async.c:321 Digit parser mod_conference: binding 1/conf/0 callback: 0x7f05d94065c0 data: 0x7f058009ac80
+2015-03-28 09:45:32.690831 [INFO] mod_conference.c:10971 sofia/internal/1001@192.168.10.135 binding '6' to 'vol listen up'
+2015-03-28 09:45:32.690831 [DEBUG] switch_ivr_async.c:321 Digit parser mod_conference: binding 6/conf/0 callback: 0x7f05d94065c0 data: 0x7f058009acb0
+2015-03-28 09:45:32.690831 [INFO] mod_conference.c:10971 sofia/internal/1001@192.168.10.135 binding '5' to 'vol listen zero'
+2015-03-28 09:45:32.690831 [DEBUG] switch_ivr_async.c:321 Digit parser mod_conference: binding 5/conf/0 callback: 0x7f05d94065c0 data: 0x7f058009ace0
+2015-03-28 09:45:32.690831 [INFO] mod_conference.c:10971 sofia/internal/1001@192.168.10.135 binding '4' to 'vol listen dn'
+2015-03-28 09:45:32.690831 [DEBUG] switch_ivr_async.c:321 Digit parser mod_conference: binding 4/conf/0 callback: 0x7f05d94065c0 data: 0x7f058009ad10
+2015-03-28 09:45:32.690831 [INFO] mod_conference.c:10971 sofia/internal/1001@192.168.10.135 binding '#' to 'hangup'
+2015-03-28 09:45:32.690831 [DEBUG] switch_ivr_async.c:321 Digit parser mod_conference: binding #/conf/0 callback: 0x7f05d94065c0 data: 0x7f058009ad40
+1e92503e-d4ec-11e4-9c83-c34bb78549f3 2015-03-28 09:45:32.690831 [DEBUG] switch_core_session.c:912 Send signal sofia/internal/1001@192.168.10.135 [BREAK]
+1e92503e-d4ec-11e4-9c83-c34bb78549f3 2015-03-28 09:45:32.690831 [DEBUG] mod_conference.c:4765 Setup timer soft success interval: 20  samples: 160
+1e92503e-d4ec-11e4-9c83-c34bb78549f3 2015-03-28 09:45:32.750830 [DEBUG] switch_rtp.c:5870 Correct ip/port confirmed.
+1e92503e-d4ec-11e4-9c83-c34bb78549f3 2015-03-28 09:45:32.750830 [DEBUG] switch_rtp.c:1955 rtcp_stats_init: ssrc[1640501026] base_seq[10143]
+2015-03-28 09:45:35.450831 [DEBUG] switch_core_file.c:216 File /home/archer/Documents/freeswitch/sounds/Set-File-To-The-Rain.wav sample rate 44100 doesn't match requested rate 8000
+2015-03-28 09:45:35.450831 [WARNING] switch_core_file.c:230 File has 2 channels, muxing to 1 channel will occur.
+1e92503e-d4ec-11e4-9c83-c34bb78549f3 2015-03-28 09:45:41.370830 [NOTICE] switch_rtp.c:5185 Receiving an RTCP packet[2015-28-02 01:45:41.389875] SSRC[1640501026]RTT[0.012070] A[2252694478] - DLSR[236445] - LSR[2252457242]
+1e92503e-d4ec-11e4-9c83-c34bb78549f3 2015-03-28 09:45:46.010798 [NOTICE] switch_rtp.c:5185 Receiving an RTCP packet[2015-28-02 01:45:46.29873] SSRC[1640501026]RTT[0.019211] A[2252998565] - DLSR[212383] - LSR[2252784923]
+1e92503e-d4ec-11e4-9c83-c34bb78549f3 2015-03-28 09:45:50.650763 [NOTICE] switch_rtp.c:5185 Receiving an RTCP packet[2015-28-02 01:45:50.669890] SSRC[1640501026]RTT[0.015045] A[2253302653] - DLSR[189064] - LSR[2253112603]
+29f5d950-d4ec-11e4-9c8a-c34bb78549f3 2015-03-28 09:45:50.910831 [NOTICE] switch_channel.c:1055 New Channel sofia/internal/1002@192.168.10.135 [29f5d950-d4ec-11e4-9c8a-c34bb78549f3]
+29f5d950-d4ec-11e4-9c8a-c34bb78549f3 2015-03-28 09:45:50.910831 [DEBUG] switch_core_session.c:1061 Send signal sofia/internal/1002@192.168.10.135 [BREAK]
+29f5d950-d4ec-11e4-9c8a-c34bb78549f3 2015-03-28 09:45:50.910831 [DEBUG] switch_core_session.c:1061 Send signal sofia/internal/1002@192.168.10.135 [BREAK]
+29f5d950-d4ec-11e4-9c8a-c34bb78549f3 2015-03-28 09:45:50.910831 [DEBUG] switch_core_state_machine.c:472 (sofia/internal/1002@192.168.10.135) Running State Change CS_NEW
+29f5d950-d4ec-11e4-9c8a-c34bb78549f3 2015-03-28 09:45:50.910831 [DEBUG] sofia.c:8844 sofia/internal/1002@192.168.10.135 receiving invite from 192.168.10.155:59669 version: 1.4.17  64bit
+2015-03-28 09:45:50.910831 [DEBUG] sofia.c:9011 IP 192.168.10.155 Rejected by acl "domains". Falling back to Digest auth.
+29f5d950-d4ec-11e4-9c8a-c34bb78549f3 2015-03-28 09:45:50.930768 [DEBUG] switch_core_state_machine.c:491 (sofia/internal/1002@192.168.10.135) State NEW
+29f5d950-d4ec-11e4-9c8a-c34bb78549f3 2015-03-28 09:45:50.930768 [DEBUG] switch_core_session.c:1061 Send signal sofia/internal/1002@192.168.10.135 [BREAK]
+2015-03-28 09:45:50.930768 [DEBUG] sofia.c:2065 detaching session 29f5d950-d4ec-11e4-9c8a-c34bb78549f3
+2015-03-28 09:45:51.130831 [DEBUG] sofia.c:2173 Re-attaching to session 29f5d950-d4ec-11e4-9c8a-c34bb78549f3
+29f5d950-d4ec-11e4-9c8a-c34bb78549f3 2015-03-28 09:45:51.130831 [DEBUG] switch_core_session.c:1061 Send signal sofia/internal/1002@192.168.10.135 [BREAK]
+29f5d950-d4ec-11e4-9c8a-c34bb78549f3 2015-03-28 09:45:51.130831 [DEBUG] switch_core_session.c:1061 Send signal sofia/internal/1002@192.168.10.135 [BREAK]
+29f5d950-d4ec-11e4-9c8a-c34bb78549f3 2015-03-28 09:45:51.150835 [DEBUG] sofia.c:8844 sofia/internal/1002@192.168.10.135 receiving invite from 192.168.10.155:59669 version: 1.4.17  64bit
+2015-03-28 09:45:51.150835 [DEBUG] sofia.c:9011 IP 192.168.10.155 Rejected by acl "domains". Falling back to Digest auth.
+29f5d950-d4ec-11e4-9c8a-c34bb78549f3 2015-03-28 09:45:51.150835 [DEBUG] sofia.c:6623 Channel sofia/internal/1002@192.168.10.135 entering state [received][100]
+29f5d950-d4ec-11e4-9c8a-c34bb78549f3 2015-03-28 09:45:51.150835 [DEBUG] sofia.c:6633 Remote SDP:
+29f5d950-d4ec-11e4-9c8a-c34bb78549f3 v=0
+29f5d950-d4ec-11e4-9c8a-c34bb78549f3 o=- 3636495950 3636495950 IN IP4 192.168.10.155
+29f5d950-d4ec-11e4-9c8a-c34bb78549f3 s=pjmedia
+29f5d950-d4ec-11e4-9c8a-c34bb78549f3 c=IN IP4 192.168.10.155
+29f5d950-d4ec-11e4-9c8a-c34bb78549f3 t=0 0
+29f5d950-d4ec-11e4-9c8a-c34bb78549f3 m=audio 4004 RTP/AVP 99 0 8 101
+29f5d950-d4ec-11e4-9c8a-c34bb78549f3 c=IN IP4 192.168.10.155
+29f5d950-d4ec-11e4-9c8a-c34bb78549f3 a=rtpmap:99 SILK/24000
+29f5d950-d4ec-11e4-9c8a-c34bb78549f3 a=fmtp:99 useinbandfec=0
+29f5d950-d4ec-11e4-9c8a-c34bb78549f3 a=rtpmap:0 PCMU/8000
+29f5d950-d4ec-11e4-9c8a-c34bb78549f3 a=rtpmap:8 PCMA/8000
+29f5d950-d4ec-11e4-9c8a-c34bb78549f3 a=rtpmap:101 telephone-event/8000
+29f5d950-d4ec-11e4-9c8a-c34bb78549f3 a=fmtp:101 0-15
+29f5d950-d4ec-11e4-9c8a-c34bb78549f3 a=rtcp:4005 IN IP4 192.168.10.155
+29f5d950-d4ec-11e4-9c8a-c34bb78549f3 
+29f5d950-d4ec-11e4-9c8a-c34bb78549f3 2015-03-28 09:45:51.150835 [DEBUG] sofia.c:6899 (sofia/internal/1002@192.168.10.135) State Change CS_NEW -> CS_INIT
+29f5d950-d4ec-11e4-9c8a-c34bb78549f3 2015-03-28 09:45:51.150835 [DEBUG] switch_core_session.c:1396 Send signal sofia/internal/1002@192.168.10.135 [BREAK]
+29f5d950-d4ec-11e4-9c8a-c34bb78549f3 2015-03-28 09:45:51.150835 [DEBUG] switch_core_state_machine.c:472 (sofia/internal/1002@192.168.10.135) Running State Change CS_INIT
+29f5d950-d4ec-11e4-9c8a-c34bb78549f3 2015-03-28 09:45:51.150835 [DEBUG] switch_core_state_machine.c:512 (sofia/internal/1002@192.168.10.135) State INIT
+29f5d950-d4ec-11e4-9c8a-c34bb78549f3 2015-03-28 09:45:51.150835 [DEBUG] mod_sofia.c:87 sofia/internal/1002@192.168.10.135 SOFIA INIT
+29f5d950-d4ec-11e4-9c8a-c34bb78549f3 2015-03-28 09:45:51.150835 [DEBUG] switch_core_state_machine.c:40 sofia/internal/1002@192.168.10.135 Standard INIT
+29f5d950-d4ec-11e4-9c8a-c34bb78549f3 2015-03-28 09:45:51.150835 [DEBUG] switch_core_state_machine.c:48 (sofia/internal/1002@192.168.10.135) State Change CS_INIT -> CS_ROUTING
+29f5d950-d4ec-11e4-9c8a-c34bb78549f3 2015-03-28 09:45:51.150835 [DEBUG] switch_core_session.c:1396 Send signal sofia/internal/1002@192.168.10.135 [BREAK]
+29f5d950-d4ec-11e4-9c8a-c34bb78549f3 2015-03-28 09:45:51.150835 [DEBUG] switch_core_state_machine.c:512 (sofia/internal/1002@192.168.10.135) State INIT going to sleep
+29f5d950-d4ec-11e4-9c8a-c34bb78549f3 2015-03-28 09:45:51.150835 [DEBUG] switch_core_state_machine.c:472 (sofia/internal/1002@192.168.10.135) Running State Change CS_ROUTING
+29f5d950-d4ec-11e4-9c8a-c34bb78549f3 2015-03-28 09:45:51.150835 [DEBUG] switch_channel.c:2184 (sofia/internal/1002@192.168.10.135) Callstate Change DOWN -> RINGING
+29f5d950-d4ec-11e4-9c8a-c34bb78549f3 2015-03-28 09:45:51.150835 [DEBUG] switch_core_state_machine.c:528 (sofia/internal/1002@192.168.10.135) State ROUTING
+29f5d950-d4ec-11e4-9c8a-c34bb78549f3 2015-03-28 09:45:51.150835 [DEBUG] mod_sofia.c:123 sofia/internal/1002@192.168.10.135 SOFIA ROUTING
+29f5d950-d4ec-11e4-9c8a-c34bb78549f3 2015-03-28 09:45:51.150835 [DEBUG] switch_core_state_machine.c:166 sofia/internal/1002@192.168.10.135 Standard ROUTING
+29f5d950-d4ec-11e4-9c8a-c34bb78549f3 2015-03-28 09:45:51.150835 [INFO] mod_dialplan_xml.c:635 Processing 1002 <1002>->900000 in context default
+29f5d950-d4ec-11e4-9c8a-c34bb78549f3 Dialplan: sofia/internal/1002@192.168.10.135 parsing [default->PTT] continue=false
+29f5d950-d4ec-11e4-9c8a-c34bb78549f3 Dialplan: sofia/internal/1002@192.168.10.135 Regex (PASS) [PTT] destination_number(900000) =~ /(^9\d{5}$)/ break=on-false
+29f5d950-d4ec-11e4-9c8a-c34bb78549f3 Dialplan: sofia/internal/1002@192.168.10.135 Action lua(dialplan_ptt.lua)
+29f5d950-d4ec-11e4-9c8a-c34bb78549f3 2015-03-28 09:45:51.150835 [DEBUG] switch_core_state_machine.c:216 (sofia/internal/1002@192.168.10.135) State Change CS_ROUTING -> CS_EXECUTE
+29f5d950-d4ec-11e4-9c8a-c34bb78549f3 2015-03-28 09:45:51.150835 [DEBUG] switch_core_session.c:1396 Send signal sofia/internal/1002@192.168.10.135 [BREAK]
+29f5d950-d4ec-11e4-9c8a-c34bb78549f3 2015-03-28 09:45:51.150835 [DEBUG] switch_core_state_machine.c:528 (sofia/internal/1002@192.168.10.135) State ROUTING going to sleep
+29f5d950-d4ec-11e4-9c8a-c34bb78549f3 2015-03-28 09:45:51.150835 [DEBUG] switch_core_state_machine.c:472 (sofia/internal/1002@192.168.10.135) Running State Change CS_EXECUTE
+29f5d950-d4ec-11e4-9c8a-c34bb78549f3 2015-03-28 09:45:51.150835 [DEBUG] switch_core_state_machine.c:535 (sofia/internal/1002@192.168.10.135) State EXECUTE
+29f5d950-d4ec-11e4-9c8a-c34bb78549f3 2015-03-28 09:45:51.150835 [DEBUG] mod_sofia.c:178 sofia/internal/1002@192.168.10.135 SOFIA EXECUTE
+29f5d950-d4ec-11e4-9c8a-c34bb78549f3 2015-03-28 09:45:51.150835 [DEBUG] switch_core_state_machine.c:258 sofia/internal/1002@192.168.10.135 Standard EXECUTE
+29f5d950-d4ec-11e4-9c8a-c34bb78549f3 EXECUTE sofia/internal/1002@192.168.10.135 lua(dialplan_ptt.lua)
+29f5d950-d4ec-11e4-9c8a-c34bb78549f3 2015-03-28 09:45:51.150835 [DEBUG] switch_core_media.c:3632 Audio Codec Compare [SILK:99:24000:20:0:1]/[opus:116:48000:20:0:1]
+29f5d950-d4ec-11e4-9c8a-c34bb78549f3 2015-03-28 09:45:51.150835 [DEBUG] switch_core_media.c:3632 Audio Codec Compare [SILK:99:24000:20:0:1]/[G722:9:8000:20:64000:1]
+29f5d950-d4ec-11e4-9c8a-c34bb78549f3 2015-03-28 09:45:51.150835 [DEBUG] switch_core_media.c:3632 Audio Codec Compare [SILK:99:24000:20:0:1]/[PCMU:0:8000:20:64000:1]
+29f5d950-d4ec-11e4-9c8a-c34bb78549f3 2015-03-28 09:45:51.150835 [DEBUG] switch_core_media.c:3632 Audio Codec Compare [SILK:99:24000:20:0:1]/[PCMA:8:8000:20:64000:1]
+29f5d950-d4ec-11e4-9c8a-c34bb78549f3 2015-03-28 09:45:51.150835 [DEBUG] switch_core_media.c:3632 Audio Codec Compare [SILK:99:24000:20:0:1]/[GSM:3:8000:20:13200:1]
+29f5d950-d4ec-11e4-9c8a-c34bb78549f3 2015-03-28 09:45:51.150835 [DEBUG] switch_core_media.c:3632 Audio Codec Compare [PCMU:0:8000:20:64000:1]/[opus:116:48000:20:0:1]
+29f5d950-d4ec-11e4-9c8a-c34bb78549f3 2015-03-28 09:45:51.150835 [DEBUG] switch_core_media.c:3632 Audio Codec Compare [PCMU:0:8000:20:64000:1]/[G722:9:8000:20:64000:1]
+29f5d950-d4ec-11e4-9c8a-c34bb78549f3 2015-03-28 09:45:51.150835 [DEBUG] switch_core_media.c:3632 Audio Codec Compare [PCMU:0:8000:20:64000:1]/[PCMU:0:8000:20:64000:1]
+29f5d950-d4ec-11e4-9c8a-c34bb78549f3 2015-03-28 09:45:51.150835 [DEBUG] switch_core_media.c:3687 Audio Codec Compare [PCMU:0:8000:20:64000:1] ++++ is saved as a match
+29f5d950-d4ec-11e4-9c8a-c34bb78549f3 2015-03-28 09:45:51.150835 [DEBUG] switch_core_media.c:3632 Audio Codec Compare [PCMU:0:8000:20:64000:1]/[PCMA:8:8000:20:64000:1]
+29f5d950-d4ec-11e4-9c8a-c34bb78549f3 2015-03-28 09:45:51.150835 [DEBUG] switch_core_media.c:3632 Audio Codec Compare [PCMU:0:8000:20:64000:1]/[GSM:3:8000:20:13200:1]
+29f5d950-d4ec-11e4-9c8a-c34bb78549f3 2015-03-28 09:45:51.150835 [DEBUG] switch_core_media.c:3632 Audio Codec Compare [PCMA:8:8000:20:64000:1]/[opus:116:48000:20:0:1]
+29f5d950-d4ec-11e4-9c8a-c34bb78549f3 2015-03-28 09:45:51.150835 [DEBUG] switch_core_media.c:3632 Audio Codec Compare [PCMA:8:8000:20:64000:1]/[G722:9:8000:20:64000:1]
+29f5d950-d4ec-11e4-9c8a-c34bb78549f3 2015-03-28 09:45:51.150835 [DEBUG] switch_core_media.c:3632 Audio Codec Compare [PCMA:8:8000:20:64000:1]/[PCMU:0:8000:20:64000:1]
+29f5d950-d4ec-11e4-9c8a-c34bb78549f3 2015-03-28 09:45:51.150835 [DEBUG] switch_core_media.c:3632 Audio Codec Compare [PCMA:8:8000:20:64000:1]/[PCMA:8:8000:20:64000:1]
+29f5d950-d4ec-11e4-9c8a-c34bb78549f3 2015-03-28 09:45:51.150835 [DEBUG] switch_core_media.c:3687 Audio Codec Compare [PCMA:8:8000:20:64000:1] ++++ is saved as a match
+29f5d950-d4ec-11e4-9c8a-c34bb78549f3 2015-03-28 09:45:51.150835 [DEBUG] switch_core_media.c:3632 Audio Codec Compare [PCMA:8:8000:20:64000:1]/[GSM:3:8000:20:13200:1]
+29f5d950-d4ec-11e4-9c8a-c34bb78549f3 2015-03-28 09:45:51.150835 [DEBUG] switch_core_media.c:3548 Set telephone-event payload to 101
+29f5d950-d4ec-11e4-9c8a-c34bb78549f3 2015-03-28 09:45:51.150835 [DEBUG] switch_core_media.c:2473 Set Codec sofia/internal/1002@192.168.10.135 PCMU/8000 20 ms 160 samples 64000 bits 1 channels
+29f5d950-d4ec-11e4-9c8a-c34bb78549f3 2015-03-28 09:45:51.150835 [DEBUG] switch_core_codec.c:111 sofia/internal/1002@192.168.10.135 Original read codec set to PCMU:0
+29f5d950-d4ec-11e4-9c8a-c34bb78549f3 2015-03-28 09:45:51.150835 [DEBUG] switch_core_media.c:3895 Set 2833 dtmf send/recv payload to 101
+29f5d950-d4ec-11e4-9c8a-c34bb78549f3 2015-03-28 09:45:51.150835 [DEBUG] switch_core_media.c:5147 AUDIO RTP [sofia/internal/1002@192.168.10.135] 192.168.10.135 port 24970 -> 192.168.10.155 port 4004 codec: 0 ms: 20
+29f5d950-d4ec-11e4-9c8a-c34bb78549f3 2015-03-28 09:45:51.150835 [DEBUG] switch_rtp.c:3562 Starting timer [soft] 160 bytes per 20ms
+29f5d950-d4ec-11e4-9c8a-c34bb78549f3 2015-03-28 09:45:51.150835 [INFO] switch_core_media.c:5364 Activating RTCP PORT 4005
+29f5d950-d4ec-11e4-9c8a-c34bb78549f3 2015-03-28 09:45:51.150835 [DEBUG] switch_rtp.c:3912 RTCP send rate is: 5000 and packet rate is: 20000 Remote Port: 4005
+29f5d950-d4ec-11e4-9c8a-c34bb78549f3 2015-03-28 09:45:51.150835 [DEBUG] switch_rtp.c:2367 Setting RTCP remote addr to 192.168.10.155:4005
+29f5d950-d4ec-11e4-9c8a-c34bb78549f3 2015-03-28 09:45:51.150835 [DEBUG] switch_core_media.c:5445 Set 2833 dtmf send payload to 101
+29f5d950-d4ec-11e4-9c8a-c34bb78549f3 2015-03-28 09:45:51.150835 [DEBUG] switch_core_media.c:5451 Set 2833 dtmf receive payload to 101
+29f5d950-d4ec-11e4-9c8a-c34bb78549f3 2015-03-28 09:45:51.150835 [NOTICE] sofia_media.c:92 Pre-Answer sofia/internal/1002@192.168.10.135!
+29f5d950-d4ec-11e4-9c8a-c34bb78549f3 2015-03-28 09:45:51.150835 [DEBUG] switch_channel.c:3399 (sofia/internal/1002@192.168.10.135) Callstate Change RINGING -> EARLY
+29f5d950-d4ec-11e4-9c8a-c34bb78549f3 2015-03-28 09:45:51.150835 [DEBUG] mod_sofia.c:780 Local SDP sofia/internal/1002@192.168.10.135:
+29f5d950-d4ec-11e4-9c8a-c34bb78549f3 v=0
+29f5d950-d4ec-11e4-9c8a-c34bb78549f3 o=FreeSWITCH 1427482181 1427482182 IN IP4 192.168.10.135
+29f5d950-d4ec-11e4-9c8a-c34bb78549f3 s=FreeSWITCH
+29f5d950-d4ec-11e4-9c8a-c34bb78549f3 c=IN IP4 192.168.10.135
+29f5d950-d4ec-11e4-9c8a-c34bb78549f3 t=0 0
+29f5d950-d4ec-11e4-9c8a-c34bb78549f3 m=audio 24970 RTP/AVP 0 101
+29f5d950-d4ec-11e4-9c8a-c34bb78549f3 a=rtpmap:0 PCMU/8000
+29f5d950-d4ec-11e4-9c8a-c34bb78549f3 a=rtpmap:101 telephone-event/8000
+29f5d950-d4ec-11e4-9c8a-c34bb78549f3 a=fmtp:101 0-16
+29f5d950-d4ec-11e4-9c8a-c34bb78549f3 a=ptime:20
+29f5d950-d4ec-11e4-9c8a-c34bb78549f3 a=sendrecv
+29f5d950-d4ec-11e4-9c8a-c34bb78549f3 a=rtcp:24971 IN IP4 192.168.10.135
+29f5d950-d4ec-11e4-9c8a-c34bb78549f3 
+29f5d950-d4ec-11e4-9c8a-c34bb78549f3 2015-03-28 09:45:51.150835 [DEBUG] switch_core_session.c:912 Send signal sofia/internal/1002@192.168.10.135 [BREAK]
+29f5d950-d4ec-11e4-9c8a-c34bb78549f3 2015-03-28 09:45:51.150835 [NOTICE] switch_cpp.cpp:658 Channel [sofia/internal/1002@192.168.10.135] has been answered
+29f5d950-d4ec-11e4-9c8a-c34bb78549f3 2015-03-28 09:45:51.150835 [DEBUG] switch_core_session.c:1061 Send signal sofia/internal/1002@192.168.10.135 [BREAK]
+29f5d950-d4ec-11e4-9c8a-c34bb78549f3 2015-03-28 09:45:51.150835 [DEBUG] switch_channel.c:3689 (sofia/internal/1002@192.168.10.135) Callstate Change EARLY -> ACTIVE
+29f5d950-d4ec-11e4-9c8a-c34bb78549f3 2015-03-28 09:45:51.150835 [DEBUG] sofia.c:6623 Channel sofia/internal/1002@192.168.10.135 entering state [completed][200]
+29f5d950-d4ec-11e4-9c8a-c34bb78549f3 2015-03-28 09:45:51.210788 [DEBUG] switch_core_session.c:1061 Send signal sofia/internal/1002@192.168.10.135 [BREAK]
+29f5d950-d4ec-11e4-9c8a-c34bb78549f3 2015-03-28 09:45:51.210788 [DEBUG] switch_core_session.c:1061 Send signal sofia/internal/1002@192.168.10.135 [BREAK]
+29f5d950-d4ec-11e4-9c8a-c34bb78549f3 2015-03-28 09:45:51.210788 [DEBUG] switch_core_session.c:1061 Send signal sofia/internal/1002@192.168.10.135 [BREAK]
+2015-03-28 09:45:51.790791 [DEBUG] freeswitch_lua.cpp:360 DBH handle 0x7f05dc034f30 Connected.
+2015-03-28 09:45:51.790791 [NOTICE] switch_cpp.cpp:1328 database connected29f5d950-d4ec-11e4-9c8a-c34bb78549f3 2015-03-28 09:45:51.790791 [DEBUG] sofia.c:6623 Channel sofia/internal/1002@192.168.10.135 entering state [ready][200]
+2015-03-28 09:45:51.790791 [NOTICE] switch_cpp.cpp:1328 database query SELECT ptt_members,current_speaker_id,start_time FROM ptt_groups WHERE ptt_number=9000002015-03-28 09:45:51.870794 [NOTICE] switch_cpp.cpp:1328 Current Speaker: , PTT Members: 1000,1001,1002,1003,1004,1005,1006,1007,1008,1009
+2015-03-28 09:45:51.870794 [NOTICE] switch_cpp.cpp:1328 Current speaker is:  add 10022015-03-28 09:45:51.870794 [NOTICE] switch_cpp.cpp:1328 Start Conference: 192.168.10.135@default+flags{mute}29f5d950-d4ec-11e4-9c8a-c34bb78549f3 EXECUTE sofia/internal/1002@192.168.10.135 conference(900000192.168.10.135@default)
+29f5d950-d4ec-11e4-9c8a-c34bb78549f3 2015-03-28 09:45:51.870794 [DEBUG] mod_conference.c:8995 Raw Codec Activation Success L16@8000hz 1 channel 20ms
+29f5d950-d4ec-11e4-9c8a-c34bb78549f3 2015-03-28 09:45:51.870794 [DEBUG] mod_conference.c:9041 Raw Codec Activation Success L16@8000hz 1 channel 20ms
+29f5d950-d4ec-11e4-9c8a-c34bb78549f3 2015-03-28 09:45:51.870794 [DEBUG] switch_core_codec.c:221 sofia/internal/1002@192.168.10.135 Push codec L16:100
+2015-03-28 09:45:51.870794 [INFO] mod_conference.c:10971 sofia/internal/1002@192.168.10.135 binding '0' to 'mute'
+2015-03-28 09:45:51.870794 [INFO] switch_ivr_async.c:212 Digit parser mod_conference: Setting realm to 'conf'
+2015-03-28 09:45:51.870794 [DEBUG] switch_ivr_async.c:321 Digit parser mod_conference: binding 0/conf/0 callback: 0x7f05d94065c0 data: 0x7f05dc082a30
+2015-03-28 09:45:51.870794 [INFO] mod_conference.c:10971 sofia/internal/1002@192.168.10.135 binding '*' to 'deaf mute'
+2015-03-28 09:45:51.870794 [DEBUG] switch_ivr_async.c:321 Digit parser mod_conference: binding */conf/0 callback: 0x7f05d94065c0 data: 0x7f05dc082a60
+2015-03-28 09:45:51.870794 [INFO] mod_conference.c:10971 sofia/internal/1002@192.168.10.135 binding '9' to 'energy up'
+2015-03-28 09:45:51.870794 [DEBUG] switch_ivr_async.c:321 Digit parser mod_conference: binding 9/conf/0 callback: 0x7f05d94065c0 data: 0x7f05dc082a90
+2015-03-28 09:45:51.870794 [INFO] mod_conference.c:10971 sofia/internal/1002@192.168.10.135 binding '8' to 'energy equ'
+2015-03-28 09:45:51.870794 [DEBUG] switch_ivr_async.c:321 Digit parser mod_conference: binding 8/conf/0 callback: 0x7f05d94065c0 data: 0x7f05dc082ac0
+2015-03-28 09:45:51.870794 [INFO] mod_conference.c:10971 sofia/internal/1002@192.168.10.135 binding '7' to 'energy dn'
+2015-03-28 09:45:51.870794 [DEBUG] switch_ivr_async.c:321 Digit parser mod_conference: binding 7/conf/0 callback: 0x7f05d94065c0 data: 0x7f05dc082af0
+2015-03-28 09:45:51.870794 [INFO] mod_conference.c:10971 sofia/internal/1002@192.168.10.135 binding '3' to 'vol talk up'
+2015-03-28 09:45:51.870794 [DEBUG] switch_ivr_async.c:321 Digit parser mod_conference: binding 3/conf/0 callback: 0x7f05d94065c0 data: 0x7f05dc082b20
+2015-03-28 09:45:51.870794 [INFO] mod_conference.c:10971 sofia/internal/1002@192.168.10.135 binding '2' to 'vol talk zero'
+2015-03-28 09:45:51.870794 [DEBUG] switch_ivr_async.c:321 Digit parser mod_conference: binding 2/conf/0 callback: 0x7f05d94065c0 data: 0x7f05dc082b50
+2015-03-28 09:45:51.870794 [INFO] mod_conference.c:10971 sofia/internal/1002@192.168.10.135 binding '1' to 'vol talk dn'
+2015-03-28 09:45:51.870794 [DEBUG] switch_ivr_async.c:321 Digit parser mod_conference: binding 1/conf/0 callback: 0x7f05d94065c0 data: 0x7f05dc082b80
+2015-03-28 09:45:51.870794 [INFO] mod_conference.c:10971 sofia/internal/1002@192.168.10.135 binding '6' to 'vol listen up'
+2015-03-28 09:45:51.870794 [DEBUG] switch_ivr_async.c:321 Digit parser mod_conference: binding 6/conf/0 callback: 0x7f05d94065c0 data: 0x7f05dc082bb0
+2015-03-28 09:45:51.870794 [INFO] mod_conference.c:10971 sofia/internal/1002@192.168.10.135 binding '5' to 'vol listen zero'
+2015-03-28 09:45:51.870794 [DEBUG] switch_ivr_async.c:321 Digit parser mod_conference: binding 5/conf/0 callback: 0x7f05d94065c0 data: 0x7f05dc082be0
+2015-03-28 09:45:51.870794 [INFO] mod_conference.c:10971 sofia/internal/1002@192.168.10.135 binding '4' to 'vol listen dn'
+2015-03-28 09:45:51.870794 [DEBUG] switch_ivr_async.c:321 Digit parser mod_conference: binding 4/conf/0 callback: 0x7f05d94065c0 data: 0x7f05dc082c10
+2015-03-28 09:45:51.870794 [INFO] mod_conference.c:10971 sofia/internal/1002@192.168.10.135 binding '#' to 'hangup'
+2015-03-28 09:45:51.870794 [DEBUG] switch_ivr_async.c:321 Digit parser mod_conference: binding #/conf/0 callback: 0x7f05d94065c0 data: 0x7f05dc082c40
+29f5d950-d4ec-11e4-9c8a-c34bb78549f3 2015-03-28 09:45:51.870794 [DEBUG] switch_core_session.c:912 Send signal sofia/internal/1002@192.168.10.135 [BREAK]
+29f5d950-d4ec-11e4-9c8a-c34bb78549f3 2015-03-28 09:45:51.870794 [DEBUG] mod_conference.c:4765 Setup timer soft success interval: 20  samples: 160
+29f5d950-d4ec-11e4-9c8a-c34bb78549f3 2015-03-28 09:45:51.870794 [DEBUG] switch_rtp.c:5870 Correct ip/port confirmed.
+29f5d950-d4ec-11e4-9c8a-c34bb78549f3 2015-03-28 09:45:51.930791 [DEBUG] switch_rtp.c:1955 rtcp_stats_init: ssrc[1145902287] base_seq[32307]
+1e92503e-d4ec-11e4-9c83-c34bb78549f3 2015-03-28 09:45:55.290834 [NOTICE] switch_rtp.c:5185 Receiving an RTCP packet[2015-28-02 01:45:55.309920] SSRC[1640501026]RTT[0.026718] A[2253606742] - DLSR[164710] - LSR[2253440281]
+1e92503e-d4ec-11e4-9c83-c34bb78549f3 2015-03-28 09:45:59.950834 [NOTICE] switch_rtp.c:5185 Receiving an RTCP packet[2015-28-02 01:45:59.969926] SSRC[1640501026]RTT[0.021484] A[2253912141] - DLSR[142771] - LSR[2253767962]
+29f5d950-d4ec-11e4-9c8a-c34bb78549f3 2015-03-28 09:46:01.970831 [NOTICE] switch_rtp.c:5185 Receiving an RTCP packet[2015-28-02 01:46:01.975319] SSRC[1145902287]RTT[0.015854] A[2254043566] - DLSR[327952] - LSR[2253714575]
+1e92503e-d4ec-11e4-9c83-c34bb78549f3 2015-03-28 09:46:04.570836 [NOTICE] switch_rtp.c:5185 Receiving an RTCP packet[2015-28-02 01:46:04.589931] SSRC[1640501026]RTT[0.019714] A[2254214917] - DLSR[117983] - LSR[2254095642]
+29f5d950-d4ec-11e4-9c8a-c34bb78549f3 2015-03-28 09:46:07.670834 [NOTICE] switch_rtp.c:5185 Receiving an RTCP packet[2015-28-02 01:46:07.675293] SSRC[1145902287]RTT[0.008041] A[2254417120] - DLSR[45349] - LSR[2254371244]
+1e92503e-d4ec-11e4-9c83-c34bb78549f3 2015-03-28 09:46:09.210802 [NOTICE] switch_rtp.c:5185 Receiving an RTCP packet[2015-28-02 01:46:09.229922] SSRC[1640501026]RTT[0.019226] A[2254519004] - DLSR[94421] - LSR[2254423323]
+29f5d950-d4ec-11e4-9c8a-c34bb78549f3 2015-03-28 09:46:13.170830 [NOTICE] switch_rtp.c:5185 Receiving an RTCP packet[2015-28-02 01:46:13.175295] SSRC[1145902287]RTT[0.013412] A[2254777568] - DLSR[77765] - LSR[2254698924]
+1e92503e-d4ec-11e4-9c83-c34bb78549f3 2015-03-28 09:46:13.870796 [NOTICE] switch_rtp.c:5185 Receiving an RTCP packet[2015-28-02 01:46:13.889927] SSRC[1640501026]RTT[0.026260] A[2254824402] - DLSR[71678] - LSR[2254751003]
+1e92503e-d4ec-11e4-9c83-c34bb78549f3 2015-03-28 09:46:15.210816 [DEBUG] switch_core_session.c:1061 Send signal sofia/internal/1001@192.168.10.135 [BREAK]
+1e92503e-d4ec-11e4-9c83-c34bb78549f3 2015-03-28 09:46:15.230913 [NOTICE] sofia.c:952 Hangup sofia/internal/1001@192.168.10.135 [CS_EXECUTE] [NORMAL_CLEARING]
+1e92503e-d4ec-11e4-9c83-c34bb78549f3 2015-03-28 09:46:15.230913 [DEBUG] switch_channel.c:3222 Send signal sofia/internal/1001@192.168.10.135 [KILL]
+1e92503e-d4ec-11e4-9c83-c34bb78549f3 2015-03-28 09:46:15.230913 [DEBUG] switch_core_session.c:1396 Send signal sofia/internal/1001@192.168.10.135 [BREAK]
+1e92503e-d4ec-11e4-9c83-c34bb78549f3 2015-03-28 09:46:15.230913 [DEBUG] mod_conference.c:5057 Channel leaving conference, cause: NORMAL_CLEARING
+1e92503e-d4ec-11e4-9c83-c34bb78549f3 2015-03-28 09:46:15.230913 [DEBUG] mod_conference.c:9654 sofia/internal/1001@192.168.10.135 skip receive message [UNBRIDGE] (channel is hungup already)
+1e92503e-d4ec-11e4-9c83-c34bb78549f3 2015-03-28 09:46:15.230913 [DEBUG] switch_core_media.c:7756 sofia/internal/1001@192.168.10.135 skip receive message [REFER_EVENT] (channel is hungup already)
+1e92503e-d4ec-11e4-9c83-c34bb78549f3 2015-03-28 09:46:15.230913 [DEBUG] switch_core_codec.c:246 sofia/internal/1001@192.168.10.135 Restore previous codec PCMU:0.
+1e92503e-d4ec-11e4-9c83-c34bb78549f3 2015-03-28 09:46:15.230913 [DEBUG] switch_core_session.c:2901 sofia/internal/1001@192.168.10.135 skip receive message [APPLICATION_EXEC_COMPLETE] (channel is hungup already)
+2015-03-28 09:46:15.230913 [NOTICE] switch_cpp.cpp:1328 session_hangup_hook ==> UPDATE ptt_groups SET current_speaker_id = 0, start_time='2000-01-01 00:00:00' WHERE ptt_number=900000
+2015-03-28 09:46:15.290832 [DEBUG] freeswitch_lua.cpp:377 DBH handle 0x7f058006d130 released.
+1e92503e-d4ec-11e4-9c83-c34bb78549f3 2015-03-28 09:46:15.290832 [DEBUG] switch_cpp.cpp:694 CoreSession::hangup
+1e92503e-d4ec-11e4-9c83-c34bb78549f3 2015-03-28 09:46:15.290832 [DEBUG] switch_cpp.cpp:1075 sofia/internal/1001@192.168.10.135 destroy/unlink session from object
+1e92503e-d4ec-11e4-9c83-c34bb78549f3 2015-03-28 09:46:15.290832 [DEBUG] switch_core_session.c:2901 sofia/internal/1001@192.168.10.135 skip receive message [APPLICATION_EXEC_COMPLETE] (channel is hungup already)
+1e92503e-d4ec-11e4-9c83-c34bb78549f3 2015-03-28 09:46:15.290832 [DEBUG] switch_core_state_machine.c:535 (sofia/internal/1001@192.168.10.135) State EXECUTE going to sleep
+1e92503e-d4ec-11e4-9c83-c34bb78549f3 2015-03-28 09:46:15.290832 [DEBUG] switch_core_state_machine.c:472 (sofia/internal/1001@192.168.10.135) Running State Change CS_HANGUP
+1e92503e-d4ec-11e4-9c83-c34bb78549f3 2015-03-28 09:46:15.290832 [DEBUG] switch_core_state_machine.c:735 (sofia/internal/1001@192.168.10.135) Callstate Change ACTIVE -> HANGUP
+1e92503e-d4ec-11e4-9c83-c34bb78549f3 2015-03-28 09:46:15.290832 [DEBUG] switch_core_state_machine.c:737 (sofia/internal/1001@192.168.10.135) State HANGUP
+1e92503e-d4ec-11e4-9c83-c34bb78549f3 2015-03-28 09:46:15.290832 [DEBUG] mod_sofia.c:413 Channel sofia/internal/1001@192.168.10.135 hanging up, cause: NORMAL_CLEARING
+1e92503e-d4ec-11e4-9c83-c34bb78549f3 2015-03-28 09:46:15.290832 [DEBUG] switch_core_state_machine.c:60 sofia/internal/1001@192.168.10.135 Standard HANGUP, cause: NORMAL_CLEARING
+1e92503e-d4ec-11e4-9c83-c34bb78549f3 2015-03-28 09:46:15.290832 [DEBUG] switch_core_state_machine.c:737 (sofia/internal/1001@192.168.10.135) State HANGUP going to sleep
+1e92503e-d4ec-11e4-9c83-c34bb78549f3 2015-03-28 09:46:15.290832 [DEBUG] switch_core_state_machine.c:504 (sofia/internal/1001@192.168.10.135) State Change CS_HANGUP -> CS_REPORTING
+1e92503e-d4ec-11e4-9c83-c34bb78549f3 2015-03-28 09:46:15.290832 [DEBUG] switch_core_session.c:1396 Send signal sofia/internal/1001@192.168.10.135 [BREAK]
+1e92503e-d4ec-11e4-9c83-c34bb78549f3 2015-03-28 09:46:15.290832 [DEBUG] switch_core_state_machine.c:472 (sofia/internal/1001@192.168.10.135) Running State Change CS_REPORTING
+1e92503e-d4ec-11e4-9c83-c34bb78549f3 2015-03-28 09:46:15.290832 [DEBUG] switch_core_state_machine.c:823 (sofia/internal/1001@192.168.10.135) State REPORTING
+1e92503e-d4ec-11e4-9c83-c34bb78549f3 2015-03-28 09:46:15.290832 [DEBUG] switch_core_state_machine.c:104 sofia/internal/1001@192.168.10.135 Standard REPORTING, cause: NORMAL_CLEARING
+1e92503e-d4ec-11e4-9c83-c34bb78549f3 2015-03-28 09:46:15.290832 [DEBUG] switch_core_state_machine.c:823 (sofia/internal/1001@192.168.10.135) State REPORTING going to sleep
+1e92503e-d4ec-11e4-9c83-c34bb78549f3 2015-03-28 09:46:15.290832 [DEBUG] switch_core_state_machine.c:498 (sofia/internal/1001@192.168.10.135) State Change CS_REPORTING -> CS_DESTROY
+1e92503e-d4ec-11e4-9c83-c34bb78549f3 2015-03-28 09:46:15.290832 [DEBUG] switch_core_session.c:1396 Send signal sofia/internal/1001@192.168.10.135 [BREAK]
+1e92503e-d4ec-11e4-9c83-c34bb78549f3 2015-03-28 09:46:15.290832 [DEBUG] switch_core_session.c:1623 Session 12 (sofia/internal/1001@192.168.10.135) Locked, Waiting on external entities
+1e92503e-d4ec-11e4-9c83-c34bb78549f3 2015-03-28 09:46:15.290832 [NOTICE] switch_core_session.c:1641 Session 12 (sofia/internal/1001@192.168.10.135) Ended
+1e92503e-d4ec-11e4-9c83-c34bb78549f3 2015-03-28 09:46:15.290832 [NOTICE] switch_core_session.c:1645 Close Channel sofia/internal/1001@192.168.10.135 [CS_DESTROY]
+1e92503e-d4ec-11e4-9c83-c34bb78549f3 2015-03-28 09:46:15.290832 [DEBUG] switch_core_state_machine.c:626 (sofia/internal/1001@192.168.10.135) Running State Change CS_DESTROY
+1e92503e-d4ec-11e4-9c83-c34bb78549f3 2015-03-28 09:46:15.290832 [DEBUG] switch_core_state_machine.c:636 (sofia/internal/1001@192.168.10.135) State DESTROY
+1e92503e-d4ec-11e4-9c83-c34bb78549f3 2015-03-28 09:46:15.290832 [DEBUG] mod_sofia.c:323 sofia/internal/1001@192.168.10.135 SOFIA DESTROY
+1e92503e-d4ec-11e4-9c83-c34bb78549f3 2015-03-28 09:46:15.290832 [DEBUG] switch_core_state_machine.c:111 sofia/internal/1001@192.168.10.135 Standard DESTROY
+1e92503e-d4ec-11e4-9c83-c34bb78549f3 2015-03-28 09:46:15.290832 [DEBUG] switch_core_state_machine.c:636 (sofia/internal/1001@192.168.10.135) State DESTROY going to sleep
+29f5d950-d4ec-11e4-9c8a-c34bb78549f3 2015-03-28 09:46:16.430830 [DEBUG] switch_core_session.c:1061 Send signal sofia/internal/1002@192.168.10.135 [BREAK]
+29f5d950-d4ec-11e4-9c8a-c34bb78549f3 2015-03-28 09:46:16.430830 [NOTICE] sofia.c:952 Hangup sofia/internal/1002@192.168.10.135 [CS_EXECUTE] [NORMAL_CLEARING]
+29f5d950-d4ec-11e4-9c8a-c34bb78549f3 2015-03-28 09:46:16.430830 [DEBUG] switch_channel.c:3222 Send signal sofia/internal/1002@192.168.10.135 [KILL]
+29f5d950-d4ec-11e4-9c8a-c34bb78549f3 2015-03-28 09:46:16.430830 [DEBUG] switch_core_session.c:1396 Send signal sofia/internal/1002@192.168.10.135 [BREAK]
+29f5d950-d4ec-11e4-9c8a-c34bb78549f3 2015-03-28 09:46:16.450830 [DEBUG] mod_conference.c:5057 Channel leaving conference, cause: NORMAL_CLEARING
+29f5d950-d4ec-11e4-9c8a-c34bb78549f3 2015-03-28 09:46:16.450830 [DEBUG] mod_conference.c:9654 sofia/internal/1002@192.168.10.135 skip receive message [UNBRIDGE] (channel is hungup already)
+29f5d950-d4ec-11e4-9c8a-c34bb78549f3 2015-03-28 09:46:16.450830 [DEBUG] switch_core_media.c:7756 sofia/internal/1002@192.168.10.135 skip receive message [REFER_EVENT] (channel is hungup already)
+29f5d950-d4ec-11e4-9c8a-c34bb78549f3 2015-03-28 09:46:16.450830 [DEBUG] switch_core_codec.c:246 sofia/internal/1002@192.168.10.135 Restore previous codec PCMU:0.
+2015-03-28 09:46:16.450830 [DEBUG] mod_conference.c:3614 Write Lock ON
+2015-03-28 09:46:16.450830 [DEBUG] mod_conference.c:3617 Write Lock OFF
+29f5d950-d4ec-11e4-9c8a-c34bb78549f3 2015-03-28 09:46:16.450830 [DEBUG] switch_core_session.c:2901 sofia/internal/1002@192.168.10.135 skip receive message [APPLICATION_EXEC_COMPLETE] (channel is hungup already)
+2015-03-28 09:46:16.450830 [NOTICE] switch_cpp.cpp:1328 session_hangup_hook ==> UPDATE ptt_groups SET current_speaker_id = 0, start_time='2000-01-01 00:00:00' WHERE ptt_number=900000
+2015-03-28 09:46:17.190768 [DEBUG] freeswitch_lua.cpp:377 DBH handle 0x7f05dc034f30 released.
+29f5d950-d4ec-11e4-9c8a-c34bb78549f3 2015-03-28 09:46:17.190768 [DEBUG] switch_cpp.cpp:694 CoreSession::hangup
+29f5d950-d4ec-11e4-9c8a-c34bb78549f3 2015-03-28 09:46:17.190768 [DEBUG] switch_cpp.cpp:1075 sofia/internal/1002@192.168.10.135 destroy/unlink session from object
+29f5d950-d4ec-11e4-9c8a-c34bb78549f3 2015-03-28 09:46:17.190768 [DEBUG] switch_core_session.c:2901 sofia/internal/1002@192.168.10.135 skip receive message [APPLICATION_EXEC_COMPLETE] (channel is hungup already)
+29f5d950-d4ec-11e4-9c8a-c34bb78549f3 2015-03-28 09:46:17.190768 [DEBUG] switch_core_state_machine.c:535 (sofia/internal/1002@192.168.10.135) State EXECUTE going to sleep
+29f5d950-d4ec-11e4-9c8a-c34bb78549f3 2015-03-28 09:46:17.190768 [DEBUG] switch_core_state_machine.c:472 (sofia/internal/1002@192.168.10.135) Running State Change CS_HANGUP
+29f5d950-d4ec-11e4-9c8a-c34bb78549f3 2015-03-28 09:46:17.190768 [DEBUG] switch_core_state_machine.c:735 (sofia/internal/1002@192.168.10.135) Callstate Change ACTIVE -> HANGUP
+29f5d950-d4ec-11e4-9c8a-c34bb78549f3 2015-03-28 09:46:17.190768 [DEBUG] switch_core_state_machine.c:737 (sofia/internal/1002@192.168.10.135) State HANGUP
+29f5d950-d4ec-11e4-9c8a-c34bb78549f3 2015-03-28 09:46:17.190768 [DEBUG] mod_sofia.c:413 Channel sofia/internal/1002@192.168.10.135 hanging up, cause: NORMAL_CLEARING
+29f5d950-d4ec-11e4-9c8a-c34bb78549f3 2015-03-28 09:46:17.190768 [DEBUG] switch_core_state_machine.c:60 sofia/internal/1002@192.168.10.135 Standard HANGUP, cause: NORMAL_CLEARING
+29f5d950-d4ec-11e4-9c8a-c34bb78549f3 2015-03-28 09:46:17.190768 [DEBUG] switch_core_state_machine.c:737 (sofia/internal/1002@192.168.10.135) State HANGUP going to sleep
+29f5d950-d4ec-11e4-9c8a-c34bb78549f3 2015-03-28 09:46:17.190768 [DEBUG] switch_core_state_machine.c:504 (sofia/internal/1002@192.168.10.135) State Change CS_HANGUP -> CS_REPORTING
+29f5d950-d4ec-11e4-9c8a-c34bb78549f3 2015-03-28 09:46:17.190768 [DEBUG] switch_core_session.c:1396 Send signal sofia/internal/1002@192.168.10.135 [BREAK]
+29f5d950-d4ec-11e4-9c8a-c34bb78549f3 2015-03-28 09:46:17.190768 [DEBUG] switch_core_state_machine.c:472 (sofia/internal/1002@192.168.10.135) Running State Change CS_REPORTING
+29f5d950-d4ec-11e4-9c8a-c34bb78549f3 2015-03-28 09:46:17.190768 [DEBUG] switch_core_state_machine.c:823 (sofia/internal/1002@192.168.10.135) State REPORTING
+29f5d950-d4ec-11e4-9c8a-c34bb78549f3 2015-03-28 09:46:17.190768 [DEBUG] switch_core_state_machine.c:104 sofia/internal/1002@192.168.10.135 Standard REPORTING, cause: NORMAL_CLEARING
+29f5d950-d4ec-11e4-9c8a-c34bb78549f3 2015-03-28 09:46:17.190768 [DEBUG] switch_core_state_machine.c:823 (sofia/internal/1002@192.168.10.135) State REPORTING going to sleep
+29f5d950-d4ec-11e4-9c8a-c34bb78549f3 2015-03-28 09:46:17.190768 [DEBUG] switch_core_state_machine.c:498 (sofia/internal/1002@192.168.10.135) State Change CS_REPORTING -> CS_DESTROY
+29f5d950-d4ec-11e4-9c8a-c34bb78549f3 2015-03-28 09:46:17.190768 [DEBUG] switch_core_session.c:1396 Send signal sofia/internal/1002@192.168.10.135 [BREAK]
+29f5d950-d4ec-11e4-9c8a-c34bb78549f3 2015-03-28 09:46:17.190768 [DEBUG] switch_core_session.c:1623 Session 13 (sofia/internal/1002@192.168.10.135) Locked, Waiting on external entities
+29f5d950-d4ec-11e4-9c8a-c34bb78549f3 2015-03-28 09:46:17.190768 [NOTICE] switch_core_session.c:1641 Session 13 (sofia/internal/1002@192.168.10.135) Ended
+29f5d950-d4ec-11e4-9c8a-c34bb78549f3 2015-03-28 09:46:17.190768 [NOTICE] switch_core_session.c:1645 Close Channel sofia/internal/1002@192.168.10.135 [CS_DESTROY]
+29f5d950-d4ec-11e4-9c8a-c34bb78549f3 2015-03-28 09:46:17.190768 [DEBUG] switch_core_state_machine.c:626 (sofia/internal/1002@192.168.10.135) Running State Change CS_DESTROY
+29f5d950-d4ec-11e4-9c8a-c34bb78549f3 2015-03-28 09:46:17.190768 [DEBUG] switch_core_state_machine.c:636 (sofia/internal/1002@192.168.10.135) State DESTROY
+29f5d950-d4ec-11e4-9c8a-c34bb78549f3 2015-03-28 09:46:17.190768 [DEBUG] mod_sofia.c:323 sofia/internal/1002@192.168.10.135 SOFIA DESTROY
+29f5d950-d4ec-11e4-9c8a-c34bb78549f3 2015-03-28 09:46:17.190768 [DEBUG] switch_core_state_machine.c:111 sofia/internal/1002@192.168.10.135 Standard DESTROY
+29f5d950-d4ec-11e4-9c8a-c34bb78549f3 2015-03-28 09:46:17.190768 [DEBUG] switch_core_state_machine.c:636 (sofia/internal/1002@192.168.10.135) State DESTROY going to sleep
