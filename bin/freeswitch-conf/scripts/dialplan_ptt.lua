@@ -5,6 +5,7 @@ function session_hangup_hook()
   assert(db:connected())
   freeswitch.consoleLog("NOTICE","session_hangup_hook database connected")
   ]]--
+  assert(db:connected())
   
   db:query(string.format("UPDATE ptt_groups SET current_speaker_id = 0, start_time='2000-01-01 00:00:00' WHERE ptt_number=%s and current_speaker_id=%s", ptt_number, caller_number))
 
