@@ -7,7 +7,7 @@ function session_hangup_hook()
   ]]--
   --assert(db:connected())
 
-  db:query(string.format("UPDATE ptt_groups SET current_speaker_id = 0, start_time='2000-01-01 00:00:00' WHERE ptt_number=%s", ptt_number))
+  db:query(string.format("UPDATE ptt_groups SET current_speaker_id = 0         WHERE ptt_number=%s", ptt_number))
 
   freeswitch.consoleLog("NOTICE", "session_hangup_hook after UPDATE")
 
