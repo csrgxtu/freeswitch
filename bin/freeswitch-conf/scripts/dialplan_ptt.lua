@@ -1,11 +1,11 @@
 function session_hangup_hook(status)
   freeswitch.consoleLog("NOTICE", string.format("session_hangup_hook ==> UPDATE ptt_groups SET current_speaker_id = 0, start_time='2000-01-01 00:00:00' WHERE ptt_number=%s and current_speaker_id=%s\n", ptt_number, caller_number))
 
-  db = freeswitch.Dbh("odbc://freeswitch:ebuserxft:ebtx@df74d78&")
-  assert(db:connected())
+  dbs = freeswitch.Dbh("odbc://freeswitch:ebuserxft:ebtx@df74d78&")
+  assert(dbs:connected())
   freeswitch.consoleLog("NOTICE","session_hangup_hook database connected")
 
-  db:query(string.format("UPDATE ptt_groups SET current_speaker_id = 0, start_time='2000-01-01 00:00:00' WHERE ptt_number=%s and current_speaker_id=%s", ptt_number, caller_number), function(row)
+  dbs:query(string.format("UPDATE ptt_groups SET current_speaker_id = 0, start_time='2000-01-01 00:00:00' WHERE ptt_number=%s and current_speaker_id=%s", ptt_number, caller_number), function(row)
     if (row == nil) then
       freeswitch.consoleLog("NOTICE", "PTT fuck")
     end
