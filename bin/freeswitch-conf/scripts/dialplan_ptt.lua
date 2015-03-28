@@ -4,6 +4,7 @@ function session_hangup_hook(status)
     if (row == nil) then
       freeswitch.consoleLog("NOTICE", "PTT fuck")
     end
+  end
   )
   db:release()
 end
