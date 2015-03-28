@@ -24,8 +24,8 @@ if(session:ready()) then
     freeswitch.consoleLog("NOTICE", string.format("Current Speaker: %s, PTT Members: %s\n", row.current_speaker_id, row.ptt_members))
     if(row.current_speaker_id ~= "0") then
       freeswitch.consoleLog("NOTICE", "Current speaker is: " .. tostring(row.current_speaker_id) .. " add " .. tonumber(caller_number))
+      freeswitch.consoleLog("NOTICE", "Start Conference: " .. session:getVariable("domain") .. "@default+flags{mute}")
       session:execute("conference",ptt_number .. session:getVariable("domain") .. "@default+flags{mute}")
-      freeswitch.consoleLog("NOTICE", "Start Conference: " .. session:getVariavle("domain") .. "@default+flags{mute}")
     else
       for member in string.gmatch(row.ptt_members, '([^,]+)') do
         if(member ~= caller_number) then
