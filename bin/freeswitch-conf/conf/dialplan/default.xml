@@ -13,7 +13,7 @@
 <include>
   <context name="default">
     <extension name="PTT">
-      <condition field="destination_number" expression="(^9\d{4}$)">
+      <condition field="destination_number" expression="(^9\d{5}$)">
         <action application="lua" data="dialplan_ptt.lua"/>
       </condition>
     </extension>
