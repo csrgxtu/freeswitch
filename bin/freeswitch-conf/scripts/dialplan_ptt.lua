@@ -56,4 +56,4 @@ if(session:ready()) then
 
 end
 
-session:hangup("hangup", db)
+session:hangup(db)
