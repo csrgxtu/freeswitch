@@ -1,6 +1,10 @@
 function session_hangup_hook(status)
   freeswitch.consoleLog("NOTICE", string.format("session_hangup_hook ==> UPDATE ptt_groups SET current_speaker_id = 0, start_time='2000-01-01 00:00:00' WHERE ptt_number=%s and current_speaker_id=%s\n", ptt_number, caller_number))
-  db:query(string.format("UPDATE ptt_groups SET current_speaker_id = 0, start_time='2000-01-01 00:00:00' WHERE ptt_number=%s and current_speaker_id=%s", ptt_number, caller_number))
+  db:query(string.format("UPDATE ptt_groups SET current_speaker_id = 0, start_time='2000-01-01 00:00:00' WHERE ptt_number=%s and current_speaker_id=%s", ptt_number, caller_number), function(row)
+    if (row == nil) then
+      freeswitch.consoleLog("NOTICE", "PTT fuck")
+    end
+  )
   db:release()
 end
 
